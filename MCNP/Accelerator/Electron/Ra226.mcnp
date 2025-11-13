@@ -1,0 +1,72 @@
+
+C Black hole
+1 0  -1 +2       imp:n=0
+C Void around
+2 0  -2 +3       imp:n=1
+C Target
+3 27 -1.0 -3 +4 +5 +6 +7 +8 +9 +10 +11 +12 +13 +14 +15 +16       imp:n=1
+4 24 -4.54 -4       imp:n=1
+5 24 -4.54 -5       imp:n=1
+6 18 -16.654 -6       imp:n=1
+7 18 -16.654 -7       imp:n=1
+8 18 -16.654 -8       imp:n=1
+9 10 -2.699 -9 +13       imp:n=1
+10 10 -2.699 -10 +14       imp:n=1
+11 10 -2.699 -11 +15       imp:n=1
+12 10 -2.699 -12 +16       imp:n=1
+13 26 -5.0 -13       imp:n=1
+14 26 -5.0 -14       imp:n=1
+15 26 -5.0 -15       imp:n=1
+16 26 -5.0 -16       imp:n=1
+
+C Black body
+1 SO 100000.0
+C Void sphere
+2 SO 10000.0
+C all
+3 RCC 0 0 1.0 0 0 2.1 1.0
+C Cylindrical target
+4 RCC 0 0 1.0 0 0 0.1 1.0
+5 RCC 0 0 3.0 0 0 0.1 1.0
+6 RCC 0 0 1.25 0 0 0.1 0.7
+7 RCC 0 0 1.5 0 0 0.1 0.7
+8 RCC 0 0 1.75 0 0 0.1 0.7
+9 RCC 0 0 2.0 0 0 0.16 0.7
+10 RCC 0 0 2.26 0 0 0.16 0.7
+11 RCC 0 0 2.52 0 0 0.16 0.7
+12 RCC 0 0 2.78 0 0 0.16 0.7
+13 RCC 0 0 2.0485 0 0 0.063 0.5
+14 RCC 0 0 2.3085 0 0 0.063 0.5
+15 RCC 0 0 2.5685 0 0 0.063 0.5
+16 RCC 0 0 2.8285 0 0 0.063 0.5
+
+C *Aluminium
+C MATERIAL ALUMINUM 13.0 26.981538 2.699 10
+M10
+     13027 1
+C *Tantalum
+C MATERIAL TANTALUM 73.0 180.9479 16.654 18
+M18
+     73181 1
+C *Titanium
+C MATERIAL TITANIUM 22.0 47.867 4.54 24
+M24
+     22000 1
+C MATERIAL RADIUM 88,, 5.0
+M26
+     88000 1
+C *Water
+C MATERIAL WATER 0 0 1.0
+M27
+     1001 2
+     8016 1
+mt27 lwtr.01t
+C Set the random number seed
+RAND
+C Define the beam characteristics
+SDEF
+       erg=25
+C Define the beam position
+       pos=0 0 0
+       vec=0 0 1
+NPS 100000000
