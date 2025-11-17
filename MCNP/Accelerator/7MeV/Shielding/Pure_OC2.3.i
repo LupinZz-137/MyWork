@@ -2,7 +2,7 @@ Pure_OC2.3
 c Dig a hole under the self-shielding for placing the pipeline
 c 
 c   Left-------------------------------------------------------------------
-1   41  -7.874  -101                            $ Base 1           $$  dddsa
+1   41  -7.874  -101                            $ Base 1           $$  dddsaddd
 2   41  -7.874  -102                            $ Base 2           $$
 3   41  -7.874  -103  112 -111 105 104          $ Sector magnet 1  $$
 4   41  -7.874  -103  113 -114 105 104          $ Sector magnet 2  $$
