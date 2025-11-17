@@ -1,0 +1,76 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+10.7,0.2,,,,36.68,,26.02,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+26,0.1,,,,26.02,294,0.0,(E2),,,5.94E3,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+36.7,0.1,,,,36.68,294,0.0,E2(+M1),,,6.E2,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+38.53,0.03,0.01027,0.00019,,38.531,294,0.0,E2,,,859,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+46.2,,0.0335,0.0006,,145.9,,99.63,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+49.04,0.15,0.076,0.011,,150.08,,100.93,(E1),,,0.718,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+57.73,0.15,0.022,0.008,,253.53,,195.788,(E1),,,0.464,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+62.95,0.03,0.151,0.022,,99.63,,36.68,M1,,,10.84,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+64.24,0.1,0.281,0.022,,100.93,,36.68,M1+E2,0.51,10,23,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+69.79,0.1,0.043,0.011,,108.387,,38.531,E2,,,48.2,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+71.67,0.1,0.128,0.013,,108.387,,36.68,E2,,,42.4,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+73.5,0.1,0.0034,0.001,,99.63,,26.02,E2+M1,,,22,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+73.86,0.02,0.56,0.03,,99.88,,26.02,E1,,,0.240,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+74.9,0.2,0.162,0.003,,100.93,,26.02,(M1+E2),0.5,AP,12.09,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+78.8,,0.0335,0.0006,,224.67,,145.9,M1,,,5.63,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+87.41,0.03,0.195,0.004,,195.788,,108.387,M1,,,4.16,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+94.9,0.05,0.062,0.014,,195.788,,100.93,M1,,,3.28,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+96.15,0.05,0.021,0.005,,195.788,,99.63,M1+E2,0.8,3,6.0,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+99.63,0.05,0.25,0.04,,99.63,294,0.0,M1+E2,0.19,4,3.06,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+99.91,0.05,1.5,0.5,,99.88,294,0.0,E1,,,0.1073,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+100.96,0.05,0.32,0.08,,100.93,294,0.0,M1+E2,0.7,7,4.6,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+103.3,0.2,0.052,0.015,,253.53,,150.08,[M1+E2],,,10,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+108.44,0.04,2.29,0.15,,108.387,294,0.0,M1+E2,0.53,6,10.25,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+111.56,0.04,2.29,0.15,,150.08,,38.531,(E1),,,0.362,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+114,,0.335,0.006,,393.40,,279.28,M1,,,9.86,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+119.9,,0.389,0.007,,145.9,,26.02,E1,,,0.305,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+123.75,0.05,0.0281,0.0005,,224.67,,100.93,[E1],,,0.282,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+124.82,0.05,0.01038,0.00019,,224.67,,99.88,M1+E2,0.8,AP,6.00,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+126.25,0.1,0.24,0.03,,234.63,,108.387,(E1),,,0.269,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+129.25,0.1,0.24,0.03,,279.28,,150.08,[M1 E2],,,5.0,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+133.68,0.1,0.57,0.11,,234.63,,100.93,(E1),,,0.234,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+135.02,0.1,0.69,0.07,,234.63,,99.63,(E1),,,0.228,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+139.6,,0.303,0.006,,393.40,,253.53,M1,,,5.54,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+144.7,0.2,0.58,0.22,,294.76,,150.08,(M1+E2),0.8,AP,3.79,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+145.17,0.05,0.68,0.22,,253.53,,108.387,(E1),,,0.191,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+150.06,0.04,4.5,0.3,,150.08,294,0.0,E1,,,0.1765,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+152.6,0.08,0.216,0.004,,253.53,,100.93,[E1],,,0.1695,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+153.87,0.06,0.86,0.07,,253.53,,99.63,(E1),,,0.1661,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+157.26,0.02,0.24,0.04,,195.788,,38.531,M1+E2,0.21,21,3.8,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+168.86,0.13,0.28,0.03,,393.40,,224.67,[M1 E2],,,2.1,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+169.9,,0.0173,0.0003,,195.788,,26.02,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+170.98,0.2,0.5,0.04,,279.28,,108.387,(E1),,,0.1286,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+178.36,0.04,0.91,0.07,,279.28,,100.93,E1,,,0.1161,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+186.1,,0.00573,0.0001,,224.67,,38.531,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+186.38,0.04,21.6,1.4,,294.76,,108.387,E1,,,0.1044,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+188,0.05,0.216,0.004,,224.67,,36.68,E1,,,0.1023,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+195.69,0.07,0.108,0.022,,195.788,294,0.0,M1+E2,0.8,8,1.5,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+197.77,0.12,,,,234.63,,36.68,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+197.77,0.12,0.78,0.1,,393.40,,195.788,(E1),,,0.0905,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+198.7,0.1,0.00951,0.00017,,224.67,,26.02,[E1],,,0.0895,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+216.92,0.1,2.6,0.4,,253.53,,36.68,(E1),,,0.0726,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+224.64,0.05,0.0389,0.0007,,224.67,294,0.0,[E1],,,0.0668,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+228.2,,0.259,0.005,,253.53,,26.02,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+240.6,0.2,0.72,0.08,,279.28,,38.531,[E1],,,0.0569,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+243.2,0.1,0.019,0.009,,393.40,,150.08,[M1],,,1.162,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+253.53,0.05,0.57,0.06,,253.53,294,0.0,[E1],,,0.0503,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+254.2,0.3,1.8,0.3,,254.2,1.53,0.0,(E2),,,0.210,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,A,22,1,6163,3,84,133,Po,1-DEC-2017,B. SINGH and  T. ROY and  K. BANERJEE,2025-02-24
+256,0.2,0.35,0.09,,294.76,,38.531,[E1],,,0.0492,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+264.68,0.04,0.97,0.16,,264.68,1.53,0.0,(M1(+E2)),1.8,LT,0.5,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,A,22,1,6163,3,84,133,Po,1-DEC-2017,B. SINGH and  T. ROY and  K. BANERJEE,2025-02-24
+279.26,0.04,1.97,0.13,,279.28,294,0.0,E1,,,0.0403,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+284.8,0.2,0.07,0.03,,393.40,,108.387,[E1],,,0.0385,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+354.8,0.2,0.025,0.009,,393.40,,38.531,[E1],,,0.0235,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+13.292,,0.2794500735,0.06915318397345928,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,A,22,1,6163,3,84,133,Po,1-DEC-2017,B. SINGH and  T. ROY and  K. BANERJEE,2025-02-24
+14.5,,23.59682694343392,,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+76.862,,0.15914409973774768,0.058296966648632854,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,A,22,1,6163,3,84,133,Po,1-DEC-2017,B. SINGH and  T. ROY and  K. BANERJEE,2025-02-24
+79.29,,0.2650193167989137,0.09707444059587335,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,A,22,1,6163,3,84,133,Po,1-DEC-2017,B. SINGH and  T. ROY and  K. BANERJEE,2025-02-24
+83.227,,8.10000594076299,,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+86.102,,13.296135818717975,,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+89.837,,0.09123881271040316,0.03344659704166743,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,A,22,1,6163,3,84,133,Po,1-DEC-2017,B. SINGH and  T. ROY and  K. BANERJEE,2025-02-24
+90.941,,0.11961408346333853,0.04384611556508674,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,A,22,1,6163,3,84,133,Po,1-DEC-2017,B. SINGH and  T. ROY and  K. BANERJEE,2025-02-24
+92.315,,0.028375270752935382,0.01041189048853336,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,A,22,1,6163,3,84,133,Po,1-DEC-2017,B. SINGH and  T. ROY and  K. BANERJEE,2025-02-24
+97.469,,4.637985411609544,,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+98.682,,6.140692684971037,,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+100.209,,1.5027072733614923,,,,,,,,,,,86,135,Rn,,0,,7/2+,25,,2,m,1500,120,B-,78,1,1194,7,87,134,Fr,15-Jan-2007,Ashok Jain and  Sukhjeet Singh and  Suresh Kumar and  Jagdish Tuli,2025-02-24
+

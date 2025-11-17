@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+695,0.2,0.121,0.011,0.0000000014,695.0,0.000000259,0.0,E2,,,0.01687,,88,130,Ra,,0,,0+,25.91,,14,us,0.00002591,0.00000014,A,100,,8540,3,86,128,Rn,1-May-2021,Shaofei Zhu and E. A. McCutchan,2025-02-24
+14.088,,0.0006903236824,0.00005730804622323482,,,,,,,,,,88,130,Ra,,0,,0+,25.91,,14,us,0.00002591,0.00000014,A,100,,8540,3,86,128,Rn,1-May-2021,Shaofei Zhu and E. A. McCutchan,2025-02-24
+81.07,,0.00042785280013197884,0.00003943944757771581,,,,,,,,,,88,130,Ra,,0,,0+,25.91,,14,us,0.00002591,0.00000014,A,100,,8540,3,86,128,Rn,1-May-2021,Shaofei Zhu and E. A. McCutchan,2025-02-24
+83.789,,0.0007057947874166593,0.00006499498019139347,,,,,,,,,,88,130,Ra,,0,,0+,25.91,,14,us,0.00002591,0.00000014,A,100,,8540,3,86,128,Rn,1-May-2021,Shaofei Zhu and E. A. McCutchan,2025-02-24
+94.878,,0.0002447648200389105,0.000022815762349914358,,,,,,,,,,88,130,Ra,,0,,0+,25.91,,14,us,0.00002591,0.00000014,A,100,,8540,3,86,128,Rn,1-May-2021,Shaofei Zhu and E. A. McCutchan,2025-02-24
+96.054,,0.0003230895624513619,0.000030091930419917574,,,,,,,,,,88,130,Ra,,0,,0+,25.91,,14,us,0.00002591,0.00000014,A,100,,8540,3,86,128,Rn,1-May-2021,Shaofei Zhu and E. A. McCutchan,2025-02-24
+97.53,,0.00007832474241245136,0.000007402904039419436,,,,,,,,,,88,130,Ra,,0,,0+,25.91,,14,us,0.00002591,0.00000014,A,100,,8540,3,86,128,Rn,1-May-2021,Shaofei Zhu and E. A. McCutchan,2025-02-24
+

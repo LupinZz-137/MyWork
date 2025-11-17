@@ -1,0 +1,11 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+142.6,0.3,76,22,0.0000005478,2418.6,,2276.0,[E2],,,0.148,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+355.6,0.4,99,29,,2276.0,,1920.4,,,,,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+930.1,0.5,96,31,,1920.4,,990.3,,,,,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+990.3,0.5,100,0,,990.3,,0.0,,,,,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+0.874,,0.1250804352,0.03433020655100818,,,,,,,,,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+7.461,,1.2480831119916687,0.36267023711673807,,,,,,,,,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+7.478,,2.435759391084443,0.7076875714794778,,,,,,,,,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+8.296,,0.5076334969238882,0.14757601958041902,,,,,,,,,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+8.296,,0.5076334969238882,0.14757601958041902,,,,,,,,,,28,48,Ni,,2418.2,0.5,(8+),547.8,,33,ns,0.0000005478,0.0000000033,IT,100,,,,28,48,Ni,8-Jan-2024,Balraj Singh and  Jun Chen and Ameenah R. Farhan,2025-02-24
+

@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+635.1,0.2,0.0425,0.00006,,635.1,1461,0.0,E2,,,,,88,124,Ra,,0,,0+,13.0,,2,s,13,0.2,A,85,,7031.7,17,86,122,Rn,1-Jun-2007,M. J. MARTIN,2025-02-24
+14.088,,0.0002936433528,,,,,,,,,,,88,124,Ra,,0,,0+,13.0,,2,s,13,0.2,A,85,,7031.7,17,86,122,Rn,1-Jun-2007,M. J. MARTIN,2025-02-24
+81.07,,0.00017840335650230843,,,,,,,,,,,88,124,Ra,,0,,0+,13.0,,2,s,13,0.2,A,85,,7031.7,17,86,122,Rn,1-Jun-2007,M. J. MARTIN,2025-02-24
+83.789,,0.00029429784972337256,,,,,,,,,,,88,124,Ra,,0,,0+,13.0,,2,s,13,0.2,A,85,,7031.7,17,86,122,Rn,1-Jun-2007,M. J. MARTIN,2025-02-24
+94.878,,0.00010206048770781747,,,,,,,,,,,88,124,Ra,,0,,0+,13.0,,2,s,13,0.2,A,85,,7031.7,17,86,122,Rn,1-Jun-2007,M. J. MARTIN,2025-02-24
+96.054,,0.00013471984377431907,,,,,,,,,,,88,124,Ra,,0,,0+,13.0,,2,s,13,0.2,A,85,,7031.7,17,86,122,Rn,1-Jun-2007,M. J. MARTIN,2025-02-24
+97.53,,0.00003265935606650159,,,,,,,,,,,88,124,Ra,,0,,0+,13.0,,2,s,13,0.2,A,85,,7031.7,17,86,122,Rn,1-Jun-2007,M. J. MARTIN,2025-02-24
+

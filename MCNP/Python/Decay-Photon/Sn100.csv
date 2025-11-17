@@ -1,0 +1,14 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+95,1,63,12.00016537386048,,95+X,,0+X,(M1),,,0.573,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+141,1,92,13.000325534385668,,236+X,,95+X,(M1),,,0.196,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+436,1,98,13.00036937936765,,672+X,,236,[M1+E2],,,0.0103,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+1297,1,64,12.000170665453055,,2720+X,,1423,[M1+E2],,,0.00078,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+2048,1,36,12.000053999878501,,2720+X,,672,[M1+E2],,,0.00062,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+511,,180,,,,,,,,,,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+3.571,,4.1855895347904,,,,,,,,,,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+24.001,,13.889156521004965,,,,,,,,,,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+24.209,,26.05845501126635,,,,,,,,,,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+27.367,,7.31141999304932,,,,,,,,,,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+27.581,,8.70058979172869,,,,,,,,,,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+27.858,,1.3891697986793707,,,,,,,,,,,50,50,Sn,,0,,0+,1.18,,8,s,1.18,0.08,EC+B+,100,,7030,240,49,51,In,31-Jan-2021,Balraj Singh and Jun Chen,2025-02-24
+

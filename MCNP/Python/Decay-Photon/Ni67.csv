@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+821.6,0.5,0.47,0.0799000001382353,,1937.1,,1115.4,,,,,,28,39,Ni,,0,,(1/2)-,21,,1,s,21,1,B-,100,,3577,3,29,38,Cu,1-Apr-2005,HUO JUNDE and  HUANG XIAOLONG and  J.K. TULI,2025-02-24
+1115.3,0.5,0.4935,0.08930000013636184,,1115.4,222588,0,,,,,,28,39,Ni,,0,,(1/2)-,21,,1,s,21,1,B-,100,,3577,3,29,38,Cu,1-Apr-2005,HUO JUNDE and  HUANG XIAOLONG and  J.K. TULI,2025-02-24
+1937.1,0.5,0.6439,0.10340000020048705,,1937.1,222588,0,,,,,,28,39,Ni,,0,,(1/2)-,21,,1,s,21,1,B-,100,,3577,3,29,38,Cu,1-Apr-2005,HUO JUNDE and  HUANG XIAOLONG and  J.K. TULI,2025-02-24
+2272,1,0.2162,0.07520000003107875,,2272.0,222588,0,,,,,,28,39,Ni,,0,,(1/2)-,21,,1,s,21,1,B-,100,,3577,3,29,38,Cu,1-Apr-2005,HUO JUNDE and  HUANG XIAOLONG and  J.K. TULI,2025-02-24
+2623,1,0.141,0.08930000001113157,,2623.1,222588,0,,,,,,28,39,Ni,,0,,(1/2)-,21,,1,s,21,1,B-,100,,3577,3,29,38,Cu,1-Apr-2005,HUO JUNDE and  HUANG XIAOLONG and  J.K. TULI,2025-02-24
+2680,1,0.2303,0.10810000002453195,,2680.1,222588,0,,,,,,28,39,Ni,,0,,(1/2)-,21,,1,s,21,1,B-,100,,3577,3,29,38,Cu,1-Apr-2005,HUO JUNDE and  HUANG XIAOLONG and  J.K. TULI,2025-02-24
+2841,1,0.2679,0.09400000003817574,,2841.1,222588,0,,,,,,28,39,Ni,,0,,(1/2)-,21,,1,s,21,1,B-,100,,3577,3,29,38,Cu,1-Apr-2005,HUO JUNDE and  HUANG XIAOLONG and  J.K. TULI,2025-02-24
+

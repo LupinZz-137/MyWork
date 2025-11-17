@@ -1,0 +1,11 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+81.6,,,,,,,,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+92.3,,,,,92.3,123,0.0,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+111.6,,,,,,,,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+113.7,,,,,,,,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+118.6,,,,,,,,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+139.5,0.4,,,,,,,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+214.2,,,,,,,,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+278,,,,,,,,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+296.3,,,,,,,,,,,,,73,94,Ta,,0,,(3/2+),80,,4,s,80,4,EC+B+,100,,5117,40,72,95,Hf,22-Aug-2023,Balraj Singh and Jun Chen,2025-02-24
+

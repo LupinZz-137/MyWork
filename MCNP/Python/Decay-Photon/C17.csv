@@ -1,0 +1,11 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+475.7,0.3,3.4,0.9,,1849.6,,1373.9,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+532.9,0.3,2.1,1.7,,1906.8,,1373.9,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+619.2,0.5,5.3,2.5,,2526.0,,1906.8,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+676.4,0.5,1.6,0.8,,2526.0,,1849.6,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+1152.1,0.5,4.4,2.1,,2526.0,,1373.9,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+1373.8,0.3,24,8,,1373.9,,0.0,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+1849.5,0.3,22,5,,1849.6,,0.0,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+1906.7,0.3,7,5,,1906.8,,0.0,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+2525.8,0.5,1.4,0.7,,2526.0,,0.0,,,,,,6,11,C,,0,,3/2+,193,,6,ms,0.193,0.006,B-,100,,13162,23,7,10,N,31-DEC-1992,J.H. KELLEY and  D.R. TILLEY and  H.R. WELLER AND C.M. CHEVES,2025-02-24
+

@@ -1,0 +1,11 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+423,,0.2,,,914.2,,491.4,,,,,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+491.4,0.1,4.8,0.6,,491.4,81.5,0.0,M1(+E2),0.37,LT,0.00108,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+914.2,0.1,1.1,0.2,,914.2,81.5,0.0,M1+E2,-0.21,2,2.71E-4,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+511,,200.0838,,,,,,,,,,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+0.952,,0.0015804939407214,0.00007790968335265243,,,,,,,,,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+8.028,,0.015031945919145386,0.0004619447544776926,,,,,,,,,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+8.048,,0.02928491314853962,0.0008885763825565311,,,,,,,,,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+8.94,,0.006164475096314985,0.00019680361573891386,,,,,,,,,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+8.94,,0.006164475096314985,0.00019680361573891386,,,,,,,,,,30,29,Zn,,0,,3/2-,178.6,,18,ms,0.1786,0.0018,EC+B+,100,,9142.8,9,29,30,Cu,1-Apr-2018,M. Shamsuzzoha Basunia,2025-02-24
+

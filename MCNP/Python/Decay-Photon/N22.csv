@@ -1,0 +1,6 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+1221,3,2.3,0.4,,1221,,0,,,,,,7,15,N,,0,,(0-),23,,3,ms,0.023,0.003,B-N,34,3,15631,208,8,13,O,15-Jan-2015,R.B. FIRESTONE,2025-02-24
+1386,4,7,3,,4584,,3198,,,,,,7,15,N,,0,,(0-),23,,3,ms,0.023,0.003,B-,100,,22480,220,8,14,O,1-Apr-2015,M. Shamsuzzoha Basunia,2025-02-24
+3198,8,24,3,,3198,,0.0,,,,,,7,15,N,,0,,(0-),23,,3,ms,0.023,0.003,B-,100,,22480,220,8,14,O,1-Apr-2015,M. Shamsuzzoha Basunia,2025-02-24
+3312,5,2,1,,6511,,3198,,,,,,7,15,N,,0,,(0-),23,,3,ms,0.023,0.003,B-,100,,22480,220,8,14,O,1-Apr-2015,M. Shamsuzzoha Basunia,2025-02-24
+

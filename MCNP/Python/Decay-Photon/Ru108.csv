@@ -1,0 +1,7 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+14.6,0.3,,,,14.6,16.8,0.0,,,,,,44,64,Ru,,0,,0+,4.55,,5,m,273,3,B-,100,,1370,16,45,63,Rh,1-Jul-2008,Jean Blachot,2025-02-24
+73.65,0.2,1.148,0.246,,73.65,16.8,0.0,[D E2],,,2.2,,44,64,Ru,,0,,0+,4.55,,5,m,273,3,B-,100,,1370,16,45,63,Rh,1-Jul-2008,Jean Blachot,2025-02-24
+91.33,0.07,2.38,0.5130652979884724,,164.95,,73.65,[D E2],,,1.0,,44,64,Ru,,0,,0+,4.55,,5,m,273,3,B-,100,,1370,16,45,63,Rh,1-Jul-2008,Jean Blachot,2025-02-24
+150.46,0.15,7.84,1.7031735084835014,,164.95,,14.6,[D E2],,,0.18,,44,64,Ru,,0,,0+,4.55,,5,m,273,3,B-,100,,1370,16,45,63,Rh,1-Jul-2008,Jean Blachot,2025-02-24
+164.95,0.22,28,6.0585146694548815,,164.95,16.8,0.0,[M1 E2],,,0.16,,44,64,Ru,,0,,0+,4.55,,5,m,273,3,B-,100,,1370,16,45,63,Rh,1-Jul-2008,Jean Blachot,2025-02-24
+

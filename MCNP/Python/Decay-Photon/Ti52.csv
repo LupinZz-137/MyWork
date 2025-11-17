@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+17.153,0.006,24.6,0.4,,17.153,,0,M1,,,3.06,,22,30,Ti,,0,,0+,1.7,,1,m,102,6,B-,100,,1965.3,28,23,29,V,10-Jul-2015,YANG DONG and  HUO JUNDE,2025-02-24
+124.453,0.003,91.7,0,,141.606,,17.153,[M1 E2],,,0.09,,22,30,Ti,,0,,0+,1.7,,1,m,102,6,B-,100,,1965.3,28,23,29,V,10-Jul-2015,YANG DONG and  HUO JUNDE,2025-02-24
+0.536,,0.4218841575,0.08350953389217511,,,,,,,,,,22,30,Ti,,0,,0+,1.7,,1,m,102,6,B-,100,,1965.3,28,23,29,V,10-Jul-2015,YANG DONG and  HUO JUNDE,2025-02-24
+4.945,,5.14940365095387,0.15330728728783233,,,,,,,,,,22,30,Ti,,0,,0+,1.7,,1,m,102,6,B-,100,,1965.3,28,23,29,V,10-Jul-2015,YANG DONG and  HUO JUNDE,2025-02-24
+4.952,,10.130638699496105,0.29746374099998873,,,,,,,,,,22,30,Ti,,0,,0+,1.7,,1,m,102,6,B-,100,,1965.3,28,23,29,V,10-Jul-2015,YANG DONG and  HUO JUNDE,2025-02-24
+5.444,,2.0383576495500266,0.06456421244363393,,,,,,,,,,22,30,Ti,,0,,0+,1.7,,1,m,102,6,B-,100,,1965.3,28,23,29,V,10-Jul-2015,YANG DONG and  HUO JUNDE,2025-02-24
+5.444,,2.0383576495500266,0.06456421244363393,,,,,,,,,,22,30,Ti,,0,,0+,1.7,,1,m,102,6,B-,100,,1965.3,28,23,29,V,10-Jul-2015,YANG DONG and  HUO JUNDE,2025-02-24
+

@@ -1,0 +1,8 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+42.7,0.3,9.882,1.5819219323342097,,142.6,,99.9,,,,,,32,52,Ge,,0,,0+,0.954,,14,s,0.954,0.014,B-,100,,7705,4,33,51,As,30-Sep-2009,A.A. Sonzogni and  M. Fadil and  and B. Pfeiffer,2025-02-24
+99.9,0.3,9.638,1.6202163435788444,,99.9,,0.0,,,,,,32,52,Ge,,0,,0+,0.954,,14,s,0.954,0.014,B-,100,,7705,4,33,51,As,30-Sep-2009,A.A. Sonzogni and  M. Fadil and  and B. Pfeiffer,2025-02-24
+242.4,0.3,11.224,1.945461384864783,,242.4,,0.0,,,,,,32,52,Ge,,0,,0+,0.954,,14,s,0.954,0.014,B-,100,,7705,4,33,51,As,30-Sep-2009,A.A. Sonzogni and  M. Fadil and  and B. Pfeiffer,2025-02-24
+347.1,0.6,,,,589.5,,242.4,,,,,,32,52,Ge,,0,,0+,0.954,,14,s,0.954,0.014,B-,100,,7705,4,33,51,As,30-Sep-2009,A.A. Sonzogni and  M. Fadil and  and B. Pfeiffer,2025-02-24
+386,0.5,6.466,1.177348291713204,,,,,,,,,,32,52,Ge,,0,,0+,0.954,,14,s,0.954,0.014,B-,100,,7705,4,33,51,As,30-Sep-2009,A.A. Sonzogni and  M. Fadil and  and B. Pfeiffer,2025-02-24
+608.8,0.6,,,,1198.3,,589.5,,,,,,32,52,Ge,,0,,0+,0.954,,14,s,0.954,0.014,B-,100,,7705,4,33,51,As,30-Sep-2009,A.A. Sonzogni and  M. Fadil and  and B. Pfeiffer,2025-02-24
+

@@ -1,0 +1,8 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+126.3,0.3,,,,126.3+X,,0+X,[D E2],,,1.7,,79,97,Au,X,0,,(3-),1.05,,1,s,1.05,0.01,A,,,6433,7,77,95,Ir,31-DEC-2015,BALRAJ SINGH,2025-02-24
+151.5,0.3,,,,151.5+X,,0+X,[D E2],,,1.0,,79,97,Au,X,0,,(3-),1.05,,1,s,1.05,0.01,A,,,6433,7,77,95,Ir,31-DEC-2015,BALRAJ SINGH,2025-02-24
+175.2,0.3,,,,175.2+Y,,0+Y,(M1),,,1.243,,79,97,Au,Y,0,,(9+),1.36,,2,s,1.36,0.02,A,100,,6433,7,77,95,Ir,31-DEC-2015,BALRAJ SINGH,2025-02-24
+211.6,0.3,,,,211.6+Y,,0+Y,(M1),,,0.734,,79,97,Au,Y,0,,(9+),1.36,,2,s,1.36,0.02,A,100,,6433,7,77,95,Ir,31-DEC-2015,BALRAJ SINGH,2025-02-24
+236.6,0.3,,,,236.6+X,,0+X,,,,,,79,97,Au,X,0,,(3-),1.05,,1,s,1.05,0.01,A,,,6433,7,77,95,Ir,31-DEC-2015,BALRAJ SINGH,2025-02-24
+500,0.5,,,,500.0+X,,0+X,,,,,,79,97,Au,X,0,,(3-),1.05,,1,s,1.05,0.01,A,,,6433,7,77,95,Ir,31-DEC-2015,BALRAJ SINGH,2025-02-24
+

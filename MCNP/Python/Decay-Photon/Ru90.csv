@@ -1,0 +1,11 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+154.6,0.1,42,9,,298.7,8.7,144.1,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+492.8,0.1,8.82,2.528734861546382,,636.9,8.7,144.1,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+511,,196,,,,,,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+2.586,,0.11717337337,0.0126829116939693,,,,,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+18.25,,0.557841373325225,0.06554642845166585,,,,,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+18.367,,1.0607365912249953,0.1245346322650371,,,,,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+20.695,,0.28192329486164036,0.03320318775297599,,,,,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+20.82,,0.3264671754497795,0.03842344325977969,,,,,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+21.003,,0.04454388058813918,0.005432183931740062,,,,,,,,,,44,46,Ru,,0,,0+,11.7,,9,s,11.7,0.9,EC+B+,100,,5841,4,43,47,Tc,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2025-02-24
+

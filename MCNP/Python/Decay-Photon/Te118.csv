@@ -1,0 +1,8 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+3.941,,7.1929744,0.2728943415617832,,,,,,,,,,52,66,Te,,0,,0+,6.00,,2,d,518400,1728,EC,100,,305,19,51,67,Sb,1-Feb-1993,K. KITAO,2025-02-24
+26.111,,20.803452939630183,0.1518726359929601,,,,,,,,,,52,66,Te,,0,,0+,6.00,,2,d,518400,1728,EC,100,,305,19,51,67,Sb,1-Feb-1993,K. KITAO,2025-02-24
+26.359,,38.84139831895105,0.21802497775353338,,,,,,,,,,52,66,Te,,0,,0+,6.00,,2,d,518400,1728,EC,100,,305,19,51,67,Sb,1-Feb-1993,K. KITAO,2025-02-24
+29.821,,11.049369296950095,0.13614707265876164,,,,,,,,,,52,66,Te,,0,,0+,6.00,,2,d,518400,1728,EC,100,,305,19,51,67,Sb,1-Feb-1993,K. KITAO,2025-02-24
+30.069,,13.336588741418765,0.15476425947892014,,,,,,,,,,52,66,Te,,0,,0+,6.00,,2,d,518400,1728,EC,100,,305,19,51,67,Sb,1-Feb-1993,K. KITAO,2025-02-24
+30.387,,2.2872194444686698,0.062019869385526886,,,,,,,,,,52,66,Te,,0,,0+,6.00,,2,d,518400,1728,EC,100,,305,19,51,67,Sb,1-Feb-1993,K. KITAO,2025-02-24
+

@@ -1,0 +1,23 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+18.8,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+55.5,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+59.8,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+61.1,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+81.7,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+114.2,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+116.3,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+120.5,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+136,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+141.6,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+146.6,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+160.3,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+169.1,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+188.7,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+206.7,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+219.5,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+277.4,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+321.7,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+396.3,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+427,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+442,,,,,,,,,,,,,58,68,Ce,,0,,0+,51.0,,4,s,51,0.4,EC+B+,100,,4153,95,57,69,La,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+
