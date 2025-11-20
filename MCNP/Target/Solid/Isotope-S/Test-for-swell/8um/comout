@@ -1,0 +1,10 @@
+plot                                                                            
+label 0 0 cel       
+legend  on
+ex 10color 150 py 0                                                             
+ex 10 color 150 py 0                                                            
+color off
+color  on
+end
+end
+end                                                                             
