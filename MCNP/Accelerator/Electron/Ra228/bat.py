@@ -180,7 +180,7 @@ def plot_reaction_rates(results, plot_filename):
 if __name__ == "__main__":
     # 配置参数
     CROSS_SECTION_FOLDER = "TENDL_Downloads"  # 截面文件所在文件夹
-    SPECTRUM_FILE = "Spectrum4.txt"  # 能谱文件
+    SPECTRUM_FILE = "Spectrum.txt"  # 能谱文件
     OUTPUT_FILE = "reaction_rates_summary.txt"  # 输出结果文件
     
     print("开始批量计算核反应率...")
