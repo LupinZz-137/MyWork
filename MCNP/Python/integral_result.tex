@@ -1,0 +1,39 @@
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+
+\geometry{a4paper, margin=1in}
+
+\title{定积分计算结果}
+\author{SymPy 自动生成}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{问题描述}
+计算以下定积分：
+
+\[
+I = \int_0^T \frac{[a(1-e^{-bx}) - b(1-e^{-ax})] e^{-c(T-x)} c}{a-b}  dx
+\]
+
+\section*{解析解}
+积分结果为：
+
+\[
+I = \begin{cases} 0 & \text{for}\: a = c \wedge b = c \\\frac{\left(b \left(2 b - 3 c\right) e^{T \left(2 b + c\right)} + \left(b \left(T b c - T c^{2} - b + c\right) e^{2 T b} + \left(- b^{2} e^{T b} + 2 b c e^{T b} - c^{2} e^{T b} + c^{2}\right) e^{T \left(b + c\right)}\right) e^{T c}\right) e^{- 2 T \left(b + c\right)}}{\left(- b + c\right) \left(b - c\right)} & \text{for}\: a = c \\\frac{\left(- a \left(2 a - 3 c\right) e^{T \left(2 a + c\right)} + \left(- a \left(T a c - T c^{2} - a + c\right) e^{2 T a} + \left(a^{2} e^{T a} - 2 a c e^{T a} + c^{2} e^{T a} - c^{2}\right) e^{T \left(a + c\right)}\right) e^{T c}\right) e^{- 2 T \left(a + c\right)}}{\left(a - c\right)^{2}} & \text{for}\: b = c \\\frac{\left(- a b \left(a - b\right) e^{T \left(a + b\right)} + \left(a^{2} b e^{T \left(a + b\right)} + a^{2} c e^{T a} - a^{2} c e^{T \left(a + b\right)} - a b^{2} e^{T \left(a + b\right)} - a c^{2} e^{T a} + a c^{2} e^{T \left(a + b\right)} - b^{2} c e^{T b} + b^{2} c e^{T \left(a + b\right)} + b c^{2} e^{T b} - b c^{2} e^{T \left(a + b\right)}\right) e^{T c}\right) e^{- T \left(a + b + c\right)}}{\left(a - b\right) \left(a b - a c - b c + c^{2}\right)} & \text{otherwise} \end{cases}
+\]
+
+\section*{简化形式}
+\[
+I = 1 - e^{-cT} - \frac{ac}{(a-b)(c-b)}(e^{-bT} - e^{-cT}) - \frac{bc}{(a-b)(a-c)}(e^{-aT} - e^{-cT})
+\]
+
+\end{document}
