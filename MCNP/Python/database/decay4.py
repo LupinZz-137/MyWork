@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import radioactivedecay as rd
 from collections import defaultdict
+import os
 
 class MCNPResultProcessor:
     """基于图片6个公式的MCNP结果处理器"""
@@ -21,6 +22,41 @@ class MCNPResultProcessor:
     def format_nuclide_name(self, nuclide: str) -> str:
         """格式化核素名称，去掉中间的'-'"""
         return nuclide.replace('-', '')
+    
+    def get_half_life(self, nuclide: str) -> str:
+        """获取核素的半衰期"""
+        try:
+            nuc = rd.Nuclide(nuclide)
+            half_life = nuc.half_life('s')
+            if half_life == float('inf'):
+                return "稳定"
+            
+            # 根据半衰期大小选择合适的单位
+            if half_life < 1:
+                return f"{half_life:.2e} 秒"
+            elif half_life < 60:
+                return f"{half_life:.2f} 秒"
+            elif half_life < 3600:
+                return f"{half_life/60:.2f} 分钟"
+            elif half_life < 86400:
+                return f"{half_life/3600:.2f} 小时"
+            elif half_life < 31536000:
+                return f"{half_life/86400:.2f} 天"
+            else:
+                return f"{half_life/31536000:.2f} 年"
+        except:
+            return "未知"
+    
+    def get_half_life_seconds(self, nuclide: str) -> float:
+        """获取核素的半衰期（秒）"""
+        try:
+            nuc = rd.Nuclide(nuclide)
+            half_life = nuc.half_life('s')
+            if half_life == float('inf'):
+                return float('inf')
+            return half_life
+        except:
+            return 0.0
     
     def read_mcnp_results(self, filename: str) -> pd.DataFrame:
         """读取MCNP结果文件"""
@@ -100,8 +136,8 @@ class MCNPResultProcessor:
     def formula5_unstable_second_gen_atoms(self, production_rate: float, lambda1: float, lambda2: float, lambda3: float, t: float) -> float:
         """
         公式5: 第二代不稳定子核素的核子数
-        N₃₁ = I·w·{(1 - e^(-λ₃t))/λ₃ - [λ₁/((λ₁-λ₂)(λ₃-λ₂))]·(e^(-λ₂t) - e^(-λ₃t)) 
-                - [λ₂/((λ₁-λ₂)(λ₁-λ₃))]·(e^(-λ₁t) - e^(-λ₃t))}
+        N₃₃₁ = I·w·{(1 - e^(-λ₃₃t))/λ₃₃ - [λ₁/((λ₁-λ₂)(λ₃₃-λ₂))]·(e^(-λ₂t) - e^(-λ₃₃t)) 
+                - [λ₂/((λ₁-λ₂)(λ₁-λ₃₃))]·(e^(-λ₁t) - e^(-λ₃₃t))}
         """
         if lambda1 == lambda2 or lambda1 == lambda3 or lambda2 == lambda3:
             # 简化处理：当有相同衰变常数时使用近似
@@ -122,7 +158,7 @@ class MCNPResultProcessor:
     def formula6_stable_second_gen_atoms(self, production_rate: float, lambda1: float, lambda2: float, t: float) -> float:
         """
         公式6: 第二代稳定子核素的核子数
-        N₃₂ = I·w·[t - 1/λ₁ - 1/λ₂ + 1/(λ₁-λ₂)·(λ₁/λ₂·e^(-λ₂t) - λ₂/λ₁·e^(-λ₁t))]
+        N₃₃₂ = I·w·[t - 1/λ₁ - 1/λ₂ + 1/(λ₁-λ₂)·(λ₁/λ₂·e^(-λ₂t) - λ₂/λ₁·e^(-λ₁t))]
         """
         if lambda1 == lambda2:
             return 0.0
@@ -245,12 +281,17 @@ class MCNPResultProcessor:
         
         return atom_numbers
     
-    def process_mcnp_file(self, filename: str, output_file: str = "mcnp_decay_chain_results.csv") -> dict:
+    def process_mcnp_file(self, filename: str, output_file: str = None) -> dict:
         """处理MCNP结果文件"""
         
         df = self.read_mcnp_results(filename)
         if df.empty:
             return {}
+        
+        # 获取输入文件名前缀
+        if output_file is None:
+            base_name = os.path.splitext(os.path.basename(filename))[0]
+            output_file = f"{base_name}_results"
         
         print(f"\n开始处理 {len(df)} 个核素的衰变链...")
         print("=" * 60)
@@ -277,6 +318,8 @@ class MCNPResultProcessor:
                     # 获取核素信息
                     lambda_val = self.get_decay_constant(nuclide)
                     is_stable = (lambda_val == 0)
+                    half_life_str = self.get_half_life(nuclide)
+                    half_life_sec = self.get_half_life_seconds(nuclide)
                     
                     detailed_results.append({
                         'parent_nuclide': self.format_nuclide_name(parent_nuclide),
@@ -288,7 +331,8 @@ class MCNPResultProcessor:
                         'activity_Bq': atoms * lambda_val if not is_stable else 0.0,
                         'is_stable': is_stable,
                         'decay_constant': lambda_val,
-                        'half_life': rd.Nuclide(nuclide).half_life() if not is_stable else '稳定'
+                        'half_life': half_life_str,
+                        'half_life_seconds': half_life_sec
                     })
                 
             except Exception as e:
@@ -309,6 +353,8 @@ class MCNPResultProcessor:
                 lambda_val = self.get_decay_constant(original_nuclide)
                 is_stable = (lambda_val == 0)
                 activity = total_atoms * lambda_val if not is_stable else 0.0
+                half_life_str = self.get_half_life(original_nuclide)
+                half_life_sec = self.get_half_life_seconds(original_nuclide)
                 
                 summary_data.append({
                     'nuclide': nuclide,
@@ -318,7 +364,8 @@ class MCNPResultProcessor:
                     'total_activity_GBq': activity / 1e9,
                     'is_stable': '稳定' if is_stable else '不稳定',
                     'decay_constant': lambda_val,
-                    'half_life': rd.Nuclide(original_nuclide).half_life() if not is_stable else '稳定'
+                    'half_life': half_life_str,
+                    'half_life_seconds': half_life_sec
                 })
         
         summary_df = pd.DataFrame(summary_data)
@@ -326,23 +373,27 @@ class MCNPResultProcessor:
         detailed_df = pd.DataFrame(detailed_results)
         
         # 保存结果
-        summary_df.to_csv(f"summary_{output_file}", index=False, encoding='utf-8-sig')
-        detailed_df.to_csv(f"detailed_{output_file}", index=False, encoding='utf-8-sig')
+        summary_filename = f"{output_file}_summary.csv"
+        detailed_filename = f"{output_file}_detailed.csv"
+        
+        summary_df.to_csv(summary_filename, index=False, encoding='utf-8-sig')
+        detailed_df.to_csv(detailed_filename, index=False, encoding='utf-8-sig')
         
         print(f"\n处理完成！")
         print(f"共生成 {len(summary_df)} 个独特核素")
-        print(f"汇总结果已保存到: summary_{output_file}")
-        print(f"详细结果已保存到: detailed_{output_file}")
+        print(f"汇总结果已保存到: {summary_filename}")
+        print(f"详细结果已保存到: {detailed_filename}")
         
         # 显示结果
         print(f"\n原子数最多的前20个核素:")
-        print("=" * 100)
-        print(f"{'核素':<12} {'原子数':<20} {'活度(GBq)':<15} {'稳定性':<10} {'半衰期':<20}")
-        print("-" * 100)
+        print("=" * 120)
+        print(f"{'核素':<12} {'原子数':<20} {'活度(GBq)':<15} {'稳定性':<10} {'半衰期':<25} {'半衰期(秒)':<15}")
+        print("-" * 120)
         
         for idx, row in summary_df.head(20).iterrows():
+            half_life_sec_str = f"{row['half_life_seconds']:.2e}" if row['half_life_seconds'] != float('inf') else "稳定"
             print(f"{row['nuclide']:<12} {row['total_atom_number']:<20.2e} {row['total_activity_GBq']:<15.2e} "
-                  f"{row['is_stable']:<10} {row['half_life']:<20}")
+                  f"{row['is_stable']:<10} {row['half_life']:<25} {half_life_sec_str:<15}")
         
         return {
             'summary': summary_df,
@@ -359,8 +410,8 @@ def main():
     print("2. 稳定母核素核子数: N₁₂ = I·w·t")
     print("3. 第一代不稳定子核素核子数: N₂₁ = I·w·[λ₁(1-e^(-λ₂t))-λ₂(1-e^(-λ₁t))]/[(λ₁-λ₂)λ₂]")
     print("4. 第一代稳定子核素核子数: N₂₂ = I·w·t - I·w·(1-e^(-λ₁t))/λ₁")
-    print("5. 第二代不稳定子核素核子数: N₃₁ = I·w·[复杂表达式]")
-    print("6. 第二代稳定子核素核子数: N₃₂ = I·w·[t - 1/λ₁ - 1/λ₂ + ...]")
+    print("5. 第二代不稳定子核素核子数: N₃₃₁ = I·w·[复杂表达式]")
+    print("6. 第二代稳定子核素核子数: N₃₃₂ = I·w·[t - 1/λ₁ - 1/λ₂ + ...]")
     print("=" * 60)
     
     # 用户输入参数
@@ -395,7 +446,7 @@ C-14      0.02"""
         print(f"使用示例文件: {mcnp_file}")
     
     try:
-        results = processor.process_mcnp_file(mcnp_file, "mcnp_6formula_results.csv")
+        results = processor.process_mcnp_file(mcnp_file)
         
         if results:
             print(f"\n计算完成！")
