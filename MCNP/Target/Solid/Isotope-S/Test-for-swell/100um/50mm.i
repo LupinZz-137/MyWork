@@ -49,10 +49,14 @@ c f12:p 200
 c df12 iu=2 fac=1e6 ic=10 log
 tmesh   $ ------ TMESH tallies start ------
 c
-rmesh11:h   
- cora11    -10 199i  10 
- corb11    -0.1      0.1
- corc11    -10 199i  10
+rmesh13
+ cora13    -6   199i   6
+ corb13    -2.5 199i 2.5
+ corc13    -0.0100     0
+rmesh23  
+ cora23    -6   199i   6
+ corb23    -2.5 199i 2.5
+ corc23     0        0.0100
 c
 endmd   $ ------ TMESH tallies end ------
 f12:h 200

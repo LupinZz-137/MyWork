@@ -30,8 +30,8 @@
   | PRIVATELY OWNED RIGHTS.                                             |
   +---------------------------------------------------------------------+
   
-1mcnp     version 6.mpi ld=05/08/13                     11/19/25 12:42:33 
- *************************************************************************                 probid =  11/19/25 12:42:33 
+1mcnp     version 6.mpi ld=05/08/13                     12/03/25 15:51:02 
+ *************************************************************************                 probid =  12/03/25 15:51:02 
  n=E:\MyWork\MCNP\Target\Solid\Isotope-S\Test-for-swell\1000um\1000um.i          
 
  
@@ -88,27 +88,31 @@
         49-       c df12 iu=2 fac=1e6 ic=10 log                                                   
         50-       tmesh   $ ------ TMESH tallies start ------                                     
         51-       c                                                                               
-        52-       rmesh11:h                                                                       
-        53-        cora11    -10 199i  10                                                         
-        54-        corb11    -0.1      0.1                                                        
-        55-        corc11    -10 199i  10                                                         
-        56-       c                                                                               
-        57-       endmd   $ ------ TMESH tallies end ------                                       
-        58-       f12:h 200                                                                       
-        59-       c ----------------------------------------------------------------------------- 
-        60-       c ---------------------------------MATERIALS----------------------------------- 
-        61-       c ----------------------------------------------------------------------------- 
-        62-       m11   90230  -0.00019827           $ Thorium     Th  -11.72                     
-        63-             90232  -0.99980152                                                        
-        64-              nlib = 19c                                                               
-        65-              hlib = 99h                                                               
-        66-             pnlib = 19u                                                               
-        67-       m1     3006  -0.065525             $ Lithium     Li  -0.534                     
+        52-       rmesh13                                                                         
+        53-        cora13    -6   199i   6                                                        
+        54-        corb13    -2.5 199i 2.5                                                        
+        55-        corc13    -0.1000     0                                                        
+        56-       rmesh23                                                                         
+        57-        cora23    -6   199i   6                                                        
+        58-        corb23    -2.5 199i 2.5                                                        
+        59-        corc23     0        0.1000                                                     
+        60-       c                                                                               
+        61-       endmd   $ ------ TMESH tallies end ------                                       
+        62-       f12:h 200                                                                       
+        63-       c ----------------------------------------------------------------------------- 
+        64-       c ---------------------------------MATERIALS----------------------------------- 
+        65-       c ----------------------------------------------------------------------------- 
+        66-       m11   90230  -0.00019827           $ Thorium     Th  -11.72                     
+        67-             90232  -0.99980152                                                        
+        68-              nlib = 19c                                                               
+        69-              hlib = 99h                                                               
+        70-             pnlib = 19u                                                               
+        71-       m1     3006  -0.065525             $ Lithium     Li  -0.534                     
   warning.  material        1 is not used in the problem.
-        68-              3007  -0.930533                                                          
-        69-              nlib = 19c                                                               
-        70-              hlib = 99h                                                               
-        71-             pnlib = 19u                                                               
+        72-              3007  -0.930533                                                          
+        73-              nlib = 19c                                                               
+        74-              hlib = 99h                                                               
+        75-             pnlib = 19u                                                               
  
   comment.  total nubar used if fissionable isotopes are present.
  
@@ -228,22 +232,22 @@ The following nuclides use physics models rather than data tables:
  coll =              0     ctm =        0.00   nrn =                 0
 
          5 warning messages so far.
- master starting      63 MPI slave tasks with       1 threads each  11/19/25 12:42:35 
- master set rendezvous nps =     1000000,  work chunks =    63    11/19/25 12:42:35 
- master set rendezvous nps =     2000000,  work chunks =    63    11/19/25 12:43:39 
- master set rendezvous nps =     3000000,  work chunks =    63    11/19/25 12:44:43 
- master set rendezvous nps =     4000000,  work chunks =    63    11/19/25 12:45:46 
- master set rendezvous nps =     5000000,  work chunks =    63    11/19/25 12:46:48 
- master set rendezvous nps =     6000000,  work chunks =    63    11/19/25 12:47:48 
- master set rendezvous nps =     7000000,  work chunks =    63    11/19/25 12:48:41 
- master set rendezvous nps =     8000000,  work chunks =    63    11/19/25 12:49:44 
- master set rendezvous nps =     9000000,  work chunks =    63    11/19/25 12:50:44 
- master set rendezvous nps =    10000000,  work chunks =    63    11/19/25 12:51:40 
+ master starting      63 MPI slave tasks with       1 threads each  12/03/25 15:51:04 
+ master set rendezvous nps =     1000000,  work chunks =    63    12/03/25 15:51:04 
+ master set rendezvous nps =     2000000,  work chunks =    63    12/03/25 15:52:04 
+ master set rendezvous nps =     3000000,  work chunks =    63    12/03/25 15:53:02 
+ master set rendezvous nps =     4000000,  work chunks =    63    12/03/25 15:54:00 
+ master set rendezvous nps =     5000000,  work chunks =    63    12/03/25 15:54:58 
+ master set rendezvous nps =     6000000,  work chunks =    63    12/03/25 15:55:56 
+ master set rendezvous nps =     7000000,  work chunks =    63    12/03/25 15:56:54 
+ master set rendezvous nps =     8000000,  work chunks =    63    12/03/25 15:57:52 
+ master set rendezvous nps =     9000000,  work chunks =    63    12/03/25 15:58:50 
+ master set rendezvous nps =    10000000,  work chunks =    63    12/03/25 15:59:48 
 1problem summary                                                                                                           
 
       run terminated when    10000000  particle histories were done.
-+                                                                                                    11/19/25 12:52:33 
-      Title~                                                                               probid =  11/19/25 12:42:33 
++                                                                                                    12/03/25 16:00:46 
+      Title~                                                                               probid =  12/03/25 15:51:02 
  **********************************************************
  Calls to event-generator models, counted by particle type.
 
@@ -394,9 +398,9 @@ The following nuclides use physics models rather than data tables:
                                                                                                     wc1   0.0000E+00
                                                                                                     wc2   0.0000E+00
 
- computer time so far in this run   628.42 minutes            maximum number ever in bank       677
- computer time in mcrun             542.02 minutes            bank overflows to backup file       0
- source particles per minute            1.8449E+04
+ computer time so far in this run   620.30 minutes            maximum number ever in bank       677
+ computer time in mcrun             579.04 minutes            bank overflows to backup file       0
+ source particles per minute            1.7270E+04
  random numbers generated             416289395183            most random numbers used was     2063955 in history     4762691
  
   warning.   random number stride   152917 exceeded   640915 times.
@@ -559,7 +563,7 @@ The following nuclides use physics models rather than data tables:
       relative error                  9.80408E-04             9.80409E-04                     0.000002
       variance of the variance        7.90491E-07             7.90568E-07                     0.000098
       shifted center                  7.52856E-07             7.52856E-07                     0.000000
-      figure of merit                 1.91941E+03             1.91941E+03                    -0.000003
+      figure of merit                 1.79672E+03             1.79671E+03                    -0.000003
 
  the estimated inverse power slope of the 201 largest  tallies starting at 1.92085E+00 is 4.4308
  the empirical history score probability density function appears to be increasing at the largest  history scores:
@@ -567,7 +571,7 @@ The following nuclides use physics models rather than data tables:
  the history score probability density function appears to have an unsampled region at the largest  history scores:
  please examine. see print table 161.
 
- fom = (histories/minute)*(f(x) signal-to-noise ratio)**2 = (1.845E+04)*( 3.225E-01)**2 = (1.845E+04)*(1.040E-01) = 1.919E+03
+ fom = (histories/minute)*(f(x) signal-to-noise ratio)**2 = (1.727E+04)*( 3.225E-01)**2 = (1.727E+04)*(1.040E-01) = 1.797E+03
 
 1status of the statistical checks used to form confidence intervals for the mean for each tally bin
 
@@ -584,27 +588,27 @@ The following nuclides use physics models rather than data tables:
 
                             tally       12
           nps      mean     error   vov  slope    fom
-      1000000   7.5312E-07 0.0031 0.0000 10.0    1919
-      2000000   7.5408E-07 0.0022 0.0000  5.7    1922
-      3000000   7.5454E-07 0.0018 0.0000  4.6    1923
-      4000000   7.5312E-07 0.0015 0.0000 10.0    1918
-      5000000   7.5266E-07 0.0014 0.0000  4.3    1917
-      6000000   7.5295E-07 0.0013 0.0000  4.3    1918
-      7000000   7.5281E-07 0.0012 0.0000  4.3    1917
-      8000000   7.5281E-07 0.0011 0.0000  4.3    1918
-      9000000   7.5262E-07 0.0010 0.0000  4.4    1918
-     10000000   7.5286E-07 0.0010 0.0000  4.4    1919
+      1000000   7.5312E-07 0.0031 0.0000 10.0    1794
+      2000000   7.5408E-07 0.0022 0.0000  5.7    1796
+      3000000   7.5454E-07 0.0018 0.0000  4.6    1797
+      4000000   7.5312E-07 0.0015 0.0000 10.0    1794
+      5000000   7.5266E-07 0.0014 0.0000  4.3    1793
+      6000000   7.5295E-07 0.0013 0.0000  4.3    1795
+      7000000   7.5281E-07 0.0012 0.0000  4.3    1795
+      8000000   7.5281E-07 0.0011 0.0000  4.3    1795
+      9000000   7.5262E-07 0.0010 0.0000  4.4    1796
+     10000000   7.5286E-07 0.0010 0.0000  4.4    1797
 
  ***********************************************************************************************************************
 
  dump no.    2 on file E:\MyWork\MCNP\Target\Solid\Isotope-S\Test-for-swell\1000um\1000um.ir     nps =    10000000    
- coll =    32541856636     ctm =      542.02   nrn =      416289395183
+ coll =    32541856636     ctm =      579.04   nrn =      416289395183
 
          6 warning messages so far.
 
 
  run terminated when    10000000  particle histories were done.
 
- computer time =  628.42 minutes
+ computer time =  620.30 minutes
 
- mcnp     version 6.mpi 05/08/13                     11/19/25 12:52:33                     probid =  11/19/25 12:42:33 
+ mcnp     version 6.mpi 05/08/13                     12/03/25 16:00:46                     probid =  12/03/25 15:51:02 

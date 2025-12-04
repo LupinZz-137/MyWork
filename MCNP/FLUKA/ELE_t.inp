@@ -1,0 +1,304 @@
+TITLE
+5GeV hit Fe target
+*DEFAULTS                                                              PRECISIO
+BEAM           -0.16       0.0       0.0       0.0       0.0        1.ELECTRON
+* y positive direction
+BEAMPOS       998.23      300.   -124.83 -0.965926       0.0       0.0NEGATIVE
+PHYSICS           3.                                                  EVAPORAT
+*PHYSICS           -1                                                  COALESCE
+*PHYSICS           1.                                                  IONSPLIT
+*PHYSICS           1.        2.                                        QMDTHRES
+*PHYSICS            3        2.                                        EVAPORAT
+GEOBEGIN                                                 0.0          COMBNAME
+    0    0          Electron beam on Iron target
+* Black body
+RPP blkbody    -9999. 9999. -9999. 9999. -9999. 9999.
+* vault
+RPP vaulto     -200. 2000. -180. 2090. -120. 600.
+RPP vaulti     0.0 2000. 0.0 1910. 0.0 450.
+RPP soil       -400. 2000. -600. 2400. -400. 0.0
+RPP air        -400. 2000. -600. 2400. 0.0 1000.
+RCC pipe01     -200. 1200. 130. 200. 0.0 0.0 20.
+RCC pipe02     -200. 1500. 130. 200. 0.0 0.0 20.
+RCC pipe03     -200. 1800. 130. 200. 0.0 0.0 20.
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+* dump 7 pet
+RPP pet7       829. 1591.71 235. 365. -179.69 0.0
+RPP petS7      729.1 1591.71 135. 465. -279.69 0.0
+* dump7
+PLA d701       25.88 0.0 -96.59 1441.63 0.0 0.0
+* dump7
+PLA d702       25.88 0.0 -96.59 1488. 0.0 0.0
+* dump7
+PLA d703       96.59 0.0 25.88 835.338 0.0 0.0
+* dump7
+PLA d704       96.59 0.0 25.88 964.73 0.0 0.0
+* dump7
+PLA d7040      96.59 0.0 25.88 981.6 0.0 0.0
+XZP d705       294.
+XZP d706       306.
+* dump7
+PLA s701       25.88 0.0 -96.59 1175.04 0.0 0.0
+* dump7
+PLA s702       25.88 0.0 -96.59 1520.27 0.0 0.0
+* dump7
+PLA s703       96.59 0.0 25.88 804.26 0.0 0.0
+* dump7
+PLA s704       96.59 0.0 25.88 981.6 0.0 0.0
+XZP s705       276.
+XZP s706       334.
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+* dump 8 pet
+RPP pet8       829. 1591.71 1665. 1795. -179.69 0.0
+RPP petS8      729.1 1591.71 1565. 1895. -279.69 0.0
+XZP d805       1724.
+XZP d806       1736.
+XZP s805       1706.
+XZP s806       1764.
+RPP mazz00     100. 540. -490. -180. -120. 600.
+RPP mazz01     200. 280. -180. 0.0 0.0 220.
+RPP mazz02     200. 460. -260. -180. 0.0 450.
+RPP mazz03     380. 460. -360. -260. 0.0 450.
+RPP mazz04     220. 460. -440. -360. 0.0 450.
+RPP mazz05     200. 220. -440. -360. 0.0 450.
+RPP mazz051    200. 220. -440. -360. 0.0 220.
+RPP mazz06     100. 200. -440. -360. 0.0 450.
+RPP mazzS01    100. 200. -360. -180. 0.0 450.
+RPP mazzS02    200. 380. -360. -260. 0.0 450.
+RPP mazzS03    460. 540. -490. -180. 0.0 450.
+RPP mazzS04    100. 460. -490. -440. 0.0 450.
+RPP mazzS05    100. 540. -490. -180. -120. 0.0
+RPP mazzS06    100. 540. -490. -180. 450. 600.
+RPP tally1     700. 729. 276. 334. -230. -160.
+RPP tally2     829. 929. 276. 334. -300. -280.
+END
+* Black hole
+BLKBODY      5 +blkbody -vaulto -soil -air
+* vault
+vault        5 +vaulto -vaulti -pet7 -pet8 -petS7 -petS8 -mazz01 -pipe01 -pipe02 -pipe03
+vaulta       5 +vaulti
+soil         5 +soil -vaulto -petS7 -petS8 -mazz00
+air          5 +air -vaulto -mazz00
+pipe01       5 +pipe01
+pipe02       5 +pipe02
+pipe03       5 +pipe03
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+* dump 7 pet
+pet7         5 +pet7 -s702  -( +s702 -s701 +s704 -s703 +s706 -s705 )
+petS7        5 +petS7 -pet7
+peta7        5 +pet7 +s702  -( +s702 -s701 +s704 -s703 +s706 -s705)
+dump7        5 +d702 -d701 +d704 -d703 +d706 -d705
+shield71     5 +s702 -s701 +s704 -s703 +s706 -s705 -(+d702 -d701 +d704 -d703 +d706 -d705  ) -( +d702 -d701 -d704
+               +d7040  +d706 -d705 )
+dump7a       5 +d702 -d701 -d704 +d7040  +d706 -d705
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+* dump 8 pet
+pet8         5 +pet8 -s702  -( +s702 -s701 +s704 -s703 +s806 -s805 )
+petS8        5 +petS8 -pet8
+peta8        5 +pet8 +s702  -(+s702 -s701 +s704 -s703 +s806 -s805)
+dump8        5 +d702 -d701 +d704 -d703 +d806 -d805
+shield81     5 +s702 -s701 +s704 -s703 +s806 -s805 -(+d702 -d701 +d704 -d703 +d806 -d805  ) -( +d702 -d701 -d704
+               +d7040  +d806 -d805 )
+dump8a       5 +d702 -d701 -d704 +d7040  +d806 -d805
+mazz01       5 +mazz01
+mazz02       5 +mazz02
+mazz03       5 +mazz03
+mazz04       5 +mazz04
+mazz05       5 +mazz051
+mazz06       5 +mazz06
+mazzS01      5 +mazzS01
+mazzS02      5 +mazzS02
+mazzS03      5 +mazzS03
+mazzS04      5 +mazzS04
+mazzS05      5 +mazzS05
+mazzS06      5 +mazzS06
+mazzS07      5 +mazz05 -mazz051
+END
+GEOEND
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA    PORTLAND     vault     vault
+ASSIGNMA         AIR    vaulta    vaulta
+ASSIGNMA         AIR      soil    pipe03
+ASSIGNMA    Graphite     dump7                                  VACUUM
+ASSIGNMA    Graphite     dump8
+ASSIGNMA         AIR    dump7a
+ASSIGNMA         AIR    dump8a
+ASSIGNMA         AIR     peta7
+ASSIGNMA         AIR     peta8
+ASSIGNMA    PORTLAND      pet7     petS7
+ASSIGNMA    PORTLAND      pet8     petS8
+ASSIGNMA        IRON  shield71
+ASSIGNMA        IRON  shield81
+ASSIGNMA         AIR    mazz01    mazz06
+ASSIGNMA    PORTLAND   mazzS01   mazzS07
+* Concrete portland
+* Concrete has a wide variation in density and composition.
+MATERIAL                             2.3                              PORTLAND
+MATERIAL         19.               0.862                              POTASSIU
+COMPOUND       -0.01  HYDROGEN    -0.001    CARBON -0.529107    OXYGENPORTLAND
+COMPOUND      -0.016    SODIUM    -0.002  MAGNESIU -0.033872  ALUMINUMPORTLAND
+COMPOUND   -0.337021   SILICON    -0.013  POTASSIU    -0.044   CALCIUMPORTLAND
+COMPOUND      -0.014      IRON                                        PORTLAND
+MATERIAL          6.                1.75                              Graphite
+LOW-MAT     Graphite        6.       -3.      296.                    CARBON
+*EMF
+* Production cutoff 5MeV(electrons), 50keV (photons) for trget
+*EMFCUT        -0.005     0.001              CARBON    CARBON          PROD-CUT
+* Production cutoffs
+*EMFCUT        -0.005     0.001                IRON      IRON          PROD-CUT
+* Transport cutoff 5MeV(electrons), 50keV (photons) for trget
+*EMFCUT        -0.005   0.00005               vault    dump8a
+DISCARD        MUON+     MUON-
+PHOTONUC          1.                      Graphite  Graphite
+LAM-BIAS         0.0      0.02    CARBON    PHOTON    PHOTON
+PHOTONUC          1.                          IRON      IRON
+LAM-BIAS         0.0      0.02      IRON    PHOTON    PHOTON
+PHOTONUC          1.                      PORTLAND  PORTLAND
+LAM-BIAS         0.0      0.02  PORTLAND    PHOTON    PHOTON
+*PART-THR      -1E-12   NEUTRON   NEUTRON                 0.0
+RADDECAY          1.        1.        3.             1000100
+* 600h 10nA
+IRRPROFI    2160000.  6.25E+10
+* 30m.1h.12h
+DCYTIMES       1800.     3600.    43200.
+RESNUCLE          3.      -25.                         dump7        1.dump7_30m
+RESNUCLE          3.      -25.                         dump8        1.dump8_30m
+DCYSCORE          1.                     dump7_30m dump8_30m          RESNUCLE
+RESNUCLE          3.      -25.                         dump7        1.dump7_1h
+RESNUCLE          3.      -25.                         dump8        1.dump8_1h
+DCYSCORE          2.                      dump7_1h  dump8_1h          RESNUCLE
+RESNUCLE          3.      -25.                         dump7        1.dump7_12h
+RESNUCLE          3.      -25.                         dump8        1.dump8_12h
+DCYSCORE          3.                     dump7_12h dump8_12h          RESNUCLE
+* +++++++++++++++++++++++++++++
+RESNUCLE          3.      -26.                      shield71        1.s7_30m
+RESNUCLE          3.      -26.                      shield81        1.s8_30m
+DCYSCORE          1.                        s7_30m    s8_30m          RESNUCLE
+RESNUCLE          3.      -26.                      shield71        1.s7_1h
+RESNUCLE          3.      -26.                      shield81        1.s8_1h
+DCYSCORE          2.                         s7_1h     s8_1h          RESNUCLE
+RESNUCLE          3.      -26.                      shield71        1.s7_12h
+RESNUCLE          3.      -26.                      shield81        1.s8_12h
+DCYSCORE          3.                        s7_12h    s8_12h          RESNUCLE
+* xy plane
+* Z=0-100
+*USRBIN           10.   DOSE-EQ      -21.     2000.     2400.      100.photon0
+*USRBIN         -400.     -600.       50.      240.      300.        1. &
+*AUXSCORE      USRBIN    PHOTON             photon0   photon0          AMB74
+*USRBIN           10.   DOSE-EQ      -21.     2000.     2400.      100.neutron0
+*USRBIN         -400.     -600.       50.      240.      300.        1. &
+*AUXSCORE      USRBIN   NEUTRON            neutron0  neutron0          AMB74
+*USRBIN           10.   DOSE-EQ      -21.     2000.     2400.      100.total0
+*USRBIN         -400.     -600.       50.      240.      300.        1. &
+* Z=-140 -130
+*USRBIN           10.   DOSE-EQ      -21.     2000.     2400.     -130.photon1
+*USRBIN         -400.     -600.     -140.      240.      300.        1. &
+*AUXSCORE      USRBIN    PHOTON             photon1   photon1          AMB74
+*USRBIN           10.   DOSE-EQ      -21.     2000.     2400.     -130.neutron1
+*USRBIN         -400.     -600.     -140.      240.      300.        1. &
+*AUXSCORE      USRBIN   NEUTRON             photon1  neutron1          AMB74
+*USRBIN           10.   DOSE-EQ      -21.     2000.     2400.     -130.total1
+*USRBIN         -400.     -600.     -140.      240.      300.        1. &
+* xz plane
+* dump7
+* y=300
+*USRBIN           10.   DOSE-EQ      -22.     2000.      310.     1000.photon2
+*USRBIN         -400.      290.     -400.      240.        1.      140. &
+*AUXSCORE      USRBIN    PHOTON             photon2   photon2          AMB74
+*USRBIN           10.   DOSE-EQ      -22.     2000.      310.     1000.neutron2
+*USRBIN         -400.      290.     -400.      240.        1.      140. &
+*AUXSCORE      USRBIN   NEUTRON            neutron2  neutron2          AMB74
+*USRBIN           10.   DOSE-EQ      -22.     2000.      310.     1000.total2
+*USRBIN         -400.      290.     -400.      240.        1.      140. &
+* dump8
+* y=1730
+USRBIN           10.   DOSE-EQ      -22.     1100.      310.       0.0y_30m
+USRBIN          800.      290.     -200.      150.        1.      100. &
+DCYSCORE          1.                         y_30m     y_30m          USRBIN
+USRBIN           10.   DOSE-EQ      -22.     1100.      310.       0.0Y_1h
+USRBIN          800.      290.     -200.      150.        1.      100. &
+DCYSCORE          2.                          Y_1h      Y_1h          USRBIN
+USRBIN           10.   DOSE-EQ      -22.     1100.      310.       0.0y_12h
+USRBIN          800.      290.     -200.      150.        1.      100. &
+DCYSCORE          3.                         y_12h     y_12h          USRBIN
+* mazz tally
+*USRBIN           10.   DOSE-EQ      -23.      100.     -360.      400.mazz_p
+*USRBIN           70.     -440.       0.0        1.        2.        4. &
+*AUXSCORE      USRBIN    PHOTON              mazz_p    mazz_p          AMB74
+*USRBIN           10.   DOSE-EQ      -23.      100.     -360.      400.mazz_n
+*USRBIN           70.     -440.       0.0        1.        2.        4. &
+*AUXSCORE      USRBIN   NEUTRON              mazz_n    mazz_n          AMB74
+*USRBIN           10.   DOSE-EQ      -23.      100.     -360.      400.mazz_t
+*USRBIN           70.     -440.       0.0        1.        2.        4. &
+* shielding wall tally
+*USRBIN           10.   DOSE-EQ      -23.     -200.     1820.      150.front_p
+*USRBIN         -250.     1780.      110.        1.        1.        1. &
+*AUXSCORE      USRBIN    PHOTON             front_p                    AMB74
+*USRBIN           10.   DOSE-EQ      -23.     -200.     1820.      150.front_n
+*USRBIN         -250.     1780.      110.        1.        1.        1. &
+*AUXSCORE      USRBIN   NEUTRON             front_n                    AMB74
+*USRBIN           10.   DOSE-EQ      -23.     -200.     1820.      150.front_t
+*USRBIN         -250.     1780.      110.        1.        1.        1. &
+* ----------------------------------
+*USRBIN           10.   DOSE-EQ      -23.     1010.     2120.      100.north_p
+*USRBIN          880.     2090.       0.0        1.        1.        2. &
+*AUXSCORE      USRBIN    PHOTON             north_p                    AMB74
+*USRBIN           10.   DOSE-EQ      -23.     1010.     2120.      100.north_n
+*USRBIN          880.     2090.       0.0        1.        1.        2. &
+*AUXSCORE      USRBIN   NEUTRON             north_n                    AMB74
+*USRBIN           10.   DOSE-EQ      -23.     1010.     2120.      100.north_t
+*USRBIN          880.     2090.       0.0        1.        1.        2. &
+* -----------------------------------
+*USRBIN           10.   DOSE-EQ      -23.     1010.     -180.      100.south_p
+*USRBIN          880.     -210.       0.0        1.        1.        2. &
+*AUXSCORE      USRBIN    PHOTON             south_p                    AMB74
+*USRBIN           10.   DOSE-EQ      -23.     1010.     -180.      100.south_n
+*USRBIN          880.     -210.       0.0        1.        1.        2. &
+*AUXSCORE      USRBIN   NEUTRON             south_n                    AMB74
+*USRBIN           10.   DOSE-EQ      -23.     1010.     -180.      100.south_t
+*USRBIN          880.     -210.       0.0        1.        1.        2. &
+* -----------------------------------
+*USRBIN           10.   DOSE-EQ      -23.     1010.     1900.      650.top_p
+*USRBIN          880.     1700.      600.        2.        2.        1. &
+*AUXSCORE      USRBIN    PHOTON               top_p                    AMB74
+*USRBIN           10.   DOSE-EQ      -23.     1010.     1900.      650.top_n
+*USRBIN          880.     1700.      600.        2.        2.        1. &
+*AUXSCORE      USRBIN   NEUTRON               top_n                    AMB74
+*USRBIN           10.   DOSE-EQ      -23.     1010.     1900.      650.top_t
+*USRBIN          880.     1700.      600.        2.        2.        1. &
+* botton plane
+*USRBIN           10.   DOSE-EQ      -23.      729.     1764.     -160.bot_n1
+*USRBIN          700.     1706.     -230.        1.        1.        1. &
+*USRBIN           10.   DOSE-EQ      -23.      729.      334.     -160.bot_n2
+*USRBIN          700.      276.     -230.        1.        1.        1. &
+*AUXSCORE      USRBIN    PHOTON              bot_n1    bot_n2          AMB74
+*USRBIN           10.   DOSE-EQ      -23.      729.     1764.     -160.bot_p1
+*USRBIN          700.     1706.     -230.        1.        1.        1. &
+*USRBIN           10.   DOSE-EQ      -23.      729.      334.     -160.bot_p2
+*USRBIN          700.      276.     -230.        1.        1.        1. &
+*AUXSCORE      USRBIN   NEUTRON              bot_p1    bot_p2          AMB74
+*USRBIN           10.   DOSE-EQ      -23.      729.     1764.     -160.bot_t1
+*USRBIN          700.     1706.     -230.        1.        1.        1. &
+*USRBIN           10.   DOSE-EQ      -23.      729.      334.     -160.bot_t2
+*USRBIN          700.      276.     -230.        1.        1.        1. &
+* botton plane2
+*USRBIN           10.   DOSE-EQ      -24.      929.     1764.     -280.bot2_p1
+*USRBIN          829.     1706.     -300.        1.        1.        1. &
+*USRBIN           10.   DOSE-EQ      -24.      929.      334.     -280.bot2_p2
+*USRBIN          829.      276.     -300.        1.        1.        1. &
+*RQMD               1         1         1         1         1         1
+*PHYSICS                      2                             2         2QMDTHRES
+*AUXSCORE      USRBIN    PHOTON             bot2_p1   bot2_p2          AMB74
+*USRBIN           10.   DOSE-EQ      -24.      929.     1764.     -280.bot2_n1
+*USRBIN          829.     1706.     -300.        1.        1.        1. &
+*USRBIN           10.   DOSE-EQ      -24.      929.      334.     -280.bot2_n2
+*USRBIN          829.      276.     -300.        1.        1.        1. &
+*AUXSCORE      USRBIN   NEUTRON             bot2_n1   bot2_n2          AMB74
+*USRBIN           10.   DOSE-EQ      -24.      929.     1764.     -280.bot2_t1
+*USRBIN          829.     1706.     -300.        1.        1.        1. &
+*USRBIN           10.   DOSE-EQ      -24.      929.      334.     -280.bot2_t2
+*USRBIN          829.      276.     -300.        1.        1.        1. &
+RANDOMIZ          1.
+START       1000000.                                     0.0
+STOP
