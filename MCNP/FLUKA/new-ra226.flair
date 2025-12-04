@@ -1,0 +1,166 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: 846a53db57bc5112eb4648cf7250033b
+Input:
+TITLE
+*Set the defaults for precision simulations
+DEFAULTS PRECISIO
+*Define the beam characteristics
+BEAM ELECTRON -0.025 0 0 -0.5 -0.5
+*Define the beam position
+BEAMPOS ,,,, 1
+GEOBEGIN COMBNAME
+*Black body
+SPH blkbody 0.0 0.0 0.0 100000.0
+*Void sphere
+SPH void 0.0 0.0 0.0 10000.0
+*Ti windows
+RCC Ti1 1 0.0 0.0 0.1 0.0 0 1
+*Ti windows
+RCC Ti2 3 0.0 0.0 0.1 0.0 0 1
+*Ta convert target 1
+RCC Ta1 1.25 0.0 0.0 0.1 0.0 0 0.7
+*Ta convert target 2
+RCC Ta2 1.5 0 0 0.1 0 0 0.7
+*Ta convert target 3
+RCC Ta3 1.75 0 0 0.1 0 0 0.7
+*Al cladding 1
+RCC Al1 2 0 0 0.16 0 0 0.7
+*Ra target 1
+RCC Ra1 2.0485 0 0 0.063 0 0 0.5
+*Al cladding 2
+RCC Al2 2.26 0 0 0.16 0 0 0.7
+*Ra target 2
+RCC Ra2 2.3085 0 0 0.063 0 0 0.5
+*Al cladding 3
+RCC Al3 2.52 0 0 0.16 0 0 0.7
+*Ra target 3
+RCC Ra3 2.5685 0 0 0.063 0 0 0.5
+*Al cladding 4
+RCC Al4 2.78 0 0 0.16 0 0 0.7
+*Ra target 4
+RCC Ra4 2.8285 0 0 0.063 0 0 0.5
+RCC shell 1 0 0 2.1 0 0 1
+END
+*Black hole
+REGION BLKBODY 5
+	+blkbody -void
+*Void around
+REGION VOID 5
+	+void -shell 
+*Target
+REGION Ti1 5
+	+Ti1
+REGION Ti2
+	+Ti2
+REGION Ta1
+	+Ta1
+REGION Ta2
+	+Ta2
+REGION Ta3
+	+Ta3
+REGION Al1
+	+Al1 -Ra1 
+REGION Al2
+	+Al2 -Ra2 
+REGION Al3
+	+Al3 -Ra3 
+REGION Al4
+	+Al4 -Ra4
+REGION Ra1
+	+Ra1
+REGION Ra2
+	+Ra2
+REGION Ra3
+	+Ra3
+REGION Ra4
+	+Ra4
+REGION H2O
+	+shell -Al1 -Al2 -Al3 -Al4 -Ta1 -Ta2 -Ta3 -Ti1 -Ti2 
+	@select=1
+END
+GEOEND
+MATERIAL RADIUM 88,, 5.0
+*..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA , BLCKHOLE BLKBODY
+ASSIGNMA , VACUUM VOID
+ASSIGNMA , TITANIUM Ti1 Ti2
+ASSIGNMA , TANTALUM Ta1 Ta3
+ASSIGNMA , RADIUM Ra1 Ra4
+ASSIGNMA , ALUMINUM Al1 Al4
+ASSIGNMA , WATER H2O
+PHYSICS COALESCE 1
+PHYSICS EVAPORAT 3
+PHYSICS PEATHRES 999 999 999 999 999 999
+PHOTONUC , 1,,, RADIUM ALUMINUM
+EMF
+EMF-BIAS LPBEMF 66
+PAIRBREM , 2,,, TANTALUM
+*Requests simulation of radioactive decays and sets the corresponding
+*biasing and transport conditions
+RADDECAY , 1. 1 3,, 10000100
+*Define an irradiation profile for radioactive decay calculations
+IRRPROFI , =10*24*3600 =800*6.24e12
+*Defines decay times for radioactive product scoring
+DCYTIMES , 0 =10*3600*24
+RESNUCLE ra1 3 -21,,, Ra1
+RESNUCLE ra2 3 -21,,, Ra2
+RESNUCLE ra3 3 -21,,, Ra3
+RESNUCLE ra4 3 -21,,, Ra4
+*Associates selected scoring detectors with user-defined decay times
+DCYSCORE RESNUCLE 2,,, ra1 ra4
+USRBIN us1 10 PHOTON,, 4 0.5 1 1 -0.5 -1 99 1 99
+*Associates selected scoring detectors with user-defined decay times
+DCYSCORE USRBIN =10*3600*24
+*Set the random number seed
+RANDOMIZ , 1.0
+*Set the number of primary histories to be simulated in the run
+START , 10000
+STOP
+EndInput
+
+Page: Input
+
+# Run information
+Run: <default>
+	Status:   2
+	Pid:      1707236
+	StartRun: 1764828260.216692
+	open:     1
+End
+
+# Plots information
+Plot: Red
+	Type: Geometry
+	basisv: 0 0 1
+	coord: X-Z
+	extends: 2.173671108715736 1.0301883678883064
+	group: Geometry
+	layer: Lattice
+	origin: 1.90165 0 -0.0328052
+End
+Plot: Green
+	Type: Geometry
+	basisu: 0.836516 0.0173376 0.547668
+	basisv: 0.224144 0.901221 -0.370891
+	extends: 1283.9184645488626 608.4995389558853
+	group: Geometry
+	layer: 3D
+	origin: -84.5704 77.2099 -100.957
+End
+Plot: Blue
+	Type: Geometry
+	basisu: 0 0 1
+	coord: Z-Y
+	extends: 100.0 47.39393939393939
+	group: Geometry
+	layer: Lattice
+End
+Plot: Magenta
+	Type: Geometry
+	coord: X-Y
+	extends: 100.0 47.39393939393939
+	group: Geometry
+	layer: Lattice
+End
