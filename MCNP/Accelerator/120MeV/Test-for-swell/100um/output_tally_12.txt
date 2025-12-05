@@ -1,0 +1,2 @@
+Cells	Dir	Segments	Value	Error
+200	0	1	6.98907e-07	0.001
