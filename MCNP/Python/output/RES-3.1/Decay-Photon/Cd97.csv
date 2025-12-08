@@ -1,0 +1,5 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+325.3,,,,,2424.8,,2099.5,,,,,,48,49,Cd,,0,,(9/2+),2.8,,6,s,2.8,0.6,ECP,,,8160,420,46,50,Pd,1-Apr-2008,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+684,,,,,2099.5,,1415.5,,,,,,48,49,Cd,,0,,(9/2+),2.8,,6,s,2.8,0.6,ECP,,,8160,420,46,50,Pd,1-Apr-2008,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+1415.5,,,,,1415.5,,0.0,,,,,,48,49,Cd,,0,,(9/2+),2.8,,6,s,2.8,0.6,ECP,,,8160,420,46,50,Pd,1-Apr-2008,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+

@@ -1,0 +1,210 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: 7a066821793f11c54415fd2eb980a304
+Input:
+TITLE
+*Set the defaults for precision simulations
+DEFAULTS PRECISIO
+*Define the beam characteristics
+BEAM PROTON -0.016,,, -0.2 -0.2
+	@select=8
+*Define the beam position
+BEAMPOS , 0 0 0 1
+GEOBEGIN COMBNAME
+*Black body
+SPH blkbody 0.0 0.0 0.0 100000.0
+	@select=8
+*Void sphere
+SPH void 0.0 0.0 0.0 10000.0
+	@select=8
+RCC hole1 0 0 0 5.4 0 0 1.25
+	@select=8
+RCC hole2 5.4 0 0 1.4 0 0 1.0
+	@select=8
+RCC hole3 6.8 0 0 1.4 0 0 0.75
+	@select=8
+RCC hole4 8.2 0 0 1.4 0 0 0.5
+	@select=8
+RCC hole5 9.6 0 0 0.3 0 0 0.25
+	@select=8
+RCC hole6 9.9 0 0 2.55 0 0 0.5
+	@select=8
+TRC hole7 12.45 0 0 0.3 0 0 0.5 0
+	@select=8
+RCC ceramic1 4.3 0 0 0.7 0 0 2.25
+	@select=8
+RCC ceramic2 5.7 0 0 0.7 0 0 2.25
+	@select=8
+RCC ceramic3 7.1 0 0 0.7 0 0 2.25
+	@select=8
+RCC ceramic4 8.5 0 0 0.7 0 0 2.25
+	@select=8
+RCC ceramic5 9.9 0 0 0.7 0 0 2.25
+	@select=8
+RCC Cu1 4.85 0 0 1.0 0 0 4
+	@select=8
+RCC Cu2 =4.85+1.4 0 0 1.0 0 0 4
+	@select=8
+RCC Cu3 =4.85+1.4+1.4 0 0 1.0 0 0 4
+	@select=8
+RCC Cu4 =4.85+1.4+1.4+1.4 0 0 1.0 0 0 4
+	@select=8
+RCC Cu5 =4.85+1.4+1.4+1.4+1.4 0 0 1.0 0 0 4
+	@select=8
+RCC inshell 4.5 0 0 9.6 0 0 4.75
+	@select=8
+RCC outshell 2.9 0 0 12.5 0 0 5.25
+	@select=8
+RCC outshel1 0 0 0 2.9 0 0 1.5
+	@select=8
+RCC outshel2 11.45 0 0 2.2 0 0 1.
+	@select=8
+END
+*Black hole
+REGION BLKBODY 5
+	+blkbody -void
+*Void around
+REGION VOID 5
+	+void -outshell -outshel1
+REGION hole1 5
+	+hole1
+REGION hole2 5
+	+hole2
+REGION hole3 5
+	+hole3
+REGION hole4 5
+	+hole4
+REGION hole5 5
+	+hole5
+REGION hole6 5
+	+hole6
+REGION hole7 5
+	+hole7
+REGION Cu1 5
+	+Cu1 -ceramic1 -ceramic2 -hole1 -hole2
+REGION Cu2 5
+	+Cu2 -ceramic2 -ceramic3 -hole2 -hole3
+REGION Cu3 5
+	+Cu3 -ceramic3 -ceramic4 -hole4 -hole3
+REGION Cu4 5
+	+Cu4 -ceramic4  -ceramic5 -hole4 -hole5 -hole6
+REGION Cu5 5
+	+Cu5 -ceramic5 -hole6
+REGION ceramic1 5
+	+ceramic1 -hole1
+REGION ceramic2 5
+	+ceramic2 -hole2
+REGION ceramic3 5
+	+ceramic3 -hole3
+REGION ceramic4 5
+	+ceramic4 -hole4
+REGION ceramic5 5
+	+ceramic5 -hole6 
+REGION invacuum 5
+	+inshell -Cu1 -Cu2 -Cu3 -Cu4 -Cu5 -ceramic1 -ceramic3 -ceramic4 -ceramic5 -ceramic2 -hole1 -hole2 -hole3 -hole4 -hole5 -hole6 -hole7 -outshel2
+REGION ironshel 5
+	+outshell -inshell -hole1 -ceramic1
+REGION ironshe1 5
+	+outshel1 -hole1
+REGION ironshe2 5
+	+outshel2 -hole6 -hole7
+END
+GEOEND
+*..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA , BLCKHOLE BLKBODY
+ASSIGNMA , VACUUM VOID
+ASSIGNMA , VACUUM hole1
+ASSIGNMA , VACUUM hole2
+ASSIGNMA , VACUUM hole3
+ASSIGNMA , VACUUM hole4
+ASSIGNMA , VACUUM hole5
+ASSIGNMA , VACUUM hole6
+ASSIGNMA , VACUUM hole7
+ASSIGNMA , COPPER Cu1
+ASSIGNMA , COPPER Cu2
+ASSIGNMA , COPPER Cu3
+ASSIGNMA , COPPER Cu4
+ASSIGNMA , COPPER Cu5
+ASSIGNMA , SILICON ceramic1
+ASSIGNMA , SILICON ceramic2
+ASSIGNMA , SILICON ceramic3
+ASSIGNMA , SILICON ceramic4
+ASSIGNMA , SILICON ceramic5
+ASSIGNMA , AIR invacuum
+ASSIGNMA , IRON ironshel
+ASSIGNMA , IRON ironshe1
+ASSIGNMA , COPPER ironshe2
+*Requests simulation of radioactive decays and sets the corresponding
+*biasing and transport conditions
+RADDECAY , 1. 1 3,, 99999 1
+*Define an irradiation profile for radioactive decay calculations
+IRRPROFI , 7200 =50*6.24e12
+*Defines decay times for radioactive product scoring
+DCYTIMES , =2*24*3600 =10*24*3600 =30*24*3600
+*Associates selected scoring detectors with user-defined decay times
+DCYSCORE USRBIN 1,,, 21b 21b
+*Associates selected scoring detectors with user-defined decay times
+DCYSCORE USRBIN 2,,, 22b 22b
+*Associates selected scoring detectors with user-defined decay times
+DCYSCORE USRBIN 3,,, 23b 23b
+USRBIN 21b 10 PHOTON -21 20 0.1 10 -10 -0.1 -10 99 1 99
+USRBIN 22b 10 PHOTON -21 20 0.1 10 -10 -0.1 -10 99 1 99
+USRBIN 23b 10 PHOTON -21 20 0.1 10 -10 -0.1 -10 99 1 99
+AUXSCORE EWT74 USRBIN PHOTON,, 21b 23b
+RESNUCLE res1 3 -22,,, Cu1
+PHYSICS COALESCE 1
+PHYSICS EVAPORAT 3
+PHYSICS PEATHRES 1000 1000 1000 1000 1000 1000
+*Set the random number seed
+RANDOMIZ , 1.0 113441
+*Set the number of primary histories to be simulated in the run
+START , 10000,,, 1
+STOP
+EndInput
+
+Page: Input
+
+# Run information
+Run: <default>
+	Status:   4
+	StartRun: 1765180904.4125175
+	open:     1
+End
+
+# Plots information
+Plot: Red
+	Type: Geometry
+	basisv: 0 0 1
+	coord: X-Z
+	extends: 13.170850217821762 6.242184769900981
+	group: Geometry
+	layer: Lattice
+	origin: 6.17039 0 -0.331522
+End
+Plot: Green
+	Type: Geometry
+	basisu: -0.993533 0.00238434 -0.113519
+	basisv: 0.105336 0.392579 -0.913666
+	extends: 13.458798574153803 6.378654839386833
+	group: Geometry
+	layer: 3D
+	origin: 7.81132 -0.782828 0.0734261
+End
+Plot: Blue
+	Type: Geometry
+	basisu: 0 0 1
+	coord: Z-Y
+	extends: 5.408789293239536 2.5634383195838284
+	group: Geometry
+	layer: Lattice
+	origin: 2 1.01858 -0.504365
+End
+Plot: Magenta
+	Type: Geometry
+	coord: X-Y
+	extends: 19.27692504110573 9.136094170996778
+	group: Geometry
+	layer: Lattice
+	origin: 8.04237 -1.6658 0
+End

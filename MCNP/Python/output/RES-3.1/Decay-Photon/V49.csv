@@ -1,0 +1,7 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+0.477,,0.4780615764,0.09532521868110978,,,,,,,,,,23,26,V,,0,,7/2-,330,,15,d,28512000,1296000,EC,100,,601.9,8,22,27,Ti,14-Jul-2008,T. W. Burrows{+a},2025-02-24
+4.505,,5.996050400707057,0.13659941243941615,,,,,,,,,,23,26,V,,0,,7/2-,330,,15,d,28512000,1296000,EC,100,,601.9,8,22,27,Ti,14-Jul-2008,T. W. Burrows{+a},2025-02-24
+4.511,,11.812550040794045,0.26274434003486546,,,,,,,,,,23,26,V,,0,,7/2-,330,,15,d,28512000,1296000,EC,100,,601.9,8,22,27,Ti,14-Jul-2008,T. W. Burrows{+a},2025-02-24
+4.947,,2.359639558498896,0.061375242968793445,,,,,,,,,,23,26,V,,0,,7/2-,330,,15,d,28512000,1296000,EC,100,,601.9,8,22,27,Ti,14-Jul-2008,T. W. Burrows{+a},2025-02-24
+4.947,,2.359639558498896,0.061375242968793445,,,,,,,,,,23,26,V,,0,,7/2-,330,,15,d,28512000,1296000,EC,100,,601.9,8,22,27,Ti,14-Jul-2008,T. W. Burrows{+a},2025-02-24
+

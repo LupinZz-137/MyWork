@@ -1,0 +1,6 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+177,,,,,,,,,,,,,76,97,Os,,0,,5/2-,22.4,,9,s,22.4,0.9,EC+B+,99.6,0.2,6116,32,75,98,Re,1-Oct-1993,V. S. SHIRLEY,2025-02-24
+187,,,,,,,,,,,,,76,97,Os,,0,,5/2-,22.4,,9,s,22.4,0.9,EC+B+,99.6,0.2,6116,32,75,98,Re,1-Oct-1993,V. S. SHIRLEY,2025-02-24
+276,,,,,,,,,,,,,76,97,Os,,0,,5/2-,22.4,,9,s,22.4,0.9,EC+B+,99.6,0.2,6116,32,75,98,Re,1-Oct-1993,V. S. SHIRLEY,2025-02-24
+285,,,,,,,,,,,,,76,97,Os,,0,,5/2-,22.4,,9,s,22.4,0.9,EC+B+,99.6,0.2,6116,32,75,98,Re,1-Oct-1993,V. S. SHIRLEY,2025-02-24
+

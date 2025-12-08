@@ -1,0 +1,10 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+81.7,0.2,32.095,1.834,0.0000014,195.5,,113.8,(E2),,,1.95,,36,59,Kr,,195.5,0.3,(7/2+),1.4,,2,us,0.0000014,0.0000002,IT,100,,,,36,59,Kr,30-Jun-2009,S. K. Basu and  G. Mukherjee and  A. A. Sonzogni,2025-02-24
+113.8,0.2,91.7,4.585,,113.8,0.114,0.0,(M1),,,0.0905,,36,59,Kr,,195.5,0.3,(7/2+),1.4,,2,us,0.0000014,0.0000002,IT,100,,,,36,59,Kr,30-Jun-2009,S. K. Basu and  G. Mukherjee and  A. A. Sonzogni,2025-02-24
+1.648,,1.677502189475,0.09190889670611306,,,,,,,,,,36,59,Kr,,195.5,0.3,(7/2+),1.4,,2,us,0.0000014,0.0000002,IT,100,,,,36,59,Kr,30-Jun-2009,S. K. Basu and  G. Mukherjee and  A. A. Sonzogni,2025-02-24
+12.596,,11.316086137035517,0.6071070165318835,,,,,,,,,,36,59,Kr,,195.5,0.3,(7/2+),1.4,,2,us,0.0000014,0.0000002,IT,100,,,,36,59,Kr,30-Jun-2009,S. K. Basu and  G. Mukherjee and  A. A. Sonzogni,2025-02-24
+12.649,,21.820451479050362,1.1659298592141765,,,,,,,,,,36,59,Kr,,195.5,0.3,(7/2+),1.4,,2,us,0.0000014,0.0000002,IT,100,,,,36,59,Kr,30-Jun-2009,S. K. Basu and  G. Mukherjee and  A. A. Sonzogni,2025-02-24
+14.169,,5.228757797887098,0.28277636158050407,,,,,,,,,,36,59,Kr,,195.5,0.3,(7/2+),1.4,,2,us,0.0000014,0.0000002,IT,100,,,,36,59,Kr,30-Jun-2009,S. K. Basu and  G. Mukherjee and  A. A. Sonzogni,2025-02-24
+14.209,,5.755816583914117,0.3108847301822882,,,,,,,,,,36,59,Kr,,195.5,0.3,(7/2+),1.4,,2,us,0.0000014,0.0000002,IT,100,,,,36,59,Kr,30-Jun-2009,S. K. Basu and  G. Mukherjee and  A. A. Sonzogni,2025-02-24
+14.313,,0.5270587860270195,0.03253504342944676,,,,,,,,,,36,59,Kr,,195.5,0.3,(7/2+),1.4,,2,us,0.0000014,0.0000002,IT,100,,,,36,59,Kr,30-Jun-2009,S. K. Basu and  G. Mukherjee and  A. A. Sonzogni,2025-02-24
+

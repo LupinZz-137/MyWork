@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+214.9,,68.7,0.7,21.3,214.9,205120018834848,0.0,E3,,,0.455,,46,61,Pd,,214.6,0.3,11/2-,21.3,,5,s,21.3,0.5,IT,100,,,,46,61,Pd,1-Mar-2008,Jean Blachot,2025-02-24
+3.053,,1.568023914,0.04427725937825989,,,,,,,,,,46,61,Pd,,214.6,0.3,11/2-,21.3,,5,s,21.3,0.5,IT,100,,,,46,61,Pd,1-Mar-2008,Jean Blachot,2025-02-24
+21.02,,5.527445106025424,0.10349336640623873,,,,,,,,,,46,61,Pd,,214.6,0.3,11/2-,21.3,,5,s,21.3,0.5,IT,100,,,,46,61,Pd,1-Mar-2008,Jean Blachot,2025-02-24
+21.177,,10.44293426417046,0.1892052003348882,,,,,,,,,,46,61,Pd,,214.6,0.3,11/2-,21.3,,5,s,21.3,0.5,IT,100,,,,46,61,Pd,1-Mar-2008,Jean Blachot,2025-02-24
+23.904,,2.865113358806937,0.05797506783259608,,,,,,,,,,46,61,Pd,,214.6,0.3,11/2-,21.3,,5,s,21.3,0.5,IT,100,,,,46,61,Pd,1-Mar-2008,Jean Blachot,2025-02-24
+24.07,,3.3521826298041164,0.06630082615063237,,,,,,,,,,46,61,Pd,,214.6,0.3,11/2-,21.3,,5,s,21.3,0.5,IT,100,,,,46,61,Pd,1-Mar-2008,Jean Blachot,2025-02-24
+24.297,,0.4870692709971793,0.017388441544225842,,,,,,,,,,46,61,Pd,,214.6,0.3,11/2-,21.3,,5,s,21.3,0.5,IT,100,,,,46,61,Pd,1-Mar-2008,Jean Blachot,2025-02-24
+

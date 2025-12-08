@@ -1,0 +1,22 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+26.7,0.2,,,0.00001,148.3,,121.60,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+74.3,0.3,,,,280.7,,206.4,,,,,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+90.5,0.2,,,,206.4,,115.94,,,,,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+104.1,0.3,,,,426.0,,322.2,(M1+E2),,,1.87,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+115.8,0.2,,,,115.94,17.9,0.0,M1+E2,,,1.32,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+121.6,0.2,,,,121.60,17.9,0.0,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+149,0.3,,,,468.4,,319.4,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+197.8,0.2,,,,319.4,,121.60,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+200,0.3,,,,406.4,,206.4,,,,,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+203.4,0.3,,,,319.3,,115.94,,,,,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+309.7,0.3,,,,426.0,,115.94,(M1+E2),,,0.067,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+322.5,0.3,,,,322.2,17.9,0.0,(E2),,,0.0466,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+371.1,0.3,,,,690.5,,319.4,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+386.2,0.3,,,,507.8,,121.60,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+431.4,0.3,,,,553.0,,121.60,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+471.9,0.3,,,,587.8,,115.94,,,,,,64,75,Gd,,0,,(9/2-),5.8,,9,s,5.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+489.2,0.3,,,,808.6,,319.4,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+542.5,0.3,,,,664.1,,121.60,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+553.5,0.3,,,,675.1,,121.60,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+903.8,0.4,,,,1025.4,,121.60,,,,,,64,75,Gd,X,0,,,4.8,,9,s,4.8,0.9,EC+B+,100,,7766,196,63,76,Eu,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-02-24
+

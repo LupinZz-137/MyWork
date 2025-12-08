@@ -1,0 +1,11 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+16.86,0.02,,,,16.86,,0.0,,,,,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+522.757,0.006,57.34,6.5802498338285,,539.61,,16.86,E1,,,0.0116,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+539.599,0.009,36.66,3.760178713252869,,539.61,,0.0,E1,,,0.0109,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+15.784,,0.3984383936288,,,,,,,,,,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+89.954,,0.24636867313994198,,,,,,,,,,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+93.347,,0.39852583814290193,,,,,,,,,,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+105.566,,0.14180926426114893,,,,,,,,,,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+106.894,,0.1895989863171561,,,,,,,,,,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+108.58,,0.04778972205600719,,,,,,,,,,,89,144,Ac,,0,,(1/2+),143,,10,s,143,10,B-,100,,2576,13,90,143,Th,8-Oct-2020,B. Singh and  J. K. Tuli and  E. Browne,2025-02-24
+

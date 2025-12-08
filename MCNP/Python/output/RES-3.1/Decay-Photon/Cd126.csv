@@ -1,0 +1,13 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+62.93,0.2,1.392,0.2687322087134328,,688.23,,625.61,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+102.8,0.3,1.044,0.3512947480393067,,688.23,,585.45,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+260.09,0.09,87,5.301924179012747,,260.09,1.53,0.0,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+277.4,0.5,0.522,0.17564737401965336,,585.45,,308.1,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+325.3,0.4,0.522,0.2621011255221923,,585.45,,260.09,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+365.82,0.2,2.001,0.5300452810845503,,625.61,,260.09,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+428.11,0.06,72.819,4.1404347597806685,,688.23,,260.09,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+555.4,0.09,4.176,0.5561906148075496,,555.40,1.53,0.0,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+585.6,0.5,0.783,0.26347106102948004,,585.45,1.53,0.0,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+653.08,0.19,1.044,0.3512947480393067,,,,,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+688.23,0.1,5.133,0.4204759208325728,,688.23,1.53,0.0,,,,,,48,78,Cd,,0,,0+,0.514,,8,s,0.514,0.008,B-,100,,5554,5,49,77,In,1-Oct-2021,H. Iimura and  J.Katakura and  S. Ohya,2025-02-24
+

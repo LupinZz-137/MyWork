@@ -1,0 +1,7 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+1633.602,0.015,99.9995,0,,1633.674,,0,[E2],,,,,9,11,F,,0,,2+,11.07,,6,s,11.07,0.06,B-,100,,7024.469,30,10,10,Ne,21-APR-1997,D. R. TILLEY and  C. CHEVES and  J. KELLEY and  S. RAMAN and  H. WELLER,2025-02-24
+3332.54,0.2,0.0082,0.0006,,4966.51,,1633.674,[E1+M2+E3],,,,,9,11,F,,0,,2+,11.07,,6,s,11.07,0.06,B-,100,,7024.469,30,10,10,Ne,21-APR-1997,D. R. TILLEY and  C. CHEVES and  J. KELLEY and  S. RAMAN and  H. WELLER,2025-02-24
+4965.85,0.2,0.00005,0.00002,,4966.51,,0,[M2],,,,,9,11,F,,0,,2+,11.07,,6,s,11.07,0.06,B-,100,,7024.469,30,10,10,Ne,21-APR-1997,D. R. TILLEY and  C. CHEVES and  J. KELLEY and  S. RAMAN and  H. WELLER,2025-02-24
+0.848,,0.000003813197372690977,0.00000020706542487150038,,,,,,,,,,9,11,F,,0,,2+,11.07,,6,s,11.07,0.06,B-,100,,7024.469,30,10,10,Ne,21-APR-1997,D. R. TILLEY and  C. CHEVES and  J. KELLEY and  S. RAMAN and  H. WELLER,2025-02-24
+0.848,,0.0000019172756389890234,0.0000001045480258499236,,,,,,,,,,9,11,F,,0,,2+,11.07,,6,s,11.07,0.06,B-,100,,7024.469,30,10,10,Ne,21-APR-1997,D. R. TILLEY and  C. CHEVES and  J. KELLEY and  S. RAMAN and  H. WELLER,2025-02-24
+

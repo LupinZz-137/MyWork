@@ -1,0 +1,12 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+98,,2,0.3,,98,,0,E2,,,12.6,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+152,3,0.2,0.05,,246,,,[E1],,,0.184,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+187,3,0.29,0.1,,280,,,E2,,,0.88,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+246,3,0.39,0.1,,246,,0,[E1],,,0.059,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+15.784,,8.734484213952,1.3412230208028464,,,,,,,,,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+89.954,,0.028068948206806,0.0056757767642894846,,,,,,,,,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+93.347,,0.045404316089948236,0.009179297299121,,,,,,,,,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+105.566,,0.01615642460975748,0.003274161728594489,,,,,,,,,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+106.894,,0.021601139703245748,0.004376808802665153,,,,,,,,,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+108.58,,0.005444715093488271,0.001106345681086017,,,,,,,,,,92,136,U,,0,,0+,9.1,,2,m,546,12,A,95,,6800,9,90,134,Th,08-Mar-2022,Balraj Singh and  Sukhjeet Singh,2025-02-24
+

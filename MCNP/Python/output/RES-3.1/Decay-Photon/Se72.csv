@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+45.89,0.04,57.2,0.4,0.0000000107,46.025,,0,E1,,,0.747,,34,38,Se,,0,,0+,8.40,,8,d,725760,6912,EC,100,,362,5,33,39,As,1-May-2009,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+1.32,,2.584803436,0.14645142534070263,,,,,,,,,,34,38,Se,,0,,0+,8.40,,8,d,725760,6912,EC,100,,362,5,33,39,As,1-May-2009,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+10.509,,20.881870338422203,1.0765765579571767,,,,,,,,,,34,38,Se,,0,,0+,8.40,,8,d,725760,6912,EC,100,,362,5,33,39,As,1-May-2009,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+10.544,,40.52371499790841,2.079951862093982,,,,,,,,,,34,38,Se,,0,,0+,8.40,,8,d,725760,6912,EC,100,,362,5,33,39,As,1-May-2009,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+11.773,,9.265864967883383,0.4816247680593349,,,,,,,,,,34,38,Se,,0,,0+,8.40,,8,d,725760,6912,EC,100,,362,5,33,39,As,1-May-2009,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+11.791,,9.616114663669375,0.4997262521245935,,,,,,,,,,34,38,Se,,0,,0+,8.40,,8,d,725760,6912,EC,100,,362,5,33,39,As,1-May-2009,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+11.861,,0.35024969578599185,0.020864401430749573,,,,,,,,,,34,38,Se,,0,,0+,8.40,,8,d,725760,6912,EC,100,,362,5,33,39,As,1-May-2009,D. Abriola(a) and  A.A. Sonzogni,2025-02-24
+

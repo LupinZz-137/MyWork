@@ -1,0 +1,8 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+247.2,0.2,100,0,,247,,0.0,[E2],,,,,20,34,Ca,,0,,0+,107,,14,ms,0.107,0.014,B-,100,,9280,50,21,33,Sc,20-Jun-2014,YANG DONG and  HUO JUNDE,2025-02-24
+0.422,,0.00377606104,0.000762661291695872,,,,,,,,,,20,34,Ca,,0,,0+,107,,14,ms,0.107,0.014,B-,100,,9280,50,21,33,Sc,20-Jun-2014,YANG DONG and  HUO JUNDE,2025-02-24
+4.086,,0.0487541206553749,0.0014518877523649698,,,,,,,,,,20,34,Ca,,0,,0+,107,,14,ms,0.107,0.014,B-,100,,9280,50,21,33,Sc,20-Jun-2014,YANG DONG and  HUO JUNDE,2025-02-24
+4.091,,0.09618094427969007,0.0028246956535639203,,,,,,,,,,20,34,Ca,,0,,0+,107,,14,ms,0.107,0.014,B-,100,,9280,50,21,33,Sc,20-Jun-2014,YANG DONG and  HUO JUNDE,2025-02-24
+4.474,,0.019116935064935066,0.0006378421757553187,,,,,,,,,,20,34,Ca,,0,,0+,107,,14,ms,0.107,0.014,B-,100,,9280,50,21,33,Sc,20-Jun-2014,YANG DONG and  HUO JUNDE,2025-02-24
+4.474,,0.019116935064935066,0.0006378421757553187,,,,,,,,,,20,34,Ca,,0,,0+,107,,14,ms,0.107,0.014,B-,100,,9280,50,21,33,Sc,20-Jun-2014,YANG DONG and  HUO JUNDE,2025-02-24
+

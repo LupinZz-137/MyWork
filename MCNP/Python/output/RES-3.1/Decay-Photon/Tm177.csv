@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+44.5,0.5,,,,150.0,0.00000000448,104.5,,,,,,69,108,Tm,,0,,(1/2+),95,,7,s,95,7,B-,100,,3420,200,70,107,Yb,30-Aug-2019,F.G. KONDEV,2025-02-24
+104.5,0.3,,,0.00000000448,104.5,6879.6,0.0,E1,,,,,69,108,Tm,,0,,(1/2+),95,,7,s,95,7,B-,100,,3420,200,70,107,Yb,30-Aug-2019,F.G. KONDEV,2025-02-24
+227,0.5,,,6.41,331.5,0.00000000448,104.5,M3,,,,,69,108,Tm,,0,,(1/2+),95,,7,s,95,7,B-,100,,3420,200,70,107,Yb,30-Aug-2019,F.G. KONDEV,2025-02-24
+500,0.1,,,,,,,,,,,,69,108,Tm,,0,,(1/2+),95,,7,s,95,7,B-,100,,3420,200,70,107,Yb,30-Aug-2019,F.G. KONDEV,2025-02-24
+517.5,0.5,,,,622.0,0.00000000448,104.5,,,,,,69,108,Tm,,0,,(1/2+),95,,7,s,95,7,B-,100,,3420,200,70,107,Yb,30-Aug-2019,F.G. KONDEV,2025-02-24
+589,0.1,,,,,,,,,,,,69,108,Tm,,0,,(1/2+),95,,7,s,95,7,B-,100,,3420,200,70,107,Yb,30-Aug-2019,F.G. KONDEV,2025-02-24
+622,0.5,,,,622.0,6879.6,0.0,,,,,,69,108,Tm,,0,,(1/2+),95,,7,s,95,7,B-,100,,3420,200,70,107,Yb,30-Aug-2019,F.G. KONDEV,2025-02-24
+

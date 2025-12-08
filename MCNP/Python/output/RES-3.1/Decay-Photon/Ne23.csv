@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+440.5,0.6,32.9,1,,440.3,,0.0,M1+E2,0.065,5,5.45E-5,,10,13,Ne,,0,,5/2+,37.25,,10,s,37.25,0.1,B-,100,,4375.81,10,11,12,Na,1-Jun-2020,M.S. Basunia{+#} and  A. Chakraborty{+##},2025-02-24
+1636.6,0.8,1,0.05,,2076.9,,440.3,M1+E2,0.19,1,1.12E-4,,10,13,Ne,,0,,5/2+,37.25,,10,s,37.25,0.1,B-,100,,4375.81,10,11,12,Na,1-Jun-2020,M.S. Basunia{+#} and  A. Chakraborty{+##},2025-02-24
+2076.7,0.8,0.101,0.007,,2076.9,,0.0,E2(+M3),-0.14,14,3.50E-4,,10,13,Ne,,0,,5/2+,37.25,,10,s,37.25,0.1,B-,100,,4375.81,10,11,12,Na,1-Jun-2020,M.S. Basunia{+#} and  A. Chakraborty{+##},2025-02-24
+2541.3,0.9,0.0269,0.0022,,2981.8,,440.3,M1+E2,-0.09,3,4.73E-4,,10,13,Ne,,0,,5/2+,37.25,,10,s,37.25,0.1,B-,100,,4375.81,10,11,12,Na,1-Jun-2020,M.S. Basunia{+#} and  A. Chakraborty{+##},2025-02-24
+2981.7,0.8,0.0378,0.0023,,2981.8,,0.0,M1,,,6.51E-4,,10,13,Ne,,0,,5/2+,37.25,,10,s,37.25,0.1,B-,100,,4375.81,10,11,12,Na,1-Jun-2020,M.S. Basunia{+#} and  A. Chakraborty{+##},2025-02-24
+1.041,,0.00002373989258528316,0.0000012782059016252645,,,,,,,,,,10,13,Ne,,0,,5/2+,37.25,,10,s,37.25,0.1,B-,100,,4375.81,10,11,12,Na,1-Jun-2020,M.S. Basunia{+#} and  A. Chakraborty{+##},2025-02-24
+1.041,,0.000011938791981138902,0.0000006455437728420687,,,,,,,,,,10,13,Ne,,0,,5/2+,37.25,,10,s,37.25,0.1,B-,100,,4375.81,10,11,12,Na,1-Jun-2020,M.S. Basunia{+#} and  A. Chakraborty{+##},2025-02-24
+

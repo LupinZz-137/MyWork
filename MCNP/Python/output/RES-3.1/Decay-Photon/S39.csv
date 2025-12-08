@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+396.5,0.2,37,3,,1696.78,,1300.43,,,,,,16,23,S,,0,,(7/2)-,11.5,,5,s,11.5,0.5,B-,100,,6640,50,17,22,Cl,1-Jan-2018,JUN CHEN,2025-02-24
+396.5,0.2,3.5,1.1,,396.51,,0,,,,,,16,23,S,,0,,(7/2)-,11.5,,5,s,11.5,0.5,B-,100,,6640,50,17,22,Cl,1-Jan-2018,JUN CHEN,2025-02-24
+484.85,0.24,10.6,1.4,,1785.3,,1300.43,,,,,,16,23,S,,0,,(7/2)-,11.5,,5,s,11.5,0.5,B-,100,,6640,50,17,22,Cl,1-Jan-2018,JUN CHEN,2025-02-24
+874.31,0.18,12.8,1.4,,2571.10,,1696.78,,,,,,16,23,S,,0,,(7/2)-,11.5,,5,s,11.5,0.5,B-,100,,6640,50,17,22,Cl,1-Jan-2018,JUN CHEN,2025-02-24
+903.8,0.6,3.5,1.1,,1300.43,,396.51,,,,,,16,23,S,,0,,(7/2)-,11.5,,5,s,11.5,0.5,B-,100,,6640,50,17,22,Cl,1-Jan-2018,JUN CHEN,2025-02-24
+1300.52,0.16,52,3,,1300.43,,0,,,,,,16,23,S,,0,,(7/2)-,11.5,,5,s,11.5,0.5,B-,100,,6640,50,17,22,Cl,1-Jan-2018,JUN CHEN,2025-02-24
+1696.62,0.17,44,3,,1696.78,,0,,,,,,16,23,S,,0,,(7/2)-,11.5,,5,s,11.5,0.5,B-,100,,6640,50,17,22,Cl,1-Jan-2018,JUN CHEN,2025-02-24
+

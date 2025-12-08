@@ -1,0 +1,15 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+127,0.3,,,0.15,2934.5,,2808.4,E3,,,13.34,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+237.2,0.3,,,,2518.1,,2281.24,E2,,,0.1350,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+289.7,0.3,,,,2808.4,,2518.1,M1+E2,,,0.10,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+352,,,,,2986.0,,2634.9,,,,,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+353,,,,,3160.0,,2808.4,,,,,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+416.5,0.3,,,0.15,2934.5,,2518.1,(E3),,,0.0799,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+499,0.3,,,,2281.24,,1782.8,,,,,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+642,,,,,3160.0,,2518.1,,,,,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+673.7,0.3,,,,2281.24,,1607.75,,,,,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+682.9,0.3,,,,682.62,,0.0,E2,,,0.00703,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+925.3,0.3,,,,1607.75,,682.62,,,,,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+1027,,,,,2634.9,,1607.75,,,,,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+1100,0.3,,,,1782.8,,682.62,,,,,,67,79,Ho,X,0,,(6-),3.32,,22,s,3.32,0.22,EC+B+,100,,11317,9,66,80,Dy,14-Jul-2016,Yu. KHAZOV and  A. RODIONOV AND G. SHULYAK,2025-02-24
+

@@ -1,0 +1,12 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+52.1,0.4,,,,52.1,1398,0.0,[M1],,,4.94,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+53.4,0.4,,,,236.3,,182.9,E1,,,0.377,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+113,,,,,,,,,,,,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+130.8,0.3,,,,182.9,,52.1,[M1 E2],,,1.7,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+171,,,,,,,,,,,,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+184.2,0.3,,,,236.3,,52.1,E1,,,0.0750,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+236.3,0.3,,,,236.3,1398,0.0,[M2],,,1.80,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+294.5,0.4,,,,530.8,,236.3,[M1 E2],,,0.149,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+300,0.4,,,,,,,,,,,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+478.7,0.4,,,,530.8,,52.1,[E1],,,0.00751,,74,97,W,,0,,(5/2-),2.38,,4,m,142.8,2.4,EC+B+,100,,4634,40,73,98,Ta,30-Jun-2018,CORAL M. BAGLIN and  E.A. MCCUTCHAN,2025-02-24
+

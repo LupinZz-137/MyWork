@@ -1,0 +1,11 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+125,0.4,,,,,,,,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,EC+B+,52,2,5375,14,79,101,Au,1-Feb-2015,E.A. MCCUTCHAN,2025-02-24
+179,1,,,0.0000000007,443,0.000000000076,263,,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,A,48,2,6258.5,23,78,98,Pt,15-Sep-2005,M.S. BASUNIA,2025-02-24
+263,1,,,0.000000000076,263,6.33,0.0,,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,A,48,2,6258.5,23,78,98,Pt,15-Sep-2005,M.S. BASUNIA,2025-02-24
+300.5,0.3,,,,,,,,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,EC+B+,52,2,5375,14,79,101,Au,1-Feb-2015,E.A. MCCUTCHAN,2025-02-24
+381.2,0.4,,,,,,,,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,EC+B+,52,2,5375,14,79,101,Au,1-Feb-2015,E.A. MCCUTCHAN,2025-02-24
+405,0.5,,,,,,,,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,EC+B+,52,2,5375,14,79,101,Au,1-Feb-2015,E.A. MCCUTCHAN,2025-02-24
+443,,,,0.0000000007,443,6.33,0.0,E0,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,A,48,2,6258.5,23,78,98,Pt,15-Sep-2005,M.S. BASUNIA,2025-02-24
+450.5,0.5,,,,,,,,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,EC+B+,52,2,5375,14,79,101,Au,1-Feb-2015,E.A. MCCUTCHAN,2025-02-24
+479.9,0.4,,,,,,,,,,,,80,100,Hg,,0,,0+,2.59,,1,s,2.59,0.01,EC+B+,52,2,5375,14,79,101,Au,1-Feb-2015,E.A. MCCUTCHAN,2025-02-24
+

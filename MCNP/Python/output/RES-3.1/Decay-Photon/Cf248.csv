@@ -1,0 +1,5 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+42.965,0.01,0.019,0.001,,42.957,,0.0,E2,,,1050,,98,150,Cf,,0,,0+,333.5,,28,d,28814400,241920,A,99.9971,0.0003,6361,5,96,148,Cm,31-Aug-2017,C.D. Nesaraja,2025-02-24
+99.383,0.004,0.02,0.01,,142.340,,42.957,E2,,,19.3,,98,150,Cf,,0,,0+,333.5,,28,d,28814400,241920,A,99.9971,0.0003,6361,5,96,148,Cm,31-Aug-2017,C.D. Nesaraja,2025-02-24
+18.579,,7.9186068,0.5477666231566141,,,,,,,,,,98,150,Cf,,0,,0+,333.5,,28,d,28814400,241920,A,99.9971,0.0003,6361,5,96,148,Cm,31-Aug-2017,C.D. Nesaraja,2025-02-24
+

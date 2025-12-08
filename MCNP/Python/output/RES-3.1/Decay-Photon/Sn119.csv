@@ -1,0 +1,10 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+23.875,0.01,16.5,0.2,0.00000001803,23.875,,0,M1+E2,0.003,LT,5.06,,50,69,Sn,,89.531,0.013,11/2-,293.1,,7,d,25323840,60480,IT,100,,,,50,69,Sn,1-Dec-2008,D. M. SYMOCHKO and  E. BROWNE and  J. K. TULI,2025-02-24
+65.66,0.01,0.02,0.0003,25315200,89.535,0.00000001803,23.875,M4,,,5.00E3,,50,69,Sn,,89.531,0.013,11/2-,293.1,,7,d,25323840,60480,IT,100,,,,50,69,Sn,1-Dec-2008,D. M. SYMOCHKO and  E. BROWNE and  J. K. TULI,2025-02-24
+3.753,,11.1261368,0.39450596565045754,,,,,,,,,,50,69,Sn,,89.531,0.013,11/2-,293.1,,7,d,25323840,60480,IT,100,,,,50,69,Sn,1-Dec-2008,D. M. SYMOCHKO and  E. BROWNE and  J. K. TULI,2025-02-24
+25.044,,7.925058871992472,0.15719179074424647,,,,,,,,,,50,69,Sn,,89.531,0.013,11/2-,293.1,,7,d,25323840,60480,IT,100,,,,50,69,Sn,1-Dec-2008,D. M. SYMOCHKO and  E. BROWNE and  J. K. TULI,2025-02-24
+25.271,,14.832601295138447,0.2858982394667037,,,,,,,,,,50,69,Sn,,89.531,0.013,11/2-,293.1,,7,d,25323840,60480,IT,100,,,,50,69,Sn,1-Dec-2008,D. M. SYMOCHKO and  E. BROWNE and  J. K. TULI,2025-02-24
+28.579,,4.194101781845514,0.09000959023001115,,,,,,,,,,50,69,Sn,,89.531,0.013,11/2-,293.1,,7,d,25323840,60480,IT,100,,,,50,69,Sn,1-Dec-2008,D. M. SYMOCHKO and  E. BROWNE and  J. K. TULI,2025-02-24
+28.81,,5.020339832869081,0.10476148516875244,,,,,,,,,,50,69,Sn,,89.531,0.013,11/2-,293.1,,7,d,25323840,60480,IT,100,,,,50,69,Sn,1-Dec-2008,D. M. SYMOCHKO and  E. BROWNE and  J. K. TULI,2025-02-24
+29.107,,0.8262380510235663,0.030784371497647983,,,,,,,,,,50,69,Sn,,89.531,0.013,11/2-,293.1,,7,d,25323840,60480,IT,100,,,,50,69,Sn,1-Dec-2008,D. M. SYMOCHKO and  E. BROWNE and  J. K. TULI,2025-02-24
+

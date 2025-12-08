@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+181.9,,4.3,1.2,,181.9,,0.0,[M1],,,0.405,,66,76,Dy,,0,,0+,2.3,,3,s,2.3,0.3,EC+B+,100,,6440,1011,65,77,Tb,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-02-24
+7.118,,0.2711913852,0.06671513875915015,,,,,,,,,,66,76,Dy,,0,,0+,2.3,,3,s,2.3,0.3,EC+B+,100,,6440,1011,65,77,Tb,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-02-24
+43.743,,0.3912981861488253,0.10938091066014093,,,,,,,,,,66,76,Dy,,0,,0+,2.3,,3,s,2.3,0.3,EC+B+,100,,6440,1011,65,77,Tb,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-02-24
+44.481,,0.701628449253766,0.19610336256430846,,,,,,,,,,66,76,Dy,,0,,0+,2.3,,3,s,2.3,0.3,EC+B+,100,,6440,1011,65,77,Tb,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-02-24
+50.494,,0.22405430071279495,0.06266855211043917,,,,,,,,,,66,76,Dy,,0,,0+,2.3,,3,s,2.3,0.3,EC+B+,100,,6440,1011,65,77,Tb,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-02-24
+51.04,,0.2820843645974088,0.07889175351920796,,,,,,,,,,66,76,Dy,,0,,0+,2.3,,3,s,2.3,0.3,EC+B+,100,,6440,1011,65,77,Tb,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-02-24
+51.699,,0.05803006388461389,0.016269769536335545,,,,,,,,,,66,76,Dy,,0,,0+,2.3,,3,s,2.3,0.3,EC+B+,100,,6440,1011,65,77,Tb,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-02-24
+

@@ -1,0 +1,9 @@
+energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+114.9,0.2,,,,114.9,2.08,0.0,[M1+E2],0.10,3,0.046,,29,49,Cu,,0,,(4- 5- 6-),335,,11,ms,0.335,0.011,B-N,65,8,5928,13,30,47,Zn,30-SEP-2020,BALRAJ SINGH,2025-02-24
+145,,,,,2672.8,,2527.8,,,,,,29,49,Cu,,0,,(4- 5- 6-),335,,11,ms,0.335,0.011,B-,100,,12694,13,30,48,Zn,30-Jun-2009,AMEENAH R. FARHAN and  BALRAJ SINGH,2025-02-24
+576,,,,,3106,,2527.8,,,,,,29,49,Cu,,0,,(4- 5- 6-),335,,11,ms,0.335,0.011,B-,100,,12694,13,30,48,Zn,30-Jun-2009,AMEENAH R. FARHAN and  BALRAJ SINGH,2025-02-24
+688.7,0.3,,,,803.6,,114.9,,,,,,29,49,Cu,,0,,(4- 5- 6-),335,,11,ms,0.335,0.011,B-N,65,8,5928,13,30,47,Zn,30-SEP-2020,BALRAJ SINGH,2025-02-24
+730.4,0.3,,,,730.4,,0.0,,,,,,29,49,Cu,,0,,(4- 5- 6-),335,,11,ms,0.335,0.011,B-,100,,12694,13,30,48,Zn,30-Jun-2009,AMEENAH R. FARHAN and  BALRAJ SINGH,2025-02-24
+890.7,0.3,,,,1621.1,,730.4,,,,,,29,49,Cu,,0,,(4- 5- 6-),335,,11,ms,0.335,0.011,B-,100,,12694,13,30,48,Zn,30-Jun-2009,AMEENAH R. FARHAN and  BALRAJ SINGH,2025-02-24
+908.3,,,,,2527.8,,1621.1,,,,,,29,49,Cu,,0,,(4- 5- 6-),335,,11,ms,0.335,0.011,B-,100,,12694,13,30,48,Zn,30-Jun-2009,AMEENAH R. FARHAN and  BALRAJ SINGH,2025-02-24
+
