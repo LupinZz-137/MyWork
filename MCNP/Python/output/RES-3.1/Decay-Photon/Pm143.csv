@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-741.98,0.04,38.5,2.4,,741.98,,0.0,E2,,,0.00436,,61,82,Pm,,0,,5/2+,265,,7,d,22896000,604800,EC+B+,100,,1042,3,60,83,Nd,31-May-2011,E. BROWNE and  J. K. TULI,2025-02-24
-5.87,,11.9239247176,0.6260802242288515,,,,,,,,,,61,82,Pm,,0,,5/2+,265,,7,d,22896000,604800,EC+B+,100,,1042,3,60,83,Nd,31-May-2011,E. BROWNE and  J. K. TULI,2025-02-24
-36.848,,21.617906828293158,0.7742612081738015,,,,,,,,,,61,82,Pm,,0,,5/2+,265,,7,d,22896000,604800,EC+B+,100,,1042,3,60,83,Nd,31-May-2011,E. BROWNE and  J. K. TULI,2025-02-24
-37.362,,39.369708301389835,1.3986156810151964,,,,,,,,,,61,82,Pm,,0,,5/2+,265,,7,d,22896000,604800,EC+B+,100,,1042,3,60,83,Nd,31-May-2011,E. BROWNE and  J. K. TULI,2025-02-24
-42.38,,12.090782569862371,0.44848472372287673,,,,,,,,,,61,82,Pm,,0,,5/2+,265,,7,d,22896000,604800,EC+B+,100,,1042,3,60,83,Nd,31-May-2011,E. BROWNE and  J. K. TULI,2025-02-24
-42.81,,15.198113690317,0.5604945005280885,,,,,,,,,,61,82,Pm,,0,,5/2+,265,,7,d,22896000,604800,EC+B+,100,,1042,3,60,83,Nd,31-May-2011,E. BROWNE and  J. K. TULI,2025-02-24
-43.335,,3.1073311204546292,0.13015250860763014,,,,,,,,,,61,82,Pm,,0,,5/2+,265,,7,d,22896000,604800,EC+B+,100,,1042,3,60,83,Nd,31-May-2011,E. BROWNE and  J. K. TULI,2025-02-24
-

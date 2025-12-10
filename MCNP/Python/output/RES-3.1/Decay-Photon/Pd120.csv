@@ -1,8 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-52.5,0.2,39,3,,52.50,1.23,0.0,,,,,,46,74,Pd,,0,,0+,492,,33,ms,0.492,0.033,B-,100,,5372,5,47,73,Ag,1-DEC-2001,K. KITAO and  Y. TENDOW AND A. HASHIZUME,2025-02-24
-68.9,0.2,36,8,,,,,,,,,,46,74,Pd,,0,,0+,492,,33,ms,0.492,0.033,B-,100,,5372,5,47,73,Ag,1-DEC-2001,K. KITAO and  Y. TENDOW AND A. HASHIZUME,2025-02-24
-89.8,0.3,73,10,,300.4,,210.6,,,,,,46,74,Pd,,0,,0+,492,,33,ms,0.492,0.033,B-,100,,5372,5,47,73,Ag,1-DEC-2001,K. KITAO and  Y. TENDOW AND A. HASHIZUME,2025-02-24
-101.7,0.3,54,10,,,,,,,,,,46,74,Pd,,0,,0+,492,,33,ms,0.492,0.033,B-,100,,5372,5,47,73,Ag,1-DEC-2001,K. KITAO and  Y. TENDOW AND A. HASHIZUME,2025-02-24
-158.1,0.2,100,8,,210.6,,52.50,,,,,,46,74,Pd,,0,,0+,492,,33,ms,0.492,0.033,B-,100,,5372,5,47,73,Ag,1-DEC-2001,K. KITAO and  Y. TENDOW AND A. HASHIZUME,2025-02-24
-595.2,0.4,37,3.7,,805.8,,210.6,,,,,,46,74,Pd,,0,,0+,492,,33,ms,0.492,0.033,B-,100,,5372,5,47,73,Ag,1-DEC-2001,K. KITAO and  Y. TENDOW AND A. HASHIZUME,2025-02-24
-

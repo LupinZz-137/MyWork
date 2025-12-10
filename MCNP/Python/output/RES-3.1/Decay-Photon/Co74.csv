@@ -1,5 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-240,,,,,240,,0,,,,,,27,47,Co,,0,,,31.3,,15,ms,0.0313,0.0015,B-N,18,15,8497,400,28,45,Ni,16-May-2019,BALRAJ SINGH and JUN CHEN,2025-02-24
-739,1,,,,1763,,1024,,,,,,27,47,Co,,0,,,31.3,,15,ms,0.0313,0.0015,B-,100,,15160,450,28,46,Ni,31-MAR-2017,BALRAJ SINGH,2025-02-24
-1024,1,,,,1024,,0,,,,,,27,47,Co,,0,,,31.3,,15,ms,0.0313,0.0015,B-,100,,15160,450,28,46,Ni,31-MAR-2017,BALRAJ SINGH,2025-02-24
-

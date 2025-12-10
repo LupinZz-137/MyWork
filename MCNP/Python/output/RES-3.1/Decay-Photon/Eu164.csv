@@ -1,8 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-61.1,,,,,,,,,,,,,63,101,Eu,,0,,(3),4.15,,20,s,4.15,0.2,B-,100,,6461.5,23,64,100,Gd,30-Nov-2017,BALRAJ SINGH AND JUN CHEN{+#},2025-02-24
-73.27,0.05,,,0.00000000277,73.27,,0.0,,,,,,63,101,Eu,,0,,(3),4.15,,20,s,4.15,0.2,B-,100,,6461.5,23,64,100,Gd,30-Nov-2017,BALRAJ SINGH AND JUN CHEN{+#},2025-02-24
-92.8,,,,,,,,,,,,,63,101,Eu,,0,,(3),4.15,,20,s,4.15,0.2,B-,100,,6461.5,23,64,100,Gd,30-Nov-2017,BALRAJ SINGH AND JUN CHEN{+#},2025-02-24
-168.6,,,,,241.9,0.00000000277,73.27,,,,,,63,101,Eu,,0,,(3),4.15,,20,s,4.15,0.2,B-,100,,6461.5,23,64,100,Gd,30-Nov-2017,BALRAJ SINGH AND JUN CHEN{+#},2025-02-24
-193.1,,,,,,,,,,,,,63,101,Eu,,0,,(3),4.15,,20,s,4.15,0.2,B-,100,,6461.5,23,64,100,Gd,30-Nov-2017,BALRAJ SINGH AND JUN CHEN{+#},2025-02-24
-261.2,,,,,503.2,,241.9,,,,,,63,101,Eu,,0,,(3),4.15,,20,s,4.15,0.2,B-,100,,6461.5,23,64,100,Gd,30-Nov-2017,BALRAJ SINGH AND JUN CHEN{+#},2025-02-24
-

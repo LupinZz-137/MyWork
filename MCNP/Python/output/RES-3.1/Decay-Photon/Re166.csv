@@ -1,5 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-252.3,0.2,,,,252.3,,0.0,E2,,,0.1447,,75,91,Re,,0,,,2.25,,21,s,2.25,0.21,EC+B+,76,,10050,89,74,92,W,1-Mar-2008,CORAL M. BAGLIN,2025-02-24
-423.9,0.2,,,,676.2,,252.3,(E2),,,0.0321,,75,91,Re,,0,,,2.25,,21,s,2.25,0.21,EC+B+,76,,10050,89,74,92,W,1-Mar-2008,CORAL M. BAGLIN,2025-02-24
-550.2,0.2,,,,1226.4,,676.2,(E2),,,0.01661,,75,91,Re,,0,,,2.25,,21,s,2.25,0.21,EC+B+,76,,10050,89,74,92,W,1-Mar-2008,CORAL M. BAGLIN,2025-02-24
-

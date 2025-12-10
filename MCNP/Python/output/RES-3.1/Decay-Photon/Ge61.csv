@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-511,,110,,,,,,,,,,,32,29,Ge,,0,,(3/2-),44,,6,ms,0.044,0.006,EC+B+,100,,13345,302,31,30,Ga,25-Jan-2015,KAZIMIERZ ZUBER and  BALRAJ SINGH,2025-02-24
-1.127,,0.00093094518,0.0001381446117490423,,,,,,,,,,32,29,Ge,,0,,(3/2-),44,,6,ms,0.044,0.006,EC+B+,100,,13345,302,31,30,Ga,25-Jan-2015,KAZIMIERZ ZUBER and  BALRAJ SINGH,2025-02-24
-9.225,,0.008263808119373573,0.0012957858496760516,,,,,,,,,,32,29,Ge,,0,,(3/2-),44,,6,ms,0.044,0.006,EC+B+,100,,13345,302,31,30,Ga,25-Jan-2015,KAZIMIERZ ZUBER and  BALRAJ SINGH,2025-02-24
-9.252,,0.01605870213636528,0.0025168359421747946,,,,,,,,,,32,29,Ge,,0,,(3/2-),44,,6,ms,0.044,0.006,EC+B+,100,,13345,302,31,30,Ga,25-Jan-2015,KAZIMIERZ ZUBER and  BALRAJ SINGH,2025-02-24
-10.306,,0.003522653821333152,0.0005528519561015136,,,,,,,,,,32,29,Ge,,0,,(3/2-),44,,6,ms,0.044,0.006,EC+B+,100,,13345,302,31,30,Ga,25-Jan-2015,KAZIMIERZ ZUBER and  BALRAJ SINGH,2025-02-24
-10.313,,0.003543789744261151,0.0005561439665837886,,,,,,,,,,32,29,Ge,,0,,(3/2-),44,,6,ms,0.044,0.006,EC+B+,100,,13345,302,31,30,Ga,25-Jan-2015,KAZIMIERZ ZUBER and  BALRAJ SINGH,2025-02-24
-10.365,,0.00002113592292799891,0.0000062388847280018,,,,,,,,,,32,29,Ge,,0,,(3/2-),44,,6,ms,0.044,0.006,EC+B+,100,,13345,302,31,30,Ga,25-Jan-2015,KAZIMIERZ ZUBER and  BALRAJ SINGH,2025-02-24
-

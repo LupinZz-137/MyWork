@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-280.459,0.015,97.06,0.08,,342.539,4146,62.08,M1(+E2),0.04,22,0.0303,,50,60,Sn,,0,,0+,4.154,,4,h,14954.4,14.4,EC,100,,628,18,49,61,In,1-Aug-2011,G. G~URDAL and F.G. KONDEV,2025-02-24
-3.571,,6.4804735188864,0.19145642153044987,,,,,,,,,,50,60,Sn,,0,,0+,4.154,,4,h,14954.4,14.4,EC,100,,628,18,49,61,In,1-Aug-2011,G. G~URDAL and F.G. KONDEV,2025-02-24
-24.001,,21.055680231101245,0.15386629251126005,,,,,,,,,,50,60,Sn,,0,,0+,4.154,,4,h,14954.4,14.4,EC,100,,628,18,49,61,In,1-Aug-2011,G. G~URDAL and F.G. KONDEV,2025-02-24
-24.209,,39.504090489871004,0.22136653378525714,,,,,,,,,,50,60,Sn,,0,,0+,4.154,,4,h,14954.4,14.4,EC,100,,628,18,49,61,In,1-Aug-2011,G. G~URDAL and F.G. KONDEV,2025-02-24
-27.367,,11.083964758846854,0.12265925204489393,,,,,,,,,,50,60,Sn,,0,,0+,4.154,,4,h,14954.4,14.4,EC,100,,628,18,49,61,In,1-Aug-2011,G. G~URDAL and F.G. KONDEV,2025-02-24
-27.581,,13.189918063027756,0.12993415358631327,,,,,,,,,,50,60,Sn,,0,,0+,4.154,,4,h,14954.4,14.4,EC,100,,628,18,49,61,In,1-Aug-2011,G. G~URDAL and F.G. KONDEV,2025-02-24
-27.858,,2.105953304180902,0.07046906368871242,,,,,,,,,,50,60,Sn,,0,,0+,4.154,,4,h,14954.4,14.4,EC,100,,628,18,49,61,In,1-Aug-2011,G. G~URDAL and F.G. KONDEV,2025-02-24
-

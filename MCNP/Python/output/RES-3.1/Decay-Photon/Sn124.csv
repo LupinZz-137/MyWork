@@ -1,7 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-78.2,0.5,,,0.000045,2656.6,,2578.39,E2,,,3.86,,50,74,Sn,,2656.6,0.5,(10+),45,,5,us,0.000045,0.000005,IT,100,,,,50,74,Sn,1-Apr-2008,J. KATAKURA and  Z.D. WU,2025-02-24
-120.38,0.03,,,,2324.96,,2204.58,,,,,,50,74,Sn,,2656.6,0.5,(10+),45,,5,us,0.000045,0.000005,IT,100,,,,50,74,Sn,1-Apr-2008,J. KATAKURA and  Z.D. WU,2025-02-24
-253.43,0.03,,,,2578.39,,2324.96,D+Q,0.09,5,,,50,74,Sn,,2656.6,0.5,(10+),45,,5,us,0.000045,0.000005,IT,100,,,,50,74,Sn,1-Apr-2008,J. KATAKURA and  Z.D. WU,2025-02-24
-1072.88,0.02,,,,2204.58,,1131.696,,,,,,50,74,Sn,,2656.6,0.5,(10+),45,,5,us,0.000045,0.000005,IT,100,,,,50,74,Sn,1-Apr-2008,J. KATAKURA and  Z.D. WU,2025-02-24
-1131.69,0.02,,,,1131.696,,0.0,,,,,,50,74,Sn,,2656.6,0.5,(10+),45,,5,us,0.000045,0.000005,IT,100,,,,50,74,Sn,1-Apr-2008,J. KATAKURA and  Z.D. WU,2025-02-24
-

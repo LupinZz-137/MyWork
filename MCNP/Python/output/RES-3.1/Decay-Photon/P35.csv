@@ -1,4 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-1572.25,0.03,99.53112,0.05791139166001798,,1572.29,,0,,,,,,15,20,P,,0,,1/2+,47.3,,8,s,47.3,0.8,B-,100,,3988.4,19,16,19,S,20-Oct-2011,JUN CHEN and  JOHN CAMERON AND BALRAJ SINGH,2025-02-24
-2938.29,0.4,0.473478,0.030222913641804953,,2938.4,,0,,,,,,15,20,P,,0,,1/2+,47.3,,8,s,47.3,0.8,B-,100,,3988.4,19,16,19,S,20-Oct-2011,JUN CHEN and  JOHN CAMERON AND BALRAJ SINGH,2025-02-24
-

@@ -1,6 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-65.9,1,,,,65.9,0.82,0.0,[E2],,,10.2,,60,98,Nd,,1648.1,1.4,(6-),339,,20,ns,0.000000339,0.00000002,IT,,,,,60,98,Nd,1-Feb-2017,N. NICA,2025-02-24
-151.7,0.5,,,,217.6,,65.9,[E2],,,0.503,,60,98,Nd,,1648.1,1.4,(6-),339,,20,ns,0.000000339,0.00000002,IT,,,,,60,98,Nd,1-Feb-2017,N. NICA,2025-02-24
-233.4,0.5,,,,451.0,,217.6,[E2],,,0.1173,,60,98,Nd,,1648.1,1.4,(6-),339,,20,ns,0.000000339,0.00000002,IT,,,,,60,98,Nd,1-Feb-2017,N. NICA,2025-02-24
-1197.1,0.5,,,0.000000339,1648.1,,451.0,[E1],,,6.98E-4,,60,98,Nd,,1648.1,1.4,(6-),339,,20,ns,0.000000339,0.00000002,IT,,,,,60,98,Nd,1-Feb-2017,N. NICA,2025-02-24
-

@@ -1,4 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-93,4,,,0.125,242,0.00000001,148.7,[E3],,,2.6E+2,,85,110,At,,0,,(1/2+),290,,20,ms,0.29,0.02,A,100,,7344,6,83,108,Bi,1-Dec-2023,M.S. Basunia,2025-02-24
-148.7,0.5,,,0.00000001,148.7,12.4,0.0,(M1),,,3.29,,85,110,At,,33,1,(7/2-),143,,3,ms,0.143,0.003,A,88,4,7344,6,83,108,Bi,1-Dec-2023,M.S. Basunia,2025-02-24
-

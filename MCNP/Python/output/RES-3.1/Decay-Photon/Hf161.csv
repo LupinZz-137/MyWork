@@ -1,8 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-91.2,0.5,,,,226.8+X,,135.6,,,,,,72,89,Hf,,0,,(7/2-),18.4,,4,s,18.4,0.4,EC+B+,99.87,,6247,36,71,90,Lu,1-Jun-2011,C. W. Reich,2025-02-24
-135.6,0.3,,,,135.6+X,,0+X,,,,,,72,89,Hf,,0,,(7/2-),18.4,,4,s,18.4,0.4,EC+B+,99.87,,6247,36,71,90,Lu,1-Jun-2011,C. W. Reich,2025-02-24
-199.6,0.4,,,,335.2+X,,135.6,,,,,,72,89,Hf,,0,,(7/2-),18.4,,4,s,18.4,0.4,EC+B+,99.87,,6247,36,71,90,Lu,1-Jun-2011,C. W. Reich,2025-02-24
-209.2,0.5,,,,275.9+X,,66.7,,,,,,72,89,Hf,,0,,(7/2-),18.4,,4,s,18.4,0.4,EC+B+,99.87,,6247,36,71,90,Lu,1-Jun-2011,C. W. Reich,2025-02-24
-217.6,0.4,,,,444.4+X,,226.8,,,,,,72,89,Hf,,0,,(7/2-),18.4,,4,s,18.4,0.4,EC+B+,99.87,,6247,36,71,90,Lu,1-Jun-2011,C. W. Reich,2025-02-24
-275.9,0.5,,,,275.9+X,,0+X,,,,,,72,89,Hf,,0,,(7/2-),18.4,,4,s,18.4,0.4,EC+B+,99.87,,6247,36,71,90,Lu,1-Jun-2011,C. W. Reich,2025-02-24
-

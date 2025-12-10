@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-542.7,,,,,542.6,21.48,0.0,(E2),,,3.84E-4,,17,29,Cl,,0,,(2-),232,,2,ms,0.232,0.002,B-N,60,9,7965,97,18,27,Ar,30-Oct-2007,T. W. BURROWS,2025-02-24
-797.7,,,,,1340.2,,542.6,,,,,,17,29,Cl,,0,,(2-),232,,2,ms,0.232,0.002,B-N,60,9,7965,97,18,27,Ar,30-Oct-2007,T. W. BURROWS,2025-02-24
-874,,,,,1416.6,,542.6,,,,,,17,29,Cl,,0,,(2-),232,,2,ms,0.232,0.002,B-N,60,9,7965,97,18,27,Ar,30-Oct-2007,T. W. BURROWS,2025-02-24
-1228,,,,,1770.6,,542.6,,,,,,17,29,Cl,,0,,(2-),232,,2,ms,0.232,0.002,B-N,60,9,7965,97,18,27,Ar,30-Oct-2007,T. W. BURROWS,2025-02-24
-1340,,,,,1340.2,21.48,0.0,,,,,,17,29,Cl,,0,,(2-),232,,2,ms,0.232,0.002,B-N,60,9,7965,97,18,27,Ar,30-Oct-2007,T. W. BURROWS,2025-02-24
-1346,,,,,,,,,,,,,17,29,Cl,,0,,(2-),232,,2,ms,0.232,0.002,B-N,60,9,7965,97,18,27,Ar,30-Oct-2007,T. W. BURROWS,2025-02-24
-1416.1,,,,,1416.6,21.48,0.0,,,,,,17,29,Cl,,0,,(2-),232,,2,ms,0.232,0.002,B-N,60,9,7965,97,18,27,Ar,30-Oct-2007,T. W. BURROWS,2025-02-24
-

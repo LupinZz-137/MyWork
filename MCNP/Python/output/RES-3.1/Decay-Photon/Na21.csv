@@ -1,7 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-350.725,0.008,5.07,0.13,,350.727,,0.0,,,,,,11,10,Na,,0,,3/2+,22.49,,4,s,22.49,0.04,EC+B+,100,,3546.92,6,10,11,Ne,15-Jan-2015,R.B. FIRESTONE,2025-02-24
-2793.94,0.05,0.0004,0.00008,,2794.14,,0.0,M1,,,,,11,10,Na,,0,,3/2+,22.49,,4,s,22.49,0.04,EC+B+,100,,3546.92,6,10,11,Ne,15-Jan-2015,R.B. FIRESTONE,2025-02-24
-511,,199.8,,,,,,,,,,,11,10,Na,,0,,3/2+,22.49,,4,s,22.49,0.04,EC+B+,100,,3546.92,6,10,11,Ne,15-Jan-2015,R.B. FIRESTONE,2025-02-24
-0.848,,0.000003732238662975779,0.0000007718855418970079,,,,,,,,,,11,10,Na,,0,,3/2+,22.49,,4,s,22.49,0.04,EC+B+,100,,3546.92,6,10,11,Ne,15-Jan-2015,R.B. FIRESTONE,2025-02-24
-0.848,,0.0000018765695997442217,0.00000038821619495064363,,,,,,,,,,11,10,Na,,0,,3/2+,22.49,,4,s,22.49,0.04,EC+B+,100,,3546.92,6,10,11,Ne,15-Jan-2015,R.B. FIRESTONE,2025-02-24
-

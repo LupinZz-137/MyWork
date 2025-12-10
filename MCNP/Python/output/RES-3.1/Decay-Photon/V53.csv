@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-247,1,0.1792,0,,1536.6,,1289.02,,,,,,23,30,V,,0,,7/2-,1.543,,14,m,92.58,0.84,B-,100,,3436,3,24,29,Cr,31-Mar-2007,HUO JUNDE,2025-02-24
-282.7,0.3,0.7616,0,,1289.02,,1006.17,,,,,,23,30,V,,0,,7/2-,1.543,,14,m,92.58,0.84,B-,100,,3436,3,24,29,Cr,31-Mar-2007,HUO JUNDE,2025-02-24
-442.7,0.3,0.38528,0,,1006.17,,563.54,,,,,,23,30,V,,0,,7/2-,1.543,,14,m,92.58,0.84,B-,100,,3436,3,24,29,Cr,31-Mar-2007,HUO JUNDE,2025-02-24
-531,1,0.1792,0,,1536.6,,1006.17,,,,,,23,30,V,,0,,7/2-,1.543,,14,m,92.58,0.84,B-,100,,3436,3,24,29,Cr,31-Mar-2007,HUO JUNDE,2025-02-24
-563.6,0.3,0.38528,0,,563.54,,0.0,,,,,,23,30,V,,0,,7/2-,1.543,,14,m,92.58,0.84,B-,100,,3436,3,24,29,Cr,31-Mar-2007,HUO JUNDE,2025-02-24
-1006,0.3,89.6,0,,1006.17,,0.0,,,,,,23,30,V,,0,,7/2-,1.543,,14,m,92.58,0.84,B-,100,,3436,3,24,29,Cr,31-Mar-2007,HUO JUNDE,2025-02-24
-1289.1,0.3,10.0352,0,,1289.02,,0.0,,,,,,23,30,V,,0,,7/2-,1.543,,14,m,92.58,0.84,B-,100,,3436,3,24,29,Cr,31-Mar-2007,HUO JUNDE,2025-02-24
-

@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-238,,2.39,0.1,,238.27,,0.0,,,,,,12,8,Mg,,0,,0+,90.4,,7,ms,0.0904,0.0007,B+P,30.3,1.2,,,10,9,Ne,31-OCT-1994,TILLEY and  WELLER and  CHEVES and  CHASTELER,2025-02-24
-275,,4.58,0.2,,275.09,,0.0,,,,,,12,8,Mg,,0,,0+,90.4,,7,ms,0.0904,0.0007,B+P,30.3,1.2,,,10,9,Ne,31-OCT-1994,TILLEY and  WELLER and  CHEVES and  CHASTELER,2025-02-24
-1233,,0.22,0.009,,1507.56,,275.09,,,,,,12,8,Mg,,0,,0+,90.4,,7,ms,0.0904,0.0007,B+P,30.3,1.2,,,10,9,Ne,31-OCT-1994,TILLEY and  WELLER and  CHEVES and  CHASTELER,2025-02-24
-1261,,0.07,0.003,,1536.0,,275.09,,,,,,12,8,Mg,,0,,0+,90.4,,7,ms,0.0904,0.0007,B+P,30.3,1.2,,,10,9,Ne,31-OCT-1994,TILLEY and  WELLER and  CHEVES and  CHASTELER,2025-02-24
-1269,,0.03,0.0013,,1507.56,,238.27,,,,,,12,8,Mg,,0,,0+,90.4,,7,ms,0.0904,0.0007,B+P,30.3,1.2,,,10,9,Ne,31-OCT-1994,TILLEY and  WELLER and  CHEVES and  CHASTELER,2025-02-24
-1298,,1.24,0.05,,1536.0,,238.27,,,,,,12,8,Mg,,0,,0+,90.4,,7,ms,0.0904,0.0007,B+P,30.3,1.2,,,10,9,Ne,31-OCT-1994,TILLEY and  WELLER and  CHEVES and  CHASTELER,2025-02-24
-511,,193.4,,,,,,,,,,,12,8,Mg,,0,,0+,90.4,,7,ms,0.0904,0.0007,B+,100,,10627.2,22,11,9,Na,21-APR-1997,D. R. TILLEY and  C. CHEVES and  J. KELLEY and  S. RAMAN and  H. WELLER,2025-02-24
-

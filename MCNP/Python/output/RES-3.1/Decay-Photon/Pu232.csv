@@ -1,8 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-17.136,,31.7955442,,,,,,,,,,,94,138,Pu,,0,,0+,33.8,,7,m,2028,42,EC,90,,1002,101,93,139,Np,1-Nov-2004,E. BROWNE,2025-02-24
-97.078,,17.335190008611672,,,,,,,,,,,94,138,Pu,,0,,0+,33.8,,7,m,2028,42,EC,90,,1002,101,93,139,Np,1-Nov-2004,E. BROWNE,2025-02-24
-101.068,,27.59501752405551,,,,,,,,,,,94,138,Pu,,0,,0+,33.8,,7,m,2028,42,EC,90,,1002,101,93,139,Np,1-Nov-2004,E. BROWNE,2025-02-24
-114.16,,10.06249439533692,,,,,,,,,,,94,138,Pu,,0,,0+,33.8,,7,m,2028,42,EC,90,,1002,101,93,139,Np,1-Nov-2004,E. BROWNE,2025-02-24
-115.608,,13.523992467332821,,,,,,,,,,,94,138,Pu,,0,,0+,33.8,,7,m,2028,42,EC,90,,1002,101,93,139,Np,1-Nov-2004,E. BROWNE,2025-02-24
-117.47,,3.4614980719959005,,,,,,,,,,,94,138,Pu,,0,,0+,33.8,,7,m,2028,42,EC,90,,1002,101,93,139,Np,1-Nov-2004,E. BROWNE,2025-02-24
-

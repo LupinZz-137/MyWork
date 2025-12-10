@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-160.1,0.2,,,,160.1,,0.0,(M1),,,1.353,,75,117,Re,X,160.1,,,85,,10,us,0.000085,0.00001,IT,100,,,,75,117,Re,15-Jun-2012,Coral M. Baglin,2025-02-24
-205.7943,0.00009,,,,205.79442,,0.0,E2,,,0.302,,75,117,Re,,0,,,16,,1,s,16,1,B-,100,,4290,70,76,116,Os,15-Jun-2012,Coral M. Baglin,2025-02-24
-267,10,,,61,267,,0,,,,,,75,117,Re,,267,10,,61,,+40-20,s,61,30,IT,100,,,,75,117,Re,15-Jun-2012,Coral M. Baglin,2025-02-24
-283.2668,0.0008,,,,489.0614,,205.79442,M1+E2,-3.8,7,0.121,,75,117,Re,,0,,,16,,1,s,16,1,B-,100,,4290,70,76,116,Os,15-Jun-2012,Coral M. Baglin,2025-02-24
-467.47,0.03,,,,956.54,,489.0614,[E2],,,0.0270,,75,117,Re,,0,,,16,,1,s,16,1,B-,100,,4290,70,76,116,Os,15-Jun-2012,Coral M. Baglin,2025-02-24
-489.038,0.013,,,,489.0614,,0.0,E2,,,0.0241,,75,117,Re,,0,,,16,,1,s,16,1,B-,100,,4290,70,76,116,Os,15-Jun-2012,Coral M. Baglin,2025-02-24
-750.96,0.15,,,,956.54,,205.79442,[E2],,,0.00896,,75,117,Re,,0,,,16,,1,s,16,1,B-,100,,4290,70,76,116,Os,15-Jun-2012,Coral M. Baglin,2025-02-24
-

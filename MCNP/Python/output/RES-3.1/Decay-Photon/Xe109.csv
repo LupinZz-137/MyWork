@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-150,3,23,7.093835351909431,,150,0.00000062,0.0,[M1+E2],,,0.31,,54,55,Xe,,0,,(7/2+),13,,2,ms,0.013,0.002,A,100,,4217,7,52,53,Te,1-Apr-2019,S. LALKOVSKI and  J. TIMAR and Z. ELEKES,2025-02-24
-4.135,,0.55364105,0.20206205751534903,,,,,,,,,,54,55,Xe,,0,,(7/2+),13,,2,ms,0.013,0.002,A,100,,4217,7,52,53,Te,1-Apr-2019,S. LALKOVSKI and  J. TIMAR and Z. ELEKES,2025-02-24
-27.202,,1.433089637095564,0.5970608700510108,,,,,,,,,,54,55,Xe,,0,,(7/2+),13,,2,ms,0.013,0.002,A,100,,4217,7,52,53,Te,1-Apr-2019,S. LALKOVSKI and  J. TIMAR and Z. ELEKES,2025-02-24
-27.473,,2.6686957860252587,1.1117757781489026,,,,,,,,,,54,55,Xe,,0,,(7/2+),13,,2,ms,0.013,0.002,A,100,,4217,7,52,53,Te,1-Apr-2019,S. LALKOVSKI and  J. TIMAR and Z. ELEKES,2025-02-24
-31.093,,0.763734245586835,0.31827832405181034,,,,,,,,,,54,55,Xe,,0,,(7/2+),13,,2,ms,0.013,0.002,A,100,,4217,7,52,53,Te,1-Apr-2019,S. LALKOVSKI and  J. TIMAR and Z. ELEKES,2025-02-24
-31.359,,0.9294645768791783,0.3873258965643562,,,,,,,,,,54,55,Xe,,0,,(7/2+),13,,2,ms,0.013,0.002,A,100,,4217,7,52,53,Te,1-Apr-2019,S. LALKOVSKI and  J. TIMAR and Z. ELEKES,2025-02-24
-31.698,,0.16573033129234319,0.06917188265815652,,,,,,,,,,54,55,Xe,,0,,(7/2+),13,,2,ms,0.013,0.002,A,100,,4217,7,52,53,Te,1-Apr-2019,S. LALKOVSKI and  J. TIMAR and Z. ELEKES,2025-02-24
-

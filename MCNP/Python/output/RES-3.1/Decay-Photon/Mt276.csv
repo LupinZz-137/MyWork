@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-136,1,,,,196.2,,60.2,(E1),,,0.0878,,109,167,Mt,,0,,,0.69,,+9-7,s,0.69,0.08,A,100,,10100,10,107,165,Bh,31-Jan-2019,BALRAJ SINGH,2025-02-24
-166,1,,,,362.2,,196.2,(E1),,,0.0543,,109,167,Mt,,0,,,0.69,,+9-7,s,0.69,0.08,A,100,,10100,10,107,165,Bh,31-Jan-2019,BALRAJ SINGH,2025-02-24
-302,1,,,,362.2,,60.2,[E1],,,0.0554,,109,167,Mt,,0,,,0.69,,+9-7,s,0.69,0.08,A,100,,10100,10,107,165,Bh,31-Jan-2019,BALRAJ SINGH,2025-02-24
-362.2,0.5,,,,362.2,10.5,0.0,[E1],,,0.0390,,109,167,Mt,,0,,,0.69,,+9-7,s,0.69,0.08,A,100,,10100,10,107,165,Bh,31-Jan-2019,BALRAJ SINGH,2025-02-24
-434,1,,,,434,10.5,0.0,[E1],,,0.0278,,109,167,Mt,,0,,,0.69,,+9-7,s,0.69,0.08,A,100,,10100,10,107,165,Bh,31-Jan-2019,BALRAJ SINGH,2025-02-24
-479.6,2.3,,,,479.6,10.5,0.0,[E1],,,0.0232,,109,167,Mt,,0,,,0.69,,+9-7,s,0.69,0.08,A,100,,10100,10,107,165,Bh,31-Jan-2019,BALRAJ SINGH,2025-02-24
-522.3,1.4,,,,,,,,,,,,109,167,Mt,,0,,,0.69,,+9-7,s,0.69,0.08,A,100,,10100,10,107,165,Bh,31-Jan-2019,BALRAJ SINGH,2025-02-24
-

@@ -1,8 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-569.45,0.08,96,3,,569.45,,0.0,,,,,,47,75,Ag,,0,,(3+),0.529,,13,s,0.529,0.013,B-,99.8,,9510,40,48,74,Cd,30-Sep-2006,T. TAMURA,2025-02-24
-650.2,0.12,20,3,,1979.35,,1329.15,,,,,,47,75,Ag,,0,,(3+),0.529,,13,s,0.529,0.013,B-,99.8,,9510,40,48,74,Cd,30-Sep-2006,T. TAMURA,2025-02-24
-759.7,0.08,33,3,,1329.15,,569.45,,,,,,47,75,Ag,,0,,(3+),0.529,,13,s,0.529,0.013,B-,99.8,,9510,40,48,74,Cd,30-Sep-2006,T. TAMURA,2025-02-24
-798.4,0.3,12,5,,1367.8,,569.45,,,,,,47,75,Ag,,0,,(3+),0.529,,13,s,0.529,0.013,B-,99.8,,9510,40,48,74,Cd,30-Sep-2006,T. TAMURA,2025-02-24
-1367.8,0.5,4.1,1.8,,1367.8,,0.0,,,,,,47,75,Ag,,0,,(3+),0.529,,13,s,0.529,0.013,B-,99.8,,9510,40,48,74,Cd,30-Sep-2006,T. TAMURA,2025-02-24
-1423.1,0.9,3.1,2.4,,,,,,,,,,47,75,Ag,,0,,(3+),0.529,,13,s,0.529,0.013,B-,99.8,,9510,40,48,74,Cd,30-Sep-2006,T. TAMURA,2025-02-24
-

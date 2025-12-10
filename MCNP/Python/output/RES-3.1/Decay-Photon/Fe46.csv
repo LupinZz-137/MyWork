@@ -1,9 +1,0 @@
-energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
-493.6,0.4,23,8,,494+X,,0+X,,,,,,26,20,Fe,,0,,0+,13.0,,20,ms,0.013,0.002,ECP,78.7,3.8,13436,302,24,21,Cr,30-Oct-2007,T. W. BURROWS,2025-02-24
-511,,40,,,,,,,,,,,26,20,Fe,,0,,0+,13.0,,20,ms,0.013,0.002,EC+B+,100,,13628,312,25,21,Mn,20-FEB-2010,BALRAJ SINGH,2025-02-24
-0.66,,0.00012942484,,,,,,,,,,,26,20,Fe,,0,,0+,13.0,,20,ms,0.013,0.002,EC+B+,100,,13628,312,25,21,Mn,20-FEB-2010,BALRAJ SINGH,2025-02-24
-5.888,,0.0016605463715864063,,,,,,,,,,,26,20,Fe,,0,,0+,13.0,,20,ms,0.013,0.002,EC+B+,100,,13628,312,25,21,Mn,20-FEB-2010,BALRAJ SINGH,2025-02-24
-5.899,,0.0032566118289594163,,,,,,,,,,,26,20,Fe,,0,,0+,13.0,,20,ms,0.013,0.002,EC+B+,100,,13628,312,25,21,Mn,20-FEB-2010,BALRAJ SINGH,2025-02-24
-6.512,,0.0006682417994541773,,,,,,,,,,,26,20,Fe,,0,,0+,13.0,,20,ms,0.013,0.002,EC+B+,100,,13628,312,25,21,Mn,20-FEB-2010,BALRAJ SINGH,2025-02-24
-6.512,,0.0006682417994541773,,,,,,,,,,,26,20,Fe,,0,,0+,13.0,,20,ms,0.013,0.002,EC+B+,100,,13628,312,25,21,Mn,20-FEB-2010,BALRAJ SINGH,2025-02-24
-
