@@ -557,7 +557,7 @@ m73    6012  -0.85                 $ EPDM ethylene propylene rubber     -0.9
        hlib = 99h
       pnlib = 19u 
 m74    9019  -0.67                 $ FFKM perfluoroether rubber         -2.0
-       6000  -0.329
+       6012  -0.329
        1001  -0.001
        nlib = 19c
        hlib = 99h
