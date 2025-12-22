@@ -1,1 +1,12 @@
 plot                                                                            
+color off
+color  on
+label 0 0 tal13     
+color 150 py 0                                                                  
+color off
+color  on
+label 1 0 tal13     
+legend  on
+label 0 0 tal13     
+pz 0                                                                            
+origin  3.7778E+01 -6.9445E-01  0.0000E+00 extent  4.6667E+01  4.6667E+01
