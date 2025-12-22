@@ -1,0 +1,1634 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: 0075717facb5f4a6888af39ebfcfdc10
+Input:
+TITLE
+	Rubber add pipe + other rubber
+DEFAULTS PRECISIO
+BEAM PROTON -0.12,,, -0.3 -0.3
+BEAMPOS ,,,, 1
+GEOBEGIN COMBNAME 100
+* -----------------------------------------------------------------------------
+* ----------------------------------SURFACE------------------------------------
+* -----------------------------------------------------------------------------
+*  Vacuum chamber
+*101 PX -33
+YZP S101 -33.0
+*102 PX 57
+YZP S102 57.0
+*103 PY -14
+XZP S103 -14.0
+*104 PY 14
+XZP S104 14.0
+*105 PZ -12
+XYP S105 -12.0
+*106 PZ 12
+XYP S106 12.0
+*107 P 0.122 0 -1 9.835
+PLA S107 0.122 0 -1.0 1.182273047954249 0 -9.69076268814958
+*108 P 0.122 0 -1 7
+PLA S108 0.122 0 -1.0 0.841475478970996 0 -6.89733999156554
+*109 PX 11
+YZP S109 11.0
+*111 PX -37
+YZP S111 -37.0
+*112 PX 61
+YZP S112 61.0
+*113 PY -18
+XZP S113 -18.0
+*114 PY 18
+XZP S114 18.0
+*115 PZ -15.7
+XYP S115 -15.7
+*116 PZ 16.5
+XYP S116 16.5
+*117 PX 15
+YZP S117 15.0
+*  collimator
+*  Up
+*121 RPP -2.5 2.5 -5.5 5.5 0.75 3.75
+RPP S121 -2.5 2.5 -5.5 5.5 0.75 3.75
+YZP S121.1 2.5
+PLA S121.2 -1 0 0 -2.5 0 0
+XZP S121.3 5.5
+PLA S121.4 0 -1 0 0 -5.5 0
+XYP S121.5 3.75
+PLA S121.6 0 0 -1 0 0 0.75
+*  Down
+*122 RPP -2.5 2.5 -5.5 5.5 -3.75 -0.75
+RPP S122 -2.5 2.5 -5.5 5.5 -3.75 -0.75
+YZP S122.1 2.5
+PLA S122.2 -1 0 0 -2.5 0 0
+XZP S122.3 5.5
+PLA S122.4 0 -1 0 0 -5.5 0
+XYP S122.5 -0.75
+PLA S122.6 0 0 -1 0 0 -3.75
+*  front
+*123 RPP -12 -7 2.5 5.5 -2. 2.
+RPP S123 -12.0 -7.0 2.5 5.5 -2.0 2.0
+YZP S123.1 -7.0
+PLA S123.2 -1 0 0 -12.0 0 0
+XZP S123.3 5.5
+PLA S123.4 0 -1 0 0 2.5 0
+XYP S123.5 2.0
+PLA S123.6 0 0 -1 0 0 -2.0
+*  back
+*124 RPP -12 -7 -5.5 -2.5 -2 2
+RPP S124 -12.0 -7.0 -5.5 -2.5 -2.0 2.0
+YZP S124.1 -7.0
+PLA S124.2 -1 0 0 -12.0 0 0
+XZP S124.3 -2.5
+PLA S124.4 0 -1 0 0 -5.5 0
+XYP S124.5 2.0
+PLA S124.6 0 0 -1 0 0 -2.0
+*125 RCC 0 0 3.75 0 0 23.25 1.2
+RCC S125 0 0 3.75 0 0 23.25 1.2
+ZCC S125.1 0 0 1.2
+XYP S125.2 27.0
+PLA S125.3 0 0 -1 0 0 3.75
+*126 RCC 0 0 3.75 0 0 23.25 0.7
+RCC S126 0 0 3.75 0 0 23.25 0.7
+ZCC S126.1 0 0 0.7
+XYP S126.2 27.0
+PLA S126.3 0 0 -1 0 0 3.75
+*127 RCC 0 0 -3.75 0 0 -23.25 1.2
+RCC S127 0 0 -3.75 0 0 -23.25 1.2
+ZCC S127.1 0 0 1.2
+PLA S127.2 0 0 -1 0 0 -27.0
+XYP S127.3 -3.75
+*128 RCC 0 0 -3.75 0 0 -23.25 0.7
+RCC S128 0 0 -3.75 0 0 -23.25 0.7
+ZCC S128.1 0 0 0.7
+PLA S128.2 0 0 -1 0 0 -27.0
+XYP S128.3 -3.75
+*129 RCC -9.5 5.5 0 0 24 0 1.2
+RCC S129 -9.5 5.5 0 0 24.0 0 1.2
+YCC S129.1 0 -9.5 1.2
+XZP S129.2 29.5
+PLA S129.3 0 -1 0 0 5.5 0
+*130 RCC -9.5 5.5 0 0 24 0 0.7
+RCC S130 -9.5 5.5 0 0 24.0 0 0.7
+YCC S130.1 0 -9.5 0.7
+XZP S130.2 29.5
+PLA S130.3 0 -1 0 0 5.5 0
+*131 RCC -9.5 -5.5 0 0 -24 0 1.2
+RCC S131 -9.5 -5.5 0 0 -24.0 0 1.2
+YCC S131.1 0 -9.5 1.2
+PLA S131.2 0 -1 0 0 -29.5 0
+XZP S131.3 -5.5
+*132 RCC -9.5 -5.5 0 0 -24 0 0.7
+RCC S132 -9.5 -5.5 0 0 -24.0 0 0.7
+YCC S132.1 0 -9.5 0.7
+PLA S132.2 0 -1 0 0 -29.5 0
+XZP S132.3 -5.5
+*  Beam stopper
+*140 RPP 22.6 45.6 -4.5 4.5 2.5 5.5
+RPP S140 22.6 45.6 -4.5 4.5 2.5 5.5
+YZP S140.1 45.6
+PLA S140.2 -1 0 0 22.6 0 0
+XZP S140.3 4.5
+PLA S140.4 0 -1 0 0 -4.5 0
+XYP S140.5 5.5
+PLA S140.6 0 0 -1 0 0 2.5
+*141 RPP 24 45.6 -4.5 4.5 -2.2 1.5
+RPP S141 24.0 45.6 -4.5 4.5 -2.2 1.5
+YZP S141.1 45.6
+PLA S141.2 -1 0 0 24.0 0 0
+XZP S141.3 4.5
+PLA S141.4 0 -1 0 0 -4.5 0
+XYP S141.5 1.5
+PLA S141.6 0 0 -1 0 0 -2.2
+*142 RPP 24 44 -3.5 3.5 -2.2 1.5
+RPP S142 24.0 44.0 -3.5 3.5 -2.2 1.5
+YZP S142.1 44.0
+PLA S142.2 -1 0 0 24.0 0 0
+XZP S142.3 3.5
+PLA S142.4 0 -1 0 0 -3.5 0
+XYP S142.5 1.5
+PLA S142.6 0 0 -1 0 0 -2.2
+*143 P 0.122 0 -1 6.5
+PLA S143 0.122 0 -1.0 0.781370087615925 0 -6.40467284931086
+*144 RPP 22.6 45.6 -4.5 4.5 1.5 2.5
+RPP S144 22.6 45.6 -4.5 4.5 1.5 2.5
+YZP S144.1 45.6
+PLA S144.2 -1 0 0 22.6 0 0
+XZP S144.3 4.5
+PLA S144.4 0 -1 0 0 -4.5 0
+XYP S144.5 2.5
+PLA S144.6 0 0 -1 0 0 1.5
+*  Target
+*150 RCC 35 0 3 0 0 -15 11
+RCC S150 35.0 0 3.0 0 0 -15.0 11.0
+ZCC S150.1 35.0 0 11.0
+PLA S150.2 0 0 -1 0 0 -12.0
+XYP S150.3 3.0
+*151 RPP 26 42 -3 3 -4 1.2
+RPP S151 26.0 42.0 -3.0 3.0 -4.0 1.2
+YZP S151.1 42.0
+PLA S151.2 -1 0 0 26.0 0 0
+XZP S151.3 3.0
+PLA S151.4 0 -1 0 0 -3.0 0
+XYP S151.5 1.2
+PLA S151.6 0 0 -1 0 0 -4.0
+*152 P 0.122 0 -1 4
+PLA S152 0.122 0 -1.0 0.480843130840569 0 -3.94133713803745
+*  Tongs
+*160 RPP 26 42 -3 3 -10 -5
+RPP S160 26.0 42.0 -3.0 3.0 -10.0 -5.0
+YZP S160.1 42.0
+PLA S160.2 -1 0 0 26.0 0 0
+XZP S160.3 3.0
+PLA S160.4 0 -1 0 0 -3.0 0
+XYP S160.5 -5.0
+PLA S160.6 0 0 -1 0 0 -10.0
+*161 RCC 34 0 -20 0 0 15 2.5
+RCC S161 34.0 0 -20.0 0 0 15.0 2.5
+ZCC S161.1 34.0 0 2.5
+XYP S161.2 -5.0
+PLA S161.3 0 0 -1 0 0 -20.0
+*162 RCC 34 0 -20 0 0 15 2.1
+RCC S162 34.0 0 -20.0 0 0 15.0 2.1
+ZCC S162.1 34.0 0 2.1
+XYP S162.2 -5.0
+PLA S162.3 0 0 -1 0 0 -20.0
+*163 P 0.122 0 -1 12
+PLA S163 0.122 0 -1.0 1.442529392521707 0 -11.8240114141124
+*164 P 0.122 0 -1 11
+PLA S164 0.122 0 -1.0 1.322318609811565 0 -10.838677129603
+*165 RCC 110 0 -165 0 0 12 0.6
+RCC S165 110.0 0 -165.0 0 0 12.0 0.6
+ZCC S165.1 110.0 0 0.6
+XYP S165.2 -153.0
+PLA S165.3 0 0 -1 0 0 -165.0
+*166 RCC 110 0 -165 0 0 12 0.4
+RCC S166 110.0 0 -165.0 0 0 12.0 0.4
+ZCC S166.1 110.0 0 0.4
+XYP S166.2 -153.0
+PLA S166.3 0 0 -1 0 0 -165.0
+*167 RPP -37 60 -20 20 -52 -50
+RPP S167 -37.0 60.0 -20.0 20.0 -52.0 -50.0
+YZP S167.1 60.0
+PLA S167.2 -1 0 0 -37.0 0 0
+XZP S167.3 20.0
+PLA S167.4 0 -1 0 0 -20.0 0
+XYP S167.5 -50.0
+PLA S167.6 0 0 -1 0 0 -52.0
+*  water pipe 1 EPDM
+*168 RCC -100 0 -100 200 0 0 2
+RCC S168 -100.0 0 -100.0 200.0 0 0 2.0
+XCC S168.1 0 -100.0 2.0
+YZP S168.2 100.0
+PLA S168.3 -1 0 0 -100.0 0 0
+*169 RCC -100 0 -100 200 0 0 1.7
+RCC S169 -100.0 0 -100.0 200.0 0 0 1.7
+XCC S169.1 0 -100.0 1.7
+YZP S169.2 100.0
+PLA S169.3 -1 0 0 -100.0 0 0
+*  Rubber
+*170 RCC 0 0 -100 1 0 0 2
+RCC S170 0 0 -100.0 1.0 0 0 2.0
+XCC S170.1 0 -100.0 2.0
+YZP S170.2 1.0
+PLA S170.3 -1 0 0 0 0 0
+*171 RCC -1 0 -100 3 0 0 2.2
+RCC S171 -1.0 0 -100.0 3.0 0 0 2.2
+XCC S171.1 0 -100.0 2.2
+YZP S171.2 2.0
+PLA S171.3 -1 0 0 -1.0 0 0
+*  water pipe 2 FFKM
+*172 RCC -100 -5 -100 200 0 0 2
+RCC S172 -100.0 -5.0 -100.0 200.0 0 0 2.0
+XCC S172.1 -5.0 -100.0 2.0
+YZP S172.2 100.0
+PLA S172.3 -1 0 0 -100.0 0 0
+*173 RCC -100 -5 -100 200 0 0 1.7
+RCC S173 -100.0 -5.0 -100.0 200.0 0 0 1.7
+XCC S173.1 -5.0 -100.0 1.7
+YZP S173.2 100.0
+PLA S173.3 -1 0 0 -100.0 0 0
+*174 RCC 0 -5 -100 1 0 0 2
+RCC S174 0 -5.0 -100.0 1.0 0 0 2.0
+XCC S174.1 -5.0 -100.0 2.0
+YZP S174.2 1.0
+PLA S174.3 -1 0 0 0 0 0
+*175 RCC -1 -5 -100 3 0 0 2.2
+RCC S175 -1.0 -5.0 -100.0 3.0 0 0 2.2
+XCC S175.1 -5.0 -100.0 2.2
+YZP S175.2 2.0
+PLA S175.3 -1 0 0 -1.0 0 0
+*  water pipe 3 Viton
+*176 RCC -100 -10 -100 200 0 0 2
+RCC S176 -100.0 -10.0 -100.0 200.0 0 0 2.0
+XCC S176.1 -10.0 -100.0 2.0
+YZP S176.2 100.0
+PLA S176.3 -1 0 0 -100.0 0 0
+*177 RCC -100 -10 -100 200 0 0 1.7
+RCC S177 -100.0 -10.0 -100.0 200.0 0 0 1.7
+XCC S177.1 -10.0 -100.0 1.7
+YZP S177.2 100.0
+PLA S177.3 -1 0 0 -100.0 0 0
+*178 RCC 0 -10 -100 1 0 0 2
+RCC S178 0 -10.0 -100.0 1.0 0 0 2.0
+XCC S178.1 -10.0 -100.0 2.0
+YZP S178.2 1.0
+PLA S178.3 -1 0 0 0 0 0
+*179 RCC -1 -10 -100 3 0 0 2.2
+RCC S179 -1.0 -10.0 -100.0 3.0 0 0 2.2
+XCC S179.1 -10.0 -100.0 2.2
+YZP S179.2 2.0
+PLA S179.3 -1 0 0 -1.0 0 0
+*  water pipe 4 PEEK
+*180 RCC -100 5 -100 200 0 0 2
+RCC S180 -100.0 5.0 -100.0 200.0 0 0 2.0
+XCC S180.1 5.0 -100.0 2.0
+YZP S180.2 100.0
+PLA S180.3 -1 0 0 -100.0 0 0
+*181 RCC -100 5 -100 200 0 0 1.7
+RCC S181 -100.0 5.0 -100.0 200.0 0 0 1.7
+XCC S181.1 5.0 -100.0 1.7
+YZP S181.2 100.0
+PLA S181.3 -1 0 0 -100.0 0 0
+*182 RCC 0 5 -100 1 0 0 2
+RCC S182 0 5.0 -100.0 1.0 0 0 2.0
+XCC S182.1 5.0 -100.0 2.0
+YZP S182.2 1.0
+PLA S182.3 -1 0 0 0 0 0
+*183 RCC -1 5 -100 3 0 0 2.2
+RCC S183 -1.0 5.0 -100.0 3.0 0 0 2.2
+XCC S183.1 5.0 -100.0 2.2
+YZP S183.2 2.0
+PLA S183.3 -1 0 0 -1.0 0 0
+*  water pipe 5 PTFE
+*184 RCC -100 10 -100 200 0 0 2
+RCC S184 -100.0 10.0 -100.0 200.0 0 0 2.0
+XCC S184.1 10.0 -100.0 2.0
+YZP S184.2 100.0
+PLA S184.3 -1 0 0 -100.0 0 0
+*185 RCC -100 10 -100 200 0 0 1.7
+RCC S185 -100.0 10.0 -100.0 200.0 0 0 1.7
+XCC S185.1 10.0 -100.0 1.7
+YZP S185.2 100.0
+PLA S185.3 -1 0 0 -100.0 0 0
+*186 RCC 0 10 -100 1 0 0 2
+RCC S186 0 10.0 -100.0 1.0 0 0 2.0
+XCC S186.1 10.0 -100.0 2.0
+YZP S186.2 1.0
+PLA S186.3 -1 0 0 0 0 0
+*187 RCC -1 10 -100 3 0 0 2.2
+RCC S187 -1.0 10.0 -100.0 3.0 0 0 2.2
+XCC S187.1 10.0 -100.0 2.2
+YZP S187.2 2.0
+PLA S187.3 -1 0 0 -1.0 0 0
+*  Boundary
+*1000 SO 300
+SPH S1000 0 0 0 300.0
+END
+* -----------------------------------------------------------------------------
+* -----------------------------------CELL--------------------------------------
+* -----------------------------------------------------------------------------
+*101 0 (101 -102 103 -104 105 -106 (-108:-109) )
+*     121 122 123 124 125 127 129 131 140 #141 #151 144
+REGION C101
+	+( -S101 +S102 -S103 +S104 -S105 +S106 +( +S108 | +S109 ) ) -S121 -S122
+	-S123 -S124 -S125 -S127 -S129 -S131 -S140 
+	-(+S141 -S142 +S143) 
+	-(+S151 -S152 +S108) -S144
+*111 22 -2.70 (111 -112 113 -114 115 -116 (-107:-117))
+*     (-101:102:-103:104:-105:106:(108 109))
+*     125 127 129 131 150       vol=46360
+REGION C111
+	+( -S111 +S112 -S113 +S114 -S115 +S116 +( +S107 | +S117 ) ) +( +S101 |
+	-S102 | +S103 | -S104 | +S105 | -S106 | +( -S108 -S109 ) ) -S125 -S127
+	-S129 -S131 -S150
+*  collimator
+* graphite
+*121 14 -2.10 -121
+REGION C121
+	+S121
+* graphite
+*122 14 -2.10 -122
+REGION C122
+	+S122
+* graphite
+*123 14 -2.10 -123
+REGION C123
+	+S123
+* graphite
+*124 14 -2.10 -124
+REGION C124
+	+S124
+*125 61 -8.96 -125 126
+REGION C125
+	+S125 -S126
+*126 1 -0.997 -126
+REGION C126
+	+S126
+*127 61 -8.96 -127 128
+REGION C127
+	+S127 -S128
+*128 1 -0.997 -128
+REGION C128
+	+S128
+*129 61 -8.96 -129 130
+REGION C129
+	+S129 -S130
+*130 1 -0.997 -130
+REGION C130
+	+S130
+*131 61 -8.96 -131 132
+REGION C131
+	+S131 -S132
+*132 1 -0.997 -132
+REGION C132
+	+S132
+*  Beam stopper
+* Cu
+*140 61 -8.96 -140
+REGION C140
+	+S140
+*141 61 -8.96 -141 142 -143
+REGION C141
+	+S141 -S142 +S143
+* Cu
+*144 14 -2.10 -144
+REGION C144
+	+S144
+*  Target
+* SS
+*150 65 -2.81 -150 108 -107       vol=1077
+REGION C150
+	+S150 -S108 +S107
+* Th
+*151 20 -11.72 -151 152 -108
+REGION C151
+	+S151 -S152 +S108
+*160 64 -8.03 -160 107 -163
+REGION C160
+	+S160 -S107 +S163
+*161 64 -8.03 -161 162  163
+REGION C161
+	+S161 -S162 -S163
+*165 73 -0.90 -165 166
+REGION C165
+	+S165 -S166
+*167 22 -2.70 -167
+REGION C167
+	+S167
+*  pipe 1
+*168 64 -8.03 -168 169  170
+REGION C168
+	+S168 -S169 -S170
+*169 1 -0.997 -169
+REGION C169
+	+S169
+*170 73 -0.90 -170 169
+REGION C170
+	+S170 -S169
+*171 64 -8.03 -171 168
+REGION C171
+	+S171 -S168
+*  pipe 2
+*172 64 -8.03 -172 173  174
+REGION C172
+	+S172 -S173 -S174
+*173 1 -0.997 -173
+REGION C173
+	+S173
+*174 74 -2.00 -174 173
+REGION C174
+	+S174 -S173
+*175 64 -8.03 -175 172
+REGION C175
+	+S175 -S172
+*  pipe 3
+*176 64 -8.03 -176 177  178
+REGION C176
+	+S176 -S177 -S178
+*177 1 -0.997 -177
+REGION C177
+	+S177
+*178 72 -1.80 -178 177
+REGION C178
+	+S178 -S177
+*179 64 -8.03 -179 176
+REGION C179
+	+S179 -S176
+*  pipe 4
+*180 64 -8.03 -180 181  182
+REGION C180
+	+S180 -S181 -S182
+*181 1 -0.997 -181
+REGION C181
+	+S181
+*182 70 -1.30 -182 181
+REGION C182
+	+S182 -S181
+*183 64 -8.03 -183 180
+REGION C183
+	+S183 -S180
+*  pipe 5
+*184 64 -8.03 -184 185  186
+REGION C184
+	+S184 -S185 -S186
+*185 1 -0.997 -185
+REGION C185
+	+S185
+*186 72 -1.80 -186 185
+REGION C186
+	+S186 -S185
+*187 64 -8.03 -187 184
+REGION C187
+	+S187 -S184
+*1000 0 -1000 #101#111 121 122 123 124 125 127 129 131 140 #141 #151 #150
+*     144  #160#161#165 167 168 171 172 175 176 179 180 183 184 187
+REGION C1000
+	+S1000 
+	-(+( -S101 +S102 -S103 +S104 -S105 +S106 +( +S108 | +S109 ) ) -S121 -S122
+	-S123 -S124 -S125 -S127 -S129 -S131 -S140 
+	-(+S141 -S142 +S143) 
+	-(+S151 -S152 +S108) -S144) 
+	-(+( -S111 +S112 -S113 +S114 -S115 +S116 +( +S107 | +S117 ) ) +( +S101 |
+	-S102 | +S103 | -S104 | +S105 | -S106 | +( -S108 -S109 ) ) -S125 -S127
+	-S129 -S131 -S150) -S121 -S122 -S123 -S124 -S125 -S127 -S129 -S131 -S140
+	
+	-(+S141 -S142 +S143) 
+	-(+S151 -S152 +S108) 
+	-(+S150 -S108 +S107) -S144 
+	-(+S160 -S107 +S163) 
+	-(+S161 -S162 -S163) 
+	-(+S165 -S166) -S167 -S168 -S171 -S172 -S175
+	-S176 -S179 -S180 -S183 -S184 -S187
+*1001 0 1000
+REGION C1001
+	-S1000
+END
+GEOEND
+* c -----------------------------------------------------------------------------
+* c -----------------------------------TALLY-------------------------------------
+* c -----------------------------------------------------------------------------
+* f8:#  111 140 144 150 160 161
+* ft8 res
+* fq8 u e
+* f18:n 111 140 144 150 160 161
+* ft18 cap
+* *F16:n 170 111 144 150
+* fm16 1.12e31      $ 500*6.24e12*3600*1e12  1 Jerks= 1e9J   Gy/h
+* *F26:p 170 111 144 150
+* FM26 1.12e31
+* +F36   170 111 144 150
+* FM36  4.3e11      $ 500*6.24e12*10*24*3600*1.602e-13*1e3
+* -----------------------------------------------------------------------------
+* ---------------------------------MATERIALS-----------------------------------
+* -----------------------------------------------------------------------------
+* Aluminium   Al  -2.6989
+*M21
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     13027 -1
+MATERIAL M21 13,, 2.7,,, 27
+* Thorium     Th  -11.72
+*M20
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     90232 -1
+MATERIAL M20 90,, 11.72,,, 232
+* Copper      Cu  -8.96
+*M61
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     29063 -0.6848
+*     29065 -0.3152
+MATERIAL M61,,, 8.96
+COMPOUND M61 -0.6848 CU-63 -0.3152 CU-65
+* Water H2O       -0.997
+*M1
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     1001 -0.111872
+*     1002 -0.000026
+*     8016 -0.885692
+*     8017 -0.000359
+*     8018 -0.002048
+MATERIAL M1,,, 0.997
+COMPOUND M1 -0.111872 H-1 -2.6E-05 H-2 -0.885692 O-16 -0.000359 O-17 -0.002048 O-18
+* Titanium Alloy  -4.43
+*M32
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     6012 -0.000800
+*     8016 -0.001995
+*     8017 -0.000001
+*     8018 -0.000005
+*     7014 -0.000498
+*     7015 -0.000002
+*     1001 -0.000150
+*     26056 -0.004000
+*     13027 -0.061250
+*     23051 -0.040000
+*     22046 -0.07353225
+*     22047 -0.06631272
+*     22048 -0.65706636
+*     22049 -0.04821933
+*     22050 -0.04616934
+MATERIAL M32,,, 4.43
+COMPOUND M32 -0.0008 C-12 -0.001995 O-16 -1E-06 O-17 -5E-06 O-18 -0.000498 N-14 -2E-06 \
+	 N-15 -0.00015 H-1 -0.004 FE-56 -0.06125 AL-27 -0.04 V-51 -0.07353225 \
+	 TI-46 -0.06631272 TI-47 -0.65706636 TI-48 -0.04821933 TI-49 \
+	 -0.04616934 TI-50
+* Al---6061       -2.70
+*M22
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     12024 -0.010000
+*     13027 -0.972000
+*     14028 -0.005534
+*     14029 -0.000280
+*     14030 -0.000186
+*     22046 -0.000072
+*     22047 -0.000065
+*     22048 -0.000646
+*     22049 -0.000047
+*     22050 -0.000045
+*     24050 -0.000085
+*     24052 -0.001634
+*     24053 -0.000185
+*     24054 -0.000046
+*     25055 -0.000876
+*     26054 -0.000239
+*     26056 -0.003751
+*     26057 -0.000087
+*     26058 -0.000011
+*     29063 -0.001902
+*     29065 -0.000848
+*     30064 -0.000710
+*     30066 -0.000407
+*     30067 -0.000060
+*     30068 -0.000269
+*     30070 -0.000009
+MATERIAL M22,,, 2.7
+COMPOUND M22 -0.01 MG-24 -0.972 AL-27 -0.005534 SI-28 -0.00028 SI-29 -0.000186 SI-30 \
+	 -7.2E-05 TI-46 -6.5E-05 TI-47 -0.000646 TI-48 -4.7E-05 TI-49 -4.5E-05 \
+	 TI-50 -8.5E-05 CR-50 -0.001634 CR-52 -0.000185 CR-53 -4.6E-05 \
+	 CR-54 -0.000876 MN-55 -0.000239 FE-54 -0.003751 FE-56 -8.7E-05 \
+	 FE-57 -1.1E-05 FE-58 -0.001902 CU-63 -0.000848 CU-65 -0.00071 ZN-64 \
+	 -0.000407 ZN-66 -6E-05 ZN-67 -0.000269 ZN-68 -9E-06 ZN-70
+* Carbon       C   -2.10 ~
+*M14
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     6012 -1
+MATERIAL M14 6,, 2.1,,, 12
+* Al---7075       -2.81
+*M65
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     12024 -0.01948118
+*     12025 -0.00257283
+*     12026 -0.00294646
+*     13027 -0.892500
+*     14028 -0.00215321
+*     14029 -0.00011294
+*     14030 -0.00007686
+*     22046 -0.00009274
+*     22047 -0.00008546
+*     22048 -0.00086472
+*     22049 -0.00006478
+*     22050 -0.00006329
+*     24050 -0.00009599
+*     24052 -0.00192509
+*     24053 -0.00022249
+*     24054 -0.00005643
+*     25055 -0.001757
+*     26054 -0.00016536
+*     26056 -0.00269180
+*     26057 -0.00006328
+*     26058 -0.00000857
+*     29063 -0.01095668
+*     29065 -0.00504333
+*     30064 -0.02692416
+*     30066 -0.01565849
+*     30067 -0.00231594
+*     30068 -0.01073416
+*     30070 -0.00036535
+MATERIAL M65,,, 2.81
+COMPOUND M65 -0.01948118 MG-24 -0.00257283 MG-25 -0.00294646 MG-26 -0.8925 AL-27 \
+	 -0.00215321 SI-28 -0.00011294 SI-29 -7.686E-05 SI-30 -9.274E-05 TI-46 \
+	 -8.546E-05 TI-47 -0.00086472 TI-48 -6.478E-05 TI-49 -6.329E-05 \
+	 TI-50 -9.599E-05 CR-50 -0.00192509 CR-52 -0.00022249 CR-53 -5.643E-05 \
+	 CR-54 -0.001757 MN-55 -0.00016536 FE-54 -0.0026918 FE-56 -6.328E-05 \
+	 FE-57 -8.57E-06 FE-58 -0.01095668 CU-63 -0.00504333 CU-65 -0.02692416 \
+	 ZN-64 -0.01565849 ZN-66 -0.00231594 ZN-67 -0.01073416 ZN-68 \
+	 -0.00036535 ZN-70
+* Polytetrafluoroethylene PTFE -2.25
+*M69
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     6012 -0.23741251
+*     6013 -0.00275621
+*     9019 -0.759824
+MATERIAL M69,,, 2.25
+COMPOUND M69 -0.23741251 C-12 -0.00275621 C-13 -0.759824 F-19
+* Polyethylene C2H4                  -0.93
+*M53
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     1001 -0.143686
+*     1002 -0.000033
+*     6012 -0.84642359
+*     6013 -0.00982643
+MATERIAL M53,,, 0.93
+COMPOUND M53 -0.143686 H-1 -3.3E-05 H-2 -0.84642359 C-12 -0.00982643 C-13
+* polyimide               PI         -1.40
+*M71
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     6012 -0.68314812
+*     6013 -0.00793091
+*     1001 -0.02636160
+*     1002 -0.00000764
+*     7014 -0.07300107
+*     7015 -0.00028750
+*     8016 -0.20863867
+*     8017 -0.00008524
+*     8018 -0.00048130
+MATERIAL M71,,, 1.4
+COMPOUND M71 -0.68314812 C-12 -0.00793091 C-13 -0.0263616 H-1 -7.64E-06 H-2 -0.07300107 \
+	 N-14 -0.0002875 N-15 -0.20863867 O-16 -8.524E-05 O-17 -0.0004813 \
+	 O-18
+* EPDM ethylene propylene rubber     -0.9
+*M73
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     6012 -0.85
+*     1001 -0.145
+*     8016 -0.005
+MATERIAL M73,,, 0.9
+COMPOUND M73 -0.85 C-12 -0.145 H-1 -0.005 O-16
+* Steel, Stainless 304               -8.03
+*M64
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     6012 -0.000800
+*     25055 -0.020000
+*     15031 -0.000450
+*     16032 -0.00028379
+*     16033 -0.00000235
+*     16034 -0.00001388
+*     16036 -0.00000005
+*     14028 -0.00918995
+*     14029 -0.00048203
+*     14030 -0.00032802
+*     24050 -0.00793001
+*     24052 -0.15902888
+*     24053 -0.01837983
+*     24054 -0.00466139
+*     28058 -0.06383777
+*     28060 -0.02543714
+*     28061 -0.00112419
+*     28062 -0.00364308
+*     28064 -0.00095774
+*     26054 -0.03858467
+*     26056 -0.62810261
+*     26057 -0.01476508
+*     26058 -0.00199940
+MATERIAL M64,,, 8.03
+COMPOUND M64 -0.0008 C-12 -0.02 MN-55 -0.00045 P-31 -0.00028379 S-32 -2.35E-06 S-33 \
+	 -1.388E-05 S-34 -5E-08 S-36 -0.00918995 SI-28 -0.00048203 SI-29 \
+	 -0.00032802 SI-30 -0.00793001 CR-50 -0.15902888 CR-52 -0.01837983 \
+	 CR-53 -0.00466139 CR-54 -0.06383777 NI-58 -0.02543714 NI-60 -0.00112419 \
+	 NI-61 -0.00364308 NI-62 -0.00095774 NI-64 -0.03858467 FE-54 \
+	 -0.62810261 FE-56 -0.01476508 FE-57 -0.0019994 FE-58
+* FFKM perfluoroether rubber         -2.0
+*M74
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     9019 -0.67
+*     6012 -0.329
+*     1001 -0.001
+MATERIAL M74,,, 2.0
+COMPOUND M74 -0.67 F-19 -0.329 C-12 -0.001 H-1
+* Viton Fluoroelastomer              -1.8
+*M72
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     1001 -0.009415
+*     1002 -0.000002
+*     6012 -0.280555
+*     9019 -0.710028
+MATERIAL M72,,, 1.8
+COMPOUND M72 -0.009415 H-1 -2E-06 H-2 -0.280555 C-12 -0.710028 F-19
+* polyetheretherketone    PEEK       -1.30
+*M70
+*       nlib=19c
+*\M\hlib 99h
+*       pnlib=19u
+*     6012 -0.51128956
+*     6013 -0.00593574
+*     1001 -0.41366118
+*     1002 -0.00011989
+*     8016 -0.06878095
+*     8017 -0.00002810
+*     8018 -0.00015867
+MATERIAL M70,,, 1.3
+COMPOUND M70 -0.51128956 C-12 -0.00593574 C-13 -0.41366118 H-1 -0.00011989 H-2 -0.06878095 \
+	 O-16 -2.81E-05 O-17 -0.00015867 O-18
+MATERIAL AL-27 13,, 1.0,,, 27
+MATERIAL TH-232 90,, 1.0,,, 232
+MATERIAL CU-63 29,, 1.0,,, 63
+MATERIAL CU-65 29,, 1.0,,, 65
+MATERIAL H-1 1,, 1.0,,, 1
+MATERIAL H-2 1,, 1.0,,, 2
+MATERIAL O-16 8,, 1.0,,, 16
+MATERIAL O-17 8,, 1.0,,, 17
+MATERIAL O-18 8,, 1.0,,, 18
+MATERIAL C-12 6,, 1.0,,, 12
+MATERIAL N-14 7,, 1.0,,, 14
+MATERIAL N-15 7,, 1.0,,, 15
+MATERIAL FE-56 26,, 1.0,,, 56
+MATERIAL V-51 23,, 1.0,,, 51
+MATERIAL TI-46 22,, 1.0,,, 46
+MATERIAL TI-47 22,, 1.0,,, 47
+MATERIAL TI-48 22,, 1.0,,, 48
+MATERIAL TI-49 22,, 1.0,,, 49
+MATERIAL TI-50 22,, 1.0,,, 50
+MATERIAL MG-24 12,, 1.0,,, 24
+MATERIAL SI-28 14,, 1.0,,, 28
+MATERIAL SI-29 14,, 1.0,,, 29
+MATERIAL SI-30 14,, 1.0,,, 30
+MATERIAL CR-50 24,, 1.0,,, 50
+MATERIAL CR-52 24,, 1.0,,, 52
+MATERIAL CR-53 24,, 1.0,,, 53
+MATERIAL CR-54 24,, 1.0,,, 54
+MATERIAL MN-55 25,, 1.0,,, 55
+MATERIAL FE-54 26,, 1.0,,, 54
+MATERIAL FE-57 26,, 1.0,,, 57
+MATERIAL FE-58 26,, 1.0,,, 58
+MATERIAL ZN-64 30,, 1.0,,, 64
+MATERIAL ZN-66 30,, 1.0,,, 66
+MATERIAL ZN-67 30,, 1.0,,, 67
+MATERIAL ZN-68 30,, 1.0,,, 68
+MATERIAL ZN-70 30,, 1.0,,, 70
+MATERIAL MG-25 12,, 1.0,,, 25
+MATERIAL MG-26 12,, 1.0,,, 26
+MATERIAL C-13 6,, 1.0,,, 13
+MATERIAL F-19 9,, 1.0,,, 19
+MATERIAL P-31 15,, 1.0,,, 31
+MATERIAL S-32 16,, 1.0,,, 32
+MATERIAL S-33 16,, 1.0,,, 33
+MATERIAL S-34 16,, 1.0,,, 34
+MATERIAL S-36 16,, 1.0,,, 36
+MATERIAL NI-58 28,, 1.0,,, 58
+MATERIAL NI-60 28,, 1.0,,, 60
+MATERIAL NI-61 28,, 1.0,,, 61
+MATERIAL NI-62 28,, 1.0,,, 62
+MATERIAL NI-64 28,, 1.0,,, 64
+ASSIGNMA , VACUUM C101
+ASSIGNMA , M22 C111
+ASSIGNMA , M14 C121
+ASSIGNMA , M14 C122
+ASSIGNMA , M14 C123
+ASSIGNMA , M14 C124
+ASSIGNMA , M61 C125
+ASSIGNMA , M1 C126
+ASSIGNMA , M61 C127
+ASSIGNMA , M1 C128
+ASSIGNMA , M61 C129
+ASSIGNMA , M1 C130
+ASSIGNMA , M61 C131
+ASSIGNMA , M1 C132
+ASSIGNMA , M61 C140
+ASSIGNMA , M61 C141
+ASSIGNMA , M14 C144
+ASSIGNMA , M65 C150
+ASSIGNMA , M20 C151
+ASSIGNMA , M64 C160
+ASSIGNMA , M64 C161
+ASSIGNMA , M73 C165
+ASSIGNMA , M22 C167
+ASSIGNMA , M64 C168
+ASSIGNMA , M1 C169
+ASSIGNMA , M73 C170
+ASSIGNMA , M64 C171
+ASSIGNMA , M64 C172
+ASSIGNMA , M1 C173
+ASSIGNMA , M74 C174
+ASSIGNMA , M64 C175
+ASSIGNMA , M64 C176
+ASSIGNMA , M1 C177
+ASSIGNMA , M72 C178
+ASSIGNMA , M64 C179
+ASSIGNMA , M64 C180
+ASSIGNMA , M1 C181
+ASSIGNMA , M70 C182
+ASSIGNMA , M64 C183
+ASSIGNMA , M64 C184
+ASSIGNMA , M1 C185
+ASSIGNMA , M72 C186
+ASSIGNMA , M64 C187
+ASSIGNMA , VACUUM C1000
+ASSIGNMA , BLCKHOLE C1001
+SCORE , ENERGY
+USRBIN 170 12 ENERGY -21 C170,,, C170
+USRBIN 174 12 ENERGY -21 C174,,, C174
+USRBIN 178 12 ENERGY -21 C178,,, C178
+USRBIN 182 12 ENERGY -21 C182,,, C182
+USRBIN 186 12 ENERGY -21 C186,,, C186
+RANDOMIZ , 22
+START , 1000000
+STOP
+EndInput
+
+Page: Input
+
+# Run information
+Run: <default>
+	open:     1
+End
+Run: 2_01
+	Rnd:      1
+	StartRun: 1766118276.8138533
+	Parent:   <default>
+	open:     1
+End
+Run: 2_02
+	Rnd:      2
+	Pid:      499995
+	StartRun: 1766118276.8613281
+	Parent:   <default>
+	open:     1
+End
+Run: 2_03
+	Rnd:      3
+	Pid:      500045
+	StartRun: 1766118276.9046164
+	Parent:   <default>
+	open:     1
+End
+Run: 2_04
+	Rnd:      4
+	Pid:      500093
+	StartRun: 1766118276.9500124
+	Parent:   <default>
+	open:     1
+End
+Run: 2_05
+	Rnd:      5
+	Pid:      500154
+	StartRun: 1766118277.0923595
+	Parent:   <default>
+	open:     1
+End
+Run: 2_06
+	Rnd:      6
+	Pid:      500176
+	StartRun: 1766118277.1329198
+	Parent:   <default>
+	open:     1
+End
+Run: 2_07
+	Rnd:      7
+	Pid:      500230
+	StartRun: 1766118277.1736996
+	Parent:   <default>
+	open:     1
+End
+Run: 2_08
+	Rnd:      8
+	Pid:      500277
+	StartRun: 1766118277.2151728
+	Parent:   <default>
+	open:     1
+End
+Run: 2_09
+	Rnd:      9
+	Pid:      500330
+	StartRun: 1766118277.2582603
+	Parent:   <default>
+	open:     1
+End
+Run: 2_10
+	Rnd:      10
+	Pid:      500377
+	StartRun: 1766118277.2993963
+	Parent:   <default>
+	open:     1
+End
+Run: 2_11
+	Rnd:      11
+	Pid:      500419
+	StartRun: 1766118277.3445075
+	Parent:   <default>
+	open:     1
+End
+Run: 2_12
+	Rnd:      12
+	Pid:      500465
+	StartRun: 1766118277.37788
+	Parent:   <default>
+	open:     1
+End
+Run: 2_13
+	Rnd:      13
+	Pid:      500513
+	StartRun: 1766118277.4134135
+	Parent:   <default>
+	open:     1
+End
+Run: 2_14
+	Rnd:      14
+	Pid:      500562
+	StartRun: 1766118277.4536748
+	Parent:   <default>
+	open:     1
+End
+Run: 2_15
+	Rnd:      15
+	Pid:      500619
+	StartRun: 1766118277.4929483
+	Parent:   <default>
+	open:     1
+End
+Run: 2_16
+	Rnd:      16
+	Pid:      500662
+	StartRun: 1766118277.5320933
+	Parent:   <default>
+	open:     1
+End
+Run: 2_17
+	Rnd:      17
+	Pid:      500719
+	StartRun: 1766118277.5726783
+	Parent:   <default>
+	open:     1
+End
+Run: 2_18
+	Rnd:      18
+	Pid:      500757
+	StartRun: 1766118277.6121445
+	Parent:   <default>
+	open:     1
+End
+Run: 2_19
+	Rnd:      19
+	Pid:      500812
+	StartRun: 1766118277.6514192
+	Parent:   <default>
+	open:     1
+End
+Run: 2_20
+	Rnd:      20
+	Pid:      500856
+	StartRun: 1766118277.6921663
+	Parent:   <default>
+	open:     1
+End
+Run: 2_21
+	Rnd:      21
+	Pid:      500905
+	StartRun: 1766118277.7317045
+	Parent:   <default>
+	open:     1
+End
+Run: 2_22
+	Rnd:      22
+	Pid:      500946
+	StartRun: 1766118277.772884
+	Parent:   <default>
+	open:     1
+End
+Run: 2_23
+	Rnd:      23
+	Pid:      500994
+	StartRun: 1766118277.812994
+	Parent:   <default>
+	open:     1
+End
+Run: 2_24
+	Rnd:      24
+	Pid:      501045
+	StartRun: 1766118277.8534188
+	Parent:   <default>
+	open:     1
+End
+Run: 2_25
+	Rnd:      25
+	Pid:      501093
+	StartRun: 1766118277.8947346
+	Parent:   <default>
+	open:     1
+End
+Run: 2_26
+	Rnd:      26
+	Pid:      501141
+	StartRun: 1766118277.9352105
+	Parent:   <default>
+	open:     1
+End
+Run: 2_27
+	Rnd:      27
+	Pid:      501189
+	StartRun: 1766118277.982813
+	Parent:   <default>
+	open:     1
+End
+Run: 2_28
+	Rnd:      28
+	Pid:      501243
+	StartRun: 1766118278.0349965
+	Parent:   <default>
+	open:     1
+End
+Run: 2_29
+	Rnd:      29
+	Pid:      501286
+	StartRun: 1766118278.090708
+	Parent:   <default>
+	open:     1
+End
+Run: 2_30
+	Rnd:      30
+	Pid:      501340
+	StartRun: 1766118278.1427345
+	Parent:   <default>
+	open:     1
+End
+Run: 2_31
+	Rnd:      31
+	Pid:      501387
+	StartRun: 1766118278.1965115
+	Parent:   <default>
+	open:     1
+End
+Run: 2_32
+	Rnd:      32
+	Pid:      501437
+	StartRun: 1766118278.2513618
+	Parent:   <default>
+	open:     1
+End
+Run: 2_33
+	Rnd:      33
+	Pid:      501485
+	StartRun: 1766118278.299719
+	Parent:   <default>
+	open:     1
+End
+Run: 2_34
+	Rnd:      34
+	Pid:      501528
+	StartRun: 1766118278.3486526
+	Parent:   <default>
+	open:     1
+End
+Run: 2_35
+	Rnd:      35
+	Pid:      501581
+	StartRun: 1766118278.4003248
+	Parent:   <default>
+	open:     1
+End
+Run: 2_36
+	Rnd:      36
+	Pid:      501628
+	StartRun: 1766118278.4456673
+	Parent:   <default>
+	open:     1
+End
+Run: 2_37
+	Rnd:      37
+	Pid:      501675
+	StartRun: 1766118278.4870818
+	Parent:   <default>
+	open:     1
+End
+Run: 2_38
+	Rnd:      38
+	Pid:      501720
+	StartRun: 1766118278.5280778
+	Parent:   <default>
+	open:     1
+End
+Run: 2_39
+	Rnd:      39
+	Pid:      501764
+	StartRun: 1766118278.5747313
+	Parent:   <default>
+	open:     1
+End
+Run: 2_40
+	Rnd:      40
+	Pid:      501821
+	StartRun: 1766118278.616377
+	Parent:   <default>
+	open:     1
+End
+Run: 2_41
+	Rnd:      41
+	Pid:      501857
+	StartRun: 1766118278.647197
+	Parent:   <default>
+	open:     1
+End
+Run: 2_42
+	Rnd:      42
+	Pid:      501925
+	StartRun: 1766118278.7051759
+	Parent:   <default>
+	open:     1
+End
+Run: 2_43
+	Rnd:      43
+	Pid:      501970
+	StartRun: 1766118278.7576191
+	Parent:   <default>
+	open:     1
+End
+Run: 2_44
+	Rnd:      44
+	Pid:      502020
+	StartRun: 1766118278.809276
+	Parent:   <default>
+	open:     1
+End
+Run: 2_45
+	Rnd:      45
+	Pid:      502068
+	StartRun: 1766118278.8636532
+	Parent:   <default>
+	open:     1
+End
+Run: 2_46
+	Rnd:      46
+	Pid:      502117
+	StartRun: 1766118278.915078
+	Parent:   <default>
+	open:     1
+End
+Run: 2_47
+	Rnd:      47
+	Pid:      502160
+	StartRun: 1766118278.9668975
+	Parent:   <default>
+	open:     1
+End
+Run: 2_48
+	Rnd:      48
+	Pid:      502211
+	StartRun: 1766118279.027409
+	Parent:   <default>
+	open:     1
+End
+Run: 2_49
+	Rnd:      49
+	Pid:      502256
+	StartRun: 1766118279.079118
+	Parent:   <default>
+	open:     1
+End
+Run: 2_50
+	Rnd:      50
+	Pid:      502311
+	StartRun: 1766118279.1425633
+	Parent:   <default>
+	open:     1
+End
+Run: 2_51
+	Rnd:      51
+	Pid:      502356
+	StartRun: 1766118279.1999586
+	Parent:   <default>
+	open:     1
+End
+Run: 2_52
+	Rnd:      52
+	Pid:      502401
+	StartRun: 1766118279.254732
+	Parent:   <default>
+	open:     1
+End
+Run: 2_53
+	Rnd:      53
+	Pid:      502448
+	StartRun: 1766118279.3102498
+	Parent:   <default>
+	open:     1
+End
+Run: 2_54
+	Rnd:      54
+	Pid:      502493
+	StartRun: 1766118279.3538468
+	Parent:   <default>
+	open:     1
+End
+Run: 2_55
+	Rnd:      55
+	Pid:      502531
+	StartRun: 1766118279.3937988
+	Parent:   <default>
+	open:     1
+End
+Run: 2_56
+	Rnd:      56
+	Pid:      502584
+	StartRun: 1766118279.4306169
+	Parent:   <default>
+	open:     1
+End
+Run: 2_57
+	Rnd:      57
+	Pid:      502627
+	StartRun: 1766118279.470794
+	Parent:   <default>
+	open:     1
+End
+Run: 2_58
+	Rnd:      58
+	Pid:      502683
+	StartRun: 1766118279.5080044
+	Parent:   <default>
+	open:     1
+End
+Run: 2_59
+	Rnd:      59
+	Pid:      502726
+	StartRun: 1766118279.546876
+	Parent:   <default>
+	open:     1
+End
+Run: 2_60
+	Rnd:      60
+	Pid:      502774
+	StartRun: 1766118279.5905685
+	Parent:   <default>
+	open:     1
+End
+Run: 2_61
+	Rnd:      61
+	Pid:      502825
+	StartRun: 1766118279.6399806
+	Parent:   <default>
+	open:     1
+End
+Run: 2_62
+	Rnd:      62
+	Pid:      502875
+	StartRun: 1766118279.679198
+	Parent:   <default>
+	open:     1
+End
+Run: 2_63
+	Rnd:      63
+	Pid:      502914
+	StartRun: 1766118279.7277102
+	Parent:   <default>
+	open:     1
+End
+Run: 2_64
+	Rnd:      64
+	Pid:      502965
+	StartRun: 1766118279.7638645
+	Parent:   <default>
+	open:     1
+End
+Run: 2_65
+	Rnd:      65
+	Pid:      503010
+	StartRun: 1766118279.8004332
+	Parent:   <default>
+	open:     1
+End
+Run: 2_66
+	Rnd:      66
+	StartRun: 1766118279.8475072
+	Parent:   <default>
+	open:     1
+End
+Run: 2_67
+	Rnd:      67
+	StartRun: 1766118279.9040022
+	Parent:   <default>
+	open:     1
+End
+Run: 2_68
+	Rnd:      68
+	Pid:      503172
+	StartRun: 1766118279.9619842
+	Parent:   <default>
+	open:     1
+End
+Run: 2_69
+	Rnd:      69
+	Pid:      503213
+	StartRun: 1766118280.0200799
+	Parent:   <default>
+	open:     1
+End
+Run: 2_70
+	Rnd:      70
+	Pid:      503259
+	StartRun: 1766118280.0741885
+	Parent:   <default>
+	open:     1
+End
+Run: 2_71
+	Rnd:      71
+	Pid:      503313
+	StartRun: 1766118280.1308236
+	Parent:   <default>
+	open:     1
+End
+Run: 2_72
+	Rnd:      72
+	Pid:      503357
+	StartRun: 1766118280.183938
+	Parent:   <default>
+	open:     1
+End
+Run: 2_73
+	Rnd:      73
+	Pid:      503410
+	StartRun: 1766118280.2419958
+	Parent:   <default>
+	open:     1
+End
+Run: 2_74
+	Rnd:      74
+	Pid:      503468
+	StartRun: 1766118280.5069091
+	Parent:   <default>
+	open:     1
+End
+Run: 2_75
+	Rnd:      75
+	Pid:      503503
+	StartRun: 1766118280.5640187
+	Parent:   <default>
+	open:     1
+End
+Run: 2_76
+	Rnd:      76
+	Pid:      503555
+	StartRun: 1766118280.6202757
+	Parent:   <default>
+	open:     1
+End
+Run: 2_77
+	Rnd:      77
+	Pid:      503602
+	StartRun: 1766118280.6792464
+	Parent:   <default>
+	open:     1
+End
+Run: 2_78
+	Rnd:      78
+	Pid:      503651
+	StartRun: 1766118280.7387388
+	Parent:   <default>
+	open:     1
+End
+Run: 2_79
+	Rnd:      79
+	Pid:      503694
+	StartRun: 1766118280.7938142
+	Parent:   <default>
+	open:     1
+End
+Run: 2_80
+	Rnd:      80
+	Pid:      503746
+	StartRun: 1766118280.856731
+	Parent:   <default>
+	open:     1
+End
+Run: 2_81
+	Rnd:      81
+	Pid:      503794
+	StartRun: 1766118280.9175458
+	Parent:   <default>
+	open:     1
+End
+Run: 2_82
+	Rnd:      82
+	Pid:      503837
+	StartRun: 1766118280.9726717
+	Parent:   <default>
+	open:     1
+End
+Run: 2_83
+	Rnd:      83
+	Pid:      503884
+	StartRun: 1766118281.0265725
+	Parent:   <default>
+	open:     1
+End
+Run: 2_84
+	Rnd:      84
+	Pid:      503933
+	StartRun: 1766118281.0843554
+	Parent:   <default>
+	open:     1
+End
+Run: 2_85
+	Rnd:      85
+	Pid:      503986
+	StartRun: 1766118281.141132
+	Parent:   <default>
+	open:     1
+End
+Run: 2_86
+	Rnd:      86
+	Pid:      504034
+	StartRun: 1766118281.1967542
+	Parent:   <default>
+	open:     1
+End
+Run: 2_87
+	Rnd:      87
+	Pid:      504071
+	StartRun: 1766118281.2485652
+	Parent:   <default>
+	open:     1
+End
+Run: 2_88
+	Rnd:      88
+	Pid:      504130
+	StartRun: 1766118281.3078356
+	Parent:   <default>
+	open:     1
+End
+Run: 2_89
+	Rnd:      89
+	Pid:      504174
+	StartRun: 1766118281.3651397
+	Parent:   <default>
+	open:     1
+End
+Run: 2_90
+	Rnd:      90
+	Pid:      504224
+	StartRun: 1766118281.421155
+	Parent:   <default>
+	open:     1
+End
+Run: 2_91
+	Rnd:      91
+	StartRun: 1766118281.4766436
+	Parent:   <default>
+	open:     1
+End
+Run: 2_92
+	Rnd:      92
+	Pid:      504328
+	StartRun: 1766118281.5372043
+	Parent:   <default>
+	open:     1
+End
+Run: 2_93
+	Rnd:      93
+	Pid:      504371
+	StartRun: 1766118281.5999095
+	Parent:   <default>
+	open:     1
+End
+Run: 2_94
+	Rnd:      94
+	Pid:      504424
+	StartRun: 1766118281.6577277
+	Parent:   <default>
+	open:     1
+End
+Run: 2_95
+	Rnd:      95
+	Pid:      504473
+	StartRun: 1766118281.7131662
+	Parent:   <default>
+	open:     1
+End
+Run: 2_96
+	Rnd:      96
+	Pid:      504513
+	StartRun: 1766118281.7678907
+	Parent:   <default>
+	open:     1
+End
+Run: 2_97
+	Rnd:      97
+	Pid:      504572
+	StartRun: 1766118281.826103
+	Parent:   <default>
+	open:     1
+End
+Run: 2_98
+	Rnd:      98
+	Pid:      504613
+	StartRun: 1766118281.8860216
+	Parent:   <default>
+	open:     1
+End
+Run: 2_99
+	Rnd:      99
+	Pid:      504657
+	StartRun: 1766118281.944251
+	Parent:   <default>
+	open:     1
+End
+Run: 2_100
+	Rnd:      100
+	Pid:      504709
+	StartRun: 1766118282.0037565
+	Parent:   <default>
+	open:     1
+End
+
+# Plots information
+Plot: Red
+	Type: Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	coord: Z-X
+	extends: 298.59839999999986 223.9487999999999
+	group: Geometry
+	layer: Lattice
+	origin: -6.62576 0 14.1759
+End
+Plot: Green
+	Type: Geometry
+	basisu: 0.836516 0.0173377 0.547668
+	basisv: 0.224144 0.901221 -0.370891
+	extends: 100.0 75.0
+	group: Geometry
+	layer: 3D
+End
+Plot: Blue
+	Type: Geometry
+	basisu: 0 0 1
+	coord: Z-Y
+	extends: 100.0 75.0
+	group: Geometry
+	layer: Lattice
+End
+Plot: Magenta
+	Type: Geometry
+	coord: X-Y
+	extends: 1.8113925905964472 1.3585444429473355
+	group: Geometry
+	layer: Lattice
+	origin: 1.08682 -8.30149 -100
+End

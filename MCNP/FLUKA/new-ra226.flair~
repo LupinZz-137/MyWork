@@ -1,0 +1,243 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: a3f5ad4010761fbf1384ed0ac02b12e5
+Input:
+TITLE
+*Set the defaults for precision simulations
+!DEFAULTS PRECISIO
+*Define the beam characteristics
+BEAM ELECTRON -0.025 0 0 -0.1 -0.1
+*Define the beam position
+BEAMPOS ,,,, 1
+GEOBEGIN COMBNAME
+*Black body
+SPH blkbody 0.0 0.0 0.0 100000.0
+*Void sphere
+SPH void 0.0 0.0 0.0 10000.0
+*Ti windows
+RCC Ti1 1 0.0 0.0 0.1 0.0 0 1
+*Ti windows
+RCC Ti2 3 0.0 0.0 0.1 0.0 0 1
+*Ta convert target 1
+RCC Ta1 1.25 0.0 0.0 0.1 0.0 0 0.7
+*Ta convert target 2
+RCC Ta2 1.5 0 0 0.1 0 0 0.7
+*Ta convert target 3
+RCC Ta3 1.75 0 0 0.1 0 0 0.7
+*Al cladding 1
+RCC Al1 2 0 0 0.16 0 0 0.7
+*Ra target 1
+RCC Ra1 2.0485 0 0 0.063 0 0 0.5
+*Al cladding 2
+RCC Al2 2.26 0 0 0.16 0 0 0.7
+*Ra target 2
+RCC Ra2 2.3085 0 0 0.063 0 0 0.5
+*Al cladding 3
+RCC Al3 2.52 0 0 0.16 0 0 0.7
+*Ra target 3
+RCC Ra3 2.5685 0 0 0.063 0 0 0.5
+*Al cladding 4
+RCC Al4 2.78 0 0 0.16 0 0 0.7
+*Ra target 4
+RCC Ra4 2.8285 0 0 0.063 0 0 0.5
+RCC shell 1 0 0 2.1 0 0 1
+	@select=1
+END
+*Black hole
+REGION BLKBODY 5
+	+blkbody -void
+*Void around
+REGION VOID 5
+	+void -shell 
+*Target
+REGION Ti1 5
+	+Ti1
+REGION Ti2 5
+	+Ti2
+REGION Ta1 5
+	+Ta1
+REGION Ta2 5
+	+Ta2
+REGION Ta3 5
+	+Ta3
+REGION Al1 5
+	+Al1 -Ra1 
+REGION Al2 5
+	+Al2 -Ra2 
+REGION Al3 5
+	+Al3 -Ra3 
+REGION Al4 5
+	+Al4 -Ra4
+REGION Ra1 5
+	+Ra1
+REGION Ra2 5
+	+Ra2
+REGION Ra3 5
+	+Ra3
+REGION Ra4 5
+	+Ra4
+REGION H2O 5
+	+shell -Al1 -Al2 -Al3 -Al4 -Ta1 -Ta2 -Ta3 -Ti1 -Ti2 
+END
+GEOEND
+MATERIAL RADIUM 88,, 5.0
+*..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA , BLCKHOLE BLKBODY
+ASSIGNMA , VACUUM VOID
+ASSIGNMA , TITANIUM Ti1 Ti2
+ASSIGNMA , TANTALUM Ta1 Ta3
+ASSIGNMA , RADIUM Ra1 Ra4
+ASSIGNMA , ALUMINUM Al1 Al4
+ASSIGNMA , WATER H2O
+!PHYSICS COALESCE 1
+PHYSICS EVAPORAT 3
+PHYSICS PEATHRES 999 999 999 999 999 999
+PHOTONUC , 1,,, TITANIUM TITANIUM
+PHOTONUC , 1,,, TANTALUM TANTALUM
+PHOTONUC , 1,,, ALUMINUM ALUMINUM
+!LAM-BIAS , 0 0.02 RADIUM PHOTON PHOTON
+EMF
+EMF-BIAS LPBEMF 66
+PAIRBREM , 2,,, TANTALUM
+*Requests simulation of radioactive decays and sets the corresponding
+*biasing and transport conditions
+RADDECAY , 1. 1 3,, 10000100
+*Define an irradiation profile for radioactive decay calculations
+IRRPROFI , =10*24*3600 =800*6.24e12
+*Defines decay times for radioactive product scoring
+DCYTIMES , 0 =10*3600*24
+!RESNUCLE ra1 3 -21,,, Ra1
+!RESNUCLE ra2 3 -21,,, Ra2
+!RESNUCLE ra3 3 -21,,, Ra3
+!RESNUCLE ra4 3 -21,,, Ra4
+RESNUCLE al4 3 -21,,, Al4
+RESNUCLE ti2 3 -23,,, Ti2
+*Associates selected scoring detectors with user-defined decay times
+DCYSCORE RESNUCLE 2,,, al4 al4
+*Associates selected scoring detectors with user-defined decay times
+DCYSCORE RESNUCLE 2,,, ti2 ti2
+USRBIN us1 10 NEUTRON -22 4 0.5 1 1 -0.5 -1 99 1 99
+*Associates selected scoring detectors with user-defined decay times
+DCYSCORE USRBIN 1,,, us1 us1
+*Set the random number seed
+RANDOMIZ , 1.0
+*Set the number of primary histories to be simulated in the run
+START , 1000000
+STOP
+EndInput
+
+Page: Run
+plotengine: Gnuplot
+
+# Run information
+Run: <default>
+	Status:   3
+	StartRun: 1764830323.044774
+	open:     1
+End
+Run: new-ra226_01
+	Rnd:      1
+	Status:   4
+	Pid:      252685
+	StartRun: 1764832681.8581207
+	Parent:   <default>
+End
+Run: new-ra226_02
+	Rnd:      2
+	Status:   4
+	Pid:      252717
+	StartRun: 1764832681.9059784
+	Parent:   <default>
+End
+Run: new-ra226_03
+	Rnd:      3
+	Status:   4
+	Pid:      252756
+	StartRun: 1764832681.951968
+	Parent:   <default>
+End
+Run: new-ra226_04
+	Rnd:      4
+	Status:   4
+	Pid:      252813
+	StartRun: 1764832682.003812
+	Parent:   <default>
+End
+Run: new-ra226_05
+	Rnd:      5
+	Status:   4
+	Pid:      252852
+	StartRun: 1764832682.0520055
+	Parent:   <default>
+End
+
+# Plots information
+Plot: new-ra226_geometry
+	Type: Geometry
+	basisu: 1.0 0.0 0.0
+	basisv: 0.0 1.0 0.0
+	extends: 100.0 100.0
+	grid: 0
+	open: 1
+	origin: 0.0 0.0 0.0
+	title: Geometry
+End
+Plot: new-ra226_0_plot
+	Type: USRBIN
+	cblog: 1
+	cbtics: 1
+	datafile: new-ra226_0.bnn
+	open: 1
+	title: USRBIN new-ra226 0
+End
+Plot: new-ra226_21_plot
+	Type: RESNUCLE
+	datafile: new-ra226_21.rnc
+	open: 1
+	title: RESNUCLE new-ra226 21
+End
+Plot: new-ra226_22_plot
+	Type: USRBIN
+	cbtics: 1
+	datafile: new-ra226_22.bnn
+	grid: 0
+	hist: 2D Projection
+	open: 1
+	title: USRBIN new-ra226 22
+End
+Plot: Red
+	Type: Geometry
+	basisv: 0 0 1
+	coord: X-Z
+	extends: 2.1736711087157357 1.2708684118050468
+	group: Geometry
+	layer: Lattice
+	origin: 2.05692 -0.521681 -0.220593
+End
+Plot: Green
+	Type: Geometry
+	basisu: 0.836516 0.0173377 0.547668
+	basisv: 0.224144 0.901221 -0.370891
+	extends: 1283.9184645488626 750.6615942889516
+	group: Geometry
+	layer: 3D
+	origin: -84.5704 77.2099 -100.957
+End
+Plot: Blue
+	Type: Geometry
+	basisu: 0 0 1
+	coord: Z-Y
+	extends: 3.1300863965506616 1.8250503749856093
+	group: Geometry
+	layer: Lattice
+	origin: 0 -0.144375 0.00152962
+End
+Plot: Magenta
+	Type: Geometry
+	coord: X-Y
+	extends: 3.756103675860794 2.1900604499827314
+	group: Geometry
+	layer: Lattice
+	origin: 1.3192 -0.541491 0
+End
