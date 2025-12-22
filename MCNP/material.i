@@ -543,3 +543,22 @@ m71    6012  -0.68314812           $ polyimide               PI         -1.40
        nlib = 19c
        hlib = 99h
       pnlib = 19u    
+m72    1001  -0.009415             $ Viton Fluoroelastomer              -1.8
+       1002  -0.000002
+       6012  -0.280555
+       9019  -0.710028
+       nlib = 19c
+       hlib = 99h
+      pnlib = 19u 
+m73    6012  -0.85                 $ EPDM ethylene propylene rubber     -0.9
+       1001  -0.145
+       8016  -0.005
+       nlib = 19c
+       hlib = 99h
+      pnlib = 19u 
+m74    9019  -0.67                 $ FFKM perfluoroether rubber         -2.0
+       6012  -0.329
+       1001  -0.001
+       nlib = 19c
+       hlib = 99h
+      pnlib = 19u
