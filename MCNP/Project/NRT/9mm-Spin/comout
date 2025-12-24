@@ -1,1 +1,9 @@
 plot                                                                            
+color off
+color  on
+label 0 0 tal31     
+legend  on
+color 150 pz 0 ex 500                                                           
+con 1 1e9 log                                                                   
+end
+end
