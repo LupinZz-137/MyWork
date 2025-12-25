@@ -15,7 +15,7 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 # 保留原有的数据处理类
 class DataProcessor:
     @staticmethod
-    def load_data(file_path, scale_factor=1.0, error_threshold=0.5):
+    def load_data(file_path, scale_factor=1.0, error_threshold=0.3):
         """增强的CSV/文本文件加载方法"""
         try:
             # 先读取文件检测格式

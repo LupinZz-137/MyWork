@@ -1,0 +1,11 @@
+plot                                                                            
+color off
+color  on
+label 0 0 tal31     
+legend  on
+color 150 pz 0 ex 500                                                           
+origin -5.5555E+00  1.9792E+02  0.0000E+00 extent  2.0347E+02  2.0347E+02
+con 1 1e9 log                                                                   
+end
+end
+end                                                                             
