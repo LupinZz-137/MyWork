@@ -30,8 +30,8 @@
   | PRIVATELY OWNED RIGHTS.                                             |
   +---------------------------------------------------------------------+
   
-1mcnp     version 6.mpi ld=05/08/13                     12/26/25 15:10:11 
- *************************************************************************                 probid =  12/26/25 15:10:11 
+1mcnp     version 6.mpi ld=05/08/13                     12/27/25 20:39:51 
+ *************************************************************************                 probid =  12/27/25 20:39:51 
  n=E:\MyWork\MCNP\Accelerator\7MeV\Shielding\S2\S2.i                             
 
  
@@ -361,8 +361,8 @@
        323-       c ----------------------------------------------------------------------------- 
        324-       c -----------------------------------DATA-------------------------------------- 
        325-       c ----------------------------------------------------------------------------- 
-       326-       ctme 2e3                                                                        
-       327-       c prdmp -4e2 -4e2 1 1                                                           
+       326-       ctme 5e3                                                                        
+       327-       prdmp -5e3 -5e3 1 1                                                             
        328-       mode n p                                                                        
   comment.  photonuclear physics may be needed (phys:p).
        329-       c imp:n,p 1 114r 0                                                              
@@ -2327,364 +2327,1252 @@
  0     ctm =        0.00   nrn =                 0
 
         18 warning messages so far.
- master starting      60 MPI slave tasks with       1 threads each  12/26/25 15:10:16 
- master set rendezvous nps =        1000,  work chunks =    60    12/26/25 15:10:21 
- master set rendezvous nps =      101000,  work chunks =    60    12/26/25 15:10:21 
- master set rendezvous nps =      201000,  work chunks =    60    12/26/25 15:10:26 
- master set rendezvous nps =      301000,  work chunks =    60    12/26/25 15:10:29 
- master set rendezvous nps =      401000,  work chunks =    60    12/26/25 15:10:37 
- master set rendezvous nps =      501000,  work chunks =    60    12/26/25 15:10:59 
- master set rendezvous nps =      601000,  work chunks =    60    12/26/25 15:11:02 
- master set rendezvous nps =      701000,  work chunks =    60    12/26/25 15:11:08 
- master set rendezvous nps =      801000,  work chunks =    60    12/26/25 15:11:41 
- master set rendezvous nps =      901000,  work chunks =    60    12/26/25 15:11:46 
- master set rendezvous nps =     1001000,  work chunks =    60    12/26/25 15:11:54 
- master set rendezvous nps =     1101000,  work chunks =    60    12/26/25 15:12:03 
- master set rendezvous nps =     1201000,  work chunks =    60    12/26/25 15:12:12 
- master set rendezvous nps =     1301000,  work chunks =    60    12/26/25 15:12:18 
- master set rendezvous nps =     1401000,  work chunks =    60    12/26/25 15:12:21 
- master set rendezvous nps =     1501000,  work chunks =    60    12/26/25 15:12:24 
- master set rendezvous nps =     1601000,  work chunks =    60    12/26/25 15:12:27 
- master set rendezvous nps =     1701000,  work chunks =    60    12/26/25 15:12:36 
- master set rendezvous nps =     1801000,  work chunks =    60    12/26/25 15:12:39 
- master set rendezvous nps =     1901000,  work chunks =    60    12/26/25 15:12:41 
- master set rendezvous nps =     2001000,  work chunks =    60    12/26/25 15:12:43 
- master set rendezvous nps =     2101000,  work chunks =    60    12/26/25 15:12:53 
- master set rendezvous nps =     2201000,  work chunks =    60    12/26/25 15:12:55 
- master set rendezvous nps =     2301000,  work chunks =    60    12/26/25 15:13:01 
- master set rendezvous nps =     2401000,  work chunks =    60    12/26/25 15:13:09 
- master set rendezvous nps =     2501000,  work chunks =    60    12/26/25 15:13:17 
- master set rendezvous nps =     2601000,  work chunks =    60    12/26/25 15:13:22 
- master set rendezvous nps =     2701000,  work chunks =    60    12/26/25 15:13:25 
- master set rendezvous nps =     2801000,  work chunks =    60    12/26/25 15:13:33 
- master set rendezvous nps =     2901000,  work chunks =    60    12/26/25 15:13:42 
- master set rendezvous nps =     3001000,  work chunks =    60    12/26/25 15:13:44 
- master set rendezvous nps =     3101000,  work chunks =    60    12/26/25 15:14:01 
- master set rendezvous nps =     3201000,  work chunks =    60    12/26/25 15:14:14 
- master set rendezvous nps =     3301000,  work chunks =    60    12/26/25 15:14:18 
- master set rendezvous nps =     3401000,  work chunks =    60    12/26/25 15:14:23 
- master set rendezvous nps =     3501000,  work chunks =    60    12/26/25 15:14:41 
- master set rendezvous nps =     3601000,  work chunks =    60    12/26/25 15:14:49 
- master set rendezvous nps =     3701000,  work chunks =    60    12/26/25 15:14:57 
- master set rendezvous nps =     3801000,  work chunks =    60    12/26/25 15:15:02 
- master set rendezvous nps =     3901000,  work chunks =    60    12/26/25 15:15:07 
- master set rendezvous nps =     4001000,  work chunks =    60    12/26/25 15:15:17 
- master set rendezvous nps =     4101000,  work chunks =    60    12/26/25 15:15:21 
- master set rendezvous nps =     4201000,  work chunks =    60    12/26/25 15:15:29 
- master set rendezvous nps =     4301000,  work chunks =    60    12/26/25 15:15:44 
- master set rendezvous nps =     4401000,  work chunks =    60    12/26/25 15:16:06 
- master set rendezvous nps =     4501000,  work chunks =    60    12/26/25 15:16:13 
- master set rendezvous nps =     4601000,  work chunks =    60    12/26/25 15:16:18 
- master set rendezvous nps =     4701000,  work chunks =    60    12/26/25 15:16:22 
- master set rendezvous nps =     4801000,  work chunks =    60    12/26/25 15:16:29 
- master set rendezvous nps =     4901000,  work chunks =    60    12/26/25 15:16:38 
- master set rendezvous nps =     5001000,  work chunks =    60    12/26/25 15:16:43 
- master set rendezvous nps =     5101000,  work chunks =    60    12/26/25 15:16:56 
- master set rendezvous nps =     5201000,  work chunks =    60    12/26/25 15:17:03 
- master set rendezvous nps =     5301000,  work chunks =    60    12/26/25 15:17:09 
- master set rendezvous nps =     5401000,  work chunks =    60    12/26/25 15:17:21 
- master set rendezvous nps =     5501000,  work chunks =    60    12/26/25 15:17:26 
- master set rendezvous nps =     5601000,  work chunks =    60    12/26/25 15:17:30 
- master set rendezvous nps =     5701000,  work chunks =    60    12/26/25 15:17:38 
- master set rendezvous nps =     5801000,  work chunks =    60    12/26/25 15:17:42 
- master set rendezvous nps =     5901000,  work chunks =    60    12/26/25 15:17:44 
- master set rendezvous nps =     6001000,  work chunks =    60    12/26/25 15:17:53 
- master set rendezvous nps =     6101000,  work chunks =    60    12/26/25 15:17:59 
- master set rendezvous nps =     6201000,  work chunks =    60    12/26/25 15:18:03 
- master set rendezvous nps =     6301000,  work chunks =    60    12/26/25 15:18:07 
- master set rendezvous nps =     6401000,  work chunks =    60    12/26/25 15:18:16 
- master set rendezvous nps =     6501000,  work chunks =    60    12/26/25 15:18:20 
- master set rendezvous nps =     6601000,  work chunks =    60    12/26/25 15:18:32 
- master set rendezvous nps =     6701000,  work chunks =    60    12/26/25 15:18:36 
- master set rendezvous nps =     6801000,  work chunks =    60    12/26/25 15:18:43 
- master set rendezvous nps =     6901000,  work chunks =    60    12/26/25 15:18:47 
- master set rendezvous nps =     7001000,  work chunks =    60    12/26/25 15:18:56 
- master set rendezvous nps =     7101000,  work chunks =    60    12/26/25 15:19:01 
- master set rendezvous nps =     7201000,  work chunks =    60    12/26/25 15:19:06 
- master set rendezvous nps =     7301000,  work chunks =    60    12/26/25 15:19:19 
- master set rendezvous nps =     7401000,  work chunks =    60    12/26/25 15:19:24 
- master set rendezvous nps =     7501000,  work chunks =    60    12/26/25 15:19:26 
- master set rendezvous nps =     7601000,  work chunks =    60    12/26/25 15:19:52 
- master set rendezvous nps =     7701000,  work chunks =    60    12/26/25 15:19:53 
- master set rendezvous nps =     7801000,  work chunks =    60    12/26/25 15:19:58 
- master set rendezvous nps =     7901000,  work chunks =    60    12/26/25 15:20:03 
- master set rendezvous nps =     8001000,  work chunks =    60    12/26/25 15:20:16 
- master set rendezvous nps =     8101000,  work chunks =    60    12/26/25 15:20:21 
- master set rendezvous nps =     8201000,  work chunks =    60    12/26/25 15:20:32 
- master set rendezvous nps =     8301000,  work chunks =    60    12/26/25 15:20:39 
- master set rendezvous nps =     8401000,  work chunks =    60    12/26/25 15:20:47 
- master set rendezvous nps =     8501000,  work chunks =    60    12/26/25 15:20:53 
- master set rendezvous nps =     8601000,  work chunks =    60    12/26/25 15:21:03 
- master set rendezvous nps =     8701000,  work chunks =    60    12/26/25 15:21:12 
- master set rendezvous nps =     8801000,  work chunks =    60    12/26/25 15:21:20 
- master set rendezvous nps =     8901000,  work chunks =    60    12/26/25 15:21:26 
- master set rendezvous nps =     9001000,  work chunks =    60    12/26/25 15:21:38 
- master set rendezvous nps =     9101000,  work chunks =    60    12/26/25 15:21:43 
- master set rendezvous nps =     9201000,  work chunks =    60    12/26/25 15:21:44 
- master set rendezvous nps =     9301000,  work chunks =    60    12/26/25 15:21:48 
- master set rendezvous nps =     9401000,  work chunks =    60    12/26/25 15:21:51 
- master set rendezvous nps =     9501000,  work chunks =    60    12/26/25 15:21:53 
- master set rendezvous nps =     9601000,  work chunks =    60    12/26/25 15:21:58 
- master set rendezvous nps =     9701000,  work chunks =    60    12/26/25 15:22:23 
- master set rendezvous nps =     9801000,  work chunks =    60    12/26/25 15:22:26 
- master set rendezvous nps =     9901000,  work chunks =    60    12/26/25 15:22:32 
- master set rendezvous nps =    10001000,  work chunks =    60    12/26/25 15:22:35 
- master set rendezvous nps =    10101000,  work chunks =    60    12/26/25 15:22:46 
- master set rendezvous nps =    10201000,  work chunks =    60    12/26/25 15:22:56 
- master set rendezvous nps =    10301000,  work chunks =    60    12/26/25 15:23:00 
- master set rendezvous nps =    10401000,  work chunks =    60    12/26/25 15:23:06 
- master set rendezvous nps =    10501000,  work chunks =    60    12/26/25 15:23:10 
- master set rendezvous nps =    10601000,  work chunks =    60    12/26/25 15:23:17 
- master set rendezvous nps =    10701000,  work chunks =    60    12/26/25 15:23:24 
- master set rendezvous nps =    10801000,  work chunks =    60    12/26/25 15:23:30 
- master set rendezvous nps =    10901000,  work chunks =    60    12/26/25 15:23:35 
- master set rendezvous nps =    11001000,  work chunks =    60    12/26/25 15:23:37 
- master set rendezvous nps =    11101000,  work chunks =    60    12/26/25 15:23:42 
- master set rendezvous nps =    11201000,  work chunks =    60    12/26/25 15:23:46 
- master set rendezvous nps =    11301000,  work chunks =    60    12/26/25 15:23:51 
- master set rendezvous nps =    11401000,  work chunks =    60    12/26/25 15:23:56 
- master set rendezvous nps =    11501000,  work chunks =    60    12/26/25 15:24:01 
- master set rendezvous nps =    11601000,  work chunks =    60    12/26/25 15:24:07 
- master set rendezvous nps =    11701000,  work chunks =    60    12/26/25 15:24:16 
- master set rendezvous nps =    11801000,  work chunks =    60    12/26/25 15:24:21 
- master set rendezvous nps =    11901000,  work chunks =    60    12/26/25 15:24:25 
- master set rendezvous nps =    12001000,  work chunks =    60    12/26/25 15:24:29 
- master set rendezvous nps =    12101000,  work chunks =    60    12/26/25 15:24:33 
- master set rendezvous nps =    12201000,  work chunks =    60    12/26/25 15:24:43 
- master set rendezvous nps =    12301000,  work chunks =    60    12/26/25 15:24:45 
- master set rendezvous nps =    12401000,  work chunks =    60    12/26/25 15:24:53 
- master set rendezvous nps =    12501000,  work chunks =    60    12/26/25 15:24:58 
- master set rendezvous nps =    12601000,  work chunks =    60    12/26/25 15:25:12 
- master set rendezvous nps =    12701000,  work chunks =    60    12/26/25 15:25:21 
- master set rendezvous nps =    12801000,  work chunks =    60    12/26/25 15:25:31 
- master set rendezvous nps =    12901000,  work chunks =    60    12/26/25 15:25:39 
- master set rendezvous nps =    13001000,  work chunks =    60    12/26/25 15:25:43 
- master set rendezvous nps =    13101000,  work chunks =    60    12/26/25 15:25:53 
- master set rendezvous nps =    13201000,  work chunks =    60    12/26/25 15:25:58 
- master set rendezvous nps =    13301000,  work chunks =    60    12/26/25 15:26:01 
- master set rendezvous nps =    13401000,  work chunks =    60    12/26/25 15:26:22 
- master set rendezvous nps =    13501000,  work chunks =    60    12/26/25 15:26:33 
- master set rendezvous nps =    13601000,  work chunks =    60    12/26/25 15:26:44 
- master set rendezvous nps =    13701000,  work chunks =    60    12/26/25 15:26:51 
- master set rendezvous nps =    13801000,  work chunks =    60    12/26/25 15:26:58 
- master set rendezvous nps =    13901000,  work chunks =    60    12/26/25 15:27:10 
- master set rendezvous nps =    14001000,  work chunks =    60    12/26/25 15:27:18 
- master set rendezvous nps =    14101000,  work chunks =    60    12/26/25 15:27:24 
- master set rendezvous nps =    14201000,  work chunks =    60    12/26/25 15:27:34 
- master set rendezvous nps =    14301000,  work chunks =    60    12/26/25 15:27:38 
- master set rendezvous nps =    14401000,  work chunks =    60    12/26/25 15:27:45 
- master set rendezvous nps =    14501000,  work chunks =    60    12/26/25 15:27:48 
- master set rendezvous nps =    14601000,  work chunks =    60    12/26/25 15:27:52 
+ master starting      30 MPI slave tasks with       1 threads each  12/27/25 20:39:55 
+ master set rendezvous nps =        1000,  work chunks =    30    12/27/25 20:39:57 
+ master set rendezvous nps =      101000,  work chunks =    30    12/27/25 20:39:57 
+ master set rendezvous nps =      201000,  work chunks =    30    12/27/25 20:40:03 
+ master set rendezvous nps =      301000,  work chunks =    30    12/27/25 20:40:06 
+ master set rendezvous nps =      401000,  work chunks =    30    12/27/25 20:40:15 
+ master set rendezvous nps =      501000,  work chunks =    30    12/27/25 20:40:36 
+ master set rendezvous nps =      601000,  work chunks =    30    12/27/25 20:40:40 
+ master set rendezvous nps =      701000,  work chunks =    30    12/27/25 20:40:45 
+ master set rendezvous nps =      801000,  work chunks =    30    12/27/25 20:41:18 
+ master set rendezvous nps =      901000,  work chunks =    30    12/27/25 20:41:23 
+ master set rendezvous nps =     1001000,  work chunks =    30    12/27/25 20:41:31 
+ master set rendezvous nps =     1101000,  work chunks =    30    12/27/25 20:41:40 
+ master set rendezvous nps =     1201000,  work chunks =    30    12/27/25 20:41:49 
+ master set rendezvous nps =     1301000,  work chunks =    30    12/27/25 20:41:55 
+ master set rendezvous nps =     1401000,  work chunks =    30    12/27/25 20:41:58 
+ master set rendezvous nps =     1501000,  work chunks =    30    12/27/25 20:42:01 
+ master set rendezvous nps =     1601000,  work chunks =    30    12/27/25 20:42:05 
+ master set rendezvous nps =     1701000,  work chunks =    30    12/27/25 20:42:14 
+ master set rendezvous nps =     1801000,  work chunks =    30    12/27/25 20:42:18 
+ master set rendezvous nps =     1901000,  work chunks =    30    12/27/25 20:42:20 
+ master set rendezvous nps =     2001000,  work chunks =    30    12/27/25 20:42:23 
+ master set rendezvous nps =     2101000,  work chunks =    30    12/27/25 20:42:33 
+ master set rendezvous nps =     2201000,  work chunks =    30    12/27/25 20:42:35 
+ master set rendezvous nps =     2301000,  work chunks =    30    12/27/25 20:42:41 
+ master set rendezvous nps =     2401000,  work chunks =    30    12/27/25 20:42:50 
+ master set rendezvous nps =     2501000,  work chunks =    30    12/27/25 20:42:59 
+ master set rendezvous nps =     2601000,  work chunks =    30    12/27/25 20:43:03 
+ master set rendezvous nps =     2701000,  work chunks =    30    12/27/25 20:43:07 
+ master set rendezvous nps =     2801000,  work chunks =    30    12/27/25 20:43:15 
+ master set rendezvous nps =     2901000,  work chunks =    30    12/27/25 20:43:25 
+ master set rendezvous nps =     3001000,  work chunks =    30    12/27/25 20:43:28 
+ master set rendezvous nps =     3101000,  work chunks =    30    12/27/25 20:43:45 
+ master set rendezvous nps =     3201000,  work chunks =    30    12/27/25 20:43:58 
+ master set rendezvous nps =     3301000,  work chunks =    30    12/27/25 20:44:03 
+ master set rendezvous nps =     3401000,  work chunks =    30    12/27/25 20:44:08 
+ master set rendezvous nps =     3501000,  work chunks =    30    12/27/25 20:44:27 
+ master set rendezvous nps =     3601000,  work chunks =    30    12/27/25 20:44:34 
+ master set rendezvous nps =     3701000,  work chunks =    30    12/27/25 20:44:43 
+ master set rendezvous nps =     3801000,  work chunks =    30    12/27/25 20:44:48 
+ master set rendezvous nps =     3901000,  work chunks =    30    12/27/25 20:44:54 
+ master set rendezvous nps =     4001000,  work chunks =    30    12/27/25 20:45:04 
+ master set rendezvous nps =     4101000,  work chunks =    30    12/27/25 20:45:09 
+ master set rendezvous nps =     4201000,  work chunks =    30    12/27/25 20:45:17 
+ master set rendezvous nps =     4301000,  work chunks =    30    12/27/25 20:45:32 
+ master set rendezvous nps =     4401000,  work chunks =    30    12/27/25 20:45:54 
+ master set rendezvous nps =     4501000,  work chunks =    30    12/27/25 20:46:01 
+ master set rendezvous nps =     4601000,  work chunks =    30    12/27/25 20:46:07 
+ master set rendezvous nps =     4701000,  work chunks =    30    12/27/25 20:46:12 
+ master set rendezvous nps =     4801000,  work chunks =    30    12/27/25 20:46:19 
+ master set rendezvous nps =     4901000,  work chunks =    30    12/27/25 20:46:29 
+ master set rendezvous nps =     5001000,  work chunks =    30    12/27/25 20:46:34 
+ master set rendezvous nps =     5101000,  work chunks =    30    12/27/25 20:46:48 
+ master set rendezvous nps =     5201000,  work chunks =    30    12/27/25 20:46:55 
+ master set rendezvous nps =     5301000,  work chunks =    30    12/27/25 20:47:02 
+ master set rendezvous nps =     5401000,  work chunks =    30    12/27/25 20:47:13 
+ master set rendezvous nps =     5501000,  work chunks =    30    12/27/25 20:47:19 
+ master set rendezvous nps =     5601000,  work chunks =    30    12/27/25 20:47:23 
+ master set rendezvous nps =     5701000,  work chunks =    30    12/27/25 20:47:32 
+ master set rendezvous nps =     5801000,  work chunks =    30    12/27/25 20:47:36 
+ master set rendezvous nps =     5901000,  work chunks =    30    12/27/25 20:47:38 
+ master set rendezvous nps =     6001000,  work chunks =    30    12/27/25 20:47:48 
+ master set rendezvous nps =     6101000,  work chunks =    30    12/27/25 20:47:54 
+ master set rendezvous nps =     6201000,  work chunks =    30    12/27/25 20:48:01 
+ master set rendezvous nps =     6301000,  work chunks =    30    12/27/25 20:48:05 
+ master set rendezvous nps =     6401000,  work chunks =    30    12/27/25 20:48:14 
+ master set rendezvous nps =     6501000,  work chunks =    30    12/27/25 20:48:19 
+ master set rendezvous nps =     6601000,  work chunks =    30    12/27/25 20:48:31 
+ master set rendezvous nps =     6701000,  work chunks =    30    12/27/25 20:48:35 
+ master set rendezvous nps =     6801000,  work chunks =    30    12/27/25 20:48:44 
+ master set rendezvous nps =     6901000,  work chunks =    30    12/27/25 20:48:48 
+ master set rendezvous nps =     7001000,  work chunks =    30    12/27/25 20:48:57 
+ master set rendezvous nps =     7101000,  work chunks =    30    12/27/25 20:49:04 
+ master set rendezvous nps =     7201000,  work chunks =    30    12/27/25 20:49:09 
+ master set rendezvous nps =     7301000,  work chunks =    30    12/27/25 20:49:22 
+ master set rendezvous nps =     7401000,  work chunks =    30    12/27/25 20:49:27 
+ master set rendezvous nps =     7501000,  work chunks =    30    12/27/25 20:49:30 
+ master set rendezvous nps =     7601000,  work chunks =    30    12/27/25 20:49:56 
+ master set rendezvous nps =     7701000,  work chunks =    30    12/27/25 20:49:57 
+ master set rendezvous nps =     7801000,  work chunks =    30    12/27/25 20:50:02 
+ master set rendezvous nps =     7901000,  work chunks =    30    12/27/25 20:50:08 
+ master set rendezvous nps =     8001000,  work chunks =    30    12/27/25 20:50:24 
+ master set rendezvous nps =     8101000,  work chunks =    30    12/27/25 20:50:30 
+ master set rendezvous nps =     8201000,  work chunks =    30    12/27/25 20:50:41 
+ master set rendezvous nps =     8301000,  work chunks =    30    12/27/25 20:50:49 
+ master set rendezvous nps =     8401000,  work chunks =    30    12/27/25 20:51:00 
+ master set rendezvous nps =     8501000,  work chunks =    30    12/27/25 20:51:05 
+ master set rendezvous nps =     8601000,  work chunks =    30    12/27/25 20:51:17 
+ master set rendezvous nps =     8701000,  work chunks =    30    12/27/25 20:51:26 
+ master set rendezvous nps =     8801000,  work chunks =    30    12/27/25 20:51:34 
+ master set rendezvous nps =     8901000,  work chunks =    30    12/27/25 20:51:45 
+ master set rendezvous nps =     9001000,  work chunks =    30    12/27/25 20:51:57 
+ master set rendezvous nps =     9101000,  work chunks =    30    12/27/25 20:52:02 
+ master set rendezvous nps =     9201000,  work chunks =    30    12/27/25 20:52:05 
+ master set rendezvous nps =     9301000,  work chunks =    30    12/27/25 20:52:08 
+ master set rendezvous nps =     9401000,  work chunks =    30    12/27/25 20:52:12 
+ master set rendezvous nps =     9501000,  work chunks =    30    12/27/25 20:52:15 
+ master set rendezvous nps =     9601000,  work chunks =    30    12/27/25 20:52:20 
+ master set rendezvous nps =     9701000,  work chunks =    30    12/27/25 20:52:44 
+ master set rendezvous nps =     9801000,  work chunks =    30    12/27/25 20:52:48 
+ master set rendezvous nps =     9901000,  work chunks =    30    12/27/25 20:52:54 
+ master set rendezvous nps =    10001000,  work chunks =    30    12/27/25 20:52:57 
+ master set rendezvous nps =    10101000,  work chunks =    30    12/27/25 20:53:09 
+ master set rendezvous nps =    10201000,  work chunks =    30    12/27/25 20:53:20 
+ master set rendezvous nps =    10301000,  work chunks =    30    12/27/25 20:53:24 
+ master set rendezvous nps =    10401000,  work chunks =    30    12/27/25 20:53:30 
+ master set rendezvous nps =    10501000,  work chunks =    30    12/27/25 20:53:35 
+ master set rendezvous nps =    10601000,  work chunks =    30    12/27/25 20:53:42 
+ master set rendezvous nps =    10701000,  work chunks =    30    12/27/25 20:53:50 
+ master set rendezvous nps =    10801000,  work chunks =    30    12/27/25 20:53:57 
+ master set rendezvous nps =    10901000,  work chunks =    30    12/27/25 20:54:02 
+ master set rendezvous nps =    11001000,  work chunks =    30    12/27/25 20:54:05 
+ master set rendezvous nps =    11101000,  work chunks =    30    12/27/25 20:54:10 
+ master set rendezvous nps =    11201000,  work chunks =    30    12/27/25 20:54:17 
+ master set rendezvous nps =    11301000,  work chunks =    30    12/27/25 20:54:23 
+ master set rendezvous nps =    11401000,  work chunks =    30    12/27/25 20:54:29 
+ master set rendezvous nps =    11501000,  work chunks =    30    12/27/25 20:54:33 
+ master set rendezvous nps =    11601000,  work chunks =    30    12/27/25 20:54:40 
+ master set rendezvous nps =    11701000,  work chunks =    30    12/27/25 20:54:49 
+ master set rendezvous nps =    11801000,  work chunks =    30    12/27/25 20:54:54 
+ master set rendezvous nps =    11901000,  work chunks =    30    12/27/25 20:54:59 
+ master set rendezvous nps =    12001000,  work chunks =    30    12/27/25 20:55:03 
+ master set rendezvous nps =    12101000,  work chunks =    30    12/27/25 20:55:08 
+ master set rendezvous nps =    12201000,  work chunks =    30    12/27/25 20:55:18 
+ master set rendezvous nps =    12301000,  work chunks =    30    12/27/25 20:55:22 
+ master set rendezvous nps =    12401000,  work chunks =    30    12/27/25 20:55:30 
+ master set rendezvous nps =    12501000,  work chunks =    30    12/27/25 20:55:35 
+ master set rendezvous nps =    12601000,  work chunks =    30    12/27/25 20:55:48 
+ master set rendezvous nps =    12701000,  work chunks =    30    12/27/25 20:55:57 
+ master set rendezvous nps =    12801000,  work chunks =    30    12/27/25 20:56:07 
+ master set rendezvous nps =    12901000,  work chunks =    30    12/27/25 20:56:15 
+ master set rendezvous nps =    13001000,  work chunks =    30    12/27/25 20:56:21 
+ master set rendezvous nps =    13101000,  work chunks =    30    12/27/25 20:56:30 
+ master set rendezvous nps =    13201000,  work chunks =    30    12/27/25 20:56:35 
+ master set rendezvous nps =    13301000,  work chunks =    30    12/27/25 20:56:38 
+ master set rendezvous nps =    13401000,  work chunks =    30    12/27/25 20:56:59 
+ master set rendezvous nps =    13501000,  work chunks =    30    12/27/25 20:57:13 
+ master set rendezvous nps =    13601000,  work chunks =    30    12/27/25 20:57:24 
+ master set rendezvous nps =    13701000,  work chunks =    30    12/27/25 20:57:30 
+ master set rendezvous nps =    13801000,  work chunks =    30    12/27/25 20:57:37 
+ master set rendezvous nps =    13901000,  work chunks =    30    12/27/25 20:57:50 
+ master set rendezvous nps =    14001000,  work chunks =    30    12/27/25 20:57:58 
+ master set rendezvous nps =    14101000,  work chunks =    30    12/27/25 20:58:04 
+ master set rendezvous nps =    14201000,  work chunks =    30    12/27/25 20:58:14 
+ master set rendezvous nps =    14301000,  work chunks =    30    12/27/25 20:58:18 
+ master set rendezvous nps =    14401000,  work chunks =    30    12/27/25 20:58:25 
+ master set rendezvous nps =    14501000,  work chunks =    30    12/27/25 20:58:29 
+ master set rendezvous nps =    14601000,  work chunks =    30    12/27/25 20:58:33 
  warning.  no photon-production mt found in acegam. zaid =  26056.19c                                                                   
  nps =    14579094     nrn =             2998869 erg = 1.6117E-08                                                                       
- master set rendezvous nps =    14701000,  work chunks =    60    12/26/25 15:27:58 
- master set rendezvous nps =    14801000,  work chunks =    60    12/26/25 15:28:08 
- master set rendezvous nps =    14901000,  work chunks =    60    12/26/25 15:28:11 
- master set rendezvous nps =    15001000,  work chunks =    60    12/26/25 15:28:20 
- master set rendezvous nps =    15101000,  work chunks =    60    12/26/25 15:28:31 
- master set rendezvous nps =    15201000,  work chunks =    60    12/26/25 15:28:48 
- master set rendezvous nps =    15301000,  work chunks =    60    12/26/25 15:29:00 
- master set rendezvous nps =    15401000,  work chunks =    60    12/26/25 15:29:05 
- master set rendezvous nps =    15501000,  work chunks =    60    12/26/25 15:29:10 
- master set rendezvous nps =    15601000,  work chunks =    60    12/26/25 15:29:14 
- master set rendezvous nps =    15701000,  work chunks =    60    12/26/25 15:29:24 
- master set rendezvous nps =    15801000,  work chunks =    60    12/26/25 15:29:40 
- master set rendezvous nps =    15901000,  work chunks =    60    12/26/25 15:29:44 
- master set rendezvous nps =    16001000,  work chunks =    60    12/26/25 15:29:50 
- master set rendezvous nps =    16101000,  work chunks =    60    12/26/25 15:29:52 
- master set rendezvous nps =    16201000,  work chunks =    60    12/26/25 15:29:55 
- master set rendezvous nps =    16301000,  work chunks =    60    12/26/25 15:30:01 
- master set rendezvous nps =    16401000,  work chunks =    60    12/26/25 15:30:09 
- master set rendezvous nps =    16501000,  work chunks =    60    12/26/25 15:30:15 
- master set rendezvous nps =    16601000,  work chunks =    60    12/26/25 15:30:16 
- master set rendezvous nps =    16701000,  work chunks =    60    12/26/25 15:30:26 
- master set rendezvous nps =    16801000,  work chunks =    60    12/26/25 15:30:30 
- master set rendezvous nps =    16901000,  work chunks =    60    12/26/25 15:30:37 
- master set rendezvous nps =    17001000,  work chunks =    60    12/26/25 15:30:40 
- master set rendezvous nps =    17101000,  work chunks =    60    12/26/25 15:30:49 
- master set rendezvous nps =    17201000,  work chunks =    60    12/26/25 15:30:55 
- master set rendezvous nps =    17301000,  work chunks =    60    12/26/25 15:30:59 
- master set rendezvous nps =    17401000,  work chunks =    60    12/26/25 15:31:02 
- master set rendezvous nps =    17501000,  work chunks =    60    12/26/25 15:31:08 
- master set rendezvous nps =    17601000,  work chunks =    60    12/26/25 15:31:09 
- master set rendezvous nps =    17701000,  work chunks =    60    12/26/25 15:31:14 
- master set rendezvous nps =    17801000,  work chunks =    60    12/26/25 15:31:21 
- master set rendezvous nps =    17901000,  work chunks =    60    12/26/25 15:32:08 
- master set rendezvous nps =    18001000,  work chunks =    60    12/26/25 15:32:13 
- master set rendezvous nps =    18101000,  work chunks =    60    12/26/25 15:32:20 
- master set rendezvous nps =    18201000,  work chunks =    60    12/26/25 15:32:24 
- master set rendezvous nps =    18301000,  work chunks =    60    12/26/25 15:32:26 
- master set rendezvous nps =    18401000,  work chunks =    60    12/26/25 15:32:30 
- master set rendezvous nps =    18501000,  work chunks =    60    12/26/25 15:32:34 
- master set rendezvous nps =    18601000,  work chunks =    60    12/26/25 15:32:41 
- master set rendezvous nps =    18701000,  work chunks =    60    12/26/25 15:32:46 
- master set rendezvous nps =    18801000,  work chunks =    60    12/26/25 15:32:49 
- master set rendezvous nps =    18901000,  work chunks =    60    12/26/25 15:32:51 
- master set rendezvous nps =    19001000,  work chunks =    60    12/26/25 15:33:00 
- master set rendezvous nps =    19101000,  work chunks =    60    12/26/25 15:33:06 
- master set rendezvous nps =    19201000,  work chunks =    60    12/26/25 15:33:11 
- master set rendezvous nps =    19301000,  work chunks =    60    12/26/25 15:33:19 
- master set rendezvous nps =    19401000,  work chunks =    60    12/26/25 15:33:23 
- master set rendezvous nps =    19501000,  work chunks =    60    12/26/25 15:33:32 
- master set rendezvous nps =    19601000,  work chunks =    60    12/26/25 15:33:35 
- master set rendezvous nps =    19701000,  work chunks =    60    12/26/25 15:33:50 
- master set rendezvous nps =    19801000,  work chunks =    60    12/26/25 15:33:58 
- master set rendezvous nps =    19901000,  work chunks =    60    12/26/25 15:34:08 
- master set rendezvous nps =    20001000,  work chunks =    60    12/26/25 15:34:13 
- master set rendezvous nps =    20101000,  work chunks =    60    12/26/25 15:34:28 
- master set rendezvous nps =    20201000,  work chunks =    60    12/26/25 15:34:45 
- master set rendezvous nps =    20301000,  work chunks =    60    12/26/25 15:35:04 
- master set rendezvous nps =    20401000,  work chunks =    60    12/26/25 15:35:16 
- master set rendezvous nps =    20501000,  work chunks =    60    12/26/25 15:35:19 
- master set rendezvous nps =    20601000,  work chunks =    60    12/26/25 15:35:25 
- master set rendezvous nps =    20701000,  work chunks =    60    12/26/25 15:35:38 
- master set rendezvous nps =    20801000,  work chunks =    60    12/26/25 15:35:51 
- master set rendezvous nps =    20901000,  work chunks =    60    12/26/25 15:35:55 
- master set rendezvous nps =    21001000,  work chunks =    60    12/26/25 15:35:58 
- master set rendezvous nps =    21101000,  work chunks =    60    12/26/25 15:36:03 
- master set rendezvous nps =    21201000,  work chunks =    60    12/26/25 15:36:11 
- master set rendezvous nps =    21301000,  work chunks =    60    12/26/25 15:36:20 
- master set rendezvous nps =    21401000,  work chunks =    60    12/26/25 15:36:26 
- master set rendezvous nps =    21501000,  work chunks =    60    12/26/25 15:36:28 
- master set rendezvous nps =    21601000,  work chunks =    60    12/26/25 15:36:35 
- master set rendezvous nps =    21701000,  work chunks =    60    12/26/25 15:36:37 
- master set rendezvous nps =    21801000,  work chunks =    60    12/26/25 15:36:47 
- master set rendezvous nps =    21901000,  work chunks =    60    12/26/25 15:36:51 
- master set rendezvous nps =    22001000,  work chunks =    60    12/26/25 15:37:01 
- master set rendezvous nps =    22101000,  work chunks =    60    12/26/25 15:37:11 
- master set rendezvous nps =    22201000,  work chunks =    60    12/26/25 15:37:19 
- master set rendezvous nps =    22301000,  work chunks =    60    12/26/25 15:37:22 
- master set rendezvous nps =    22401000,  work chunks =    60    12/26/25 15:37:34 
- master set rendezvous nps =    22501000,  work chunks =    60    12/26/25 15:37:43 
- master set rendezvous nps =    22601000,  work chunks =    60    12/26/25 15:37:46 
- master set rendezvous nps =    22701000,  work chunks =    60    12/26/25 15:37:56 
- master set rendezvous nps =    22801000,  work chunks =    60    12/26/25 15:38:04 
- master set rendezvous nps =    22901000,  work chunks =    60    12/26/25 15:38:36 
- master set rendezvous nps =    23001000,  work chunks =    60    12/26/25 15:38:50 
- master set rendezvous nps =    23101000,  work chunks =    60    12/26/25 15:38:58 
- master set rendezvous nps =    23201000,  work chunks =    60    12/26/25 15:39:01 
- master set rendezvous nps =    23301000,  work chunks =    60    12/26/25 15:39:06 
- master set rendezvous nps =    23401000,  work chunks =    60    12/26/25 15:39:12 
- master set rendezvous nps =    23501000,  work chunks =    60    12/26/25 15:39:14 
- master set rendezvous nps =    23601000,  work chunks =    60    12/26/25 15:39:16 
- master set rendezvous nps =    23701000,  work chunks =    60    12/26/25 15:39:29 
- master set rendezvous nps =    23801000,  work chunks =    60    12/26/25 15:39:33 
- master set rendezvous nps =    23901000,  work chunks =    60    12/26/25 15:39:37 
- master set rendezvous nps =    24001000,  work chunks =    60    12/26/25 15:39:44 
- master set rendezvous nps =    24101000,  work chunks =    60    12/26/25 15:39:50 
- master set rendezvous nps =    24201000,  work chunks =    60    12/26/25 15:40:01 
- master set rendezvous nps =    24301000,  work chunks =    60    12/26/25 15:40:11 
- master set rendezvous nps =    24401000,  work chunks =    60    12/26/25 15:40:20 
- master set rendezvous nps =    24501000,  work chunks =    60    12/26/25 15:40:22 
- master set rendezvous nps =    24601000,  work chunks =    60    12/26/25 15:40:30 
- master set rendezvous nps =    24701000,  work chunks =    60    12/26/25 15:40:59 
- master set rendezvous nps =    24801000,  work chunks =    60    12/26/25 15:41:12 
- master set rendezvous nps =    24901000,  work chunks =    60    12/26/25 15:41:17 
- master set rendezvous nps =    25001000,  work chunks =    60    12/26/25 15:41:29 
- master set rendezvous nps =    25101000,  work chunks =    60    12/26/25 15:41:39 
- master set rendezvous nps =    25201000,  work chunks =    60    12/26/25 15:41:44 
- master set rendezvous nps =    25301000,  work chunks =    60    12/26/25 15:41:46 
- master set rendezvous nps =    25401000,  work chunks =    60    12/26/25 15:41:54 
- master set rendezvous nps =    25501000,  work chunks =    60    12/26/25 15:42:06 
- master set rendezvous nps =    25601000,  work chunks =    60    12/26/25 15:42:10 
- master set rendezvous nps =    25701000,  work chunks =    60    12/26/25 15:42:16 
- master set rendezvous nps =    25801000,  work chunks =    60    12/26/25 15:42:36 
- master set rendezvous nps =    25901000,  work chunks =    60    12/26/25 15:42:58 
- master set rendezvous nps =    26001000,  work chunks =    60    12/26/25 15:43:00 
- master set rendezvous nps =    26101000,  work chunks =    60    12/26/25 15:43:06 
- master set rendezvous nps =    26201000,  work chunks =    60    12/26/25 15:43:20 
- master set rendezvous nps =    26301000,  work chunks =    60    12/26/25 15:43:27 
- master set rendezvous nps =    26401000,  work chunks =    60    12/26/25 15:43:31 
- master set rendezvous nps =    26501000,  work chunks =    60    12/26/25 15:43:35 
+ master set rendezvous nps =    14701000,  work chunks =    30    12/27/25 20:58:40 
+ master set rendezvous nps =    14801000,  work chunks =    30    12/27/25 20:58:49 
+ master set rendezvous nps =    14901000,  work chunks =    30    12/27/25 20:58:54 
+ master set rendezvous nps =    15001000,  work chunks =    30    12/27/25 20:59:03 
+ master set rendezvous nps =    15101000,  work chunks =    30    12/27/25 20:59:14 
+ master set rendezvous nps =    15201000,  work chunks =    30    12/27/25 20:59:31 
+ master set rendezvous nps =    15301000,  work chunks =    30    12/27/25 20:59:42 
+ master set rendezvous nps =    15401000,  work chunks =    30    12/27/25 20:59:48 
+ master set rendezvous nps =    15501000,  work chunks =    30    12/27/25 20:59:53 
+ master set rendezvous nps =    15601000,  work chunks =    30    12/27/25 20:59:58 
+ master set rendezvous nps =    15701000,  work chunks =    30    12/27/25 21:00:08 
+ master set rendezvous nps =    15801000,  work chunks =    30    12/27/25 21:00:24 
+ master set rendezvous nps =    15901000,  work chunks =    30    12/27/25 21:00:28 
+ master set rendezvous nps =    16001000,  work chunks =    30    12/27/25 21:00:34 
+ master set rendezvous nps =    16101000,  work chunks =    30    12/27/25 21:00:37 
+ master set rendezvous nps =    16201000,  work chunks =    30    12/27/25 21:00:40 
+ master set rendezvous nps =    16301000,  work chunks =    30    12/27/25 21:00:46 
+ master set rendezvous nps =    16401000,  work chunks =    30    12/27/25 21:00:55 
+ master set rendezvous nps =    16501000,  work chunks =    30    12/27/25 21:01:01 
+ master set rendezvous nps =    16601000,  work chunks =    30    12/27/25 21:01:03 
+ master set rendezvous nps =    16701000,  work chunks =    30    12/27/25 21:01:12 
+ master set rendezvous nps =    16801000,  work chunks =    30    12/27/25 21:01:17 
+ master set rendezvous nps =    16901000,  work chunks =    30    12/27/25 21:01:24 
+ master set rendezvous nps =    17001000,  work chunks =    30    12/27/25 21:01:28 
+ master set rendezvous nps =    17101000,  work chunks =    30    12/27/25 21:01:37 
+ master set rendezvous nps =    17201000,  work chunks =    30    12/27/25 21:01:46 
+ master set rendezvous nps =    17301000,  work chunks =    30    12/27/25 21:01:51 
+ master set rendezvous nps =    17401000,  work chunks =    30    12/27/25 21:01:54 
+ master set rendezvous nps =    17501000,  work chunks =    30    12/27/25 21:02:00 
+ master set rendezvous nps =    17601000,  work chunks =    30    12/27/25 21:02:02 
+ master set rendezvous nps =    17701000,  work chunks =    30    12/27/25 21:02:07 
+ master set rendezvous nps =    17801000,  work chunks =    30    12/27/25 21:02:15 
+ master set rendezvous nps =    17901000,  work chunks =    30    12/27/25 21:03:02 
+ master set rendezvous nps =    18001000,  work chunks =    30    12/27/25 21:03:06 
+ master set rendezvous nps =    18101000,  work chunks =    30    12/27/25 21:03:14 
+ master set rendezvous nps =    18201000,  work chunks =    30    12/27/25 21:03:18 
+ master set rendezvous nps =    18301000,  work chunks =    30    12/27/25 21:03:21 
+ master set rendezvous nps =    18401000,  work chunks =    30    12/27/25 21:03:25 
+ master set rendezvous nps =    18501000,  work chunks =    30    12/27/25 21:03:29 
+ master set rendezvous nps =    18601000,  work chunks =    30    12/27/25 21:03:36 
+ master set rendezvous nps =    18701000,  work chunks =    30    12/27/25 21:03:41 
+ master set rendezvous nps =    18801000,  work chunks =    30    12/27/25 21:03:45 
+ master set rendezvous nps =    18901000,  work chunks =    30    12/27/25 21:03:47 
+ master set rendezvous nps =    19001000,  work chunks =    30    12/27/25 21:03:59 
+ master set rendezvous nps =    19101000,  work chunks =    30    12/27/25 21:04:05 
+ master set rendezvous nps =    19201000,  work chunks =    30    12/27/25 21:04:13 
+ master set rendezvous nps =    19301000,  work chunks =    30    12/27/25 21:04:21 
+ master set rendezvous nps =    19401000,  work chunks =    30    12/27/25 21:04:25 
+ master set rendezvous nps =    19501000,  work chunks =    30    12/27/25 21:04:35 
+ master set rendezvous nps =    19601000,  work chunks =    30    12/27/25 21:04:39 
+ master set rendezvous nps =    19701000,  work chunks =    30    12/27/25 21:04:54 
+ master set rendezvous nps =    19801000,  work chunks =    30    12/27/25 21:05:03 
+ master set rendezvous nps =    19901000,  work chunks =    30    12/27/25 21:05:12 
+ master set rendezvous nps =    20001000,  work chunks =    30    12/27/25 21:05:19 
+ master set rendezvous nps =    20101000,  work chunks =    30    12/27/25 21:05:35 
+ master set rendezvous nps =    20201000,  work chunks =    30    12/27/25 21:05:52 
+ master set rendezvous nps =    20301000,  work chunks =    30    12/27/25 21:06:11 
+ master set rendezvous nps =    20401000,  work chunks =    30    12/27/25 21:06:22 
+ master set rendezvous nps =    20501000,  work chunks =    30    12/27/25 21:06:27 
+ master set rendezvous nps =    20601000,  work chunks =    30    12/27/25 21:06:35 
+ master set rendezvous nps =    20701000,  work chunks =    30    12/27/25 21:06:48 
+ master set rendezvous nps =    20801000,  work chunks =    30    12/27/25 21:07:00 
+ master set rendezvous nps =    20901000,  work chunks =    30    12/27/25 21:07:05 
+ master set rendezvous nps =    21001000,  work chunks =    30    12/27/25 21:07:09 
+ master set rendezvous nps =    21101000,  work chunks =    30    12/27/25 21:07:14 
+ master set rendezvous nps =    21201000,  work chunks =    30    12/27/25 21:07:22 
+ master set rendezvous nps =    21301000,  work chunks =    30    12/27/25 21:07:31 
+ master set rendezvous nps =    21401000,  work chunks =    30    12/27/25 21:07:38 
+ master set rendezvous nps =    21501000,  work chunks =    30    12/27/25 21:07:41 
+ master set rendezvous nps =    21601000,  work chunks =    30    12/27/25 21:07:47 
+ master set rendezvous nps =    21701000,  work chunks =    30    12/27/25 21:07:50 
+ master set rendezvous nps =    21801000,  work chunks =    30    12/27/25 21:08:00 
+ master set rendezvous nps =    21901000,  work chunks =    30    12/27/25 21:08:04 
+ master set rendezvous nps =    22001000,  work chunks =    30    12/27/25 21:08:14 
+ master set rendezvous nps =    22101000,  work chunks =    30    12/27/25 21:08:24 
+ master set rendezvous nps =    22201000,  work chunks =    30    12/27/25 21:08:32 
+ master set rendezvous nps =    22301000,  work chunks =    30    12/27/25 21:08:35 
+ master set rendezvous nps =    22401000,  work chunks =    30    12/27/25 21:08:47 
+ master set rendezvous nps =    22501000,  work chunks =    30    12/27/25 21:08:56 
+ master set rendezvous nps =    22601000,  work chunks =    30    12/27/25 21:08:59 
+ master set rendezvous nps =    22701000,  work chunks =    30    12/27/25 21:09:09 
+ master set rendezvous nps =    22801000,  work chunks =    30    12/27/25 21:09:17 
+ master set rendezvous nps =    22901000,  work chunks =    30    12/27/25 21:09:49 
+ master set rendezvous nps =    23001000,  work chunks =    30    12/27/25 21:10:03 
+ master set rendezvous nps =    23101000,  work chunks =    30    12/27/25 21:10:11 
+ master set rendezvous nps =    23201000,  work chunks =    30    12/27/25 21:10:14 
+ master set rendezvous nps =    23301000,  work chunks =    30    12/27/25 21:10:19 
+ master set rendezvous nps =    23401000,  work chunks =    30    12/27/25 21:10:25 
+ master set rendezvous nps =    23501000,  work chunks =    30    12/27/25 21:10:28 
+ master set rendezvous nps =    23601000,  work chunks =    30    12/27/25 21:10:30 
+ master set rendezvous nps =    23701000,  work chunks =    30    12/27/25 21:10:42 
+ master set rendezvous nps =    23801000,  work chunks =    30    12/27/25 21:10:47 
+ master set rendezvous nps =    23901000,  work chunks =    30    12/27/25 21:10:50 
+ master set rendezvous nps =    24001000,  work chunks =    30    12/27/25 21:10:57 
+ master set rendezvous nps =    24101000,  work chunks =    30    12/27/25 21:11:03 
+ master set rendezvous nps =    24201000,  work chunks =    30    12/27/25 21:11:14 
+ master set rendezvous nps =    24301000,  work chunks =    30    12/27/25 21:11:24 
+ master set rendezvous nps =    24401000,  work chunks =    30    12/27/25 21:11:33 
+ master set rendezvous nps =    24501000,  work chunks =    30    12/27/25 21:11:36 
+ master set rendezvous nps =    24601000,  work chunks =    30    12/27/25 21:11:44 
+ master set rendezvous nps =    24701000,  work chunks =    30    12/27/25 21:12:11 
+ master set rendezvous nps =    24801000,  work chunks =    30    12/27/25 21:12:24 
+ master set rendezvous nps =    24901000,  work chunks =    30    12/27/25 21:12:29 
+ master set rendezvous nps =    25001000,  work chunks =    30    12/27/25 21:12:42 
+ master set rendezvous nps =    25101000,  work chunks =    30    12/27/25 21:12:52 
+ master set rendezvous nps =    25201000,  work chunks =    30    12/27/25 21:12:57 
+ master set rendezvous nps =    25301000,  work chunks =    30    12/27/25 21:13:00 
+ master set rendezvous nps =    25401000,  work chunks =    30    12/27/25 21:13:08 
+ master set rendezvous nps =    25501000,  work chunks =    30    12/27/25 21:13:20 
+ master set rendezvous nps =    25601000,  work chunks =    30    12/27/25 21:13:25 
+ master set rendezvous nps =    25701000,  work chunks =    30    12/27/25 21:13:31 
+ master set rendezvous nps =    25801000,  work chunks =    30    12/27/25 21:13:51 
+ master set rendezvous nps =    25901000,  work chunks =    30    12/27/25 21:14:12 
+ master set rendezvous nps =    26001000,  work chunks =    30    12/27/25 21:14:15 
+ master set rendezvous nps =    26101000,  work chunks =    30    12/27/25 21:14:22 
+ master set rendezvous nps =    26201000,  work chunks =    30    12/27/25 21:14:35 
+ master set rendezvous nps =    26301000,  work chunks =    30    12/27/25 21:14:42 
+ master set rendezvous nps =    26401000,  work chunks =    30    12/27/25 21:14:46 
+ master set rendezvous nps =    26501000,  work chunks =    30    12/27/25 21:14:51 
+ master set rendezvous nps =    26601000,  work chunks =    30    12/27/25 21:14:57 
+ master set rendezvous nps =    26701000,  work chunks =    30    12/27/25 21:15:04 
+ master set rendezvous nps =    26801000,  work chunks =    30    12/27/25 21:15:20 
+ master set rendezvous nps =    26901000,  work chunks =    30    12/27/25 21:15:24 
+ master set rendezvous nps =    27001000,  work chunks =    30    12/27/25 21:15:30 
+ master set rendezvous nps =    27101000,  work chunks =    30    12/27/25 21:15:37 
+ master set rendezvous nps =    27201000,  work chunks =    30    12/27/25 21:15:42 
+ master set rendezvous nps =    27301000,  work chunks =    30    12/27/25 21:15:45 
+ master set rendezvous nps =    27401000,  work chunks =    30    12/27/25 21:16:18 
+ master set rendezvous nps =    27501000,  work chunks =    30    12/27/25 21:16:22 
+ master set rendezvous nps =    27601000,  work chunks =    30    12/27/25 21:16:33 
+ master set rendezvous nps =    27701000,  work chunks =    30    12/27/25 21:16:38 
+ master set rendezvous nps =    27801000,  work chunks =    30    12/27/25 21:16:43 
+ master set rendezvous nps =    27901000,  work chunks =    30    12/27/25 21:16:47 
+ master set rendezvous nps =    28001000,  work chunks =    30    12/27/25 21:17:01 
+ master set rendezvous nps =    28101000,  work chunks =    30    12/27/25 21:17:04 
+ master set rendezvous nps =    28201000,  work chunks =    30    12/27/25 21:17:10 
+ master set rendezvous nps =    28301000,  work chunks =    30    12/27/25 21:17:14 
+ master set rendezvous nps =    28401000,  work chunks =    30    12/27/25 21:17:18 
+ master set rendezvous nps =    28501000,  work chunks =    30    12/27/25 21:17:22 
+ master set rendezvous nps =    28601000,  work chunks =    30    12/27/25 21:17:28 
+ master set rendezvous nps =    28701000,  work chunks =    30    12/27/25 21:17:40 
+ master set rendezvous nps =    28801000,  work chunks =    30    12/27/25 21:18:36 
+ master set rendezvous nps =    28901000,  work chunks =    30    12/27/25 21:18:40 
+ master set rendezvous nps =    29001000,  work chunks =    30    12/27/25 21:18:46 
+ master set rendezvous nps =    29101000,  work chunks =    30    12/27/25 21:18:52 
+ master set rendezvous nps =    29201000,  work chunks =    30    12/27/25 21:18:57 
+ master set rendezvous nps =    29301000,  work chunks =    30    12/27/25 21:19:03 
+ master set rendezvous nps =    29401000,  work chunks =    30    12/27/25 21:19:08 
+ master set rendezvous nps =    29501000,  work chunks =    30    12/27/25 21:19:13 
+ master set rendezvous nps =    29601000,  work chunks =    30    12/27/25 21:19:21 
+ master set rendezvous nps =    29701000,  work chunks =    30    12/27/25 21:19:32 
+ master set rendezvous nps =    29801000,  work chunks =    30    12/27/25 21:19:34 
+ master set rendezvous nps =    29901000,  work chunks =    30    12/27/25 21:19:36 
+ master set rendezvous nps =    30001000,  work chunks =    30    12/27/25 21:19:41 
+ master set rendezvous nps =    30101000,  work chunks =    30    12/27/25 21:19:52 
+ master set rendezvous nps =    30201000,  work chunks =    30    12/27/25 21:20:08 
+ master set rendezvous nps =    30301000,  work chunks =    30    12/27/25 21:21:23 
+ master set rendezvous nps =    30401000,  work chunks =    30    12/27/25 21:21:36 
+ master set rendezvous nps =    30501000,  work chunks =    30    12/27/25 21:21:42 
+ master set rendezvous nps =    30601000,  work chunks =    30    12/27/25 21:21:48 
+ master set rendezvous nps =    30701000,  work chunks =    30    12/27/25 21:21:53 
+ master set rendezvous nps =    30801000,  work chunks =    30    12/27/25 21:21:55 
+ master set rendezvous nps =    30901000,  work chunks =    30    12/27/25 21:22:02 
+ master set rendezvous nps =    31001000,  work chunks =    30    12/27/25 21:22:10 
+ master set rendezvous nps =    31101000,  work chunks =    30    12/27/25 21:22:15 
+ master set rendezvous nps =    31201000,  work chunks =    30    12/27/25 21:22:24 
+ master set rendezvous nps =    31301000,  work chunks =    30    12/27/25 21:22:26 
+ master set rendezvous nps =    31401000,  work chunks =    30    12/27/25 21:22:33 
+ master set rendezvous nps =    31501000,  work chunks =    30    12/27/25 21:22:42 
+ master set rendezvous nps =    31601000,  work chunks =    30    12/27/25 21:22:56 
+ master set rendezvous nps =    31701000,  work chunks =    30    12/27/25 21:23:00 
+ master set rendezvous nps =    31801000,  work chunks =    30    12/27/25 21:23:05 
+ master set rendezvous nps =    31901000,  work chunks =    30    12/27/25 21:23:14 
+ master set rendezvous nps =    32001000,  work chunks =    30    12/27/25 21:23:18 
+ master set rendezvous nps =    32101000,  work chunks =    30    12/27/25 21:23:29 
+ master set rendezvous nps =    32201000,  work chunks =    30    12/27/25 21:23:43 
+ master set rendezvous nps =    32301000,  work chunks =    30    12/27/25 21:23:49 
+ master set rendezvous nps =    32401000,  work chunks =    30    12/27/25 21:25:11 
+ master set rendezvous nps =    32501000,  work chunks =    30    12/27/25 21:25:14 
+ master set rendezvous nps =    32601000,  work chunks =    30    12/27/25 21:25:23 
+ master set rendezvous nps =    32701000,  work chunks =    30    12/27/25 21:25:25 
+ master set rendezvous nps =    32801000,  work chunks =    30    12/27/25 21:25:30 
+ master set rendezvous nps =    32901000,  work chunks =    30    12/27/25 21:25:37 
+ master set rendezvous nps =    33001000,  work chunks =    30    12/27/25 21:25:52 
+ master set rendezvous nps =    33101000,  work chunks =    30    12/27/25 21:25:55 
+ master set rendezvous nps =    33201000,  work chunks =    30    12/27/25 21:26:03 
+ master set rendezvous nps =    33301000,  work chunks =    30    12/27/25 21:26:14 
+ master set rendezvous nps =    33401000,  work chunks =    30    12/27/25 21:26:17 
+ master set rendezvous nps =    33501000,  work chunks =    30    12/27/25 21:26:23 
+ master set rendezvous nps =    33601000,  work chunks =    30    12/27/25 21:26:26 
+ master set rendezvous nps =    33701000,  work chunks =    30    12/27/25 21:26:30 
+ master set rendezvous nps =    33801000,  work chunks =    30    12/27/25 21:26:44 
+ master set rendezvous nps =    33901000,  work chunks =    30    12/27/25 21:26:52 
+ master set rendezvous nps =    34001000,  work chunks =    30    12/27/25 21:26:58 
+ master set rendezvous nps =    34101000,  work chunks =    30    12/27/25 21:27:25 
+ master set rendezvous nps =    34201000,  work chunks =    30    12/27/25 21:27:37 
+ master set rendezvous nps =    34301000,  work chunks =    30    12/27/25 21:27:48 
+ master set rendezvous nps =    34401000,  work chunks =    30    12/27/25 21:27:55 
+ master set rendezvous nps =    34501000,  work chunks =    30    12/27/25 21:28:19 
+ master set rendezvous nps =    34601000,  work chunks =    30    12/27/25 21:28:26 
+ master set rendezvous nps =    34701000,  work chunks =    30    12/27/25 21:28:45 
+ master set rendezvous nps =    34801000,  work chunks =    30    12/27/25 21:28:51 
+ master set rendezvous nps =    34901000,  work chunks =    30    12/27/25 21:28:59 
+ master set rendezvous nps =    35001000,  work chunks =    30    12/27/25 21:29:04 
+ master set rendezvous nps =    35101000,  work chunks =    30    12/27/25 21:29:13 
+ master set rendezvous nps =    35201000,  work chunks =    30    12/27/25 21:29:17 
+ master set rendezvous nps =    35301000,  work chunks =    30    12/27/25 21:29:21 
+ master set rendezvous nps =    35401000,  work chunks =    30    12/27/25 21:29:29 
+ master set rendezvous nps =    35501000,  work chunks =    30    12/27/25 21:29:31 
+ master set rendezvous nps =    35601000,  work chunks =    30    12/27/25 21:29:37 
+ master set rendezvous nps =    35701000,  work chunks =    30    12/27/25 21:29:43 
+ master set rendezvous nps =    35801000,  work chunks =    30    12/27/25 21:29:47 
+ master set rendezvous nps =    35901000,  work chunks =    30    12/27/25 21:29:54 
+ master set rendezvous nps =    36001000,  work chunks =    30    12/27/25 21:29:56 
+ master set rendezvous nps =    36101000,  work chunks =    30    12/27/25 21:30:04 
+ master set rendezvous nps =    36201000,  work chunks =    30    12/27/25 21:30:08 
+ master set rendezvous nps =    36301000,  work chunks =    30    12/27/25 21:30:11 
+ master set rendezvous nps =    36401000,  work chunks =    30    12/27/25 21:30:17 
+ master set rendezvous nps =    36501000,  work chunks =    30    12/27/25 21:30:21 
+ master set rendezvous nps =    36601000,  work chunks =    30    12/27/25 21:30:29 
+ master set rendezvous nps =    36701000,  work chunks =    30    12/27/25 21:30:38 
+ master set rendezvous nps =    36801000,  work chunks =    30    12/27/25 21:30:44 
+ master set rendezvous nps =    36901000,  work chunks =    30    12/27/25 21:30:51 
+ master set rendezvous nps =    37001000,  work chunks =    30    12/27/25 21:31:03 
+ master set rendezvous nps =    37101000,  work chunks =    30    12/27/25 21:31:11 
+ master set rendezvous nps =    37201000,  work chunks =    30    12/27/25 21:31:15 
+ master set rendezvous nps =    37301000,  work chunks =    30    12/27/25 21:31:22 
+ master set rendezvous nps =    37401000,  work chunks =    30    12/27/25 21:31:27 
+ master set rendezvous nps =    37501000,  work chunks =    30    12/27/25 21:31:30 
+ master set rendezvous nps =    37601000,  work chunks =    30    12/27/25 21:31:39 
+ master set rendezvous nps =    37701000,  work chunks =    30    12/27/25 21:31:49 
+ master set rendezvous nps =    37801000,  work chunks =    30    12/27/25 21:31:53 
+ master set rendezvous nps =    37901000,  work chunks =    30    12/27/25 21:32:03 
+ master set rendezvous nps =    38001000,  work chunks =    30    12/27/25 21:32:08 
+ master set rendezvous nps =    38101000,  work chunks =    30    12/27/25 21:32:12 
+ master set rendezvous nps =    38201000,  work chunks =    30    12/27/25 21:32:17 
+ master set rendezvous nps =    38301000,  work chunks =    30    12/27/25 21:32:24 
+ master set rendezvous nps =    38401000,  work chunks =    30    12/27/25 21:32:37 
+ master set rendezvous nps =    38501000,  work chunks =    30    12/27/25 21:32:43 
+ master set rendezvous nps =    38601000,  work chunks =    30    12/27/25 21:32:49 
+ master set rendezvous nps =    38701000,  work chunks =    30    12/27/25 21:32:51 
+ master set rendezvous nps =    38801000,  work chunks =    30    12/27/25 21:32:57 
+ master set rendezvous nps =    38901000,  work chunks =    30    12/27/25 21:33:02 
+ master set rendezvous nps =    39001000,  work chunks =    30    12/27/25 21:33:12 
+ master set rendezvous nps =    39101000,  work chunks =    30    12/27/25 21:33:19 
+ master set rendezvous nps =    39201000,  work chunks =    30    12/27/25 21:33:35 
+ master set rendezvous nps =    39301000,  work chunks =    30    12/27/25 21:34:17 
+ master set rendezvous nps =    39401000,  work chunks =    30    12/27/25 21:34:23 
+ master set rendezvous nps =    39501000,  work chunks =    30    12/27/25 21:34:29 
+ master set rendezvous nps =    39601000,  work chunks =    30    12/27/25 21:34:38 
+ master set rendezvous nps =    39701000,  work chunks =    30    12/27/25 21:34:54 
+ master set rendezvous nps =    39801000,  work chunks =    30    12/27/25 21:34:57 
+ master set rendezvous nps =    39901000,  work chunks =    30    12/27/25 21:35:03 
+ master set rendezvous nps =    40001000,  work chunks =    30    12/27/25 21:35:12 
+ master set rendezvous nps =    40101000,  work chunks =    30    12/27/25 21:35:18 
+ master set rendezvous nps =    40201000,  work chunks =    30    12/27/25 21:35:39 
+ master set rendezvous nps =    40301000,  work chunks =    30    12/27/25 21:35:48 
+ master set rendezvous nps =    40401000,  work chunks =    30    12/27/25 21:35:55 
+ master set rendezvous nps =    40501000,  work chunks =    30    12/27/25 21:36:04 
+ master set rendezvous nps =    40601000,  work chunks =    30    12/27/25 21:36:18 
+ master set rendezvous nps =    40701000,  work chunks =    30    12/27/25 21:36:45 
+ master set rendezvous nps =    40801000,  work chunks =    30    12/27/25 21:37:04 
+ master set rendezvous nps =    40901000,  work chunks =    30    12/27/25 21:37:15 
+ master set rendezvous nps =    41001000,  work chunks =    30    12/27/25 21:37:24 
+ master set rendezvous nps =    41101000,  work chunks =    30    12/27/25 21:37:29 
+ master set rendezvous nps =    41201000,  work chunks =    30    12/27/25 21:37:40 
+ master set rendezvous nps =    41301000,  work chunks =    30    12/27/25 21:37:43 
+ master set rendezvous nps =    41401000,  work chunks =    30    12/27/25 21:37:47 
+ master set rendezvous nps =    41501000,  work chunks =    30    12/27/25 21:37:51 
+ master set rendezvous nps =    41601000,  work chunks =    30    12/27/25 21:37:57 
+ master set rendezvous nps =    41701000,  work chunks =    30    12/27/25 21:38:02 
+ master set rendezvous nps =    41801000,  work chunks =    30    12/27/25 21:38:07 
+ master set rendezvous nps =    41901000,  work chunks =    30    12/27/25 21:38:30 
+ master set rendezvous nps =    42001000,  work chunks =    30    12/27/25 21:38:35 
+ master set rendezvous nps =    42101000,  work chunks =    30    12/27/25 21:38:55 
+ master set rendezvous nps =    42201000,  work chunks =    30    12/27/25 21:39:04 
+ master set rendezvous nps =    42301000,  work chunks =    30    12/27/25 21:39:08 
+ master set rendezvous nps =    42401000,  work chunks =    30    12/27/25 21:39:12 
+ master set rendezvous nps =    42501000,  work chunks =    30    12/27/25 21:39:18 
+ master set rendezvous nps =    42601000,  work chunks =    30    12/27/25 21:39:21 
+ master set rendezvous nps =    42701000,  work chunks =    30    12/27/25 21:39:26 
+ master set rendezvous nps =    42801000,  work chunks =    30    12/27/25 21:39:30 
+ master set rendezvous nps =    42901000,  work chunks =    30    12/27/25 21:39:38 
+ master set rendezvous nps =    43001000,  work chunks =    30    12/27/25 21:39:48 
+ master set rendezvous nps =    43101000,  work chunks =    30    12/27/25 21:39:54 
+ master set rendezvous nps =    43201000,  work chunks =    30    12/27/25 21:39:57 
+ master set rendezvous nps =    43301000,  work chunks =    30    12/27/25 21:40:09 
+ master set rendezvous nps =    43401000,  work chunks =    30    12/27/25 21:40:21 
+ master set rendezvous nps =    43501000,  work chunks =    30    12/27/25 21:40:34 
+ master set rendezvous nps =    43601000,  work chunks =    30    12/27/25 21:40:43 
+ master set rendezvous nps =    43701000,  work chunks =    30    12/27/25 21:40:46 
+ master set rendezvous nps =    43801000,  work chunks =    30    12/27/25 21:40:50 
+ master set rendezvous nps =    43901000,  work chunks =    30    12/27/25 21:41:08 
+ master set rendezvous nps =    44001000,  work chunks =    30    12/27/25 21:42:29 
+ master set rendezvous nps =    44101000,  work chunks =    30    12/27/25 21:42:31 
+ master set rendezvous nps =    44201000,  work chunks =    30    12/27/25 21:42:34 
+ master set rendezvous nps =    44301000,  work chunks =    30    12/27/25 21:42:38 
+ master set rendezvous nps =    44401000,  work chunks =    30    12/27/25 21:42:42 
+ master set rendezvous nps =    44501000,  work chunks =    30    12/27/25 21:42:52 
+ master set rendezvous nps =    44601000,  work chunks =    30    12/27/25 21:43:03 
+ master set rendezvous nps =    44701000,  work chunks =    30    12/27/25 21:43:05 
+ master set rendezvous nps =    44801000,  work chunks =    30    12/27/25 21:43:15 
+ master set rendezvous nps =    44901000,  work chunks =    30    12/27/25 21:43:27 
+ master set rendezvous nps =    45001000,  work chunks =    30    12/27/25 21:43:39 
+ master set rendezvous nps =    45101000,  work chunks =    30    12/27/25 21:43:43 
+ master set rendezvous nps =    45201000,  work chunks =    30    12/27/25 21:43:52 
+ master set rendezvous nps =    45301000,  work chunks =    30    12/27/25 21:43:57 
+ master set rendezvous nps =    45401000,  work chunks =    30    12/27/25 21:44:04 
+ master set rendezvous nps =    45501000,  work chunks =    30    12/27/25 21:44:08 
+ master set rendezvous nps =    45601000,  work chunks =    30    12/27/25 21:44:12 
+ master set rendezvous nps =    45701000,  work chunks =    30    12/27/25 21:44:21 
+ master set rendezvous nps =    45801000,  work chunks =    30    12/27/25 21:44:27 
+ master set rendezvous nps =    45901000,  work chunks =    30    12/27/25 21:44:31 
+ master set rendezvous nps =    46001000,  work chunks =    30    12/27/25 21:44:39 
+ master set rendezvous nps =    46101000,  work chunks =    30    12/27/25 21:44:48 
+ master set rendezvous nps =    46201000,  work chunks =    30    12/27/25 21:45:03 
+ master set rendezvous nps =    46301000,  work chunks =    30    12/27/25 21:45:08 
+ master set rendezvous nps =    46401000,  work chunks =    30    12/27/25 21:45:11 
+ master set rendezvous nps =    46501000,  work chunks =    30    12/27/25 21:45:15 
+ master set rendezvous nps =    46601000,  work chunks =    30    12/27/25 21:45:21 
+ master set rendezvous nps =    46701000,  work chunks =    30    12/27/25 21:45:25 
+ master set rendezvous nps =    46801000,  work chunks =    30    12/27/25 21:45:32 
+ master set rendezvous nps =    46901000,  work chunks =    30    12/27/25 21:45:39 
+ master set rendezvous nps =    47001000,  work chunks =    30    12/27/25 21:45:46 
+ master set rendezvous nps =    47101000,  work chunks =    30    12/27/25 21:45:51 
+ master set rendezvous nps =    47201000,  work chunks =    30    12/27/25 21:45:57 
+ master set rendezvous nps =    47301000,  work chunks =    30    12/27/25 21:46:02 
+ master set rendezvous nps =    47401000,  work chunks =    30    12/27/25 21:46:07 
+ master set rendezvous nps =    47501000,  work chunks =    30    12/27/25 21:46:15 
+ master set rendezvous nps =    47601000,  work chunks =    30    12/27/25 21:46:25 
+ master set rendezvous nps =    47701000,  work chunks =    30    12/27/25 21:46:36 
+ master set rendezvous nps =    47801000,  work chunks =    30    12/27/25 21:46:49 
+ master set rendezvous nps =    47901000,  work chunks =    30    12/27/25 21:46:57 
+ master set rendezvous nps =    48001000,  work chunks =    30    12/27/25 21:47:06 
+ master set rendezvous nps =    48101000,  work chunks =    30    12/27/25 21:47:09 
+ master set rendezvous nps =    48201000,  work chunks =    30    12/27/25 21:47:18 
+ master set rendezvous nps =    48301000,  work chunks =    30    12/27/25 21:47:27 
+ master set rendezvous nps =    48401000,  work chunks =    30    12/27/25 21:47:52 
+ master set rendezvous nps =    48501000,  work chunks =    30    12/27/25 21:47:58 
+ master set rendezvous nps =    48601000,  work chunks =    30    12/27/25 21:48:06 
+ master set rendezvous nps =    48701000,  work chunks =    30    12/27/25 21:48:13 
+ master set rendezvous nps =    48801000,  work chunks =    30    12/27/25 21:48:17 
+ master set rendezvous nps =    48901000,  work chunks =    30    12/27/25 21:48:36 
+ master set rendezvous nps =    49001000,  work chunks =    30    12/27/25 21:48:40 
+ master set rendezvous nps =    49101000,  work chunks =    30    12/27/25 21:48:56 
+ master set rendezvous nps =    49201000,  work chunks =    30    12/27/25 21:48:58 
+ master set rendezvous nps =    49301000,  work chunks =    30    12/27/25 21:49:02 
+ master set rendezvous nps =    49401000,  work chunks =    30    12/27/25 21:49:10 
+ master set rendezvous nps =    49501000,  work chunks =    30    12/27/25 21:49:20 
+ master set rendezvous nps =    49601000,  work chunks =    30    12/27/25 21:49:26 
+ master set rendezvous nps =    49701000,  work chunks =    30    12/27/25 21:49:37 
+ master set rendezvous nps =    49801000,  work chunks =    30    12/27/25 21:49:48 
+ master set rendezvous nps =    49901000,  work chunks =    30    12/27/25 21:50:11 
+ master set rendezvous nps =    50001000,  work chunks =    30    12/27/25 21:50:17 
+ master set rendezvous nps =    50101000,  work chunks =    30    12/27/25 21:50:26 
+ master set rendezvous nps =    50201000,  work chunks =    30    12/27/25 21:50:31 
+ master set rendezvous nps =    50301000,  work chunks =    30    12/27/25 21:50:35 
+ master set rendezvous nps =    50401000,  work chunks =    30    12/27/25 21:50:46 
+ master set rendezvous nps =    50501000,  work chunks =    30    12/27/25 21:50:56 
+ master set rendezvous nps =    50601000,  work chunks =    30    12/27/25 21:51:03 
+ master set rendezvous nps =    50701000,  work chunks =    30    12/27/25 21:51:11 
+ master set rendezvous nps =    50801000,  work chunks =    30    12/27/25 21:51:19 
+ master set rendezvous nps =    50901000,  work chunks =    30    12/27/25 21:51:23 
+ master set rendezvous nps =    51001000,  work chunks =    30    12/27/25 21:51:31 
+ master set rendezvous nps =    51101000,  work chunks =    30    12/27/25 21:51:34 
+ master set rendezvous nps =    51201000,  work chunks =    30    12/27/25 21:51:40 
+ master set rendezvous nps =    51301000,  work chunks =    30    12/27/25 21:51:46 
+ master set rendezvous nps =    51401000,  work chunks =    30    12/27/25 21:51:56 
+ master set rendezvous nps =    51501000,  work chunks =    30    12/27/25 21:52:07 
+ master set rendezvous nps =    51601000,  work chunks =    30    12/27/25 21:52:17 
+ master set rendezvous nps =    51701000,  work chunks =    30    12/27/25 21:52:26 
+ master set rendezvous nps =    51801000,  work chunks =    30    12/27/25 21:52:31 
+ master set rendezvous nps =    51901000,  work chunks =    30    12/27/25 21:52:54 
+ master set rendezvous nps =    52001000,  work chunks =    30    12/27/25 21:53:07 
+ master set rendezvous nps =    52101000,  work chunks =    30    12/27/25 21:53:16 
+ master set rendezvous nps =    52201000,  work chunks =    30    12/27/25 21:53:27 
+ master set rendezvous nps =    52301000,  work chunks =    30    12/27/25 21:53:32 
+ master set rendezvous nps =    52401000,  work chunks =    30    12/27/25 21:53:35 
+ master set rendezvous nps =    52501000,  work chunks =    30    12/27/25 21:53:45 
+ master set rendezvous nps =    52601000,  work chunks =    30    12/27/25 21:53:49 
+ master set rendezvous nps =    52701000,  work chunks =    30    12/27/25 21:53:56 
+ master set rendezvous nps =    52801000,  work chunks =    30    12/27/25 21:54:19 
+ master set rendezvous nps =    52901000,  work chunks =    30    12/27/25 21:54:21 
+ master set rendezvous nps =    53001000,  work chunks =    30    12/27/25 21:54:36 
+ master set rendezvous nps =    53101000,  work chunks =    30    12/27/25 21:54:42 
+ master set rendezvous nps =    53201000,  work chunks =    30    12/27/25 21:54:55 
+ master set rendezvous nps =    53301000,  work chunks =    30    12/27/25 21:55:04 
+ master set rendezvous nps =    53401000,  work chunks =    30    12/27/25 21:55:08 
+ master set rendezvous nps =    53501000,  work chunks =    30    12/27/25 21:55:14 
+ master set rendezvous nps =    53601000,  work chunks =    30    12/27/25 21:55:21 
+ master set rendezvous nps =    53701000,  work chunks =    30    12/27/25 21:56:35 
+ master set rendezvous nps =    53801000,  work chunks =    30    12/27/25 21:56:43 
+ master set rendezvous nps =    53901000,  work chunks =    30    12/27/25 21:56:51 
+ master set rendezvous nps =    54001000,  work chunks =    30    12/27/25 21:56:58 
+ master set rendezvous nps =    54101000,  work chunks =    30    12/27/25 21:57:02 
+ master set rendezvous nps =    54201000,  work chunks =    30    12/27/25 21:57:09 
+ master set rendezvous nps =    54301000,  work chunks =    30    12/27/25 21:57:14 
+ master set rendezvous nps =    54401000,  work chunks =    30    12/27/25 21:57:16 
+ master set rendezvous nps =    54501000,  work chunks =    30    12/27/25 21:57:21 
+ master set rendezvous nps =    54601000,  work chunks =    30    12/27/25 21:57:39 
+ master set rendezvous nps =    54701000,  work chunks =    30    12/27/25 21:57:55 
+ master set rendezvous nps =    54801000,  work chunks =    30    12/27/25 21:58:02 
+ master set rendezvous nps =    54901000,  work chunks =    30    12/27/25 21:58:10 
+ master set rendezvous nps =    55001000,  work chunks =    30    12/27/25 21:58:31 
+ master set rendezvous nps =    55101000,  work chunks =    30    12/27/25 21:58:33 
+ master set rendezvous nps =    55201000,  work chunks =    30    12/27/25 21:58:38 
+ master set rendezvous nps =    55301000,  work chunks =    30    12/27/25 21:58:57 
+ master set rendezvous nps =    55401000,  work chunks =    30    12/27/25 21:59:09 
+ master set rendezvous nps =    55501000,  work chunks =    30    12/27/25 21:59:13 
+ master set rendezvous nps =    55601000,  work chunks =    30    12/27/25 21:59:17 
+ master set rendezvous nps =    55701000,  work chunks =    30    12/27/25 21:59:25 
+ master set rendezvous nps =    55801000,  work chunks =    30    12/27/25 21:59:33 
+ master set rendezvous nps =    55901000,  work chunks =    30    12/27/25 21:59:36 
+ master set rendezvous nps =    56001000,  work chunks =    30    12/27/25 21:59:40 
+ master set rendezvous nps =    56101000,  work chunks =    30    12/27/25 21:59:52 
+ master set rendezvous nps =    56201000,  work chunks =    30    12/27/25 21:59:57 
+ master set rendezvous nps =    56301000,  work chunks =    30    12/27/25 22:00:01 
+ master set rendezvous nps =    56401000,  work chunks =    30    12/27/25 22:00:07 
+ master set rendezvous nps =    56501000,  work chunks =    30    12/27/25 22:00:09 
+ master set rendezvous nps =    56601000,  work chunks =    30    12/27/25 22:00:19 
+ master set rendezvous nps =    56701000,  work chunks =    30    12/27/25 22:00:24 
+ master set rendezvous nps =    56801000,  work chunks =    30    12/27/25 22:01:06 
+ master set rendezvous nps =    56901000,  work chunks =    30    12/27/25 22:01:11 
+ master set rendezvous nps =    57001000,  work chunks =    30    12/27/25 22:01:24 
+ master set rendezvous nps =    57101000,  work chunks =    30    12/27/25 22:01:32 
+ master set rendezvous nps =    57201000,  work chunks =    30    12/27/25 22:01:44 
+ master set rendezvous nps =    57301000,  work chunks =    30    12/27/25 22:01:52 
+ master set rendezvous nps =    57401000,  work chunks =    30    12/27/25 22:01:55 
+ master set rendezvous nps =    57501000,  work chunks =    30    12/27/25 22:02:04 
+ master set rendezvous nps =    57601000,  work chunks =    30    12/27/25 22:02:11 
+ master set rendezvous nps =    57701000,  work chunks =    30    12/27/25 22:02:19 
+ master set rendezvous nps =    57801000,  work chunks =    30    12/27/25 22:02:28 
+ master set rendezvous nps =    57901000,  work chunks =    30    12/27/25 22:02:41 
+ master set rendezvous nps =    58001000,  work chunks =    30    12/27/25 22:02:47 
+ master set rendezvous nps =    58101000,  work chunks =    30    12/27/25 22:02:54 
+ master set rendezvous nps =    58201000,  work chunks =    30    12/27/25 22:02:57 
+ master set rendezvous nps =    58301000,  work chunks =    30    12/27/25 22:03:01 
+ master set rendezvous nps =    58401000,  work chunks =    30    12/27/25 22:03:05 
+ master set rendezvous nps =    58501000,  work chunks =    30    12/27/25 22:03:12 
+ master set rendezvous nps =    58601000,  work chunks =    30    12/27/25 22:03:27 
+ master set rendezvous nps =    58701000,  work chunks =    30    12/27/25 22:03:54 
+ master set rendezvous nps =    58801000,  work chunks =    30    12/27/25 22:03:57 
+ master set rendezvous nps =    58901000,  work chunks =    30    12/27/25 22:04:04 
+ master set rendezvous nps =    59001000,  work chunks =    30    12/27/25 22:04:09 
+ master set rendezvous nps =    59101000,  work chunks =    30    12/27/25 22:04:13 
+ master set rendezvous nps =    59201000,  work chunks =    30    12/27/25 22:04:17 
+ master set rendezvous nps =    59301000,  work chunks =    30    12/27/25 22:04:22 
+ master set rendezvous nps =    59401000,  work chunks =    30    12/27/25 22:04:30 
+ master set rendezvous nps =    59501000,  work chunks =    30    12/27/25 22:04:35 
+ master set rendezvous nps =    59601000,  work chunks =    30    12/27/25 22:04:38 
+ master set rendezvous nps =    59701000,  work chunks =    30    12/27/25 22:04:43 
+ master set rendezvous nps =    59801000,  work chunks =    30    12/27/25 22:04:47 
+ master set rendezvous nps =    59901000,  work chunks =    30    12/27/25 22:04:57 
+ master set rendezvous nps =    60001000,  work chunks =    30    12/27/25 22:05:04 
+ master set rendezvous nps =    60101000,  work chunks =    30    12/27/25 22:05:21 
+ master set rendezvous nps =    60201000,  work chunks =    30    12/27/25 22:05:30 
+ master set rendezvous nps =    60301000,  work chunks =    30    12/27/25 22:05:35 
+ master set rendezvous nps =    60401000,  work chunks =    30    12/27/25 22:05:46 
+ master set rendezvous nps =    60501000,  work chunks =    30    12/27/25 22:05:49 
+ master set rendezvous nps =    60601000,  work chunks =    30    12/27/25 22:05:56 
+ master set rendezvous nps =    60701000,  work chunks =    30    12/27/25 22:06:08 
+ master set rendezvous nps =    60801000,  work chunks =    30    12/27/25 22:06:24 
+ master set rendezvous nps =    60901000,  work chunks =    30    12/27/25 22:06:28 
+ master set rendezvous nps =    61001000,  work chunks =    30    12/27/25 22:06:34 
+ master set rendezvous nps =    61101000,  work chunks =    30    12/27/25 22:06:43 
+ master set rendezvous nps =    61201000,  work chunks =    30    12/27/25 22:06:47 
+ master set rendezvous nps =    61301000,  work chunks =    30    12/27/25 22:06:49 
+ master set rendezvous nps =    61401000,  work chunks =    30    12/27/25 22:06:56 
+ master set rendezvous nps =    61501000,  work chunks =    30    12/27/25 22:07:05 
+ master set rendezvous nps =    61601000,  work chunks =    30    12/27/25 22:07:11 
+ master set rendezvous nps =    61701000,  work chunks =    30    12/27/25 22:07:22 
+ master set rendezvous nps =    61801000,  work chunks =    30    12/27/25 22:07:27 
+ master set rendezvous nps =    61901000,  work chunks =    30    12/27/25 22:07:30 
+ master set rendezvous nps =    62001000,  work chunks =    30    12/27/25 22:07:54 
+ master set rendezvous nps =    62101000,  work chunks =    30    12/27/25 22:08:02 
+ master set rendezvous nps =    62201000,  work chunks =    30    12/27/25 22:08:04 
+ master set rendezvous nps =    62301000,  work chunks =    30    12/27/25 22:08:08 
+ master set rendezvous nps =    62401000,  work chunks =    30    12/27/25 22:08:12 
+ master set rendezvous nps =    62501000,  work chunks =    30    12/27/25 22:08:17 
+ master set rendezvous nps =    62601000,  work chunks =    30    12/27/25 22:08:24 
+ master set rendezvous nps =    62701000,  work chunks =    30    12/27/25 22:08:28 
+ master set rendezvous nps =    62801000,  work chunks =    30    12/27/25 22:08:35 
+ master set rendezvous nps =    62901000,  work chunks =    30    12/27/25 22:08:42 
+ master set rendezvous nps =    63001000,  work chunks =    30    12/27/25 22:08:46 
+ master set rendezvous nps =    63101000,  work chunks =    30    12/27/25 22:08:48 
+ master set rendezvous nps =    63201000,  work chunks =    30    12/27/25 22:08:58 
+ master set rendezvous nps =    63301000,  work chunks =    30    12/27/25 22:09:05 
+ master set rendezvous nps =    63401000,  work chunks =    30    12/27/25 22:09:14 
+ master set rendezvous nps =    63501000,  work chunks =    30    12/27/25 22:09:23 
+ master set rendezvous nps =    63601000,  work chunks =    30    12/27/25 22:09:31 
+ master set rendezvous nps =    63701000,  work chunks =    30    12/27/25 22:09:38 
+ master set rendezvous nps =    63801000,  work chunks =    30    12/27/25 22:09:45 
+ master set rendezvous nps =    63901000,  work chunks =    30    12/27/25 22:09:58 
+ master set rendezvous nps =    64001000,  work chunks =    30    12/27/25 22:10:04 
+ master set rendezvous nps =    64101000,  work chunks =    30    12/27/25 22:10:09 
+ master set rendezvous nps =    64201000,  work chunks =    30    12/27/25 22:10:19 
+ master set rendezvous nps =    64301000,  work chunks =    30    12/27/25 22:10:37 
+ master set rendezvous nps =    64401000,  work chunks =    30    12/27/25 22:10:40 
+ master set rendezvous nps =    64501000,  work chunks =    30    12/27/25 22:10:48 
+ master set rendezvous nps =    64601000,  work chunks =    30    12/27/25 22:10:53 
+ master set rendezvous nps =    64701000,  work chunks =    30    12/27/25 22:11:03 
+ master set rendezvous nps =    64801000,  work chunks =    30    12/27/25 22:11:15 
+ master set rendezvous nps =    64901000,  work chunks =    30    12/27/25 22:11:19 
+ master set rendezvous nps =    65001000,  work chunks =    30    12/27/25 22:11:27 
+ master set rendezvous nps =    65101000,  work chunks =    30    12/27/25 22:11:32 
+ master set rendezvous nps =    65201000,  work chunks =    30    12/27/25 22:11:37 
+ master set rendezvous nps =    65301000,  work chunks =    30    12/27/25 22:11:45 
+ master set rendezvous nps =    65401000,  work chunks =    30    12/27/25 22:11:55 
+ master set rendezvous nps =    65501000,  work chunks =    30    12/27/25 22:12:00 
+ master set rendezvous nps =    65601000,  work chunks =    30    12/27/25 22:12:08 
+ master set rendezvous nps =    65701000,  work chunks =    30    12/27/25 22:12:16 
+ master set rendezvous nps =    65801000,  work chunks =    30    12/27/25 22:12:20 
+ master set rendezvous nps =    65901000,  work chunks =    30    12/27/25 22:12:34 
+ master set rendezvous nps =    66001000,  work chunks =    30    12/27/25 22:12:41 
+ master set rendezvous nps =    66101000,  work chunks =    30    12/27/25 22:12:47 
+ master set rendezvous nps =    66201000,  work chunks =    30    12/27/25 22:12:53 
+ master set rendezvous nps =    66301000,  work chunks =    30    12/27/25 22:13:24 
+ master set rendezvous nps =    66401000,  work chunks =    30    12/27/25 22:13:29 
+ master set rendezvous nps =    66501000,  work chunks =    30    12/27/25 22:13:36 
+ master set rendezvous nps =    66601000,  work chunks =    30    12/27/25 22:13:43 
+ master set rendezvous nps =    66701000,  work chunks =    30    12/27/25 22:13:52 
+ master set rendezvous nps =    66801000,  work chunks =    30    12/27/25 22:14:10 
+ master set rendezvous nps =    66901000,  work chunks =    30    12/27/25 22:14:14 
+ master set rendezvous nps =    67001000,  work chunks =    30    12/27/25 22:14:21 
+ master set rendezvous nps =    67101000,  work chunks =    30    12/27/25 22:14:29 
+ master set rendezvous nps =    67201000,  work chunks =    30    12/27/25 22:14:35 
+ master set rendezvous nps =    67301000,  work chunks =    30    12/27/25 22:14:42 
+ master set rendezvous nps =    67401000,  work chunks =    30    12/27/25 22:14:47 
+ master set rendezvous nps =    67501000,  work chunks =    30    12/27/25 22:14:58 
+ master set rendezvous nps =    67601000,  work chunks =    30    12/27/25 22:15:03 
+ master set rendezvous nps =    67701000,  work chunks =    30    12/27/25 22:15:07 
+ master set rendezvous nps =    67801000,  work chunks =    30    12/27/25 22:15:41 
+ master set rendezvous nps =    67901000,  work chunks =    30    12/27/25 22:15:46 
+ master set rendezvous nps =    68001000,  work chunks =    30    12/27/25 22:15:50 
+ master set rendezvous nps =    68101000,  work chunks =    30    12/27/25 22:15:59 
+ master set rendezvous nps =    68201000,  work chunks =    30    12/27/25 22:16:04 
+ master set rendezvous nps =    68301000,  work chunks =    30    12/27/25 22:16:11 
+ master set rendezvous nps =    68401000,  work chunks =    30    12/27/25 22:16:14 
+ master set rendezvous nps =    68501000,  work chunks =    30    12/27/25 22:16:24 
+ master set rendezvous nps =    68601000,  work chunks =    30    12/27/25 22:16:30 
+ master set rendezvous nps =    68701000,  work chunks =    30    12/27/25 22:16:35 
+ master set rendezvous nps =    68801000,  work chunks =    30    12/27/25 22:16:46 
+ master set rendezvous nps =    68901000,  work chunks =    30    12/27/25 22:17:05 
+ master set rendezvous nps =    69001000,  work chunks =    30    12/27/25 22:17:12 
+ master set rendezvous nps =    69101000,  work chunks =    30    12/27/25 22:17:16 
+ master set rendezvous nps =    69201000,  work chunks =    30    12/27/25 22:17:21 
+ master set rendezvous nps =    69301000,  work chunks =    30    12/27/25 22:17:36 
+ master set rendezvous nps =    69401000,  work chunks =    30    12/27/25 22:17:39 
+ master set rendezvous nps =    69501000,  work chunks =    30    12/27/25 22:17:54 
+ master set rendezvous nps =    69601000,  work chunks =    30    12/27/25 22:18:02 
+ master set rendezvous nps =    69701000,  work chunks =    30    12/27/25 22:18:07 
+ master set rendezvous nps =    69801000,  work chunks =    30    12/27/25 22:18:10 
+ master set rendezvous nps =    69901000,  work chunks =    30    12/27/25 22:18:16 
+ master set rendezvous nps =    70001000,  work chunks =    30    12/27/25 22:18:24 
+ master set rendezvous nps =    70101000,  work chunks =    30    12/27/25 22:18:35 
+ master set rendezvous nps =    70201000,  work chunks =    30    12/27/25 22:18:43 
+ master set rendezvous nps =    70301000,  work chunks =    30    12/27/25 22:18:46 
+ master set rendezvous nps =    70401000,  work chunks =    30    12/27/25 22:18:54 
+ master set rendezvous nps =    70501000,  work chunks =    30    12/27/25 22:19:05 
+ master set rendezvous nps =    70601000,  work chunks =    30    12/27/25 22:19:36 
+ master set rendezvous nps =    70701000,  work chunks =    30    12/27/25 22:19:41 
+ master set rendezvous nps =    70801000,  work chunks =    30    12/27/25 22:19:43 
+ master set rendezvous nps =    70901000,  work chunks =    30    12/27/25 22:19:47 
+ master set rendezvous nps =    71001000,  work chunks =    30    12/27/25 22:20:12 
+ master set rendezvous nps =    71101000,  work chunks =    30    12/27/25 22:20:17 
+ master set rendezvous nps =    71201000,  work chunks =    30    12/27/25 22:20:28 
+ master set rendezvous nps =    71301000,  work chunks =    30    12/27/25 22:20:39 
+ master set rendezvous nps =    71401000,  work chunks =    30    12/27/25 22:20:43 
+ master set rendezvous nps =    71501000,  work chunks =    30    12/27/25 22:20:53 
+ master set rendezvous nps =    71601000,  work chunks =    30    12/27/25 22:21:11 
+ master set rendezvous nps =    71701000,  work chunks =    30    12/27/25 22:21:16 
+ master set rendezvous nps =    71801000,  work chunks =    30    12/27/25 22:21:25 
+ master set rendezvous nps =    71901000,  work chunks =    30    12/27/25 22:21:27 
+ master set rendezvous nps =    72001000,  work chunks =    30    12/27/25 22:21:37 
+ master set rendezvous nps =    72101000,  work chunks =    30    12/27/25 22:21:43 
+ master set rendezvous nps =    72201000,  work chunks =    30    12/27/25 22:21:47 
+ master set rendezvous nps =    72301000,  work chunks =    30    12/27/25 22:21:54 
+ master set rendezvous nps =    72401000,  work chunks =    30    12/27/25 22:21:58 
+ master set rendezvous nps =    72501000,  work chunks =    30    12/27/25 22:22:05 
+ master set rendezvous nps =    72601000,  work chunks =    30    12/27/25 22:22:15 
+ master set rendezvous nps =    72701000,  work chunks =    30    12/27/25 22:22:25 
+ master set rendezvous nps =    72801000,  work chunks =    30    12/27/25 22:22:31 
+ master set rendezvous nps =    72901000,  work chunks =    30    12/27/25 22:22:37 
+ master set rendezvous nps =    73001000,  work chunks =    30    12/27/25 22:22:42 
+ master set rendezvous nps =    73101000,  work chunks =    30    12/27/25 22:22:49 
+ master set rendezvous nps =    73201000,  work chunks =    30    12/27/25 22:22:51 
+ master set rendezvous nps =    73301000,  work chunks =    30    12/27/25 22:23:02 
+ master set rendezvous nps =    73401000,  work chunks =    30    12/27/25 22:23:11 
+ master set rendezvous nps =    73501000,  work chunks =    30    12/27/25 22:23:16 
+ master set rendezvous nps =    73601000,  work chunks =    30    12/27/25 22:23:21 
+ master set rendezvous nps =    73701000,  work chunks =    30    12/27/25 22:23:27 
+ master set rendezvous nps =    73801000,  work chunks =    30    12/27/25 22:23:50 
+ master set rendezvous nps =    73901000,  work chunks =    30    12/27/25 22:23:56 
+ master set rendezvous nps =    74001000,  work chunks =    30    12/27/25 22:23:59 
+ master set rendezvous nps =    74101000,  work chunks =    30    12/27/25 22:24:11 
+ master set rendezvous nps =    74201000,  work chunks =    30    12/27/25 22:24:36 
+ master set rendezvous nps =    74301000,  work chunks =    30    12/27/25 22:24:44 
+ master set rendezvous nps =    74401000,  work chunks =    30    12/27/25 22:24:52 
+ master set rendezvous nps =    74501000,  work chunks =    30    12/27/25 22:25:01 
+ master set rendezvous nps =    74601000,  work chunks =    30    12/27/25 22:25:12 
+ master set rendezvous nps =    74701000,  work chunks =    30    12/27/25 22:25:18 
+ master set rendezvous nps =    74801000,  work chunks =    30    12/27/25 22:25:21 
+ master set rendezvous nps =    74901000,  work chunks =    30    12/27/25 22:25:27 
+ master set rendezvous nps =    75001000,  work chunks =    30    12/27/25 22:25:37 
+ master set rendezvous nps =    75101000,  work chunks =    30    12/27/25 22:25:47 
+ master set rendezvous nps =    75201000,  work chunks =    30    12/27/25 22:25:49 
+ master set rendezvous nps =    75301000,  work chunks =    30    12/27/25 22:25:56 
+ master set rendezvous nps =    75401000,  work chunks =    30    12/27/25 22:26:02 
+ master set rendezvous nps =    75501000,  work chunks =    30    12/27/25 22:26:08 
+ master set rendezvous nps =    75601000,  work chunks =    30    12/27/25 22:26:14 
+ master set rendezvous nps =    75701000,  work chunks =    30    12/27/25 22:26:19 
+ master set rendezvous nps =    75801000,  work chunks =    30    12/27/25 22:26:33 
+ master set rendezvous nps =    75901000,  work chunks =    30    12/27/25 22:26:37 
+ master set rendezvous nps =    76001000,  work chunks =    30    12/27/25 22:26:53 
+ master set rendezvous nps =    76101000,  work chunks =    30    12/27/25 22:27:04 
+ master set rendezvous nps =    76201000,  work chunks =    30    12/27/25 22:27:16 
+ master set rendezvous nps =    76301000,  work chunks =    30    12/27/25 22:27:22 
+ master set rendezvous nps =    76401000,  work chunks =    30    12/27/25 22:28:09 
+ master set rendezvous nps =    76501000,  work chunks =    30    12/27/25 22:28:17 
+ master set rendezvous nps =    76601000,  work chunks =    30    12/27/25 22:28:24 
+ master set rendezvous nps =    76701000,  work chunks =    30    12/27/25 22:28:27 
+ master set rendezvous nps =    76801000,  work chunks =    30    12/27/25 22:28:31 
+ master set rendezvous nps =    76901000,  work chunks =    30    12/27/25 22:28:44 
+ master set rendezvous nps =    77001000,  work chunks =    30    12/27/25 22:28:48 
+ master set rendezvous nps =    77101000,  work chunks =    30    12/27/25 22:28:51 
+ master set rendezvous nps =    77201000,  work chunks =    30    12/27/25 22:29:03 
+ master set rendezvous nps =    77301000,  work chunks =    30    12/27/25 22:29:12 
+ master set rendezvous nps =    77401000,  work chunks =    30    12/27/25 22:29:31 
+ master set rendezvous nps =    77501000,  work chunks =    30    12/27/25 22:29:37 
+ master set rendezvous nps =    77601000,  work chunks =    30    12/27/25 22:29:43 
+ master set rendezvous nps =    77701000,  work chunks =    30    12/27/25 22:29:50 
+ master set rendezvous nps =    77801000,  work chunks =    30    12/27/25 22:30:00 
+ master set rendezvous nps =    77901000,  work chunks =    30    12/27/25 22:30:22 
+ master set rendezvous nps =    78001000,  work chunks =    30    12/27/25 22:30:28 
+ master set rendezvous nps =    78101000,  work chunks =    30    12/27/25 22:30:35 
+ master set rendezvous nps =    78201000,  work chunks =    30    12/27/25 22:30:46 
+ master set rendezvous nps =    78301000,  work chunks =    30    12/27/25 22:30:50 
+ master set rendezvous nps =    78401000,  work chunks =    30    12/27/25 22:30:54 
+ master set rendezvous nps =    78501000,  work chunks =    30    12/27/25 22:31:06 
+ master set rendezvous nps =    78601000,  work chunks =    30    12/27/25 22:31:14 
+ master set rendezvous nps =    78701000,  work chunks =    30    12/27/25 22:31:30 
+ master set rendezvous nps =    78801000,  work chunks =    30    12/27/25 22:31:40 
+ master set rendezvous nps =    78901000,  work chunks =    30    12/27/25 22:31:52 
+ master set rendezvous nps =    79001000,  work chunks =    30    12/27/25 22:31:55 
+ master set rendezvous nps =    79101000,  work chunks =    30    12/27/25 22:31:59 
+ master set rendezvous nps =    79201000,  work chunks =    30    12/27/25 22:32:08 
+ master set rendezvous nps =    79301000,  work chunks =    30    12/27/25 22:32:38 
+ master set rendezvous nps =    79401000,  work chunks =    30    12/27/25 22:32:40 
+ master set rendezvous nps =    79501000,  work chunks =    30    12/27/25 22:32:46 
+ master set rendezvous nps =    79601000,  work chunks =    30    12/27/25 22:32:51 
+ master set rendezvous nps =    79701000,  work chunks =    30    12/27/25 22:32:58 
+ master set rendezvous nps =    79801000,  work chunks =    30    12/27/25 22:33:12 
+ master set rendezvous nps =    79901000,  work chunks =    30    12/27/25 22:33:23 
+ master set rendezvous nps =    80001000,  work chunks =    30    12/27/25 22:33:28 
+ master set rendezvous nps =    80101000,  work chunks =    30    12/27/25 22:33:32 
+ master set rendezvous nps =    80201000,  work chunks =    30    12/27/25 22:33:38 
+ master set rendezvous nps =    80301000,  work chunks =    30    12/27/25 22:33:48 
+ master set rendezvous nps =    80401000,  work chunks =    30    12/27/25 22:33:55 
+ master set rendezvous nps =    80501000,  work chunks =    30    12/27/25 22:34:00 
+ master set rendezvous nps =    80601000,  work chunks =    30    12/27/25 22:34:11 
+ master set rendezvous nps =    80701000,  work chunks =    30    12/27/25 22:34:20 
+ master set rendezvous nps =    80801000,  work chunks =    30    12/27/25 22:34:26 
+ master set rendezvous nps =    80901000,  work chunks =    30    12/27/25 22:34:28 
+ master set rendezvous nps =    81001000,  work chunks =    30    12/27/25 22:34:34 
+ master set rendezvous nps =    81101000,  work chunks =    30    12/27/25 22:34:40 
+ master set rendezvous nps =    81201000,  work chunks =    30    12/27/25 22:34:44 
+ master set rendezvous nps =    81301000,  work chunks =    30    12/27/25 22:34:52 
+ master set rendezvous nps =    81401000,  work chunks =    30    12/27/25 22:35:38 
+ master set rendezvous nps =    81501000,  work chunks =    30    12/27/25 22:35:46 
+ master set rendezvous nps =    81601000,  work chunks =    30    12/27/25 22:35:52 
+ master set rendezvous nps =    81701000,  work chunks =    30    12/27/25 22:36:05 
+ master set rendezvous nps =    81801000,  work chunks =    30    12/27/25 22:36:10 
+ master set rendezvous nps =    81901000,  work chunks =    30    12/27/25 22:36:17 
+ master set rendezvous nps =    82001000,  work chunks =    30    12/27/25 22:36:21 
+ master set rendezvous nps =    82101000,  work chunks =    30    12/27/25 22:36:28 
+ master set rendezvous nps =    82201000,  work chunks =    30    12/27/25 22:36:33 
+ master set rendezvous nps =    82301000,  work chunks =    30    12/27/25 22:36:43 
+ master set rendezvous nps =    82401000,  work chunks =    30    12/27/25 22:36:49 
+ master set rendezvous nps =    82501000,  work chunks =    30    12/27/25 22:36:56 
+ master set rendezvous nps =    82601000,  work chunks =    30    12/27/25 22:36:58 
+ master set rendezvous nps =    82701000,  work chunks =    30    12/27/25 22:37:04 
+ master set rendezvous nps =    82801000,  work chunks =    30    12/27/25 22:37:12 
+ master set rendezvous nps =    82901000,  work chunks =    30    12/27/25 22:37:17 
+ master set rendezvous nps =    83001000,  work chunks =    30    12/27/25 22:37:22 
+ master set rendezvous nps =    83101000,  work chunks =    30    12/27/25 22:37:29 
+ master set rendezvous nps =    83201000,  work chunks =    30    12/27/25 22:37:34 
+ master set rendezvous nps =    83301000,  work chunks =    30    12/27/25 22:37:40 
+ master set rendezvous nps =    83401000,  work chunks =    30    12/27/25 22:37:49 
+ master set rendezvous nps =    83501000,  work chunks =    30    12/27/25 22:37:51 
+ master set rendezvous nps =    83601000,  work chunks =    30    12/27/25 22:38:01 
+ master set rendezvous nps =    83701000,  work chunks =    30    12/27/25 22:38:15 
+ master set rendezvous nps =    83801000,  work chunks =    30    12/27/25 22:38:18 
+ master set rendezvous nps =    83901000,  work chunks =    30    12/27/25 22:38:22 
+ master set rendezvous nps =    84001000,  work chunks =    30    12/27/25 22:38:26 
+ master set rendezvous nps =    84101000,  work chunks =    30    12/27/25 22:38:35 
+ master set rendezvous nps =    84201000,  work chunks =    30    12/27/25 22:38:46 
+ master set rendezvous nps =    84301000,  work chunks =    30    12/27/25 22:38:57 
+ master set rendezvous nps =    84401000,  work chunks =    30    12/27/25 22:39:21 
+ master set rendezvous nps =    84501000,  work chunks =    30    12/27/25 22:39:29 
+ master set rendezvous nps =    84601000,  work chunks =    30    12/27/25 22:39:33 
+ master set rendezvous nps =    84701000,  work chunks =    30    12/27/25 22:39:43 
+ master set rendezvous nps =    84801000,  work chunks =    30    12/27/25 22:39:51 
+ master set rendezvous nps =    84901000,  work chunks =    30    12/27/25 22:39:54 
+ master set rendezvous nps =    85001000,  work chunks =    30    12/27/25 22:40:00 
+ master set rendezvous nps =    85101000,  work chunks =    30    12/27/25 22:40:03 
+ master set rendezvous nps =    85201000,  work chunks =    30    12/27/25 22:40:08 
+ master set rendezvous nps =    85301000,  work chunks =    30    12/27/25 22:40:16 
+ master set rendezvous nps =    85401000,  work chunks =    30    12/27/25 22:40:21 
+ master set rendezvous nps =    85501000,  work chunks =    30    12/27/25 22:40:24 
+ master set rendezvous nps =    85601000,  work chunks =    30    12/27/25 22:40:30 
+ master set rendezvous nps =    85701000,  work chunks =    30    12/27/25 22:40:33 
+ master set rendezvous nps =    85801000,  work chunks =    30    12/27/25 22:40:45 
+ master set rendezvous nps =    85901000,  work chunks =    30    12/27/25 22:40:49 
+ master set rendezvous nps =    86001000,  work chunks =    30    12/27/25 22:40:53 
+ master set rendezvous nps =    86101000,  work chunks =    30    12/27/25 22:40:57 
+ master set rendezvous nps =    86201000,  work chunks =    30    12/27/25 22:41:01 
+ master set rendezvous nps =    86301000,  work chunks =    30    12/27/25 22:41:14 
+ master set rendezvous nps =    86401000,  work chunks =    30    12/27/25 22:41:17 
+ master set rendezvous nps =    86501000,  work chunks =    30    12/27/25 22:41:24 
+ master set rendezvous nps =    86601000,  work chunks =    30    12/27/25 22:41:33 
+ master set rendezvous nps =    86701000,  work chunks =    30    12/27/25 22:41:38 
+ master set rendezvous nps =    86801000,  work chunks =    30    12/27/25 22:41:41 
+ master set rendezvous nps =    86901000,  work chunks =    30    12/27/25 22:42:32 
+ master set rendezvous nps =    87001000,  work chunks =    30    12/27/25 22:42:38 
+ master set rendezvous nps =    87101000,  work chunks =    30    12/27/25 22:42:51 
+ master set rendezvous nps =    87201000,  work chunks =    30    12/27/25 22:42:59 
+ master set rendezvous nps =    87301000,  work chunks =    30    12/27/25 22:43:06 
+ master set rendezvous nps =    87401000,  work chunks =    30    12/27/25 22:43:14 
+ master set rendezvous nps =    87501000,  work chunks =    30    12/27/25 22:43:49 
+ master set rendezvous nps =    87601000,  work chunks =    30    12/27/25 22:43:54 
+ master set rendezvous nps =    87701000,  work chunks =    30    12/27/25 22:43:58 
+ master set rendezvous nps =    87801000,  work chunks =    30    12/27/25 22:44:04 
+ master set rendezvous nps =    87901000,  work chunks =    30    12/27/25 22:44:08 
+ master set rendezvous nps =    88001000,  work chunks =    30    12/27/25 22:44:22 
+ master set rendezvous nps =    88101000,  work chunks =    30    12/27/25 22:44:31 
+ master set rendezvous nps =    88201000,  work chunks =    30    12/27/25 22:44:36 
+ master set rendezvous nps =    88301000,  work chunks =    30    12/27/25 22:44:42 
+ master set rendezvous nps =    88401000,  work chunks =    30    12/27/25 22:44:46 
+ master set rendezvous nps =    88501000,  work chunks =    30    12/27/25 22:44:55 
+ master set rendezvous nps =    88601000,  work chunks =    30    12/27/25 22:44:58 
+ master set rendezvous nps =    88701000,  work chunks =    30    12/27/25 22:45:05 
+ master set rendezvous nps =    88801000,  work chunks =    30    12/27/25 22:45:14 
+ master set rendezvous nps =    88901000,  work chunks =    30    12/27/25 22:45:24 
+ master set rendezvous nps =    89001000,  work chunks =    30    12/27/25 22:45:32 
+ master set rendezvous nps =    89101000,  work chunks =    30    12/27/25 22:45:40 
+ master set rendezvous nps =    89201000,  work chunks =    30    12/27/25 22:45:47 
+ master set rendezvous nps =    89301000,  work chunks =    30    12/27/25 22:45:58 
+ master set rendezvous nps =    89401000,  work chunks =    30    12/27/25 22:46:08 
+ master set rendezvous nps =    89501000,  work chunks =    30    12/27/25 22:46:17 
+ master set rendezvous nps =    89601000,  work chunks =    30    12/27/25 22:46:29 
+ master set rendezvous nps =    89701000,  work chunks =    30    12/27/25 22:46:40 
+ master set rendezvous nps =    89801000,  work chunks =    30    12/27/25 22:46:46 
+ master set rendezvous nps =    89901000,  work chunks =    30    12/27/25 22:47:00 
+ master set rendezvous nps =    90001000,  work chunks =    30    12/27/25 22:47:04 
+ master set rendezvous nps =    90101000,  work chunks =    30    12/27/25 22:47:10 
+ master set rendezvous nps =    90201000,  work chunks =    30    12/27/25 22:47:22 
+ master set rendezvous nps =    90301000,  work chunks =    30    12/27/25 22:47:32 
+ master set rendezvous nps =    90401000,  work chunks =    30    12/27/25 22:47:47 
+ master set rendezvous nps =    90501000,  work chunks =    30    12/27/25 22:47:52 
+ master set rendezvous nps =    90601000,  work chunks =    30    12/27/25 22:47:57 
+ master set rendezvous nps =    90701000,  work chunks =    30    12/27/25 22:48:01 
+ master set rendezvous nps =    90801000,  work chunks =    30    12/27/25 22:48:08 
+ master set rendezvous nps =    90901000,  work chunks =    30    12/27/25 22:48:21 
+ master set rendezvous nps =    91001000,  work chunks =    30    12/27/25 22:48:29 
+ master set rendezvous nps =    91101000,  work chunks =    30    12/27/25 22:48:36 
+ master set rendezvous nps =    91201000,  work chunks =    30    12/27/25 22:48:41 
+ master set rendezvous nps =    91301000,  work chunks =    30    12/27/25 22:48:45 
+ master set rendezvous nps =    91401000,  work chunks =    30    12/27/25 22:48:53 
+ master set rendezvous nps =    91501000,  work chunks =    30    12/27/25 22:49:07 
+ master set rendezvous nps =    91601000,  work chunks =    30    12/27/25 22:49:13 
+ master set rendezvous nps =    91701000,  work chunks =    30    12/27/25 22:49:21 
+ master set rendezvous nps =    91801000,  work chunks =    30    12/27/25 22:49:36 
+ master set rendezvous nps =    91901000,  work chunks =    30    12/27/25 22:49:40 
+ master set rendezvous nps =    92001000,  work chunks =    30    12/27/25 22:49:43 
+ master set rendezvous nps =    92101000,  work chunks =    30    12/27/25 22:49:47 
+ master set rendezvous nps =    92201000,  work chunks =    30    12/27/25 22:50:00 
+ master set rendezvous nps =    92301000,  work chunks =    30    12/27/25 22:50:08 
+ master set rendezvous nps =    92401000,  work chunks =    30    12/27/25 22:50:18 
+ master set rendezvous nps =    92501000,  work chunks =    30    12/27/25 22:50:56 
+ master set rendezvous nps =    92601000,  work chunks =    30    12/27/25 22:51:21 
+ master set rendezvous nps =    92701000,  work chunks =    30    12/27/25 22:51:31 
+ master set rendezvous nps =    92801000,  work chunks =    30    12/27/25 22:52:05 
+ master set rendezvous nps =    92901000,  work chunks =    30    12/27/25 22:52:19 
+ master set rendezvous nps =    93001000,  work chunks =    30    12/27/25 22:52:23 
+ master set rendezvous nps =    93101000,  work chunks =    30    12/27/25 22:52:45 
+ master set rendezvous nps =    93201000,  work chunks =    30    12/27/25 22:52:49 
+ master set rendezvous nps =    93301000,  work chunks =    30    12/27/25 22:52:56 
+ master set rendezvous nps =    93401000,  work chunks =    30    12/27/25 22:53:03 
+ master set rendezvous nps =    93501000,  work chunks =    30    12/27/25 22:53:09 
+ master set rendezvous nps =    93601000,  work chunks =    30    12/27/25 22:53:33 
+ master set rendezvous nps =    93701000,  work chunks =    30    12/27/25 22:53:41 
+ master set rendezvous nps =    93801000,  work chunks =    30    12/27/25 22:53:47 
+ master set rendezvous nps =    93901000,  work chunks =    30    12/27/25 22:53:52 
+ master set rendezvous nps =    94001000,  work chunks =    30    12/27/25 22:54:01 
+ master set rendezvous nps =    94101000,  work chunks =    30    12/27/25 22:54:04 
+ master set rendezvous nps =    94201000,  work chunks =    30    12/27/25 22:54:11 
+ master set rendezvous nps =    94301000,  work chunks =    30    12/27/25 22:54:17 
+ master set rendezvous nps =    94401000,  work chunks =    30    12/27/25 22:54:21 
+ master set rendezvous nps =    94501000,  work chunks =    30    12/27/25 22:54:31 
+ master set rendezvous nps =    94601000,  work chunks =    30    12/27/25 22:54:53 
+ master set rendezvous nps =    94701000,  work chunks =    30    12/27/25 22:55:00 
+ master set rendezvous nps =    94801000,  work chunks =    30    12/27/25 22:55:08 
+ master set rendezvous nps =    94901000,  work chunks =    30    12/27/25 22:55:17 
+ master set rendezvous nps =    95001000,  work chunks =    30    12/27/25 22:55:18 
+ master set rendezvous nps =    95101000,  work chunks =    30    12/27/25 22:55:24 
+ master set rendezvous nps =    95201000,  work chunks =    30    12/27/25 22:55:37 
+ master set rendezvous nps =    95301000,  work chunks =    30    12/27/25 22:55:45 
+ master set rendezvous nps =    95401000,  work chunks =    30    12/27/25 22:55:53 
+ master set rendezvous nps =    95501000,  work chunks =    30    12/27/25 22:56:11 
+ master set rendezvous nps =    95601000,  work chunks =    30    12/27/25 22:56:20 
+ master set rendezvous nps =    95701000,  work chunks =    30    12/27/25 22:56:30 
+ master set rendezvous nps =    95801000,  work chunks =    30    12/27/25 22:56:37 
+ master set rendezvous nps =    95901000,  work chunks =    30    12/27/25 22:56:42 
+ master set rendezvous nps =    96001000,  work chunks =    30    12/27/25 22:56:49 
+ master set rendezvous nps =    96101000,  work chunks =    30    12/27/25 22:56:56 
+ master set rendezvous nps =    96201000,  work chunks =    30    12/27/25 22:57:01 
+ master set rendezvous nps =    96301000,  work chunks =    30    12/27/25 22:57:11 
+ master set rendezvous nps =    96401000,  work chunks =    30    12/27/25 22:57:14 
+ master set rendezvous nps =    96501000,  work chunks =    30    12/27/25 22:57:23 
+ master set rendezvous nps =    96601000,  work chunks =    30    12/27/25 22:57:30 
+ master set rendezvous nps =    96701000,  work chunks =    30    12/27/25 22:57:36 
+ master set rendezvous nps =    96801000,  work chunks =    30    12/27/25 22:57:48 
+ master set rendezvous nps =    96901000,  work chunks =    30    12/27/25 22:57:56 
+ master set rendezvous nps =    97001000,  work chunks =    30    12/27/25 22:58:05 
+ master set rendezvous nps =    97101000,  work chunks =    30    12/27/25 22:58:36 
+ master set rendezvous nps =    97201000,  work chunks =    30    12/27/25 22:58:49 
+ master set rendezvous nps =    97301000,  work chunks =    30    12/27/25 22:59:04 
+ master set rendezvous nps =    97401000,  work chunks =    30    12/27/25 22:59:08 
+ master set rendezvous nps =    97501000,  work chunks =    30    12/27/25 22:59:11 
+ master set rendezvous nps =    97601000,  work chunks =    30    12/27/25 22:59:14 
+ master set rendezvous nps =    97701000,  work chunks =    30    12/27/25 22:59:21 
+ master set rendezvous nps =    97801000,  work chunks =    30    12/27/25 22:59:26 
+ master set rendezvous nps =    97901000,  work chunks =    30    12/27/25 22:59:27 
+ master set rendezvous nps =    98001000,  work chunks =    30    12/27/25 22:59:41 
+ master set rendezvous nps =    98101000,  work chunks =    30    12/27/25 22:59:45 
+ master set rendezvous nps =    98201000,  work chunks =    30    12/27/25 22:59:52 
+ master set rendezvous nps =    98301000,  work chunks =    30    12/27/25 22:59:55 
+ master set rendezvous nps =    98401000,  work chunks =    30    12/27/25 23:00:01 
+ master set rendezvous nps =    98501000,  work chunks =    30    12/27/25 23:00:06 
+ master set rendezvous nps =    98601000,  work chunks =    30    12/27/25 23:00:15 
+ master set rendezvous nps =    98701000,  work chunks =    30    12/27/25 23:00:26 
+ master set rendezvous nps =    98801000,  work chunks =    30    12/27/25 23:00:32 
+ master set rendezvous nps =    98901000,  work chunks =    30    12/27/25 23:00:36 
+ master set rendezvous nps =    99001000,  work chunks =    30    12/27/25 23:00:41 
+ master set rendezvous nps =    99101000,  work chunks =    30    12/27/25 23:00:51 
+ master set rendezvous nps =    99201000,  work chunks =    30    12/27/25 23:00:58 
+ master set rendezvous nps =    99301000,  work chunks =    30    12/27/25 23:01:02 
+ master set rendezvous nps =    99401000,  work chunks =    30    12/27/25 23:01:11 
+ master set rendezvous nps =    99501000,  work chunks =    30    12/27/25 23:01:18 
+ master set rendezvous nps =    99601000,  work chunks =    30    12/27/25 23:01:21 
+ master set rendezvous nps =    99701000,  work chunks =    30    12/27/25 23:01:27 
+ master set rendezvous nps =    99801000,  work chunks =    30    12/27/25 23:01:37 
+ master set rendezvous nps =    99901000,  work chunks =    30    12/27/25 23:01:42 
+ master set rendezvous nps =   100001000,  work chunks =    30    12/27/25 23:01:53 
+ master set rendezvous nps =   100101000,  work chunks =    30    12/27/25 23:01:57 
+ master set rendezvous nps =   100201000,  work chunks =    30    12/27/25 23:02:07 
+ master set rendezvous nps =   100301000,  work chunks =    30    12/27/25 23:02:14 
+ master set rendezvous nps =   100401000,  work chunks =    30    12/27/25 23:02:20 
+ master set rendezvous nps =   100501000,  work chunks =    30    12/27/25 23:02:23 
+ master set rendezvous nps =   100601000,  work chunks =    30    12/27/25 23:02:25 
+ master set rendezvous nps =   100701000,  work chunks =    30    12/27/25 23:02:35 
+ master set rendezvous nps =   100801000,  work chunks =    30    12/27/25 23:02:39 
+ master set rendezvous nps =   100901000,  work chunks =    30    12/27/25 23:02:53 
+ master set rendezvous nps =   101001000,  work chunks =    30    12/27/25 23:03:01 
+ master set rendezvous nps =   101101000,  work chunks =    30    12/27/25 23:03:16 
+ master set rendezvous nps =   101201000,  work chunks =    30    12/27/25 23:03:26 
+ master set rendezvous nps =   101301000,  work chunks =    30    12/27/25 23:03:33 
+ master set rendezvous nps =   101401000,  work chunks =    30    12/27/25 23:03:36 
+ master set rendezvous nps =   101501000,  work chunks =    30    12/27/25 23:03:45 
+ master set rendezvous nps =   101601000,  work chunks =    30    12/27/25 23:03:47 
+ master set rendezvous nps =   101701000,  work chunks =    30    12/27/25 23:03:51 
+ master set rendezvous nps =   101801000,  work chunks =    30    12/27/25 23:03:59 
+ master set rendezvous nps =   101901000,  work chunks =    30    12/27/25 23:04:02 
+ master set rendezvous nps =   102001000,  work chunks =    30    12/27/25 23:04:15 
+ master set rendezvous nps =   102101000,  work chunks =    30    12/27/25 23:04:31 
+ master set rendezvous nps =   102201000,  work chunks =    30    12/27/25 23:04:33 
+ master set rendezvous nps =   102301000,  work chunks =    30    12/27/25 23:04:36 
+ master set rendezvous nps =   102401000,  work chunks =    30    12/27/25 23:05:07 
+ master set rendezvous nps =   102501000,  work chunks =    30    12/27/25 23:05:21 
+ master set rendezvous nps =   102601000,  work chunks =    30    12/27/25 23:05:29 
+ master set rendezvous nps =   102701000,  work chunks =    30    12/27/25 23:05:37 
+ master set rendezvous nps =   102801000,  work chunks =    30    12/27/25 23:05:44 
+ master set rendezvous nps =   102901000,  work chunks =    30    12/27/25 23:05:51 
+ master set rendezvous nps =   103001000,  work chunks =    30    12/27/25 23:06:00 
+ master set rendezvous nps =   103101000,  work chunks =    30    12/27/25 23:06:02 
+ master set rendezvous nps =   103201000,  work chunks =    30    12/27/25 23:06:09 
+ master set rendezvous nps =   103301000,  work chunks =    30    12/27/25 23:06:19 
+ master set rendezvous nps =   103401000,  work chunks =    30    12/27/25 23:06:23 
+ master set rendezvous nps =   103501000,  work chunks =    30    12/27/25 23:06:28 
+ master set rendezvous nps =   103601000,  work chunks =    30    12/27/25 23:06:31 
+ master set rendezvous nps =   103701000,  work chunks =    30    12/27/25 23:06:38 
+ master set rendezvous nps =   103801000,  work chunks =    30    12/27/25 23:06:46 
+ master set rendezvous nps =   103901000,  work chunks =    30    12/27/25 23:07:01 
+ master set rendezvous nps =   104001000,  work chunks =    30    12/27/25 23:07:11 
+ master set rendezvous nps =   104101000,  work chunks =    30    12/27/25 23:07:19 
+ master set rendezvous nps =   104201000,  work chunks =    30    12/27/25 23:07:45 
+ master set rendezvous nps =   104301000,  work chunks =    30    12/27/25 23:07:57 
+ master set rendezvous nps =   104401000,  work chunks =    30    12/27/25 23:08:04 
+ master set rendezvous nps =   104501000,  work chunks =    30    12/27/25 23:08:21 
+ master set rendezvous nps =   104601000,  work chunks =    30    12/27/25 23:08:34 
+ master set rendezvous nps =   104701000,  work chunks =    30    12/27/25 23:08:37 
+ master set rendezvous nps =   104801000,  work chunks =    30    12/27/25 23:08:45 
+ master set rendezvous nps =   104901000,  work chunks =    30    12/27/25 23:09:04 
+ master set rendezvous nps =   105001000,  work chunks =    30    12/27/25 23:09:15 
+ master set rendezvous nps =   105101000,  work chunks =    30    12/27/25 23:09:18 
+ master set rendezvous nps =   105201000,  work chunks =    30    12/27/25 23:09:24 
+ master set rendezvous nps =   105301000,  work chunks =    30    12/27/25 23:09:32 
+ master set rendezvous nps =   105401000,  work chunks =    30    12/27/25 23:09:41 
+ master set rendezvous nps =   105501000,  work chunks =    30    12/27/25 23:09:45 
+ master set rendezvous nps =   105601000,  work chunks =    30    12/27/25 23:11:21 
+ master set rendezvous nps =   105701000,  work chunks =    30    12/27/25 23:11:30 
+ master set rendezvous nps =   105801000,  work chunks =    30    12/27/25 23:11:41 
+ master set rendezvous nps =   105901000,  work chunks =    30    12/27/25 23:11:55 
+ master set rendezvous nps =   106001000,  work chunks =    30    12/27/25 23:12:00 
+ master set rendezvous nps =   106101000,  work chunks =    30    12/27/25 23:12:04 
+ master set rendezvous nps =   106201000,  work chunks =    30    12/27/25 23:12:11 
+ master set rendezvous nps =   106301000,  work chunks =    30    12/27/25 23:12:18 
+ master set rendezvous nps =   106401000,  work chunks =    30    12/27/25 23:12:33 
+ master set rendezvous nps =   106501000,  work chunks =    30    12/27/25 23:12:42 
+ master set rendezvous nps =   106601000,  work chunks =    30    12/27/25 23:12:48 
+ master set rendezvous nps =   106701000,  work chunks =    30    12/27/25 23:12:53 
+ master set rendezvous nps =   106801000,  work chunks =    30    12/27/25 23:12:59 
+ master set rendezvous nps =   106901000,  work chunks =    30    12/27/25 23:13:08 
+ master set rendezvous nps =   107001000,  work chunks =    30    12/27/25 23:13:16 
+ master set rendezvous nps =   107101000,  work chunks =    30    12/27/25 23:13:22 
+ master set rendezvous nps =   107201000,  work chunks =    30    12/27/25 23:13:32 
+ master set rendezvous nps =   107301000,  work chunks =    30    12/27/25 23:13:36 
+ master set rendezvous nps =   107401000,  work chunks =    30    12/27/25 23:13:40 
+ master set rendezvous nps =   107501000,  work chunks =    30    12/27/25 23:13:53 
+ master set rendezvous nps =   107601000,  work chunks =    30    12/27/25 23:13:56 
+ master set rendezvous nps =   107701000,  work chunks =    30    12/27/25 23:14:07 
+ master set rendezvous nps =   107801000,  work chunks =    30    12/27/25 23:14:16 
+ master set rendezvous nps =   107901000,  work chunks =    30    12/27/25 23:14:25 
+ master set rendezvous nps =   108001000,  work chunks =    30    12/27/25 23:14:34 
+ master set rendezvous nps =   108101000,  work chunks =    30    12/27/25 23:14:40 
+ master set rendezvous nps =   108201000,  work chunks =    30    12/27/25 23:14:44 
+ master set rendezvous nps =   108301000,  work chunks =    30    12/27/25 23:14:54 
+ master set rendezvous nps =   108401000,  work chunks =    30    12/27/25 23:15:25 
+ master set rendezvous nps =   108501000,  work chunks =    30    12/27/25 23:15:49 
+ master set rendezvous nps =   108601000,  work chunks =    30    12/27/25 23:15:56 
+ master set rendezvous nps =   108701000,  work chunks =    30    12/27/25 23:16:01 
+ master set rendezvous nps =   108801000,  work chunks =    30    12/27/25 23:16:06 
+ master set rendezvous nps =   108901000,  work chunks =    30    12/27/25 23:16:30 
+ master set rendezvous nps =   109001000,  work chunks =    30    12/27/25 23:16:37 
+ master set rendezvous nps =   109101000,  work chunks =    30    12/27/25 23:16:43 
+ master set rendezvous nps =   109201000,  work chunks =    30    12/27/25 23:16:52 
+ master set rendezvous nps =   109301000,  work chunks =    30    12/27/25 23:17:12 
+ master set rendezvous nps =   109401000,  work chunks =    30    12/27/25 23:17:17 
+ master set rendezvous nps =   109501000,  work chunks =    30    12/27/25 23:17:27 
+ master set rendezvous nps =   109601000,  work chunks =    30    12/27/25 23:17:34 
+ master set rendezvous nps =   109701000,  work chunks =    30    12/27/25 23:17:45 
+ master set rendezvous nps =   109801000,  work chunks =    30    12/27/25 23:17:49 
+ master set rendezvous nps =   109901000,  work chunks =    30    12/27/25 23:17:55 
+ master set rendezvous nps =   110001000,  work chunks =    30    12/27/25 23:18:03 
+ master set rendezvous nps =   110101000,  work chunks =    30    12/27/25 23:18:11 
+ master set rendezvous nps =   110201000,  work chunks =    30    12/27/25 23:18:24 
+ master set rendezvous nps =   110301000,  work chunks =    30    12/27/25 23:18:27 
+ master set rendezvous nps =   110401000,  work chunks =    30    12/27/25 23:18:33 
+ master set rendezvous nps =   110501000,  work chunks =    30    12/27/25 23:18:41 
+ master set rendezvous nps =   110601000,  work chunks =    30    12/27/25 23:19:13 
+ master set rendezvous nps =   110701000,  work chunks =    30    12/27/25 23:19:29 
+ master set rendezvous nps =   110801000,  work chunks =    30    12/27/25 23:19:45 
+ master set rendezvous nps =   110901000,  work chunks =    30    12/27/25 23:19:52 
+ master set rendezvous nps =   111001000,  work chunks =    30    12/27/25 23:20:01 
+ master set rendezvous nps =   111101000,  work chunks =    30    12/27/25 23:20:09 
+ master set rendezvous nps =   111201000,  work chunks =    30    12/27/25 23:20:12 
+ master set rendezvous nps =   111301000,  work chunks =    30    12/27/25 23:20:31 
+ master set rendezvous nps =   111401000,  work chunks =    30    12/27/25 23:20:37 
+ master set rendezvous nps =   111501000,  work chunks =    30    12/27/25 23:20:41 
+ master set rendezvous nps =   111601000,  work chunks =    30    12/27/25 23:20:52 
+ master set rendezvous nps =   111701000,  work chunks =    30    12/27/25 23:21:07 
+ master set rendezvous nps =   111801000,  work chunks =    30    12/27/25 23:21:20 
+ master set rendezvous nps =   111901000,  work chunks =    30    12/27/25 23:21:27 
+ master set rendezvous nps =   112001000,  work chunks =    30    12/27/25 23:21:33 
+ master set rendezvous nps =   112101000,  work chunks =    30    12/27/25 23:21:42 
+ master set rendezvous nps =   112201000,  work chunks =    30    12/27/25 23:21:47 
+ master set rendezvous nps =   112301000,  work chunks =    30    12/27/25 23:21:53 
+ master set rendezvous nps =   112401000,  work chunks =    30    12/27/25 23:21:58 
+ master set rendezvous nps =   112501000,  work chunks =    30    12/27/25 23:22:04 
+ master set rendezvous nps =   112601000,  work chunks =    30    12/27/25 23:22:19 
+ master set rendezvous nps =   112701000,  work chunks =    30    12/27/25 23:22:32 
+ master set rendezvous nps =   112801000,  work chunks =    30    12/27/25 23:22:36 
+ master set rendezvous nps =   112901000,  work chunks =    30    12/27/25 23:22:39 
+ master set rendezvous nps =   113001000,  work chunks =    30    12/27/25 23:22:50 
+ master set rendezvous nps =   113101000,  work chunks =    30    12/27/25 23:23:00 
+ master set rendezvous nps =   113201000,  work chunks =    30    12/27/25 23:23:04 
+ master set rendezvous nps =   113301000,  work chunks =    30    12/27/25 23:23:08 
+ master set rendezvous nps =   113401000,  work chunks =    30    12/27/25 23:23:20 
+ master set rendezvous nps =   113501000,  work chunks =    30    12/27/25 23:23:34 
+ master set rendezvous nps =   113601000,  work chunks =    30    12/27/25 23:23:46 
+ master set rendezvous nps =   113701000,  work chunks =    30    12/27/25 23:23:49 
+ master set rendezvous nps =   113801000,  work chunks =    30    12/27/25 23:23:53 
+ master set rendezvous nps =   113901000,  work chunks =    30    12/27/25 23:24:05 
+ master set rendezvous nps =   114001000,  work chunks =    30    12/27/25 23:24:10 
+ master set rendezvous nps =   114101000,  work chunks =    30    12/27/25 23:24:23 
+ master set rendezvous nps =   114201000,  work chunks =    30    12/27/25 23:24:29 
+ master set rendezvous nps =   114301000,  work chunks =    30    12/27/25 23:24:38 
+ master set rendezvous nps =   114401000,  work chunks =    30    12/27/25 23:24:45 
+ master set rendezvous nps =   114501000,  work chunks =    30    12/27/25 23:24:48 
+ master set rendezvous nps =   114601000,  work chunks =    30    12/27/25 23:25:08 
+ master set rendezvous nps =   114701000,  work chunks =    30    12/27/25 23:25:15 
+ master set rendezvous nps =   114801000,  work chunks =    30    12/27/25 23:25:38 
+ master set rendezvous nps =   114901000,  work chunks =    30    12/27/25 23:25:44 
+ master set rendezvous nps =   115001000,  work chunks =    30    12/27/25 23:25:58 
+ master set rendezvous nps =   115101000,  work chunks =    30    12/27/25 23:25:59 
+ master set rendezvous nps =   115201000,  work chunks =    30    12/27/25 23:26:04 
+ master set rendezvous nps =   115301000,  work chunks =    30    12/27/25 23:26:12 
+ master set rendezvous nps =   115401000,  work chunks =    30    12/27/25 23:26:27 
+ master set rendezvous nps =   115501000,  work chunks =    30    12/27/25 23:26:30 
+ master set rendezvous nps =   115601000,  work chunks =    30    12/27/25 23:26:39 
 1problem summary                                                                                                           
 
-      run terminated when it had used 2000  minutes of computer time.
-+                                                                                                    12/26/25 15:43:40 
-      Pure_OC2.3 front -oc3.35                                                             probid =  12/26/25 15:10:11 
+      run terminated when it had used 5000  minutes of computer time.
++                                                                                                    12/27/25 23:26:43 
+      Pure_OC2.3 front -oc3.35                                                             probid =  12/27/25 20:39:51 
 
  neutron creation    tracks      weight        energy            neutron loss        tracks      weight        energy
                                  (per source particle)                                           (per source particle)
 
- source             5115602    2.7604E-04    1.0313E+00          escape            22286121    3.0176E-05    1.6544E-02
+ source            22314781    2.7604E-04    1.0318E+00          escape            97900444    3.0169E-05    1.6562E-02
  nucl. interaction        0    0.            0.                  energy cutoff            0    0.            0.        
  particle decay           0    0.            0.                  time cutoff              0    0.            0.        
  weight window            0    0.            0.                  weight window            0    0.            0.        
- cell importance   97410646    7.0180E-05    1.9820E-02          cell importance   57900221    7.0207E-05    1.9719E-02
- weight cutoff            0    4.5742E-05    2.8166E-06          weight cutoff     22339906    4.5742E-05    2.8492E-06
+ cell importance  444535640    7.0224E-05    1.9619E-02          cell importance  267587561    7.0211E-05    1.9630E-02
+ weight cutoff            0    4.5740E-05    2.7651E-06          weight cutoff    101362416    4.5751E-05    2.7351E-06
  e or t importance        0    0.            0.                  e or t importance        0    0.            0.        
  dxtran                   0    0.            0.                  dxtran                   0    0.            0.        
  forced collisions        0    0.            0.                  forced collisions        0    0.            0.        
  exp. transform           0    0.            0.                  exp. transform           0    0.            0.        
- upscattering             0    0.            4.9835E-07          downscattering           0    0.            1.0096E+00
- photonuclear             0    0.            0.                  capture                  0    2.4583E-04    5.2537E-03
+ upscattering             0    0.            4.9862E-07          downscattering           0    0.            1.0100E+00
+ photonuclear             0    0.            0.                  capture                  0    2.4587E-04    5.2484E-03
  (n,xn)                   0    0.            0.                  loss to (n,xn)           0    0.            0.        
  prompt fission           0    0.            0.                  loss to fission          0    0.            0.        
  delayed fission          0    0.            0.                  nucl. interaction        0    0.            0.        
  prompt photofis          0    0.            0.                  particle decay           0    0.            0.        
  tabular boundary         0    0.            0.                  tabular boundary         0    0.            0.        
  tabular sampling         0    0.            0.                  elastic scatter          0    0.            0.        
-     total        102526248    3.9196E-04    1.0512E+00              total        102526248    3.9196E-04    1.0512E+00
+     total        466850421    3.9200E-04    1.0514E+00              total        466850421    3.9200E-04    1.0514E+00
 
-   number of neutrons banked                22824768        average time of (shakes)              cutoffs
-   neutron tracks per source particle     3.8688E+00          escape            2.1471E+04          tco   1.0000E+33
-   neutron collisions per source particle 5.9556E+01          capture           1.8335E+04          eco   0.0000E+00
-   total neutron collisions               1578298291          capture or escape 1.8678E+04          wc1  -5.0000E-01
-   net multiplication              1.0000E+00 0.0000          any termination   2.1540E+04          wc2  -2.5000E-01
+   number of neutrons banked               103082360        average time of (shakes)              cutoffs
+   neutron tracks per source particle     4.0385E+00          escape            2.1456E+04          tco   1.0000E+33
+   neutron collisions per source particle 6.1243E+01          capture           1.8341E+04          eco   0.0000E+00
+   total neutron collisions              -2147483648          capture or escape 1.8681E+04          wc1  -5.0000E-01
+   net multiplication              1.0000E+00 0.0000          any termination   2.1550E+04          wc2  -2.5000E-01
 
  photon creation     tracks      weight        energy            photon loss         tracks      weight        energy
                                  (per source particle)                                           (per source particle)
 
- source            21385398    1.1540E-03    1.5151E+00          escape            26459350    9.0287E-05    8.5902E-02
- nucl. interaction        0    0.            0.                  energy cutoff          455    7.9507E-10    1.9487E-04
+ source            93286219    1.1540E-03    1.5152E+00          escape           117327315    9.0281E-05    8.5880E-02
+ nucl. interaction        0    0.            0.                  energy cutoff         2178    8.4295E-10    1.9485E-04
  particle decay           0    0.            0.                  time cutoff              0    0.            0.        
  weight window            0    0.            0.                  weight window            0    0.            0.        
- cell importance   81012421    1.6519E-04    1.3377E-01          cell importance   30319504    1.6528E-04    1.3374E-01
+ cell importance  362789058    1.6528E-04    1.3391E-01          cell importance  137114070    1.6527E-04    1.3385E-01
  weight cutoff            0    0.            0.                  weight cutoff            0    0.            0.        
  e or t importance        0    0.            0.                  e or t importance        0    0.            0.        
  dxtran                   0    0.            0.                  dxtran                   0    0.            0.        
  forced collisions        0    0.            0.                  forced collisions        0    0.            0.        
  exp. transform           0    0.            0.                  exp. transform           0    0.            0.        
- from neutrons     40620314    6.7135E-04    1.0508E+00          compton scatter          0    0.            2.0586E+00
- bremsstrahlung    44167325    1.0239E-03    5.6298E-02          capture          180952042    3.8749E-03    2.9533E-01
- p-annihilation     8143788    1.7228E-04    7.6289E-02          pair production    4071894    8.6139E-05    2.7280E-01
+ from neutrons    181692710    6.7129E-04    1.0508E+00          compton scatter          0    0.            2.0591E+00
+ bremsstrahlung   196658286    1.0239E-03    5.6349E-02          capture          804878486    3.8749E-03    2.9526E-01
+ p-annihilation    36319762    1.7203E-04    7.6178E-02          pair production   18159881    8.6013E-05    2.7243E-01
  photonuclear             0    0.            0.                  photonuclear abs         0    0.            0.        
  electron x-rays          0    0.            0.                  loss to photofis         0    0.            0.        
  compton fluores          0    0.            0.                                                                        
  muon capt fluores        0    0.            0.                                                                        
- 1st fluorescence  44363425    9.9977E-04    1.4173E-02                                                                
- 2nd fluorescence   2110574    3.0180E-05    1.0712E-04                                                                
+ 1st fluorescence 197295838    9.9976E-04    1.4175E-02                                                                
+ 2nd fluorescence   9440057    3.0238E-05    1.0727E-04                                                                
  (gamma,xgamma)           0    0.            0.                                                                        
  tabular sampling         0    0.            0.                                                                        
  prompt photofis          0    0.            0.                                                                        
-     total        241803245    4.2166E-03    2.8465E+00              total        241803245    4.2166E-03    2.8465E+00
+     total       1077481930    4.2164E-03    2.8467E+00              total       1077481930    4.2164E-03    2.8467E+00
 
-   number of photons banked                130012145        average time of (shakes)              cutoffs
-   photon tracks per source particle      9.1243E+00          escape            6.9684E+03          tco   1.0000E+33
-   photon collisions per source particle  2.7173E+01          capture           5.0998E+03          eco   1.0000E-03
-   total photon collisions                 720117191          capture or escape 5.1423E+03          wc1  -5.0000E-01
-                                                              any termination   5.5920E+03          wc2  -2.5000E-01
+   number of photons banked                579975657        average time of (shakes)              cutoffs
+   photon tracks per source particle      9.3207E+00          escape            6.9764E+03          tco   1.0000E+33
+   photon collisions per source particle  2.7759E+01          capture           5.0988E+03          eco   1.0000E-03
+   total photon collisions               -2147483648          capture or escape 5.1415E+03          wc1  -5.0000E-01
+                                                              any termination   5.5906E+03          wc2  -2.5000E-01
 
- computer time so far in this run  2036.27 minutes            maximum number ever in bank        71
- computer time in mcrun             218.73 minutes            bank overflows to backup file       0
- source particles per minute            1.2116E+05
- random numbers generated              37565124932            most random numbers used was   180630053 in history    17777233
+ computer time so far in this run  5168.77 minutes            maximum number ever in bank        71
+ computer time in mcrun             937.11 minutes            bank overflows to backup file       0
+ source particles per minute            1.2336E+05
+ random numbers generated             168334805969            most random numbers used was   391289092 in history   105491119
  
-  warning.   random number stride   152917 exceeded    21157 times.
+  warning.   random number stride   152917 exceeded    92264 times.
 
  range of sampled source weights = 1.4300E-03 to 1.4300E-03
 
- neutron-induced photon production mt loop failed   1 times.
+ neutron-induced photon production mt loop failed   5 times.
 
- estimated system efficiency for MPI usage =  2%
+ estimated system efficiency for MPI usage =  3%
 
  number of histories processed by each MPI task
-           0      441506      441772      441772      441506      441772      441772      441506      441772      441772
-      441506      441772      441772      441506      441772      441772      441506      441772      441772      441506
-      441772      441772      441506      441772      441772      441506      441772      441772      441506      441772
-      441772      441506      441772      441772      441506      441772      441772      441506      441772      441772
-      441506      441772      441772      441506      441772      441772      441506      441772      441772      441506
-      441772      441772      441506      441772      441772      441506      441772      441772      441506      441772
-      441772
+           0     3852981     3852981     3854138     3852981     3852981     3854138     3852981     3852981     3854138
+     3852981     3852981     3854138     3852981     3852981     3854138     3852981     3852981     3854138     3852981
+     3852981     3854138     3852981     3852981     3854138     3852981     3852981     3854138     3852981     3852981
+     3854138
  
   warning.  importance function may be poor.  see print table 120.
  
@@ -2695,371 +3583,371 @@
               cell    entering                               * weight     weighted     weighted   track weight   track mfp
                                                           (per history)    energy       energy     (relative)      (cm)
 
-        1        1     3125982      1591733     24184944    9.8422E-04   2.1490E-03   2.8075E-01   1.2446E-03   6.5869E+00
-        2        2     2931927      1382450      4552625    1.7820E-04   9.3133E-04   3.2788E-01   1.2108E-03   5.3120E+00
-        3        3      142433        92478       295395    1.1867E-05   1.6645E-03   2.6146E-01   1.2346E-03   6.8202E+00
-        4        4      724328       471881      1704027    6.5979E-05   8.7611E-04   3.1138E-01   1.1995E-03   5.1761E+00
-        5        5      808923       527717      1888674    7.3017E-05   8.5432E-04   3.1887E-01   1.1990E-03   5.1319E+00
-        6        6      135995        90180       265589    1.0933E-05   2.5900E-03   2.7340E-01   1.2541E-03   7.0027E+00
-        7        7       62646        49508        92025    3.6884E-06   1.3666E-03   3.2359E-01   1.2298E-03   5.7330E+00
-        8        8     1396353       820785      4611214    1.8230E-04   5.3371E-04   2.2234E-01   1.1414E-03   3.3753E+00
-        9        9       44336        32489            0    0.0000E+00   2.8165E-04   1.5362E-01   1.1223E-03   0.0000E+00
-       10       10    11647958      3330880            0    0.0000E+00   3.3340E-04   3.0866E-01   1.1550E-03   0.0000E+00
-       11       11     1309247       801741     13518630    5.4541E-04   2.8421E-03   1.9531E-01   1.2355E-03   8.1778E+00
-       12       12       36829        28174            0    0.0000E+00   7.3765E-04   1.9445E-01   1.1854E-03   0.0000E+00
-       13       13     7093118      3438976    196321576    6.7620E-03   5.0726E-05   1.5085E-01   9.8840E-04   7.2721E-01
-       14       14       98606        56417      2508201    8.2262E-05   2.3551E-05   5.7392E-02   9.2233E-04   5.7473E-01
-       15       15     2759417      1409594     21173889    8.6297E-04   2.3454E-03   2.7270E-01   1.2450E-03   6.6148E+00
-       16       16     2965668      1403947      4620889    1.8038E-04   8.9283E-04   3.2537E-01   1.2081E-03   5.2749E+00
-       17       17      142711        92556       299371    1.1986E-05   1.6183E-03   2.5806E-01   1.2314E-03   6.7118E+00
-       18       18      725994       473230      1709854    6.6070E-05   8.5800E-04   3.0988E-01   1.1982E-03   5.1516E+00
-       19       19      813964       530657      1903849    7.3473E-05   8.5174E-04   3.1972E-01   1.1984E-03   5.1154E+00
-       20       20      136628        90363       268059    1.1019E-05   2.5791E-03   2.7237E-01   1.2534E-03   7.0229E+00
-       21       21       62501        49455        91862    3.6865E-06   1.4447E-03   3.3301E-01   1.2315E-03   5.7032E+00
-       22       22     1538951       914058      5097354    1.9937E-04   4.8073E-04   2.1173E-01   1.1297E-03   3.3378E+00
-       23       23       44588        32674            0    0.0000E+00   2.7655E-04   1.5361E-01   1.1204E-03   0.0000E+00
-       24       24    11849246      3337665            0    0.0000E+00   3.2911E-04   3.0625E-01   1.1537E-03   0.0000E+00
-       25       25     1407341       855911     15078801    6.0220E-04   2.4891E-03   1.8786E-01   1.2240E-03   7.8530E+00
-       26       26     7153912      2926835      4804652    2.2495E-04   3.1061E-04   3.3045E-01   1.1580E-03   8.4767E+00
-       27       27       36834        28274            0    0.0000E+00   7.1578E-04   1.9268E-01   1.1873E-03   0.0000E+00
-       28       28     7077978      3445688    195818027    6.7491E-03   5.0735E-05   1.5101E-01   9.8889E-04   7.2736E-01
-       29       29       98060        57013      2486574    8.1716E-05   2.3190E-05   5.6158E-02   9.2410E-04   5.7273E-01
-       30       30     5241684      5115615      2267932    1.2107E-04   1.4412E-02   9.5117E-01   1.4157E-03   2.6936E+00
-       31       31     7682993      5115537            0    0.0000E+00   6.2465E-04   6.5803E-01   1.2823E-03   0.0000E+00
-       32       32     5421920      5115423            0    0.0000E+00   3.7469E-03   8.9989E-01   1.3888E-03   0.0000E+00
-       33       33      194827       103236            0    0.0000E+00   4.2608E-05   1.0982E-01   9.1759E-04   0.0000E+00
-       34       34      149651       116618            0    0.0000E+00   6.3493E-04   2.7848E-01   1.2312E-03   0.0000E+00
-       35       35       45534        43825            0    0.0000E+00   3.7115E-04   3.0110E-01   1.2198E-03   0.0000E+00
-       36       36     3603285      2429868        12419    4.7501E-07   1.3542E-04   1.5105E-01   1.0981E-03   3.7495E+03
-       37       37     4838408      2637114       118610    4.3027E-06   9.9971E-05   1.4921E-01   1.0478E-03   3.6089E+03
-       38       61       40661        34842          134    5.3001E-09   6.6121E-05   5.9607E-02   1.1061E-03   3.0483E+03
-       39       62       58533        56380       544344    1.2467E-05   5.0718E-05   4.4716E-02   1.2031E-03   7.3524E-01
-       40       63       93012        90627       872351    2.4778E-06   2.9392E-05   3.9832E-02   1.2831E-03   6.9353E-01
-       41       64      110887       108406      1014315    3.2777E-07   3.5095E-05   6.3777E-02   1.2810E-03   7.3033E-01
-       42       65      189206       186514      1433091    3.8754E-08   4.5128E-05   9.5028E-02   1.1937E-03   7.8663E-01
-       43       66     3526959      3292363     41583605    1.9749E-08   1.6469E-05   5.6582E-02   8.2769E-04   1.8427E+00
-       44       67     3439662      2851392     38064352    5.8670E-09   5.2015E-06   2.2670E-02   6.4962E-04   1.7121E+00
-       45       68     2450181      2084920     29131875    1.4671E-09   3.1163E-06   1.5169E-02   5.8881E-04   1.6771E+00
-       46       69     3421993      3131267     40797120    3.3083E-10   2.4172E-06   1.2428E-02   5.5270E-04   1.6648E+00
-       47       70     2826425      2577581     34591278    5.3789E-11   2.3558E-06   1.2466E-02   5.3992E-04   1.6612E+00
-       48       71       43192        37330          152    5.7469E-09   6.5886E-05   5.7530E-02   1.1079E-03   3.0359E+03
-       49       72       66178        63668       619529    1.2510E-05   5.0349E-05   4.3430E-02   1.2051E-03   7.3237E-01
-       50       73       76306        73778       713249    2.4655E-06   2.7191E-05   3.5119E-02   1.2811E-03   6.8350E-01
-       51       74       76714        74944       709194    3.1478E-07   2.7381E-05   4.7269E-02   1.2756E-03   6.9425E-01
-       52       75      362109       348696      2739402    3.2270E-08   3.4384E-05   7.6396E-02   1.1694E-03   7.4010E-01
-       53       76      739079       680790      8245365    1.9482E-08   1.1475E-05   4.0463E-02   7.8934E-04   1.7927E+00
-       54       77      885597       785596      9862811    5.2049E-09   4.5150E-06   1.8462E-02   6.4296E-04   1.7052E+00
-       55       78      999600       893029     11617922    1.2837E-09   2.6315E-06   1.2665E-02   5.7733E-04   1.6690E+00
-       56       79      986468       881930     11545864    2.8164E-10   2.0043E-06   1.0197E-02   5.4573E-04   1.6551E+00
-       57       80      909700       836843     10753333    4.6702E-11   1.8884E-06   9.6474E-03   5.3649E-04   1.6519E+00
-       58       81      546591       516282      6354152    1.9926E-04   6.1802E-05   6.1931E-02   1.2168E-03   7.7154E-01
-       59       82      873160       869193      8213266    6.3768E-06   3.5434E-05   6.7687E-02   1.2442E-03   7.3377E-01
-       60       83     2616067      2574882     19089662    3.9191E-07   4.7029E-05   1.2953E-01   1.0283E-03   8.2999E-01
-       61       84      309671       256142      2237859    9.4840E-08   1.1978E-05   5.0715E-02   7.0810E-04   1.7974E+00
-       62       85      227477       170670      1794964    5.4440E-08   5.6361E-06   2.7075E-02   6.2316E-04   1.7146E+00
-       63       86      245958       184798      2012912    2.3259E-08   3.2096E-06   1.5927E-02   5.7612E-04   1.6769E+00
-       64       87      224115       188232      2116616    2.4821E-08   2.2169E-06   1.0257E-02   5.5126E-04   1.6558E+00
-       65       88      251873       213708      2380218    8.0465E-09   1.7866E-06   8.2289E-03   5.3839E-04   1.6504E+00
-       66       89      280850       237898      2664650    2.6200E-09   1.5689E-06   7.5994E-03   5.3216E-04   1.6476E+00
-       67       90      302673       254725      2881701    8.5618E-10   1.2784E-06   6.4552E-03   5.2688E-04   1.6432E+00
-       68       91      313139       262823      2979342    2.7379E-10   1.2423E-06   6.6637E-03   5.2348E-04   1.6424E+00
-       69       92      314580       266047      3016537    8.6965E-11   1.3138E-06   7.2030E-03   5.2172E-04   1.6432E+00
-       70       93      298481       265193      2856232    2.2389E-11   1.6042E-06   8.6794E-03   5.2182E-04   1.6480E+00
-       71       94      573374       543163      6656424    1.9856E-04   6.1520E-05   6.2295E-02   1.2156E-03   7.7144E-01
-       72       95      776985       772235      7395163    6.2601E-06   3.6175E-05   6.8932E-02   1.2508E-03   7.3711E-01
-       73       96      601051       575595      4320159    3.6751E-07   3.5034E-05   9.8607E-02   1.0032E-03   7.6276E-01
-       74       97      246637       191946      1771608    9.1513E-08   8.3647E-06   3.5813E-02   6.7851E-04   1.7474E+00
-       75       98      179535       135009      1413192    5.1418E-08   4.0976E-06   1.8331E-02   6.1051E-04   1.6921E+00
-       76       99      177198       134064      1463785    2.1099E-08   2.4420E-06   1.2167E-02   5.7898E-04   1.6669E+00
-       77      100      201557       171064      1906626    2.2997E-08   1.5873E-06   8.3211E-03   5.4990E-04   1.6485E+00
-       78      101      213850       179690      2023003    7.3912E-09   1.7108E-06   9.3587E-03   5.3463E-04   1.6492E+00
-       79      102      218261       182385      2076960    2.3829E-09   1.7388E-06   9.5259E-03   5.2886E-04   1.6504E+00
-       80      103      213549       177585      2026071    7.6900E-10   1.6655E-06   8.3223E-03   5.2730E-04   1.6480E+00
-       81      104      209011       174692      1991303    2.4963E-10   1.6188E-06   8.3251E-03   5.2780E-04   1.6482E+00
-       82      105      221026       188679      2090979    7.9282E-11   1.7552E-06   9.0434E-03   5.2651E-04   1.6485E+00
-       83      106      229886       206424      2197837    2.0810E-11   1.8681E-06   9.3656E-03   5.3039E-04   1.6522E+00
-       84      107      163025       137701      1753537    3.5156E-04   2.0121E-05   5.4364E-02   8.4904E-04   1.8746E+00
-       85      108      195350       148488      2133383    1.5249E-04   8.4426E-06   3.0458E-02   7.4662E-04   1.7632E+00
-       86      109      238613       187287      2581774    5.7851E-05   4.8948E-06   2.1191E-02   6.6547E-04   1.7114E+00
-       87      110      274627       219387      2939923    2.0518E-05   3.8229E-06   1.8184E-02   6.0962E-04   1.6887E+00
-       88      111      321900       262019      3405370    7.1059E-06   3.2102E-06   1.6334E-02   5.7604E-04   1.6776E+00
-       89      112      376428       308529      3953131    2.4064E-06   2.9167E-06   1.5613E-02   5.5554E-04   1.6713E+00
-       90      113      392252       311789      3419882    6.7723E-07   3.1234E-06   1.6890E-02   5.4588E-04   1.6732E+00
-       91      114      442590       344905      3876060    2.8225E-07   3.0940E-06   1.6739E-02   5.4170E-04   1.6728E+00
-       92      115      488156       378002      4266460    1.1733E-07   3.1011E-06   1.6896E-02   5.4005E-04   1.6743E+00
-       93      116      516572       399346      4517445    4.8713E-08   3.2370E-06   1.7748E-02   5.3962E-04   1.6758E+00
-       94      117      568954       441540      4954820    2.0122E-08   3.4988E-06   1.9340E-02   5.4048E-04   1.6806E+00
-       95      118      604771       477419      5276021    8.2646E-09   3.7799E-06   2.0774E-02   5.4136E-04   1.6852E+00
-       96      119      622123       532527      7404235    3.5849E-09   4.5977E-06   2.5617E-02   5.4456E-04   1.6995E+00
-       97      120      451598       436492      5668563    1.1262E-04   7.4055E-05   8.5799E-02   1.2421E-03   8.1265E-01
-       98      121      510540       506214      5765684    4.3412E-06   9.1748E-05   1.7271E-01   1.3302E-03   9.4891E-01
-       99      122      419044       412043      4643177    2.7165E-07   1.6852E-04   2.9385E-01   1.3178E-03   1.1763E+00
-      100      123      951763       926920      5501596    2.2385E-08   1.2746E-04   2.6778E-01   1.0426E-03   3.1146E+00
-      101      124    17421707     14495800    105450928    1.2410E-08   9.0668E-05   2.0657E-01   9.5096E-04   3.0007E+00
-      102      125    10840913      7193291     68323079    6.0788E-09   6.9586E-05   1.6481E-01   9.1342E-04   2.9192E+00
-      103      126     8409344      6300243     54375608    2.7805E-09   5.5360E-05   1.3772E-01   8.8591E-04   2.8585E+00
-      104      127    10095817      8388485     66341747    1.1810E-09   4.6453E-05   1.2183E-01   8.6309E-04   2.8166E+00
-      105      128    10771324      9591719     71515873    3.8792E-10   4.6739E-05   1.2693E-01   8.5681E-04   2.8232E+00
-      106      129      428077       351663      4565415    3.1543E-04   2.5594E-05   4.4633E-02   9.3539E-04   1.9030E+00
-      107      130      712465       558683      8075552    1.7864E-04   6.7630E-06   1.7247E-02   7.9620E-04   1.7555E+00
-      108      131     1257913      1054420     14195523    6.9257E-05   2.4655E-06   8.5596E-03   6.7644E-04   1.6823E+00
-      109      132     2019355      1711019     22301086    2.4062E-05   1.3327E-06   5.5374E-03   6.0281E-04   1.6524E+00
-      110      133     2954369      2506039     31969616    8.0108E-06   9.7873E-07   4.5099E-03   5.6016E-04   1.6405E+00
-      111      134     3999065      3382844     42723581    2.6276E-06   8.4608E-07   4.1772E-03   5.3657E-04   1.6358E+00
-      112      135     4947098      4202705     52432764    8.4083E-07   8.0649E-07   4.1384E-03   5.2425E-04   1.6340E+00
-      113      136     5831048      5200347     61596989    2.2879E-07   8.7325E-07   4.6556E-03   5.1926E-04   1.6351E+00
-      114      137    24859988     24643089     33453776    5.6843E-09   1.4168E-06   8.0433E-03   5.1999E-04   1.6513E+00
-      115      200    21008077     21008077            0    0.0000E+00   2.2711E-06   1.3358E-02   3.0822E-02   0.0000E+00
-      117      138     2362228      2033280     22450144    7.7252E-04   6.4419E-05   1.2229E-01   9.5946E-04   2.8611E+00
+        1        1    13620451      6945445    105432769    9.8337E-04   2.1477E-03   2.8084E-01   1.2444E-03   6.5877E+00
+        2        2    12796595      6027810     19859807    1.7828E-04   9.3008E-04   3.2734E-01   1.2109E-03   5.3157E+00
+        3        3      619191       402457      1283693    1.1800E-05   1.6419E-03   2.5957E-01   1.2335E-03   6.7863E+00
+        4        4     3161593      2059676      7422321    6.5867E-05   8.7196E-04   3.1010E-01   1.1996E-03   5.1810E+00
+        5        5     3535047      2302672      8258737    7.3216E-05   8.5660E-04   3.1817E-01   1.1993E-03   5.1309E+00
+        6        6      593189       392923      1160761    1.0957E-05   2.5784E-03   2.7286E-01   1.2542E-03   7.0325E+00
+        7        7      272111       215398       398752    3.6526E-06   1.3836E-03   3.2802E-01   1.2290E-03   5.7591E+00
+        8        8     6085835      3579222     20080602    1.8208E-04   5.3469E-04   2.2256E-01   1.1418E-03   3.3768E+00
+        9        9      191401       140576            0    0.0000E+00   2.8393E-04   1.5604E-01   1.1243E-03   0.0000E+00
+       10       10    50766029     14525678            0    0.0000E+00   3.3373E-04   3.0872E-01   1.1553E-03   0.0000E+00
+       11       11     5697361      3491549     58834177    5.4445E-04   2.8514E-03   1.9559E-01   1.2358E-03   8.1660E+00
+       12       12      161077       123391            0    0.0000E+00   7.3937E-04   1.9276E-01   1.1904E-03   0.0000E+00
+       13       13    30931903     14994682    856120306    6.7603E-03   5.0722E-05   1.5089E-01   9.8843E-04   7.2723E-01
+       14       14      429228       245826     10896771    8.1956E-05   2.3376E-05   5.6654E-02   9.2273E-04   5.7355E-01
+       15       15    12046803      6152510     92434906    8.6349E-04   2.3443E-03   2.7270E-01   1.2449E-03   6.6124E+00
+       16       16    12933154      6122747     20160060    1.8042E-04   8.9386E-04   3.2575E-01   1.2082E-03   5.2814E+00
+       17       17      620675       402985      1291703    1.1878E-05   1.6432E-03   2.6018E-01   1.2334E-03   6.7611E+00
+       18       18     3170472      2067359      7447557    6.6002E-05   8.6505E-04   3.1073E-01   1.1984E-03   5.1646E+00
+       19       19     3547576      2314450      8288302    7.3386E-05   8.5096E-04   3.1833E-01   1.1986E-03   5.1192E+00
+       20       20      593049       392235      1158116    1.0942E-05   2.5965E-03   2.7333E-01   1.2547E-03   7.0588E+00
+       21       21      271757       214951       400217    3.6699E-06   1.3977E-03   3.2992E-01   1.2293E-03   5.7110E+00
+       22       22     6720785      3988188     22220541    1.9936E-04   4.8154E-04   2.1174E-01   1.1303E-03   3.3416E+00
+       23       23      192444       141079            0    0.0000E+00   2.7791E-04   1.5500E-01   1.1225E-03   0.0000E+00
+       24       24    51750537     14568906            0    0.0000E+00   3.2907E-04   3.0640E-01   1.1536E-03   0.0000E+00
+       25       25     6147455      3735665     65743315    6.0210E-04   2.4999E-03   1.8832E-01   1.2244E-03   7.8576E+00
+       26       26    31235993     12773490     20993354    2.2539E-04   3.1108E-04   3.3093E-01   1.1583E-03   8.4743E+00
+       27       27      161351       123710            0    0.0000E+00   7.2962E-04   1.9358E-01   1.1885E-03   0.0000E+00
+       28       28    30914504     15040584    855024562    6.7555E-03   5.0737E-05   1.5105E-01   9.8889E-04   7.2739E-01
+       29       29      428229       248709     10858367    8.1660E-05   2.3080E-05   5.6216E-02   9.2234E-04   5.7232E-01
+       30       30    22866597     22314858      9884555    1.2097E-04   1.4332E-02   9.5154E-01   1.4156E-03   2.6940E+00
+       31       31    33527785     22314537            0    0.0000E+00   6.2433E-04   6.5836E-01   1.2820E-03   0.0000E+00
+       32       32    23654186     22314030            0    0.0000E+00   3.7437E-03   9.0028E-01   1.3887E-03   0.0000E+00
+       33       33      849277       449772            0    0.0000E+00   4.2923E-05   1.1012E-01   9.1849E-04   0.0000E+00
+       34       34      652721       508224            0    0.0000E+00   6.3496E-04   2.7920E-01   1.2311E-03   0.0000E+00
+       35       35      198516       191218            0    0.0000E+00   3.7005E-04   3.0144E-01   1.2193E-03   0.0000E+00
+       36       36    15710637     10595711        53559    4.6912E-07   1.3546E-04   1.5094E-01   1.0976E-03   3.7504E+03
+       37       37    21100120     11499168       515194    4.2787E-06   1.0008E-04   1.4919E-01   1.0473E-03   3.6094E+03
+       38       61      176949       151869          613    5.6039E-09   6.7402E-05   5.9927E-02   1.1053E-03   3.0571E+03
+       39       62      255226       246122      2378292    1.2487E-05   5.0792E-05   4.4508E-02   1.2032E-03   7.3491E-01
+       40       63      410080       399464      3838429    2.4994E-06   2.8519E-05   3.7450E-02   1.2833E-03   6.8895E-01
+       41       64      487690       476703      4437578    3.2681E-07   3.0783E-05   5.5108E-02   1.2741E-03   7.1014E-01
+       42       65      813883       802713      6028067    3.6048E-08   3.8544E-05   8.2488E-02   1.1567E-03   7.5631E-01
+       43       66    18783184     17656303    206616915    2.0601E-08   1.1888E-05   4.2538E-02   7.5517E-04   1.7911E+00
+       44       67    16250657     13561757    177357092    6.0026E-09   3.9260E-06   1.6795E-02   6.2025E-04   1.6916E+00
+       45       68    11659767     10011394    132847549    1.4922E-09   2.3623E-06   1.1100E-02   5.7199E-04   1.6653E+00
+       46       69    16348550     15029520    186461011    3.3989E-10   1.6889E-06   8.5868E-03   5.4079E-04   1.6518E+00
+       47       70    14473346     13297846    167154599    5.8584E-11   1.5458E-06   8.1616E-03   5.2952E-04   1.6469E+00
+       48       71      187123       162065          630    5.3845E-09   6.7665E-05   5.9471E-02   1.1074E-03   3.0575E+03
+       49       72      288137       276910      2699344    1.2497E-05   5.0605E-05   4.4111E-02   1.2053E-03   7.3394E-01
+       50       73      334158       323142      3136834    2.4913E-06   2.8153E-05   3.6880E-02   1.2840E-03   6.8732E-01
+       51       74      346648       338620      3185090    3.2329E-07   2.9333E-05   5.2658E-02   1.2741E-03   7.0424E-01
+       52       75     1693283      1631179     12624099    3.3769E-08   3.9494E-05   8.6783E-02   1.1634E-03   7.6358E-01
+       53       76     3473817      3202499     39068754    2.0344E-08   1.2085E-05   4.4464E-02   7.5867E-04   1.7951E+00
+       54       77     4692461      4187379     51129161    5.9366E-09   4.2870E-06   1.9226E-02   6.1527E-04   1.6970E+00
+       55       78     5740340      5163077     64568710    1.5901E-09   2.6578E-06   1.3377E-02   5.6062E-04   1.6681E+00
+       56       79     5800872      5222260     66381055    3.6745E-10   2.2220E-06   1.1849E-02   5.4030E-04   1.6604E+00
+       57       80     6076822      5643326     70092747    6.9244E-11   2.2022E-06   1.2138E-02   5.3248E-04   1.6585E+00
+       58       81     2380301      2248072     27679957    1.9896E-04   6.1678E-05   6.1909E-02   1.2167E-03   7.7128E-01
+       59       82     3691105      3674207     34850742    6.2102E-06   3.4757E-05   6.6248E-02   1.2451E-03   7.3082E-01
+       60       83    11290391     11117484     80394959    3.6801E-07   3.6512E-05   1.0351E-01   9.9582E-04   7.7302E-01
+       61       84     1360658      1128481      9774034    9.1213E-08   8.8636E-06   3.7110E-02   6.7671E-04   1.7542E+00
+       62       85     1001496       751542      7828389    5.3306E-08   4.8858E-06   2.2569E-02   6.0923E-04   1.7004E+00
+       63       86     1051526       790665      8570214    2.2631E-08   3.2715E-06   1.5553E-02   5.7465E-04   1.6755E+00
+       64       87      976717       822554      9238858    2.4965E-08   3.4334E-06   1.8434E-02   5.5572E-04   1.6764E+00
+       65       88     1113216       944728     10526318    8.2562E-09   3.0239E-06   1.5912E-02   5.4658E-04   1.6694E+00
+       66       89     1260361      1067473     11937482    2.7263E-09   2.7013E-06   1.4199E-02   5.4063E-04   1.6645E+00
+       67       90     1367001      1152602     12993210    8.9906E-10   2.5347E-06   1.3329E-02   5.3710E-04   1.6619E+00
+       68       91     1432085      1202910     13667081    2.9314E-10   2.3436E-06   1.2407E-02   5.3471E-04   1.6591E+00
+       69       92     1454706      1228964     13962708    9.4091E-11   2.2694E-06   1.1948E-02   5.3368E-04   1.6580E+00
+       70       93     1386309      1229643     13351552    2.4486E-11   2.5452E-06   1.3313E-02   5.3425E-04   1.6625E+00
+       71       94     2504853      2372001     29100834    1.9899E-04   6.1055E-05   6.1711E-02   1.2153E-03   7.7014E-01
+       72       95     3364559      3344036     31956531    6.1958E-06   3.5613E-05   6.7718E-02   1.2498E-03   7.3457E-01
+       73       96     2566779      2460439     18457962    3.5769E-07   3.7071E-05   1.0534E-01   9.9921E-04   7.7738E-01
+       74       97     1045743       812505      7514510    8.8779E-08   9.9063E-06   4.3267E-02   6.7811E-04   1.7691E+00
+       75       98      787117       593496      6149887    5.1528E-08   5.1319E-06   2.3811E-02   6.1442E-04   1.7090E+00
+       76       99      818227       620920      6675723    2.2096E-08   3.5240E-06   1.7769E-02   5.8134E-04   1.6835E+00
+       77      100      893145       754179      8467544    2.3573E-08   3.0191E-06   1.6298E-02   5.5575E-04   1.6729E+00
+       78      101      951819       798225      9041253    7.6901E-09   3.0448E-06   1.6578E-02   5.4495E-04   1.6734E+00
+       79      102      998058       833362      9466613    2.5356E-09   3.0666E-06   1.6650E-02   5.4075E-04   1.6736E+00
+       80      103     1000612       830980      9515360    8.4418E-10   2.9007E-06   1.5465E-02   5.3925E-04   1.6704E+00
+       81      104     1001022       836552      9537757    2.7918E-10   2.8608E-06   1.5044E-02   5.3954E-04   1.6693E+00
+       82      105     1061681       904982     10121436    8.9657E-11   2.9523E-06   1.5726E-02   5.3853E-04   1.6705E+00
+       83      106     1103101       988963     10605307    2.3359E-11   3.2504E-06   1.7336E-02   5.4006E-04   1.6759E+00
+       84      107      712291       602157      7672087    3.5263E-04   1.9812E-05   5.3301E-02   8.4876E-04   1.8721E+00
+       85      108      853700       647610      9320594    1.5279E-04   8.0256E-06   2.8814E-02   7.4639E-04   1.7589E+00
+       86      109     1043871       818385     11308816    5.7859E-05   4.6734E-06   1.9973E-02   6.6271E-04   1.7068E+00
+       87      110     1201713       960094     12856533    2.0485E-05   3.4623E-06   1.6307E-02   6.0681E-04   1.6830E+00
+       88      111     1396511      1136392     14747436    7.0217E-06   2.8299E-06   1.4123E-02   5.7300E-04   1.6709E+00
+       89      112     1619329      1327490     16964638    2.3586E-06   2.5587E-06   1.3274E-02   5.5304E-04   1.6647E+00
+       90      113     1674871      1331234     14666704    6.6257E-07   2.4399E-06   1.2902E-02   5.4228E-04   1.6621E+00
+       91      114     1887434      1472230     16536401    2.7440E-07   2.3405E-06   1.2450E-02   5.3738E-04   1.6606E+00
+       92      115     2063359      1598824     18010841    1.1262E-07   2.3269E-06   1.2521E-02   5.3455E-04   1.6608E+00
+       93      116     2159647      1671189     18839471    4.6095E-08   2.4104E-06   1.3141E-02   5.3290E-04   1.6618E+00
+       94      117     2358852      1831342     20545589    1.8892E-08   2.5606E-06   1.4070E-02   5.3243E-04   1.6642E+00
+       95      118     2485689      1961851     21656238    7.6759E-09   2.7465E-06   1.5160E-02   5.3294E-04   1.6678E+00
+       96      119     2543424      2177330     30078758    3.2894E-09   3.3202E-06   1.8645E-02   5.3477E-04   1.6779E+00
+       97      120     1970234      1904712     24736746    1.1264E-04   7.4001E-05   8.5766E-02   1.2419E-03   8.1255E-01
+       98      121     2232828      2213224     25013273    4.3156E-06   9.1708E-05   1.7219E-01   1.3295E-03   9.4793E-01
+       99      122     1869565      1838598     20510195    2.7343E-07   1.6596E-04   2.9227E-01   1.3120E-03   1.1736E+00
+      100      123     4321271      4209753     24666367    2.2689E-08   1.2685E-04   2.7168E-01   1.0300E-03   3.1196E+00
+      101      124    79526184     66326420    477105085    1.2773E-08   9.0779E-05   2.0892E-01   9.4432E-04   3.0047E+00
+      102      125    49674081     33164147    310497506    6.3026E-09   7.0011E-05   1.6683E-01   9.0937E-04   2.9233E+00
+      103      126    38369892     28787445    246951912    2.8912E-09   5.6279E-05   1.3988E-01   8.8509E-04   2.8641E+00
+      104      127    45932252     38179960    301269061    1.2316E-09   4.7675E-05   1.2398E-01   8.6493E-04   2.8237E+00
+      105      128    49067758     43695835    325498628    4.0596E-10   4.8009E-05   1.2876E-01   8.5967E-04   2.8308E+00
+      106      129     1870006      1535837     19947621    3.1600E-04   2.5532E-05   4.4403E-02   9.3550E-04   1.9030E+00
+      107      130     3110645      2437618     35260576    1.7880E-04   6.7449E-06   1.7354E-02   7.9617E-04   1.7552E+00
+      108      131     5496481      4607213     62054731    6.9393E-05   2.4410E-06   8.5426E-03   6.7626E-04   1.6819E+00
+      109      132     8850962      7496070     97663993    2.4136E-05   1.3607E-06   5.7186E-03   6.0233E-04   1.6528E+00
+      110      133    12921058     10962828    139869893    8.0260E-06   9.9206E-07   4.6279E-03   5.5951E-04   1.6408E+00
+      111      134    17448519     14762373    186263114    2.6225E-06   8.3838E-07   4.1614E-03   5.3580E-04   1.6357E+00
+      112      135    21577363     18329615    228490924    8.3914E-07   7.8179E-07   4.0431E-03   5.2372E-04   1.6338E+00
+      113      136    25451611     22693514    268848880    2.2870E-07   8.5988E-07   4.6223E-03   5.1873E-04   1.6350E+00
+      114      137   108484325    107537581    146371633    5.7017E-09   1.5694E-06   9.0392E-03   5.2016E-04   1.6540E+00
+      115      200    92525769     92525769            0    0.0000E+00   2.2464E-06   1.3301E-02   3.0532E-02   0.0000E+00
+      117      138    10308802      8872748     97955538    7.7269E-04   6.4330E-05   1.2208E-01   9.5943E-04   2.8606E+00
 
-           total     261176887    197076897   1578298291    2.0617E-02
+           total    1167321512    884833892   7079795576    2.0622E-02
 1photon   activity in each cell                                                                         print table 126
 
                        tracks     population   collisions   collisions     number        flux        average      average
               cell    entering                               * weight     weighted     weighted   track weight   track mfp
                                                           (per history)    energy       energy     (relative)      (cm)
 
-        1        1     3551841      6988032     21842293    1.1870E-03   1.1004E+00   1.1004E+00   1.4406E-03   1.8249E+00
-        2        2     2448987      3266497      6096759    3.3036E-04   1.1124E+00   1.1124E+00   1.4364E-03   1.8354E+00
-        3        3       60826        99792       216170    1.1709E-05   1.1463E+00   1.1463E+00   1.4369E-03   1.8562E+00
-        4        4      613104       953376      2098293    1.1379E-04   1.1079E+00   1.1079E+00   1.4375E-03   1.8211E+00
-        5        5      726063      1117549      2439782    1.3228E-04   1.1060E+00   1.1060E+00   1.4373E-03   1.8215E+00
-        6        6       56692        86799       193492    1.0457E-05   1.0888E+00   1.0888E+00   1.4342E-03   1.8153E+00
-        7        7       41716        57564       108601    5.8868E-06   1.0828E+00   1.0828E+00   1.4359E-03   1.8218E+00
-        8        8     3476076      5719620     15151817    8.2511E-04   1.1142E+00   1.1142E+00   1.4444E-03   2.4530E+00
-        9        9       33141        30344            0    0.0000E+00   1.2092E+00   1.2092E+00   1.4033E-03   0.0000E+00
-       10       10    19608851     13242579            0    0.0000E+00   1.0544E+00   1.0544E+00   1.4318E-03   0.0000E+00
-       11       11     1726094      3253416     10378603    5.3361E-04   1.1167E+00   1.1167E+00   1.3843E-03   1.8405E+00
-       12       12       29569        26942            0    0.0000E+00   1.1942E+00   1.1942E+00   1.4344E-03   0.0000E+00
-       13       13    11928932     11133133     12737778    6.8902E-04   9.9984E-01   9.9984E-01   1.4335E-03   1.3432E+01
-       14       14       65371        68985        75579    3.9310E-06   1.0388E+00   1.0388E+00   1.3963E-03   1.3550E+01
-       15       15     2633974      5245833     16507870    8.9770E-04   1.1037E+00   1.1037E+00   1.4416E-03   1.8167E+00
-       16       16     2479903      3320109      6175910    3.3464E-04   1.1162E+00   1.1162E+00   1.4365E-03   1.8374E+00
-       17       17       61673       100536       216390    1.1716E-05   1.1505E+00   1.1505E+00   1.4372E-03   1.8574E+00
-       18       18      615811       960432      2109634    1.1439E-04   1.1109E+00   1.1109E+00   1.4373E-03   1.8236E+00
-       19       19      731569      1126793      2458993    1.3331E-04   1.1055E+00   1.1055E+00   1.4371E-03   1.8211E+00
-       20       20       56647        87190       193633    1.0478E-05   1.1053E+00   1.1053E+00   1.4350E-03   1.8273E+00
-       21       21       41796        57655       109944    5.9569E-06   1.0744E+00   1.0744E+00   1.4361E-03   1.8157E+00
-       22       22     3730413      6112112     16142382    8.7929E-04   1.1131E+00   1.1131E+00   1.4450E-03   2.4440E+00
-       23       23       33616        30863            0    0.0000E+00   1.2050E+00   1.2050E+00   1.4064E-03   0.0000E+00
-       24       24    20117308     13271158            0    0.0000E+00   1.0416E+00   1.0416E+00   1.4319E-03   0.0000E+00
-       25       25     1901529      3645061     11745893    6.0865E-04   1.1199E+00   1.1199E+00   1.3919E-03   1.8419E+00
-       26       26    10394170      9626865     13080539    7.0760E-04   9.8414E-01   9.8414E-01   1.4339E-03   5.2263E+00
-       27       27       29343        26774            0    0.0000E+00   1.1744E+00   1.1744E+00   1.4344E-03   0.0000E+00
-       28       28    12031410     11120064     12929940    6.9941E-04   9.8922E-01   9.8922E-01   1.4335E-03   1.3348E+01
-       29       29       64989        68173        75251    3.8999E-06   1.0307E+00   1.0307E+00   1.3931E-03   1.3501E+01
-       30       30    21453728     26647089     24716373    1.3339E-03   1.4148E+00   1.4148E+00   1.4302E-03   2.0014E+00
-       31       31    19232566     18098314            0    0.0000E+00   1.3537E+00   1.3537E+00   1.4306E-03   0.0000E+00
-       32       32    17905625     17813309            0    0.0000E+00   1.4149E+00   1.4149E+00   1.4303E-03   0.0000E+00
-       33       33      500879       462112            0    0.0000E+00   9.1446E-01   9.1446E-01   1.4340E-03   0.0000E+00
-       34       34      119356       112290            0    0.0000E+00   1.1991E+00   1.1991E+00   1.1714E-03   0.0000E+00
-       35       35       74903        73314            0    0.0000E+00   1.1940E+00   1.1940E+00   9.2752E-04   0.0000E+00
-       36       36     9905025      9434434         9620    3.7862E-07   1.0156E+00   1.0156E+00   1.1183E-03   1.1807E+04
-       37       37    11932771     10630397        85058    3.7787E-06   1.0025E+00   1.0025E+00   1.2285E-03   1.1729E+04
-       38       61       83346        74918          145    2.6067E-09   4.4161E-01   4.4161E-01   5.0799E-04   8.0247E+03
-       39       62       90221        95959       119189    2.2759E-06   4.1394E-01   4.1394E-01   4.6634E-04   8.5243E+00
-       40       63      153399       161152       228173    2.3052E-06   3.7608E-01   3.7608E-01   3.4285E-04   8.0504E+00
-       41       64      272297       274157       452486    2.2261E-06   3.6537E-01   3.6537E-01   2.7877E-04   7.8168E+00
-       42       65      405751       421989       556216    1.3773E-06   3.8555E-01   3.8555E-01   2.4113E-04   7.9257E+00
-       43       66     1220767      2091114      7618498    3.0959E-06   5.8246E-01   5.8246E-01   1.5560E-04   4.3121E+00
-       44       67     2629723      3577150     13594104    4.9145E-07   8.2910E-01   8.2910E-01   1.0278E-04   5.1523E+00
-       45       68     3305117      4101438     16280896    1.4821E-07   9.1270E-01   9.1270E-01   1.0722E-04   5.4084E+00
-       46       69     3690840      4696186     18417962    4.8024E-08   9.6225E-01   9.6225E-01   1.1363E-04   5.5403E+00
-       47       70     3559258      4545054     17441003    1.4547E-08   1.0416E+00   1.0416E+00   1.2407E-04   5.7741E+00
-       48       71       69719        62328          101    2.3790E-09   4.3395E-01   4.3395E-01   5.2385E-04   7.9729E+03
-       49       72       81511        91000       112422    2.2994E-06   4.0485E-01   4.0485E-01   4.8221E-04   8.4512E+00
-       50       73      155647       157382       226697    2.3107E-06   3.6816E-01   3.6816E-01   3.7272E-04   7.9952E+00
-       51       74      267262       258111       438925    2.2224E-06   3.5555E-01   3.5555E-01   2.9885E-04   7.7577E+00
-       52       75      363602       439141       566785    1.3570E-06   3.7478E-01   3.7478E-01   2.4469E-04   7.8555E+00
-       53       76     1382909      1574824      6240887    3.0062E-06   5.7007E-01   5.7007E-01   2.4816E-04   4.2680E+00
-       54       77     1562238      1851682      7265735    4.6853E-07   8.2151E-01   8.2151E-01   2.5730E-04   5.1233E+00
-       55       78     1540482      1860027      7396376    1.4067E-07   9.2156E-01   9.2156E-01   2.7287E-04   5.4257E+00
-       56       79     1467513      1774881      6939391    4.5930E-08   9.7399E-01   9.7399E-01   2.9777E-04   5.5642E+00
-       57       80     1031158      1323067      4992463    1.3880E-08   1.0605E+00   1.0605E+00   3.2358E-04   5.8142E+00
-       58       81      410881       577155      1366836    6.0995E-05   4.3711E-01   4.3711E-01   4.8826E-04   8.6068E+00
-       59       82      868640      1073561      2756151    3.8680E-05   3.7148E-01   3.7148E-01   2.8986E-04   7.8754E+00
-       60       83     1270267      1833486      4131143    2.0121E-05   3.7901E-01   3.7901E-01   2.0900E-04   7.8367E+00
-       61       84     2785820      2770454      9601185    1.3285E-05   5.4140E-01   5.4140E-01   2.2549E-04   4.1733E+00
-       62       85     1720468      1744842      6262143    3.4073E-06   6.9149E-01   6.9149E-01   3.1282E-04   4.7359E+00
-       63       86     1290118      1312364      4679714    1.1907E-06   7.7927E-01   7.7927E-01   4.1985E-04   5.0230E+00
-       64       87      922910       961034      3437948    6.3974E-07   8.3061E-01   8.3061E-01   5.2914E-04   5.2046E+00
-       65       88      744536       792326      2775347    2.7048E-07   8.6343E-01   8.6343E-01   5.7813E-04   5.2880E+00
-       66       89      711891       772704      2642784    1.1645E-07   8.8989E-01   8.8989E-01   6.0284E-04   5.3550E+00
-       67       90      815017       886810      3003631    5.1338E-08   9.2296E-01   9.2296E-01   6.2122E-04   5.4362E+00
-       68       91      860953       926743      3156263    2.3169E-08   9.5481E-01   9.5481E-01   6.3605E-04   5.5157E+00
-       69       92      714037       775152      2626057    1.0564E-08   9.8189E-01   9.8189E-01   6.4539E-04   5.5819E+00
-       70       93      574000       666632      2111551    4.3581E-09   1.0755E+00   1.0755E+00   6.6270E-04   5.8737E+00
-       71       94      359453       538418      1253175    6.1002E-05   4.3788E-01   4.3788E-01   5.0123E-04   8.6132E+00
-       72       95      663447       859302      2215386    3.8866E-05   3.7456E-01   3.7456E-01   3.3849E-04   7.8930E+00
-       73       96      954484      1024735      2654939    2.0374E-05   3.8150E-01   3.8150E-01   3.1634E-04   7.8467E+00
-       74       97     1702644      1708555      5890867    1.3487E-05   5.4907E-01   5.4907E-01   3.4780E-04   4.1947E+00
-       75       98     1213084      1243061      4454477    3.5074E-06   7.0217E-01   7.0217E-01   4.4735E-04   4.7647E+00
-       76       99      956251       979605      3472356    1.2212E-06   7.9070E-01   7.9070E-01   5.5062E-04   5.0501E+00
-       77      100      759200       800705      2811086    6.5370E-07   8.4949E-01   8.4949E-01   6.5639E-04   5.2455E+00
-       78      101      683948       727878      2517959    2.7672E-07   8.8854E-01   8.8854E-01   6.8973E-04   5.3490E+00
-       79      102      617738       664284      2264964    1.2074E-07   9.1750E-01   9.1750E-01   7.0728E-04   5.4254E+00
-       80      103      610434       662473      2231575    5.3953E-08   9.4110E-01   9.4110E-01   7.2073E-04   5.4834E+00
-       81      104      673752       728814      2438412    2.4504E-08   9.6794E-01   9.6794E-01   7.3683E-04   5.5496E+00
-       82      105      669077       724036      2417157    1.1296E-08   9.9144E-01   9.9144E-01   7.4967E-04   5.6070E+00
-       83      106      556165       641226      2013548    4.6930E-09   1.0843E+00   1.0843E+00   7.6344E-04   5.8930E+00
-       84      107       87625       125518       398726    2.5485E-04   9.3554E-01   9.3554E-01   1.0762E-03   5.6889E+00
-       85      108      186563       229505       764668    1.5191E-04   8.4003E-01   8.4003E-01   8.7251E-04   5.3089E+00
-       86      109      313072       362451      1195137    7.4082E-05   8.3041E-01   8.3041E-01   7.0687E-04   5.2574E+00
-       87      110      361980       419159      1429183    3.3869E-05   8.3223E-01   8.3223E-01   6.8609E-04   5.2530E+00
-       88      111      386817       453485      1559763    1.5015E-05   8.3675E-01   8.3675E-01   6.9293E-04   5.2623E+00
-       89      112      439361       518448      1783171    6.6328E-06   8.4562E-01   8.4562E-01   6.6727E-04   5.2804E+00
-       90      113      418942       475378      1456597    2.2421E-06   8.6007E-01   8.6007E-01   6.3086E-04   5.3119E+00
-       91      114      500169       562516      1726750    1.1710E-06   8.7026E-01   8.7026E-01   5.9321E-04   5.3314E+00
-       92      115      593129       661048      2031349    6.0999E-07   8.8723E-01   8.8723E-01   5.6248E-04   5.3740E+00
-       93      116      666558       738286      2267147    3.1935E-07   9.0091E-01   9.0091E-01   5.3591E-04   5.4067E+00
-       94      117      763238       842030      2576446    1.6818E-07   9.1679E-01   9.1679E-01   5.1463E-04   5.4451E+00
-       95      118      842148       930002      2823382    8.9185E-08   9.3318E-01   9.3318E-01   4.9869E-04   5.4879E+00
-       96      119      882410      1097905      4039173    5.6368E-08   9.9959E-01   9.9959E-01   4.9034E-04   5.7010E+00
-       97      120      444751       568014      1424317    3.2612E-05   4.7672E-01   4.7672E-01   4.7956E-04   8.9139E+00
-       98      121      671335       761215      2138047    2.2804E-05   4.3571E-01   4.3571E-01   3.4842E-04   8.3965E+00
-       99      122      789268       877155      2250772    1.1955E-05   4.9432E-01   4.9432E-01   3.0880E-04   8.7856E+00
-      100      123     1677739      2643554      6235770    8.3112E-06   1.1938E+00   1.1938E+00   1.9611E-04   4.3617E+00
-      101      124     1159044      9400316     19955081    1.6130E-06   1.3499E+00   1.3499E+00   3.3305E-05   4.8051E+00
-      102      125     3496912     10682740     24449245    5.1124E-07   1.3720E+00   1.3720E+00   2.1034E-05   4.8619E+00
-      103      126     4083136     10666305     24951479    1.6945E-07   1.3721E+00   1.3721E+00   1.6987E-05   4.8624E+00
-      104      127     3677714     10975433     25335345    5.5151E-08   1.3877E+00   1.3877E+00   1.1682E-05   4.8814E+00
-      105      128     3779804     11703984     26809228    1.8106E-08   1.4098E+00   1.4098E+00   9.0466E-06   4.9262E+00
-      106      129      501587       598465      2088025    2.7482E-04   7.8797E-01   7.8797E-01   1.1213E-03   5.1565E+00
-      107      130      750672       910409      3265573    1.6553E-04   8.0335E-01   8.0335E-01   9.7847E-04   5.1710E+00
-      108      131     1455205      1752755      6248998    8.0426E-05   8.2548E-01   8.2548E-01   7.7674E-04   5.2298E+00
-      109      132     2164494      2643439      9420740    3.6087E-05   8.3546E-01   8.3546E-01   7.3975E-04   5.2601E+00
-      110      133     3287502      3990300     13999301    1.5793E-05   8.3983E-01   8.3983E-01   6.4056E-04   5.2669E+00
-      111      134     5333902      6317052     22018357    6.8631E-06   8.4289E-01   8.4289E-01   5.2688E-04   5.2680E+00
-      112      135     7228602      8458347     29852256    2.9677E-06   8.5117E-01   8.5117E-01   4.8988E-04   5.2847E+00
-      113      136     9063243     10838668     37235580    1.1939E-06   8.9746E-01   8.9746E-01   4.7198E-04   5.4357E+00
-      114      137    26496662     28117377     33883467    6.6396E-08   1.1086E+00   1.1086E+00   2.2295E-04   6.1284E+00
-      115      200    23853761     23853761            0    0.0000E+00   1.3961E+00   1.3961E+00   1.7073E-05   0.0000E+00
-      117      138     7287026     12458084     32532413    1.7138E-03   1.2833E+00   1.2833E+00   1.4101E-03   4.6203E+00
+        1        1    15493798     30493678     95322190    1.1875E-03   1.1006E+00   1.1006E+00   1.4406E-03   1.8251E+00
+        2        2    10688198     14253362     26599886    3.3043E-04   1.1143E+00   1.1143E+00   1.4364E-03   1.8369E+00
+        3        3      265975       435161       940791    1.1681E-05   1.1502E+00   1.1502E+00   1.4368E-03   1.8563E+00
+        4        4     2674719      4161113      9154594    1.1380E-04   1.1071E+00   1.1071E+00   1.4374E-03   1.8204E+00
+        5        5     3168118      4873900     10643315    1.3228E-04   1.1060E+00   1.1060E+00   1.4372E-03   1.8219E+00
+        6        6      246556       377983       841632    1.0434E-05   1.0994E+00   1.0994E+00   1.4349E-03   1.8224E+00
+        7        7      182996       252640       478061    5.9395E-06   1.0848E+00   1.0848E+00   1.4361E-03   1.8259E+00
+        8        8    15150771     24926934     66065017    8.2473E-04   1.1141E+00   1.1141E+00   1.4445E-03   2.4532E+00
+        9        9      144729       132559            0    0.0000E+00   1.2047E+00   1.2047E+00   1.4035E-03   0.0000E+00
+       10       10    85500038     57765908            0    0.0000E+00   1.0546E+00   1.0546E+00   1.4318E-03   0.0000E+00
+       11       11     7514715     14165132     45179907    5.3301E-04   1.1167E+00   1.1167E+00   1.3853E-03   1.8405E+00
+       12       12      128924       117768            0    0.0000E+00   1.1968E+00   1.1968E+00   1.4340E-03   0.0000E+00
+       13       13    52041731     48563086     55565038    6.8901E-04   1.0002E+00   1.0002E+00   1.4335E-03   1.3434E+01
+       14       14      284860       300945       328559    3.9097E-06   1.0462E+00   1.0462E+00   1.3946E-03   1.3611E+01
+       15       15    11495416     22899599     72032541    8.9803E-04   1.1043E+00   1.1043E+00   1.4417E-03   1.8173E+00
+       16       16    10811689     14482221     26928964    3.3453E-04   1.1172E+00   1.1172E+00   1.4366E-03   1.8382E+00
+       17       17      266682       436537       941201    1.1678E-05   1.1480E+00   1.1480E+00   1.4366E-03   1.8563E+00
+       18       18     2688510      4186706      9196887    1.1432E-04   1.1089E+00   1.1089E+00   1.4374E-03   1.8221E+00
+       19       19     3183847      4900147     10695504    1.3292E-04   1.1074E+00   1.1074E+00   1.4371E-03   1.8230E+00
+       20       20      246773       379108       841197    1.0428E-05   1.1038E+00   1.1038E+00   1.4348E-03   1.8269E+00
+       21       21      183339       252649       479705    5.9578E-06   1.0786E+00   1.0786E+00   1.4359E-03   1.8205E+00
+       22       22    16271071     26657395     70389108    8.7891E-04   1.1139E+00   1.1139E+00   1.4449E-03   2.4450E+00
+       23       23      145838       133726            0    0.0000E+00   1.2026E+00   1.2026E+00   1.4044E-03   0.0000E+00
+       24       24    87743905     57878851            0    0.0000E+00   1.0419E+00   1.0419E+00   1.4319E-03   0.0000E+00
+       25       25     8305193     15894113     51233292    6.0854E-04   1.1202E+00   1.1202E+00   1.3919E-03   1.8423E+00
+       26       26    45332526     41995913     57040847    7.0738E-04   9.8440E-01   9.8440E-01   1.4339E-03   5.2271E+00
+       27       27      129250       118193            0    0.0000E+00   1.1861E+00   1.1861E+00   1.4343E-03   0.0000E+00
+       28       28    52479544     48506161     56427657    6.9975E-04   9.8923E-01   9.8923E-01   1.4335E-03   1.3348E+01
+       29       29      285149       299123       330497    3.9347E-06   1.0327E+00   1.0327E+00   1.3949E-03   1.3512E+01
+       30       30    93585175    116227059    107797059    1.3337E-03   1.4149E+00   1.4149E+00   1.4302E-03   2.0015E+00
+       31       31    83894669     78947541            0    0.0000E+00   1.3540E+00   1.3540E+00   1.4306E-03   0.0000E+00
+       32       32    78103844     77699906            0    0.0000E+00   1.4153E+00   1.4153E+00   1.4303E-03   0.0000E+00
+       33       33     2184005      2015070            0    0.0000E+00   9.1494E-01   9.1494E-01   1.4339E-03   0.0000E+00
+       34       34      523445       492639            0    0.0000E+00   1.1995E+00   1.1995E+00   1.1726E-03   0.0000E+00
+       35       35      327743       320553            0    0.0000E+00   1.1941E+00   1.1941E+00   9.3097E-04   0.0000E+00
+       36       36    43194128     41142121        41390    3.7322E-07   1.0163E+00   1.0163E+00   1.1181E-03   1.1811E+04
+       37       37    52034470     46348842       372091    3.7902E-06   1.0022E+00   1.0022E+00   1.2289E-03   1.1728E+04
+       38       61      365663       328697          550    2.4400E-09   4.3788E-01   4.3788E-01   5.0541E-04   7.9891E+03
+       39       62      396675       421748       522376    2.2713E-06   4.1271E-01   4.1271E-01   4.6159E-04   8.5090E+00
+       40       63      675846       709815      1004355    2.2895E-06   3.7435E-01   3.7435E-01   3.3806E-04   8.0384E+00
+       41       64     1195559      1205012      1990865    2.2220E-06   3.5959E-01   3.5959E-01   2.7533E-04   7.7749E+00
+       42       65     1791287      1851808      2433384    1.3556E-06   3.8232E-01   3.8232E-01   2.3672E-04   7.9031E+00
+       43       66     5420523      9580820     34260097    3.0444E-06   5.7584E-01   5.7584E-01   1.4677E-04   4.2875E+00
+       44       67    12188084     16507840     62124056    4.7563E-07   8.2428E-01   8.2428E-01   9.4575E-05   5.1377E+00
+       45       68    15202944     18790587     74131535    1.4238E-07   9.1658E-01   9.1658E-01   9.8664E-05   5.4200E+00
+       46       69    16930228     21496140     83728910    4.6454E-08   9.6398E-01   9.6398E-01   1.0551E-04   5.5510E+00
+       47       70    16265839     20886826     79401975    1.4036E-08   1.0408E+00   1.0408E+00   1.1489E-04   5.7819E+00
+       48       71      304024       271759          467    2.4591E-09   4.3409E-01   4.3409E-01   5.2293E-04   7.9699E+03
+       49       72      354597       396045       488842    2.2918E-06   4.0876E-01   4.0876E-01   4.8162E-04   8.4757E+00
+       50       73      677158       686141       987756    2.2858E-06   3.7037E-01   3.7037E-01   3.6873E-04   8.0087E+00
+       51       74     1169541      1131389      1923645    2.2120E-06   3.5676E-01   3.5676E-01   2.9498E-04   7.7557E+00
+       52       75     1593843      1936484      2489625    1.3446E-06   3.7534E-01   3.7534E-01   2.4043E-04   7.8566E+00
+       53       76     6104927      6988702     27627171    2.9910E-06   5.6556E-01   5.6556E-01   2.4247E-04   4.2563E+00
+       54       77     7100934      8521179     33232089    4.6272E-07   8.1311E-01   8.1311E-01   2.4070E-04   5.1023E+00
+       55       78     7145804      8788522     34735120    1.3793E-07   9.1227E-01   9.1227E-01   2.4772E-04   5.4049E+00
+       56       79     6945019      8578637     33328836    4.5006E-08   9.6837E-01   9.6837E-01   2.6411E-04   5.5568E+00
+       57       80     4969608      6664786     24902910    1.3598E-08   1.0495E+00   1.0495E+00   2.7605E-04   5.7960E+00
+       58       81     1771483      2497370      5910590    6.0742E-05   4.3677E-01   4.3677E-01   4.9006E-04   8.6084E+00
+       59       82     3735154      4601487     11844859    3.8552E-05   3.7219E-01   3.7219E-01   2.9357E-04   7.8801E+00
+       60       83     5460400      7857660     17706316    2.0134E-05   3.8080E-01   3.8080E-01   2.1278E-04   7.8501E+00
+       61       84    11925618     11861568     41079342    1.3322E-05   5.4494E-01   5.4494E-01   2.3109E-04   4.1860E+00
+       62       85     7390373      7499043     26921500    3.4320E-06   6.9629E-01   6.9629E-01   3.1968E-04   4.7503E+00
+       63       86     5550562      5647073     20121249    1.1996E-06   7.8355E-01   7.8355E-01   4.2925E-04   5.0355E+00
+       64       87     3990765      4162362     14847411    6.4645E-07   8.4580E-01   8.4580E-01   5.4020E-04   5.2414E+00
+       65       88     3242157      3456768     12042749    2.7382E-07   8.7864E-01   8.7864E-01   5.8981E-04   5.3283E+00
+       66       89     3123946      3398770     11576429    1.1903E-07   9.0500E-01   9.0500E-01   6.1449E-04   5.3955E+00
+       67       90     3606974      3931946     13269923    5.2898E-08   9.3233E-01   9.3233E-01   6.3225E-04   5.4612E+00
+       68       91     3813324      4116170     13980874    2.3885E-08   9.5528E-01   9.5528E-01   6.4555E-04   5.5168E+00
+       69       92     3170516      3454566     11694037    1.0876E-08   9.8038E-01   9.8038E-01   6.5129E-04   5.5815E+00
+       70       93     2558220      2982764      9453463    4.4999E-09   1.0699E+00   1.0699E+00   6.6555E-04   5.8627E+00
+       71       94     1562599      2346582      5476241    6.0947E-05   4.3708E-01   4.3708E-01   5.0010E-04   8.6098E+00
+       72       95     2877024      3726217      9614901    3.8644E-05   3.7357E-01   3.7357E-01   3.3865E-04   7.8889E+00
+       73       96     4139459      4429944     11479570    2.0229E-05   3.8224E-01   3.8224E-01   3.1731E-04   7.8602E+00
+       74       97     7355444      7379607     25451537    1.3426E-05   5.4719E-01   5.4719E-01   3.4976E-04   4.1925E+00
+       75       98     5236385      5366983     19191727    3.4807E-06   6.9935E-01   6.9935E-01   4.4957E-04   4.7594E+00
+       76       99     4144148      4247502     15040079    1.2192E-06   7.8629E-01   7.8629E-01   5.5344E-04   5.0412E+00
+       77      100     3301705      3485449     12237802    6.5484E-07   8.4511E-01   8.4511E-01   6.5802E-04   5.2364E+00
+       78      101     2974340      3170046     10952081    2.7675E-07   8.8069E-01   8.8069E-01   6.9092E-04   5.3325E+00
+       79      102     2690111      2900387      9892855    1.2068E-07   9.0800E-01   9.0800E-01   7.0463E-04   5.4015E+00
+       80      103     2663355      2899553      9747054    5.3443E-08   9.3233E-01   9.3233E-01   7.1184E-04   5.4622E+00
+       81      104     2939156      3191178     10675114    2.4127E-08   9.5673E-01   9.5673E-01   7.2205E-04   5.5210E+00
+       82      105     2913324      3164197     10588796    1.1054E-08   9.8157E-01   9.8157E-01   7.2965E-04   5.5809E+00
+       83      106     2417457      2799051      8795234    4.5619E-09   1.0722E+00   1.0722E+00   7.4089E-04   5.8641E+00
+       84      107      383400       548711      1745870    2.5656E-04   9.3307E-01   9.3307E-01   1.0791E-03   5.6771E+00
+       85      108      812282      1000837      3331200    1.5259E-04   8.4576E-01   8.4576E-01   8.7494E-04   5.3196E+00
+       86      109     1364090      1577661      5198172    7.3748E-05   8.3723E-01   8.3723E-01   7.0673E-04   5.2734E+00
+       87      110     1568007      1817157      6186169    3.3800E-05   8.3787E-01   8.3787E-01   6.8959E-04   5.2669E+00
+       88      111     1683041      1973278      6788672    1.5062E-05   8.4258E-01   8.4258E-01   6.9663E-04   5.2754E+00
+       89      112     1912205      2254798      7757562    6.6693E-06   8.5187E-01   8.5187E-01   6.7328E-04   5.2949E+00
+       90      113     1828757      2071205      6352374    2.2587E-06   8.6313E-01   8.6313E-01   6.3595E-04   5.3180E+00
+       91      114     2174380      2439243      7496461    1.1786E-06   8.7206E-01   8.7206E-01   6.0065E-04   5.3356E+00
+       92      115     2576684      2862189      8794729    6.1440E-07   8.8720E-01   8.8720E-01   5.7124E-04   5.3729E+00
+       93      116     2886685      3186686      9782747    3.2260E-07   9.0015E-01   9.0015E-01   5.4752E-04   5.4039E+00
+       94      117     3297689      3623000     11099732    1.7025E-07   9.1623E-01   9.1623E-01   5.2780E-04   5.4431E+00
+       95      118     3627216      3989216     12130465    9.0104E-08   9.3504E-01   9.3504E-01   5.1243E-04   5.4924E+00
+       96      119     3790281      4684832     17231543    5.6945E-08   1.0026E+00   1.0026E+00   5.0735E-04   5.7093E+00
+       97      120     1945373      2482625      6222474    3.2849E-05   4.7600E-01   4.7600E-01   4.8167E-04   8.9079E+00
+       98      121     2935414      3324598      9330018    2.2935E-05   4.3359E-01   4.3359E-01   3.4995E-04   8.3789E+00
+       99      122     3451471      3842982      9831873    1.1950E-05   4.9411E-01   4.9411E-01   3.0830E-04   8.7808E+00
+      100      123     7415265     11732883     27635180    8.3222E-06   1.1924E+00   1.1924E+00   1.9272E-04   4.3623E+00
+      101      124     5229680     42425830     89847781    1.6250E-06   1.3456E+00   1.3456E+00   3.2498E-05   4.8025E+00
+      102      125    15793514     48285262    110289189    5.1500E-07   1.3682E+00   1.3682E+00   2.0460E-05   4.8542E+00
+      103      126    18452676     48219706    112660974    1.6904E-07   1.3756E+00   1.3756E+00   1.6454E-05   4.8700E+00
+      104      127    16630336     49608868    114415367    5.5936E-08   1.3816E+00   1.3816E+00   1.1417E-05   4.8746E+00
+      105      128    17114606     53003959    121355038    1.8156E-08   1.4011E+00   1.4011E+00   8.7970E-06   4.9161E+00
+      106      129     2189337      2612093      9112586    2.7471E-04   7.8922E-01   7.8922E-01   1.1202E-03   5.1601E+00
+      107      130     3274136      3976158     14266395    1.6560E-04   8.0354E-01   8.0354E-01   9.7726E-04   5.1721E+00
+      108      131     6367951      7671525     27337404    8.0268E-05   8.2518E-01   8.2518E-01   7.7281E-04   5.2303E+00
+      109      132     9547559     11647020     41463781    3.6048E-05   8.3592E-01   8.3592E-01   7.3235E-04   5.2601E+00
+      110      133    14696031     17791207     62279665    1.5774E-05   8.4111E-01   8.4111E-01   6.2685E-04   5.2697E+00
+      111      134    24143356     28494394     99116308    6.8710E-06   8.4498E-01   8.4498E-01   5.1072E-04   5.2728E+00
+      112      135    32728216     38166331    134621776    2.9775E-06   8.5315E-01   8.5315E-01   4.7497E-04   5.2893E+00
+      113      136    40957144     48820000    167778078    1.1974E-06   8.9956E-01   8.9956E-01   4.5864E-04   5.4409E+00
+      114      137   119260337    126748908    160811009    6.6545E-08   1.1087E+00   1.1087E+00   2.0583E-04   6.1292E+00
+      115      200   106123533    106123533            0    0.0000E+00   1.3995E+00   1.3995E+00   1.6851E-05   0.0000E+00
+      117      138    31771702     54338200    141902354    1.7138E-03   1.2844E+00   1.2844E+00   1.4101E-03   4.6221E+00
 
-           total     341502613    405576524    720117191    1.2807E-02
+           total    1506186795   1794696417   3208946173    1.2807E-02
 1summary of photons produced in neutron collisions
 
               cell      number of      weight per     energy per     avg photon      mev/gm per    weight/neut    energy/neut
                         photons       source neut    source neut      energy       source neut     collision      collision
 
-        1        1       1490596       8.13763E-05    1.34999E-04    1.65895E+00    2.69711E-10    8.26812E-02    1.37164E-01
-        2        2        508126       2.76662E-05    4.73091E-05    1.71000E+00    1.24511E-09    1.55251E-01    2.65478E-01
-        3        3         21227       1.15732E-06    1.98991E-06    1.71942E+00    1.98991E-06    9.75263E-02    1.67689E-01
-        4        4        184847       1.00603E-05    1.73595E-05    1.72554E+00    1.73595E-05    1.52479E-01    2.63108E-01
-        5        5        212688       1.15734E-05    1.99013E-05    1.71958E+00    1.99013E-05    1.58503E-01    2.72558E-01
-        6        6         14966       8.17598E-07    1.33529E-06    1.63319E+00    1.33529E-06    7.47830E-02    1.22135E-01
-        7        7          8073       4.40215E-07    7.31418E-07    1.66150E+00    8.39997E-10    1.19351E-01    1.98302E-01
-        8        8        788972       4.47564E-05    8.73792E-05    1.95233E+00    4.65381E-10    2.45516E-01    4.79328E-01
+        1        1       6510125       8.14821E-05    1.35139E-04    1.65851E+00    2.69990E-10    8.28600E-02    1.37424E-01
+        2        2       2213617       2.76348E-05    4.73490E-05    1.71338E+00    1.24616E-09    1.55005E-01    2.65583E-01
+        3        3         91970       1.14969E-06    1.96196E-06    1.70652E+00    1.96196E-06    9.74327E-02    1.66271E-01
+        4        4        808590       1.00890E-05    1.73699E-05    1.72166E+00    1.73699E-05    1.53173E-01    2.63712E-01
+        5        5        926513       1.15587E-05    1.98883E-05    1.72063E+00    1.98883E-05    1.57872E-01    2.71640E-01
+        6        6         65477       8.20128E-07    1.34557E-06    1.64069E+00    1.34557E-06    7.48490E-02    1.22804E-01
+        7        7         34837       4.35012E-07    7.21349E-07    1.65823E+00    8.28433E-10    1.19096E-01    1.97488E-01
+        8        8       3433294       4.46509E-05    8.71874E-05    1.95265E+00    4.64360E-10    2.45225E-01    4.78838E-01
         9        9             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
        10       10             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-       11       11        580826       3.18393E-05    5.39615E-05    1.69481E+00    5.39615E-05    5.83768E-02    9.89375E-02
+       11       11       2525655       3.17435E-05    5.38027E-05    1.69492E+00    5.38027E-05    5.83044E-02    9.88213E-02
        12       12             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-       13       13        873767       4.71487E-05    1.05375E-04    2.23495E+00    1.05375E-04    6.97263E-03    1.55835E-02
-       14       14         10562       5.69928E-07    1.27457E-06    2.23637E+00    1.27457E-06    6.92825E-03    1.54941E-02
-       15       15       1198392       6.54341E-05    1.08258E-04    1.65446E+00    2.51400E-10    7.58241E-02    1.25448E-01
-       16       16        526713       2.86764E-05    4.91084E-05    1.71250E+00    1.29247E-09    1.58974E-01    2.72244E-01
-       17       17         21184       1.15755E-06    1.94284E-06    1.67841E+00    1.94284E-06    9.65749E-02    1.62092E-01
-       18       18        187992       1.02306E-05    1.76026E-05    1.72058E+00    1.76026E-05    1.54844E-01    2.66421E-01
-       19       19        214335       1.16638E-05    2.00428E-05    1.71838E+00    2.00428E-05    1.58749E-01    2.72792E-01
-       20       20         15118       8.26585E-07    1.36204E-06    1.64779E+00    1.36204E-06    7.50113E-02    1.23603E-01
-       21       21          7864       4.28294E-07    7.10167E-07    1.65813E+00    8.15591E-10    1.16180E-01    1.92641E-01
-       22       22        888735       5.03094E-05    9.84258E-05    1.95641E+00    5.24216E-10    2.52336E-01    4.93673E-01
+       13       13       3808166       4.71075E-05    1.05280E-04    2.23489E+00    1.05280E-04    6.96821E-03    1.55732E-02
+       14       14         46202       5.71525E-07    1.27737E-06    2.23501E+00    1.27737E-06    6.97352E-03    1.55859E-02
+       15       15       5231815       6.54957E-05    1.08249E-04    1.65276E+00    2.51380E-10    7.58501E-02    1.25362E-01
+       16       16       2295639       2.86569E-05    4.91452E-05    1.71495E+00    1.29343E-09    1.58839E-01    2.72400E-01
+       17       17         92533       1.15742E-06    1.94830E-06    1.68332E+00    1.94830E-06    9.74451E-02    1.64031E-01
+       18       18        815904       1.01796E-05    1.75499E-05    1.72403E+00    1.75499E-05    1.54232E-01    2.65901E-01
+       19       19        932374       1.16323E-05    2.00469E-05    1.72338E+00    2.00469E-05    1.58508E-01    2.73169E-01
+       20       20         65236       8.16423E-07    1.34302E-06    1.64500E+00    1.34302E-06    7.46161E-02    1.22744E-01
+       21       21         34686       4.33010E-07    7.23165E-07    1.67009E+00    8.30518E-10    1.17988E-01    1.97051E-01
+       22       22       3876309       5.03080E-05    9.83622E-05    1.95520E+00    5.23877E-10    2.52344E-01    4.93383E-01
        23       23             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
        24       24             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-       25       25        658892       3.61040E-05    6.15984E-05    1.70614E+00    6.15984E-05    5.99539E-02    1.02290E-01
-       26       26        352279       1.93181E-05    3.48725E-05    1.80517E+00    3.48725E-05    8.58761E-02    1.55021E-01
+       25       25       2868649       3.60392E-05    6.14901E-05    1.70620E+00    6.14901E-05    5.98564E-02    1.02127E-01
+       26       26       1541067       1.93719E-05    3.49834E-05    1.80589E+00    3.49834E-05    8.59501E-02    1.55216E-01
        27       27             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-       28       28        872881       4.71009E-05    1.05248E-04    2.23452E+00    1.05248E-04    6.97885E-03    1.55943E-02
-       29       29         10411       5.61780E-07    1.25444E-06    2.23298E+00    1.25444E-06    6.87478E-03    1.53512E-02
-       30       30        381166       2.07825E-05    2.13452E-05    1.02708E+00    5.94608E-07    1.71661E-01    1.76309E-01
+       28       28       3806766       4.70902E-05    1.05235E-04    2.23475E+00    1.05235E-04    6.97063E-03    1.55776E-02
+       29       29         45909       5.67901E-07    1.26933E-06    2.23512E+00    1.26933E-06    6.95443E-03    1.55440E-02
+       30       30       1661509       2.07691E-05    2.13076E-05    1.02593E+00    5.93561E-07    1.71688E-01    1.76140E-01
        31       31             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
        32       32             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
        33       33             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
        34       34             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
        35       35             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-       36       36            42       2.40567E-09    9.67267E-09    4.02077E+00    9.67267E-09    5.06447E-03    2.03631E-02
-       37       37           444       2.48607E-08    1.16500E-07    4.68609E+00    2.50791E-11    5.77789E-03    2.70757E-02
-       38       61             1       5.39602E-11    2.43290E-10    4.50870E+00    9.61432E-12    1.01810E-02    4.59032E-02
-       39       62         17689       5.02370E-07    3.26658E-07    6.50233E-01    1.48800E-11    4.02963E-02    2.62020E-02
-       40       63         37355       1.20700E-07    7.88821E-08    6.53540E-01    2.68307E-12    4.87123E-02    3.18354E-02
-       41       64         46439       1.71638E-08    1.12083E-08    6.53017E-01    2.61063E-13    5.23661E-02    3.41960E-02
-       42       65         61656       2.09245E-09    1.36879E-09    6.54157E-01    3.24250E-14    5.39926E-02    3.53196E-02
-       43       66        731137       6.39272E-10    1.32409E-09    2.07125E+00    3.10346E-15    3.23693E-02    6.70449E-02
-       44       67        622842       2.18777E-10    4.53465E-10    2.07273E+00    8.80173E-16    3.72897E-02    7.72914E-02
-       45       68        455041       5.69034E-11    1.18107E-10    2.07557E+00    1.84550E-16    3.87867E-02    8.05046E-02
-       46       69        609412       1.29862E-11    2.69815E-11    2.07769E+00    3.99016E-17    3.92536E-02    8.15569E-02
-       47       70        508934       2.12548E-12    4.41493E-12    2.07714E+00    6.52903E-18    3.95154E-02    8.20790E-02
+       36       36           175       2.23248E-09    9.83805E-09    4.40677E+00    9.83805E-09    4.75889E-03    2.09714E-02
+       37       37          1970       2.51862E-08    1.16867E-07    4.64011E+00    2.51582E-11    5.88645E-03    2.73138E-02
+       38       61             1       1.23701E-11    5.57732E-11    4.50870E+00    2.20404E-12    2.20743E-03    9.95263E-03
+       39       62         77162       5.02376E-07    3.27755E-07    6.52410E-01    1.49300E-11    4.02326E-02    2.62481E-02
+       40       63        164210       1.21636E-07    7.94334E-08    6.53043E-01    2.70182E-12    4.86657E-02    3.17808E-02
+       41       64        205569       1.74176E-08    1.13844E-08    6.53614E-01    2.65164E-13    5.32950E-02    3.48344E-02
+       42       65        259575       2.01950E-09    1.31699E-09    6.52140E-01    3.11981E-14    5.60229E-02    3.65348E-02
+       43       66       3514306       7.00996E-10    1.45372E-09    2.07379E+00    3.40729E-15    3.40266E-02    7.05641E-02
+       44       67       2832510       2.27524E-10    4.72085E-10    2.07489E+00    9.16314E-16    3.79040E-02    7.86465E-02
+       45       68       2032547       5.81792E-11    1.20754E-10    2.07556E+00    1.88686E-16    3.89899E-02    8.09257E-02
+       46       69       2758732       1.34692E-11    2.79755E-11    2.07700E+00    4.13716E-17    3.96281E-02    8.23075E-02
+       47       70       2443576       2.33752E-12    4.84971E-12    2.07472E+00    7.17200E-18    3.99005E-02    8.27825E-02
        48       71             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-       49       72         20135       5.03010E-07    3.30281E-07    6.56611E-01    1.50451E-11    4.02094E-02    2.64019E-02
-       50       73         30582       1.20453E-07    7.86295E-08    6.52780E-01    2.67447E-12    4.88551E-02    3.18916E-02
-       51       74         33108       1.68540E-08    1.10018E-08    6.52772E-01    2.56253E-13    5.35428E-02    3.49512E-02
-       52       75        122118       1.84067E-09    1.20079E-09    6.52367E-01    2.84454E-14    5.70391E-02    3.72104E-02
-       53       76        145081       6.57577E-10    1.35926E-09    2.06708E+00    3.18590E-15    3.37533E-02    6.97708E-02
-       54       77        159081       1.93048E-10    3.99890E-10    2.07146E+00    7.76184E-16    3.70893E-02    7.68288E-02
-       55       78        179014       5.00236E-11    1.03637E-10    2.07176E+00    1.61939E-16    3.89688E-02    8.07339E-02
-       56       79        172585       1.11872E-11    2.32038E-11    2.07414E+00    3.43150E-17    3.97214E-02    8.23877E-02
-       57       80        158779       1.86138E-12    3.86920E-12    2.07867E+00    5.72198E-18    3.98568E-02    8.28494E-02
-       58       81        210677       8.12021E-06    5.32152E-06    6.55343E-01    2.17205E-11    4.07528E-02    2.67071E-02
-       59       82        369171       3.40526E-07    2.22801E-07    6.54285E-01    9.09393E-13    5.34007E-02    3.49393E-02
-       60       83        759233       2.34109E-08    1.53146E-08    6.54165E-01    6.25085E-14    5.97360E-02    3.90772E-02
-       61       84         37310       3.35587E-09    6.98746E-09    2.08216E+00    1.24001E-14    3.53846E-02    7.36765E-02
-       62       85         28476       2.04677E-09    4.24566E-09    2.07432E+00    7.53445E-15    3.75971E-02    7.79884E-02
-       63       86         31035       9.08278E-10    1.88473E-09    2.07506E+00    3.34468E-15    3.90511E-02    8.10332E-02
-       64       87         31854       9.84148E-10    2.04130E-09    2.07418E+00    3.09242E-15    3.96499E-02    8.22411E-02
-       65       88         35365       3.21536E-10    6.66539E-10    2.07298E+00    1.00975E-15    3.99596E-02    8.28355E-02
-       66       89         39057       1.04333E-10    2.15840E-10    2.06875E+00    3.26980E-16    3.98222E-02    8.23821E-02
-       67       90         41989       3.41972E-11    7.08578E-11    2.07204E+00    1.07344E-16    3.99416E-02    8.27604E-02
-       68       91         43140       1.09309E-11    2.26469E-11    2.07183E+00    3.43082E-17    3.99246E-02    8.27168E-02
-       69       92         43535       3.46964E-12    7.17819E-12    2.06885E+00    1.08744E-17    3.98971E-02    8.25413E-02
-       70       93         41657       9.02663E-13    1.87237E-12    2.07427E+00    2.83649E-18    4.03177E-02    8.36298E-02
-       71       94        220637       8.09918E-06    5.29191E-06    6.53388E-01    2.15996E-11    4.07906E-02    2.66521E-02
-       72       95        331878       3.31639E-07    2.16452E-07    6.52673E-01    8.83477E-13    5.29767E-02    3.45765E-02
-       73       96        175801       2.28588E-08    1.49195E-08    6.52681E-01    6.08961E-14    6.21991E-02    4.05961E-02
-       74       97         28972       3.29138E-09    6.80432E-09    2.06732E+00    1.20751E-14    3.59664E-02    7.43540E-02
-       75       98         22206       1.94381E-09    4.02028E-09    2.06824E+00    7.13448E-15    3.78042E-02    7.81884E-02
-       76       99         22756       8.26777E-10    1.70580E-09    2.06319E+00    3.02714E-15    3.91864E-02    8.08489E-02
-       77      100         29032       9.22737E-10    1.91331E-09    2.07352E+00    2.89851E-15    4.01237E-02    8.31970E-02
-       78      101         29879       2.95328E-10    6.11945E-10    2.07209E+00    9.27049E-16    3.99568E-02    8.27941E-02
-       79      102         30255       9.48918E-11    1.97297E-10    2.07918E+00    2.98889E-16    3.98226E-02    8.27982E-02
-       80      103         29468       3.06798E-11    6.40039E-11    2.08619E+00    9.69610E-17    3.98959E-02    8.32305E-02
-       81      104         28821       9.89436E-12    2.05866E-11    2.08064E+00    3.11870E-17    3.96356E-02    8.24673E-02
-       82      105         30478       3.17158E-12    6.56670E-12    2.07048E+00    9.94803E-18    4.00036E-02    8.28267E-02
-       83      106         31981       8.25666E-13    1.71349E-12    2.07528E+00    2.59580E-18    3.96760E-02    8.23388E-02
-       84      107         28373       1.02449E-05    2.12805E-05    2.07719E+00    2.44773E-11    2.91415E-02    6.05323E-02
-       85      108         36412       5.23706E-06    1.08272E-05    2.06741E+00    1.08467E-11    3.43441E-02    7.10034E-02
-       86      109         43362       2.16187E-06    4.48456E-06    2.07439E+00    3.97920E-12    3.73695E-02    7.75191E-02
-       87      110         46755       7.86137E-07    1.62942E-06    2.07269E+00    1.29751E-12    3.83136E-02    7.94121E-02
-       88      111         52080       2.75352E-07    5.70699E-07    2.07262E+00    4.12176E-13    3.87499E-02    8.03139E-02
-       89      112         59191       9.43967E-08    1.96302E-07    2.07954E+00    1.29709E-13    3.92269E-02    8.15741E-02
-       90      113         50687       2.67239E-08    5.53686E-08    2.07188E+00    4.52506E-14    3.94606E-02    8.17575E-02
-       91      114         56893       1.11095E-08    2.30921E-08    2.07859E+00    1.74065E-14    3.93604E-02    8.18140E-02
-       92      115         62546       4.62417E-09    9.65551E-09    2.08805E+00    6.75362E-15    3.94129E-02    8.22962E-02
-       93      116         66237       1.92332E-09    3.99857E-09    2.07899E+00    2.60881E-15    3.94826E-02    8.20840E-02
-       94      117         72578       7.92840E-10    1.65046E-09    2.08171E+00    1.00899E-15    3.94015E-02    8.20225E-02
-       95      118         76737       3.22823E-10    6.68152E-10    2.06972E+00    3.84260E-16    3.90611E-02    8.08454E-02
-       96      119        108662       1.40726E-10    2.92721E-10    2.08008E+00    1.19615E-16    3.92551E-02    8.16537E-02
-       97      120        186867       4.44205E-06    2.91250E-06    6.55667E-01    1.22374E-11    3.94423E-02    2.58610E-02
-       98      121        242053       2.01255E-07    1.31496E-07    6.53378E-01    5.52503E-13    4.63593E-02    3.02902E-02
-       99      122        174814       1.15886E-08    7.55899E-09    6.52277E-01    3.17604E-14    4.26598E-02    2.78260E-02
-      100      123        255488       1.67165E-09    3.41007E-09    2.03994E+00    4.27702E-15    7.46763E-02    1.52335E-01
-      101      124       4826010       9.86698E-10    2.02789E-09    2.05522E+00    2.54344E-15    7.95093E-02    1.63410E-01
-      102      125       3137807       5.00930E-10    1.03330E-09    2.06277E+00    1.29600E-15    8.24068E-02    1.69986E-01
-      103      126       2531361       2.37872E-10    4.92492E-10    2.07040E+00    6.17699E-16    8.55516E-02    1.77126E-01
-      104      127       3132750       1.04587E-10    2.16759E-10    2.07252E+00    2.71866E-16    8.85541E-02    1.83531E-01
-      105      128       3384966       3.46175E-11    7.16484E-11    2.06972E+00    8.98638E-17    8.92399E-02    1.84701E-01
-      106      129         70489       7.99367E-06    1.65579E-05    2.07137E+00    1.63244E-11    2.53421E-02    5.24929E-02
-      107      130        139718       5.85214E-06    1.21203E-05    2.07109E+00    7.47673E-12    3.27597E-02    6.78483E-02
-      108      131        242557       2.58743E-06    5.36473E-06    2.07338E+00    2.28718E-12    3.73599E-02    7.74615E-02
-      109      132        359320       9.39265E-07    1.95028E-06    2.07639E+00    6.11795E-13    3.90347E-02    8.10512E-02
-      110      133        489849       3.17699E-07    6.59925E-07    2.07720E+00    1.59104E-13    3.96590E-02    8.23797E-02
-      111      134        634332       1.04992E-07    2.18088E-07    2.07719E+00    4.23013E-14    3.99579E-02    8.29999E-02
-      112      135        766831       3.38024E-08    7.01398E-08    2.07499E+00    1.15205E-14    4.02013E-02    8.34173E-02
-      113      136        893315       9.20334E-09    1.90925E-08    2.07451E+00    2.71532E-15    4.02267E-02    8.34508E-02
-      114      137        479306       2.25821E-10    4.69202E-10    2.07776E+00    1.13610E-16    3.97271E-02    8.25435E-02
+       49       72         87686       5.02176E-07    3.30554E-07    6.58245E-01    1.50575E-11    4.01822E-02    2.64497E-02
+       50       73        134046       1.21036E-07    7.91198E-08    6.53688E-01    2.69115E-12    4.85834E-02    3.17584E-02
+       51       74        148302       1.73069E-08    1.13247E-08    6.54346E-01    2.63775E-13    5.35336E-02    3.50295E-02
+       52       75        548885       1.89661E-09    1.24072E-09    6.54178E-01    2.93913E-14    5.61649E-02    3.67419E-02
+       53       76        671010       6.95478E-10    1.44008E-09    2.07064E+00    3.37533E-15    3.41862E-02    7.07873E-02
+       54       77        811679       2.25391E-10    4.67234E-10    2.07299E+00    9.06899E-16    3.79661E-02    7.87034E-02
+       55       78        975982       6.24115E-11    1.29505E-10    2.07502E+00    2.02359E-16    3.92508E-02    8.14460E-02
+       56       79        979541       1.45459E-11    3.01958E-11    2.07590E+00    4.46552E-17    3.95861E-02    8.21769E-02
+       57       80       1024353       2.75108E-12    5.70748E-12    2.07463E+00    8.44052E-18    3.97301E-02    8.24254E-02
+       58       81        916967       8.10224E-06    5.29894E-06    6.54009E-01    2.16283E-11    4.07237E-02    2.66336E-02
+       59       82       1568646       3.31705E-07    2.17126E-07    6.54576E-01    8.86229E-13    5.34126E-02    3.49626E-02
+       60       83       3237507       2.28851E-08    1.49512E-08    6.53314E-01    6.10251E-14    6.21858E-02    4.06269E-02
+       61       84        161135       3.31729E-09    6.89950E-09    2.07986E+00    1.22440E-14    3.63685E-02    7.56412E-02
+       62       85        123061       2.02476E-09    4.20134E-09    2.07498E+00    7.45580E-15    3.79836E-02    7.88152E-02
+       63       86        131300       8.81317E-10    1.82754E-09    2.07364E+00    3.24319E-15    3.89437E-02    8.07553E-02
+       64       87        139025       9.84435E-10    2.04215E-09    2.07444E+00    3.09369E-15    3.94323E-02    8.17997E-02
+       65       88        156452       3.26392E-10    6.78123E-10    2.07763E+00    1.02730E-15    3.95332E-02    8.21355E-02
+       66       89        175465       1.07553E-10    2.22885E-10    2.07233E+00    3.37654E-16    3.94506E-02    8.17547E-02
+       67       90        190375       3.55593E-11    7.36585E-11    2.07143E+00    1.11587E-16    3.95517E-02    8.19284E-02
+       68       91        199204       1.15802E-11    2.40611E-11    2.07778E+00    3.64508E-17    3.95035E-02    8.20794E-02
+       69       92        203655       3.72506E-12    7.73281E-12    2.07589E+00    1.17146E-17    3.95901E-02    8.21846E-02
+       70       93        195429       9.72095E-13    2.02418E-12    2.08229E+00    3.06648E-18    3.97000E-02    8.26669E-02
+       71       94        965565       8.12543E-06    5.31856E-06    6.54557E-01    2.17084E-11    4.08343E-02    2.67284E-02
+       72       95       1438327       3.29493E-07    2.15009E-07    6.52546E-01    8.77590E-13    5.31801E-02    3.47024E-02
+       73       96        745965       2.22357E-08    1.45034E-08    6.52255E-01    5.91974E-14    6.21652E-02    4.05476E-02
+       74       97        122683       3.19312E-09    6.59656E-09    2.06587E+00    1.17064E-14    3.59670E-02    7.43031E-02
+       75       98         97208       1.95295E-09    4.03970E-09    2.06851E+00    7.16894E-15    3.79005E-02    7.83976E-02
+       76       99        102843       8.56481E-10    1.77395E-09    2.07120E+00    3.14808E-15    3.87625E-02    8.02850E-02
+       77      100        128085       9.33487E-10    1.93684E-09    2.07484E+00    2.93416E-15    3.95993E-02    8.21624E-02
+       78      101        133911       3.03591E-10    6.28035E-10    2.06869E+00    9.51424E-16    3.94783E-02    8.16682E-02
+       79      102        138811       9.98370E-11    2.07323E-10    2.07661E+00    3.14078E-16    3.93744E-02    8.17654E-02
+       80      103        139382       3.32935E-11    6.92266E-11    2.07928E+00    1.04873E-16    3.94389E-02    8.20048E-02
+       81      104        138972       1.09454E-11    2.26911E-11    2.07312E+00    3.43753E-17    3.92053E-02    8.12775E-02
+       82      105        147709       3.52762E-12    7.33468E-12    2.07922E+00    1.11115E-17    3.93455E-02    8.18078E-02
+       83      106        155026       9.18461E-13    1.90796E-12    2.07734E+00    2.89041E-18    3.93186E-02    8.16783E-02
+       84      107        124244       1.02876E-05    2.13276E-05    2.07313E+00    2.45314E-11    2.91744E-02    6.04823E-02
+       85      108        159745       5.26917E-06    1.09449E-05    2.07716E+00    1.09646E-11    3.44865E-02    7.16339E-02
+       86      109        188003       2.14919E-06    4.45152E-06    2.07125E+00    3.94989E-12    3.71452E-02    7.69371E-02
+       87      110        204086       7.86284E-07    1.63081E-06    2.07408E+00    1.29863E-12    3.83827E-02    7.96087E-02
+       88      111        226296       2.74234E-07    5.68681E-07    2.07371E+00    4.10719E-13    3.90552E-02    8.09890E-02
+       89      112        254019       9.28257E-08    1.92791E-07    2.07691E+00    1.27389E-13    3.93557E-02    8.17382E-02
+       90      113        217018       2.62262E-08    5.43491E-08    2.07232E+00    4.44174E-14    3.95825E-02    8.20277E-02
+       91      114        242293       1.08443E-08    2.24978E-08    2.07462E+00    1.69585E-14    3.95199E-02    8.19890E-02
+       92      115        263621       4.46692E-09    9.28604E-09    2.07885E+00    6.49519E-15    3.96638E-02    8.24551E-02
+       93      116        275647       1.83354E-09    3.80276E-09    2.07400E+00    2.48105E-15    3.97773E-02    8.24981E-02
+       94      117        299491       7.49402E-10    1.55486E-09    2.07480E+00    9.50541E-16    3.96668E-02    8.23005E-02
+       95      118        315697       3.04324E-10    6.30870E-10    2.07302E+00    3.62819E-16    3.96466E-02    8.21882E-02
+       96      119        438818       1.30215E-10    2.70426E-10    2.07677E+00    1.10504E-16    3.95865E-02    8.22121E-02
+       97      120        815960       4.44655E-06    2.91448E-06    6.55448E-01    1.22457E-11    3.94758E-02    2.58743E-02
+       98      121       1053274       2.00762E-07    1.31227E-07    6.53644E-01    5.51373E-13    4.65196E-02    3.04073E-02
+       99      122        770937       1.17159E-08    7.65447E-09    6.53340E-01    3.21617E-14    4.28485E-02    2.79946E-02
+      100      123       1148386       1.71832E-09    3.50741E-09    2.04118E+00    4.39910E-15    7.57323E-02    1.54583E-01
+      101      124      21824604       1.02099E-09    2.09818E-09    2.05505E+00    2.63161E-15    7.99330E-02    1.64266E-01
+      102      125      14247892       5.21062E-10    1.07500E-09    2.06310E+00    1.34830E-15    8.26747E-02    1.70566E-01
+      103      126      11472558       2.47054E-10    5.11215E-10    2.06924E+00    6.41183E-16    8.54516E-02    1.76820E-01
+      104      127      14180883       1.08516E-10    2.24866E-10    2.07219E+00    2.82035E-16    8.81108E-02    1.82582E-01
+      105      128      15352463       3.60031E-11    7.45658E-11    2.07109E+00    9.35229E-17    8.86858E-02    1.83677E-01
+      106      129        307938       8.00635E-06    1.65555E-05    2.06780E+00    1.63221E-11    2.53363E-02    5.23903E-02
+      107      130        612463       5.88030E-06    1.21836E-05    2.07194E+00    7.51579E-12    3.28879E-02    6.81417E-02
+      108      131       1058722       2.58886E-06    5.37189E-06    2.07500E+00    2.29023E-12    3.73074E-02    7.74130E-02
+      109      132       1572021       9.41951E-07    1.95446E-06    2.07490E+00    6.13106E-13    3.90271E-02    8.09774E-02
+      110      133       2145034       3.18909E-07    6.62196E-07    2.07644E+00    1.59651E-13    3.97344E-02    8.25060E-02
+      111      134       2768191       1.05032E-07    2.18017E-07    2.07572E+00    4.22876E-14    4.00504E-02    8.31333E-02
+      112      135       3338599       3.37373E-08    7.00258E-08    2.07562E+00    1.15018E-14    4.02046E-02    8.34493E-02
+      113      136       3893939       9.19649E-09    1.90840E-08    2.07514E+00    2.71411E-15    4.02127E-02    8.34469E-02
+      114      137       2097913       2.26587E-10    4.70505E-10    2.07648E+00    1.13925E-16    3.97405E-02    8.25204E-02
       115      200             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
       116      201             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-      117      138       1044763       6.17413E-05    1.28013E-04    2.07338E+00    8.66506E-11    7.99223E-02    1.65709E-01
-             total      40619859       6.71350E-04    1.21259E-03    1.80619E+00
+      117      138       4562410       6.18105E-05    1.28194E-04    2.07399E+00    8.67732E-11    7.99941E-02    1.65907E-01
+             total     181690532       6.71287E-04    1.21256E-03    1.80632E+00
 1energy distribution of photons produced in neutron collisions
 
 
@@ -3069,33 +3957,34 @@
  
    20.000             0      0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
    15.000             0      0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-   10.000            70      1.72328E-06    1.72328E-06    1.69535E-09    2.52528E-06    2.52528E-06
-    9.000           183      4.50514E-06    6.22841E-06    1.73799E-09    2.58880E-06    5.11408E-06
-    8.000          2861      7.04327E-05    7.66612E-05    2.87746E-08    4.28607E-05    4.79748E-05
-    7.000         52681      1.29691E-03    1.37357E-03    1.04056E-06    1.54995E-03    1.59793E-03
-    6.000        411121      1.01211E-02    1.14946E-02    8.76689E-06    1.30586E-02    1.46565E-02
-    5.000       1407609      3.46528E-02    4.61475E-02    2.60771E-05    3.88427E-02    5.34993E-02
-    4.000       2636348      6.49022E-02    1.11050E-01    3.99470E-05    5.95025E-02    1.13002E-01
-    3.000       3531477      8.69387E-02    1.97988E-01    5.30049E-05    7.89526E-02    1.91954E-01
-    2.000      10417382      2.56457E-01    4.54446E-01    1.78368E-04    2.65685E-01    4.57639E-01
-    1.000       7668355      1.88781E-01    6.43227E-01    8.36117E-05    1.24543E-01    5.82182E-01
-    0.500       4943405      1.21698E-01    7.64925E-01    8.80827E-05    1.31202E-01    7.13384E-01
-    0.100       5986205      1.47370E-01    9.12295E-01    1.02819E-04    1.53153E-01    8.66537E-01
-    0.010       3561930      8.76884E-02    9.99983E-01    8.95992E-05    1.33461E-01    9.99998E-01
-    0.000           232      5.71143E-06    9.99989E-01    5.42096E-10    8.07470E-07    9.99999E-01
+   10.000           269      1.48052E-06    1.48052E-06    1.72529E-09    2.57012E-06    2.57012E-06
+    9.000           789      4.34250E-06    5.82302E-06    1.97481E-09    2.94183E-06    5.51196E-06
+    8.000         13152      7.23860E-05    7.82090E-05    3.03178E-08    4.51636E-05    5.06756E-05
+    7.000        236175      1.29986E-03    1.37807E-03    1.04289E-06    1.55356E-03    1.60424E-03
+    6.000       1836465      1.01075E-02    1.14856E-02    8.75855E-06    1.30474E-02    1.46516E-02
+    5.000       6308815      3.47224E-02    4.62080E-02    2.60880E-05    3.88627E-02    5.35143E-02
+    4.000      11851969      6.52308E-02    1.11439E-01    3.99563E-05    5.95219E-02    1.13036E-01
+    3.000      15862600      8.73045E-02    1.98743E-01    5.30502E-05    7.90275E-02    1.92064E-01
+    2.000      46663906      2.56829E-01    4.55572E-01    1.78258E-04    2.65547E-01    4.57611E-01
+    1.000      34567558      1.90253E-01    6.45825E-01    8.36337E-05    1.24587E-01    5.82198E-01
+    0.500      22156567      1.21945E-01    7.67770E-01    8.80232E-05    1.31126E-01    7.13324E-01
+    0.100      26308258      1.44795E-01    9.12566E-01    1.02867E-04    1.53238E-01    8.66562E-01
+    0.010      15882804      8.74157E-02    9.99981E-01    8.95743E-05    1.33437E-01    9.99998E-01
+    0.000          1205      6.63208E-06    9.99988E-01    4.21230E-10    6.27496E-07    9.99999E-01
 
-   total       40620314      1.00000E+00                   6.71351E-04    1.00000E+00
+   total      181692710      1.00000E+00                   6.71288E-04    1.00000E+00
 
  ***********************************************************************************************************************
 
- dump no.    2 on file E:\MyWork\MCNP\Accelerator\7MeV\Shielding\S2\S2.ir     nps =    26501000     coll =    
- 2298415482     ctm =      218.73   nrn =       37565124932
+ dump no.    2 on file E:\MyWork\MCNP\Accelerator\7MeV\Shielding\S2\S2.ir     nps =   115601000     coll =   
+ 10288741749     ctm =      937.11   nrn =      168334805969
+ tally data written to file E:\MyWork\MCNP\Accelerator\7MeV\Shielding\S2\S2.im
 
         21 warning messages so far.
 
 
- run terminated when it had used 2000  minutes of computer time.
+ run terminated when it had used 5000  minutes of computer time.
 
- computer time = 2036.28 minutes
+ computer time = 5168.78 minutes
 
- mcnp     version 6.mpi 05/08/13                     12/26/25 15:43:41                     probid =  12/26/25 15:10:11 
+ mcnp     version 6.mpi 05/08/13                     12/27/25 23:26:43                     probid =  12/27/25 20:39:51 
