@@ -1,0 +1,13 @@
+plot                                                                            
+color off
+color  on
+label 0 0 tal11     
+legend  on
+color 150 con 1 1e9 log                                                         
+pz 0                                                                            
+ex 600                                                                          
+color off
+color  on
+end
+end
+end                                                                             
