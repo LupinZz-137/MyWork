@@ -487,31 +487,31 @@ c si1 L 11 22
 c sp1    1  1
 c tr11  -15 -75 0 -0.5  0.866025404 0 -0.866025404 -0.5 0 0 0 1 1
 tr22   15  55 0  0.5 -0.866025404 0  0.866025404  0.5 0 0 0 1 1
-tmesh 
-rmesh11:n  dose 10 1 2 6.24e20  $ N-XY 0 0 0
- cora11    -450 199i  450 
- corb11    -450 199i  450
- corc11    -1         1 
-rmesh21:n  dose 10 1 2 6.24e20  $ N-YZ 0 0 0
- cora21    -1         1 
- corb21    -450 199i  450  
- corc21    -65  149i  320 
-rmesh31:p  dose 10 1 2 6.24e20  $ NP-XY 0 0 0
- cora31    -450 199i  450 
- corb31    -450 199i  450  
- corc31    -1         1 
-rmesh41:p  dose 10 1 2 6.24e20  $ NP-YZ 0 0 0
- cora41    -1         1 
- corb41    -450 199i  450 
- corc41    -65  149i  320 
-rmesh51:n  dose 10 1 2 6.24e20  $ north 0 400 0
- cora51    -450 199i  450 
- corb51     399       401 
- corc51    -65  149i  320 
-rmesh61:p  dose 10 1 2 6.24e20  $ north 0 400 0
- cora61    -450 199i  450 
- corb61     399       401 
- corc61    -65  149i  320 
+c tmesh 
+c rmesh11:n  dose 10 1 2 6.24e20  $ N-XY 0 0 0
+c  cora11    -450 199i  450 
+c  corb11    -450 199i  450
+c  corc11    -1         1 
+c rmesh21:n  dose 10 1 2 6.24e20  $ N-YZ 0 0 0
+c  cora21    -1         1 
+c  corb21    -450 199i  450  
+c  corc21    -65  149i  320 
+c rmesh31:p  dose 10 1 2 6.24e20  $ NP-XY 0 0 0
+c  cora31    -450 199i  450 
+c  corb31    -450 199i  450  
+c  corc31    -1         1 
+c rmesh41:p  dose 10 1 2 6.24e20  $ NP-YZ 0 0 0
+c  cora41    -1         1 
+c  corb41    -450 199i  450 
+c  corc41    -65  149i  320 
+c rmesh51:n  dose 10 1 2 6.24e20  $ north 0 400 0
+c  cora51    -450 199i  450 
+c  corb51     399       401 
+c  corc51    -65  149i  320 
+c rmesh61:p  dose 10 1 2 6.24e20  $ north 0 400 0
+c  cora61    -450 199i  450 
+c  corb61     399       401 
+c  corc61    -65  149i  320 
 c rmesh71:n  dose 10 1 2 6.24e20  $ south 0 -400 0
 c  cora71    -450 199i  450 
 c  corb71    -401      -399 
