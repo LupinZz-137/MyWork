@@ -30,13 +30,13 @@
   | PRIVATELY OWNED RIGHTS.                                             |
   +---------------------------------------------------------------------+
   
-1mcnp     version 6     ld=05/08/13                     01/24/26 17:23:13 
- *************************************************************************                 probid =  01/24/26 17:23:13 
- z r=NRT.ir                                                                      
+1mcnp     version 6     ld=05/08/13                     01/26/26 17:10:39 
+ *************************************************************************                 probid =  01/26/26 17:10:39 
+ z r = .\NRT-aboutgap.ir                                                         
 
 
-        46 warning messages so far.
+        43 warning messages so far.
 
- computer time =    0.01 minutes
+ computer time =    0.00 minutes
 
- mcnp     version 6     05/08/13                     01/24/26 17:31:58                     probid =  01/24/26 16:03:41 
+ mcnp     version 6     05/08/13                     01/26/26 17:26:08                     probid =  01/26/26 15:41:52 

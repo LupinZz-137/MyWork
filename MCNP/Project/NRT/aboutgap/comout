@@ -3,11 +3,11 @@ color off
 color  on
 label 0 0 tal11     
 legend  on
-color 150 con 1 1e9 log                                                         
-pz 0                                                                            
-ex 600                                                                          
-color off
-color  on
+color 150 pz 0 ex 500                                                           
+basis  0.0000E+00  1.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  1.0000E+00
+basis  0.0000E+00  0.0000E+00  1.0000E+00  1.0000E+00  0.0000E+00  0.0000E+00
+basis  1.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  1.0000E+00  0.0000E+00
+basis  0.0000E+00  1.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  1.0000E+00
 end
 end
 end                                                                             
