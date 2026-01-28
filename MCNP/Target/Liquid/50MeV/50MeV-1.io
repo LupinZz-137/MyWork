@@ -1171,3 +1171,5 @@ The following nuclides use physics models rather than data tables:
  master set rendezvous nps =     5000000,  work chunks =    63    01/28/26 15:28:50 
  master set rendezvous nps =     6000000,  work chunks =    63    01/28/26 15:29:06 
  master set rendezvous nps =     7000000,  work chunks =    63    01/28/26 15:29:22 
+ master set rendezvous nps =     8000000,  work chunks =    63    01/28/26 15:29:38 
+ master set rendezvous nps =     9000000,  work chunks =    63    01/28/26 15:29:54 
