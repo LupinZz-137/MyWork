@@ -70,12 +70,12 @@ c -----------------------------------------------------------------------------
 mode n p h #
 nps 1e7
 imp:n,p,h,# 1 19r 0
-phys:h 200 200
-phys:n 200 200 1
-phys:p 200 0 0 -1  0 j 1
-cut:n 2j 0 
-cut:p 2j 0 
-cut:h 2j 0 
+c phys:h 200 200
+c phys:n 200 200 1
+c phys:p 200 0 0 -1  0 j 1
+c cut:n 2j 0 
+c cut:p 2j 0 
+c cut:h 2j 0 
 sdef  par= h        
       erg= 50       
       vec= 1 0 0    
