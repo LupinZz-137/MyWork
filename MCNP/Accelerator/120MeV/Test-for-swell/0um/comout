@@ -1,0 +1,16 @@
+plot                                                                            
+color off
+color  on
+label 0 0 tal13     
+legend  on
+color 150 pz -0.1                                                               
+origin  1.1111E+00 -9.7222E-01 -1.0000E-01 extent  1.0833E+01  1.0833E+01
+basis  0.0000E+00  1.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  1.0000E+00
+basis  0.0000E+00  0.0000E+00  1.0000E+00  1.0000E+00  0.0000E+00  0.0000E+00
+basis  1.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  1.0000E+00  0.0000E+00
+pz -0.05                                                                        
+color off
+color  on
+end
+end
+end                                                                             
