@@ -562,3 +562,10 @@ m74    9019  -0.67                 $ FFKM perfluoroether rubber         -2.0
        nlib = 19c
        hlib = 99h
       pnlib = 19u
+m75   17035  -0.37385600            $ RbCl                               -2.76  
+      17037  -0.12617417 
+      37085  -0.35850249  
+      37087  -0.14149671   
+       nlib = 19c
+       hlib = 99h
+      pnlib = 19u
