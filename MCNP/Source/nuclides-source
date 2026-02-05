@@ -1,0 +1,17 @@
+c nuclides-source
+1 0     -10  imp:p,e,#=1
+2 0      10  imp:p,e,#=0
+
+10  so  1
+
+mode p # e A
+sdef par=d1 erg=0
+si1 L  87220  81208  63149  61151  55129
+      53132  53131  51125  45101  22045
+sp1  1.84E-07 2.42E-02 1.47E-05 7.25E-04 1.60E-05
+     1.43E-01 8.09E-01 1.20E-02 1.20E-02 1.28E-28
+ACT nonfiss=p DG=LINES
+f1:p 10
+e1 0 999i 10
+t1 1 1e9
+nps 1e6
