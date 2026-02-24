@@ -1,0 +1,2 @@
+串列靶辐照条件：120MeV，500μA，240h
+结构：Ti1-SS1-Th-SS2-SS3-RbCl-SS4-Nb1-Ga-Nb2-Ti

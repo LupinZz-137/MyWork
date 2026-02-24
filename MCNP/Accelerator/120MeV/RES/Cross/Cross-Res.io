@@ -30,8 +30,8 @@
   | PRIVATELY OWNED RIGHTS.                                             |
   +---------------------------------------------------------------------+
   
-1mcnp     version 6.mpi ld=05/08/13                     01/31/26 11:49:15 
- *************************************************************************                 probid =  01/31/26 11:49:15 
+1mcnp     version 6.mpi ld=05/08/13                     01/31/26 12:12:51 
+ *************************************************************************                 probid =  01/31/26 12:12:51 
  n=E:\MyWork\MCNP\Accelerator\120MeV\RES\Cross\Cross-Res.i                       
 
  
@@ -117,113 +117,112 @@
         78-                 z = d2                                                                
         79-       sp1  -41  1.76  0                                                               
         80-       sp2  -41  0.47  0                                                               
-        81-       c ctme 1e3                                                                      
-        82-       nps 1e7                                                                         
-        83-       c prdmp -2e3 -2e3 1 1                                                           
-        84-       c *tr1  0 0 0   5 90 85   90 0 90   95 90 5                                     
-        85-       c ----------------------------------------------------------------------------- 
-        86-       c -----------------------------------TALLY------------------------------------- 
-        87-       c ----------------------------------------------------------------------------- 
-        88-       c                                                                               
-        89-       f8:#  1 3 4 5 7 8 9 11 12 13 15                                                 
+        81-       ctme 1e4                                                                        
+        82-       c prdmp -2e3 -2e3 1 1                                                           
+        83-       c *tr1  0 0 0   5 90 85   90 0 90   95 90 5                                     
+        84-       c ----------------------------------------------------------------------------- 
+        85-       c -----------------------------------TALLY------------------------------------- 
+        86-       c ----------------------------------------------------------------------------- 
+        87-       c                                                                               
+        88-       f8:#  1 3 4 5 7 8 9 11 12 13 15                                                 
  
   warning.  f8 tally unreliable since neutron transport nonanalog.
-        90-       ft8 res                                                                         
-        91-       fq8 u e                                                                         
-        92-       c                                                                               
-        93-       c tmesh   $ ------ TMESH tallies start ------                                   
-        94-       c c                                                                             
-        95-       c rmesh11:h                                                                     
-        96-       c  cora11    -20   199i    20                                                   
-        97-       c  corb11    -0.1         0.1                                                   
-        98-       c  corc11    -10    99i    10                                                   
-        99-       c c                                                                             
-       100-       c endmd   $ ------ TMESH tallies end ------                                     
-       101-       c ----------------------------------------------------------------------------- 
-       102-       c ---------------------------------MATERIALS----------------------------------- 
-       103-       c ----------------------------------------------------------------------------- 
-       104-       m11   90232  -1                    $ Thorium     Th  -11.72                     
-       105-              nlib = 19c                                                               
-       106-              hlib = 99h                                                               
-       107-             pnlib = 19u                                                               
-       108-       m6    29063  -0.68479238           $ Copper      Cu  -8.96                      
+        89-       ft8 res                                                                         
+        90-       fq8 u e                                                                         
+        91-       c                                                                               
+        92-       c tmesh   $ ------ TMESH tallies start ------                                   
+        93-       c c                                                                             
+        94-       c rmesh11:h                                                                     
+        95-       c  cora11    -20   199i    20                                                   
+        96-       c  corb11    -0.1         0.1                                                   
+        97-       c  corc11    -10    99i    10                                                   
+        98-       c c                                                                             
+        99-       c endmd   $ ------ TMESH tallies end ------                                     
+       100-       c ----------------------------------------------------------------------------- 
+       101-       c ---------------------------------MATERIALS----------------------------------- 
+       102-       c ----------------------------------------------------------------------------- 
+       103-       m11   90232  -1                    $ Thorium     Th  -11.72                     
+       104-              nlib = 19c                                                               
+       105-              hlib = 99h                                                               
+       106-             pnlib = 19u                                                               
+       107-       m6    29063  -0.68479238           $ Copper      Cu  -8.96                      
   warning.  material        6 is not used in the problem.
-       109-             29065  -0.31520824                                                        
-       110-              nlib = 19c                                                               
-       111-              hlib = 99h                                                               
-       112-             pnlib = 19u                                                               
-       113-       m60    6012  -0.00079080           $ Titanium Alloy                     -4.43   
-       114-              6013  -0.00000918                                                        
-       115-              8016  -0.001995                                                          
-       116-              8017  -0.000001                                                          
-       117-              8018  -0.000005                                                          
-       118-              7014  -0.000498                                                          
-       119-              7015  -0.000002                                                          
-       120-              1001  -0.000150                                                          
-       121-             26054  -0.00022582                                                        
-       122-             26056  -0.00367607                                                        
-       123-             26057  -0.00008641                                                        
-       124-             26058  -0.00001170                                                        
-       125-             13027  -0.061250                                                          
-       126-             23051  -0.040000                                                          
-       127-             22046  -0.07059143                                                        
-       128-             22047  -0.06504479                                                        
-       129-             22048  -0.65817743                                                        
-       130-             22049  -0.04930815                                                        
-       131-             22050  -0.04817343                                                        
-       132-              nlib = 19c                                                               
-       133-              hlib = 99h                                                               
-       134-             pnlib = 19u                                                               
-       135-       m51    1001  -0.111872             $ Water H2O                          -0.997  
-       136-              1002  -0.000026                                                          
-       137-              8016  -0.885692                                                          
-       138-              8017  -0.000359                                                          
-       139-              8018  -0.002048                                                          
-       140-              nlib = 19c                                                               
-       141-              hlib = 99h                                                               
-       142-             pnlib = 19u                                                               
-       143-       m64    6012  -0.000800             $ Steel, Stainless 304               -8.03   
-       144-             25055  -0.020000                                                          
-       145-             15031  -0.000450                                                          
-       146-             16032  -0.00028379                                                        
-       147-             16033  -0.00000235                                                        
-       148-             16034  -0.00001388                                                        
-       149-             16036  -0.00000005                                                        
-       150-             14028  -0.00918995                                                        
-       151-             14029  -0.00048203                                                        
-       152-             14030  -0.00032802                                                        
-       153-             24050  -0.00793001                                                        
-       154-             24052  -0.15902888                                                        
-       155-             24053  -0.01837983                                                        
-       156-             24054  -0.00466139                                                        
-       157-             28058  -0.06383777                                                        
-       158-             28060  -0.02543714                                                        
-       159-             28061  -0.00112419                                                        
-       160-             28062  -0.00364308                                                        
-       161-             28064  -0.00095774                                                        
-       162-             26054  -0.03858467                                                        
-       163-             26056  -0.62810261                                                        
-       164-             26057  -0.01476508                                                        
-       165-             26058  -0.00199940                                                        
-       166-              nlib = 19c                                                               
-       167-              hlib = 99h                                                               
-       168-             pnlib = 19u                                                               
-       169-       m75   17035  -0.37385600           $ RbCl                               -2.76   
-       170-             17037  -0.12617417                                                        
-       171-             37085  -0.35850249                                                        
-       172-             37087  -0.14149671                                                        
-       173-              nlib = 19c                                                               
-       174-              hlib = 99h                                                               
-       175-             pnlib = 19u                                                               
-       176-       m18   31069  -0.59420541           $ Gallium     Ga   -5.907                    
-       177-             31071  -0.40579554                                                        
-       178-              nlib = 19c                                                               
-       179-              hlib = 99h                                                               
-       180-             pnlib = 19u                                                               
-       181-       m7    41093  -1                    $ Nbobium     Nb  -8.57                      
-       182-              nlib = 19c                                                               
-       183-              hlib = 99h                                                               
-       184-             pnlib = 19u                                                               
+       108-             29065  -0.31520824                                                        
+       109-              nlib = 19c                                                               
+       110-              hlib = 99h                                                               
+       111-             pnlib = 19u                                                               
+       112-       m60    6012  -0.00079080           $ Titanium Alloy                     -4.43   
+       113-              6013  -0.00000918                                                        
+       114-              8016  -0.001995                                                          
+       115-              8017  -0.000001                                                          
+       116-              8018  -0.000005                                                          
+       117-              7014  -0.000498                                                          
+       118-              7015  -0.000002                                                          
+       119-              1001  -0.000150                                                          
+       120-             26054  -0.00022582                                                        
+       121-             26056  -0.00367607                                                        
+       122-             26057  -0.00008641                                                        
+       123-             26058  -0.00001170                                                        
+       124-             13027  -0.061250                                                          
+       125-             23051  -0.040000                                                          
+       126-             22046  -0.07059143                                                        
+       127-             22047  -0.06504479                                                        
+       128-             22048  -0.65817743                                                        
+       129-             22049  -0.04930815                                                        
+       130-             22050  -0.04817343                                                        
+       131-              nlib = 19c                                                               
+       132-              hlib = 99h                                                               
+       133-             pnlib = 19u                                                               
+       134-       m51    1001  -0.111872             $ Water H2O                          -0.997  
+       135-              1002  -0.000026                                                          
+       136-              8016  -0.885692                                                          
+       137-              8017  -0.000359                                                          
+       138-              8018  -0.002048                                                          
+       139-              nlib = 19c                                                               
+       140-              hlib = 99h                                                               
+       141-             pnlib = 19u                                                               
+       142-       m64    6012  -0.000800             $ Steel, Stainless 304               -8.03   
+       143-             25055  -0.020000                                                          
+       144-             15031  -0.000450                                                          
+       145-             16032  -0.00028379                                                        
+       146-             16033  -0.00000235                                                        
+       147-             16034  -0.00001388                                                        
+       148-             16036  -0.00000005                                                        
+       149-             14028  -0.00918995                                                        
+       150-             14029  -0.00048203                                                        
+       151-             14030  -0.00032802                                                        
+       152-             24050  -0.00793001                                                        
+       153-             24052  -0.15902888                                                        
+       154-             24053  -0.01837983                                                        
+       155-             24054  -0.00466139                                                        
+       156-             28058  -0.06383777                                                        
+       157-             28060  -0.02543714                                                        
+       158-             28061  -0.00112419                                                        
+       159-             28062  -0.00364308                                                        
+       160-             28064  -0.00095774                                                        
+       161-             26054  -0.03858467                                                        
+       162-             26056  -0.62810261                                                        
+       163-             26057  -0.01476508                                                        
+       164-             26058  -0.00199940                                                        
+       165-              nlib = 19c                                                               
+       166-              hlib = 99h                                                               
+       167-             pnlib = 19u                                                               
+       168-       m75   17035  -0.37385600           $ RbCl                               -2.76   
+       169-             17037  -0.12617417                                                        
+       170-             37085  -0.35850249                                                        
+       171-             37087  -0.14149671                                                        
+       172-              nlib = 19c                                                               
+       173-              hlib = 99h                                                               
+       174-             pnlib = 19u                                                               
+       175-       m18   31069  -0.59420541           $ Gallium     Ga   -5.907                    
+       176-             31071  -0.40579554                                                        
+       177-              nlib = 19c                                                               
+       178-              hlib = 99h                                                               
+       179-             pnlib = 19u                                                               
+       180-       m7    41093  -1                    $ Nbobium     Nb  -8.57                      
+       181-              nlib = 19c                                                               
+       182-              hlib = 99h                                                               
+       183-             pnlib = 19u                                                               
  
   comment.  total nubar used if fissionable isotopes are present.
  
@@ -957,38 +956,49 @@ The following nuclides use physics models rather than data tables:
       0     ctm =        0.00   nrn =                 0
 
         14 warning messages so far.
- master starting      50 MPI slave tasks with       1 threads each  01/31/26 11:49:21 
- master set rendezvous nps =     1000000,  work chunks =    50    01/31/26 11:49:22 
- master set rendezvous nps =     2000000,  work chunks =    50    01/31/26 11:49:43 
- master set rendezvous nps =     3000000,  work chunks =    50    01/31/26 11:50:05 
- master set rendezvous nps =     4000000,  work chunks =    50    01/31/26 11:50:26 
- master set rendezvous nps =     5000000,  work chunks =    50    01/31/26 11:50:47 
- master set rendezvous nps =     6000000,  work chunks =    50    01/31/26 11:51:08 
- master set rendezvous nps =     7000000,  work chunks =    50    01/31/26 11:51:29 
- master set rendezvous nps =     8000000,  work chunks =    50    01/31/26 11:51:50 
- master set rendezvous nps =     9000000,  work chunks =    50    01/31/26 11:52:11 
- master set rendezvous nps =    10000000,  work chunks =    50    01/31/26 11:52:33 
+ master starting      40 MPI slave tasks with       1 threads each  01/31/26 12:12:56 
+ master set rendezvous nps =        1000,  work chunks =    40    01/31/26 12:12:59 
+ master set rendezvous nps =    18463000,  work chunks =    40    01/31/26 12:13:00 
+ master set rendezvous nps =    18463000,  work chunks =    40    01/31/26 12:21:05 
+ master set rendezvous nps =    76854000,  work chunks =    40    01/31/26 12:21:05 
+ master set rendezvous nps =   135404000,  work chunks =    40    01/31/26 12:46:35 
+ master set rendezvous nps =   193892000,  work chunks =    40    01/31/26 13:16:20 
+
+ ***********************************************************************************************************************
+
+ dump no.    2 on file E:\MyWork\MCNP\Accelerator\120MeV\RES\Cross\Cross-Res.ir     nps =   193892000     coll =   
+ 63044408473     ctm =     3316.33   nrn =     1534962404440
+ master set rendezvous nps =   252358000,  work chunks =    40    01/31/26 13:51:44 
+ master set rendezvous nps =   310796000,  work chunks =    40    01/31/26 14:28:32 
+ master set rendezvous nps =   369237000,  work chunks =    40    01/31/26 15:03:35 
+
+ ***********************************************************************************************************************
+
+ dump no.    3 on file E:\MyWork\MCNP\Accelerator\120MeV\RES\Cross\Cross-Res.ir     nps =   369237000     coll =  
+ 120059664609     ctm =     6323.19   nrn =     2923126701939
+ master set rendezvous nps =   427631000,  work chunks =    40    01/31/26 15:41:36 
+ master set rendezvous nps =   486022000,  work chunks =    40    01/31/26 16:23:15 
 1problem summary                                                                                                           
 
-      run terminated when    10000000  particle histories were done.
-+                                                                                                    01/31/26 11:52:54 
-      Th-res                                                                               probid =  01/31/26 11:49:15 
+      run terminated when it had used10000  minutes of computer time.
++                                                                                                    01/31/26 16:55:52 
+      Th-res                                                                               probid =  01/31/26 12:12:51 
  **********************************************************
  Calls to event-generator models, counted by particle type.
 
  particle          BERTINI              CEM             INCL           ISABEL           LAQGSM        LAQGSM_H1              HYD
 
- neutron                 0             2402                0                0                0                0             1239
- proton                  0           971511                0                0                0                0            19633
+ neutron                 0           112101                0                0                0                0            60194
+ proton                  0         47208658                0                0                0                0           960910
  
- totals                  0           973913                0                0                0                0            20872
+ totals                  0         47320759                0                0                0                0          1021104
  
 
  neutron creation    tracks      weight        energy            neutron loss        tracks      weight        energy
                                  (per source particle)                                           (per source particle)
 
- source                   0    0.            0.                  escape             4194878    4.1949E-01    2.0627E+00
- nucl. interaction  4140965    4.1410E-01    2.1954E+00          energy cutoff            0    0.            0.        
+ source                   0    0.            0.                  escape           203819115    4.1936E-01    2.0617E+00
+ nucl. interaction201196599    4.1397E-01    2.1938E+00          energy cutoff            0    0.            0.        
  particle decay           0    0.            0.                  time cutoff              0    0.            0.        
  weight window            0    0.            0.                  weight window            0    0.            0.        
  cell importance          0    0.            0.                  cell importance          0    0.            0.        
@@ -997,27 +1007,27 @@ The following nuclides use physics models rather than data tables:
  dxtran                   0    0.            0.                  dxtran                   0    0.            0.        
  forced collisions        0    0.            0.                  forced collisions        0    0.            0.        
  exp. transform           0    0.            0.                  exp. transform           0    0.            0.        
- upscattering             0    0.            1.4274E-04          downscattering           0    0.            6.9871E-02
- photonuclear            12    1.2476E-06    8.6292E-07          capture              10821    1.0821E-03    3.4428E-03
- (n,xn)               60012    6.0012E-03    1.7245E-02          loss to (n,xn)       20900    2.0900E-03    5.2266E-02
- prompt fission       37982    3.7982E-03    8.1246E-03          loss to fission      10363    1.0363E-03    1.3923E-02
- delayed fission        393    3.9300E-05    2.0619E-05          nucl. interaction     2402    2.4020E-04    1.8743E-02
+ upscattering             0    0.            1.3946E-04          downscattering           0    0.            6.9753E-02
+ photonuclear           366    8.0161E-07    4.7467E-07          capture             520719    1.0714E-03    3.4884E-03
+ (n,xn)             2918259    6.0044E-03    1.6967E-02          loss to (n,xn)     1016039    2.0905E-03    5.2230E-02
+ prompt fission     1835314    3.7762E-03    8.1192E-03          loss to fission     502439    1.0338E-03    1.3861E-02
+ delayed fission      19875    4.0893E-05    2.1959E-05          nucl. interaction   112101    2.3065E-04    1.7966E-02
  prompt photofis          0    0.            0.                  particle decay           0    0.            0.        
- tabular boundary      4004    4.0040E-04    2.3924E-02          tabular boundary      4004    4.0040E-04    2.3924E-02
+ tabular boundary    197884    4.0715E-04    2.4479E-02          tabular boundary    197884    4.0715E-04    2.4479E-02
  tabular sampling         0    0.            0.                  elastic scatter          0    0.            0.        
-     total          4243368    4.2434E-01    2.2449E+00              total          4243368    4.2434E-01    2.2449E+00
+     total        206168297    4.2420E-01    2.2435E+00              total        206168297    4.2420E-01    2.2435E+00
 
-   number of neutrons banked                 4212105        average time of (shakes)              cutoffs
-   neutron tracks per source particle     4.2434E-01          escape            1.1392E+05          tco   1.0000E+33
-   neutron collisions per source particle 1.1892E-01          capture           1.7771E+04          eco   0.0000E+00
-   total neutron collisions                  1189199          capture or escape 1.1367E+05          wc1   0.0000E+00
-   net multiplication              0.0000E+00 0.0000          any termination   1.1266E+05          wc2   0.0000E+00
+   number of neutrons banked               204649819        average time of (shakes)              cutoffs
+   neutron tracks per source particle     4.2420E-01          escape            9.2793E+04          tco   1.0000E+33
+   neutron collisions per source particle 1.1876E-01          capture           1.8837E+05          eco   0.0000E+00
+   total neutron collisions                 57718669          capture or escape 9.3037E+04          wc1   0.0000E+00
+   net multiplication              0.0000E+00 0.0000          any termination   9.2212E+04          wc2   0.0000E+00
 
  photon creation     tracks      weight        energy            photon loss         tracks      weight        energy
                                  (per source particle)                                           (per source particle)
 
- source                   0    0.            0.                  escape             2178450    2.1978E-01    3.3211E-01
- nucl. interaction  3553776    3.5538E-01    3.9669E-01          energy cutoff           53    5.3000E-06    2.9417E-05
+ source                   0    0.            0.                  escape           105784172    2.1959E-01    3.3233E-01
+ nucl. interaction172568448    3.5506E-01    3.9698E-01          energy cutoff         1869    3.8550E-06    2.9464E-05
  particle decay           0    0.            0.                  time cutoff              0    0.            0.        
  weight window            0    0.            0.                  weight window            0    0.            0.        
  cell importance          0    0.            0.                  cell importance          0    0.            0.        
@@ -1026,244 +1036,247 @@ The following nuclides use physics models rather than data tables:
  dxtran                   0    0.            0.                  dxtran                   0    0.            0.        
  forced collisions        0    0.            0.                  forced collisions        0    0.            0.        
  exp. transform           0    0.            0.                  exp. transform           0    0.            0.        
- from neutrons       500251    5.2732E-02    4.9822E-02          compton scatter          0    0.            5.0047E-02
- bremsstrahlung     1357873    1.3679E-01    7.4867E-03          capture            5369589    5.3995E-01    7.0480E-02
- p-annihilation      107128    1.0804E-02    5.5207E-03          pair production      53564    5.4018E-03    1.7901E-02
- photonuclear           115    1.1559E-05    2.2273E-05          photonuclear abs        74    7.4532E-06    3.4666E-05
+ from neutrons     24274421    5.2649E-02    4.9847E-02          compton scatter          0    0.            5.0077E-02
+ bremsstrahlung    66021337    1.3686E-01    7.4716E-03          capture          260826959    5.3967E-01    7.0504E-02
+ p-annihilation     5224548    1.0845E-02    5.5417E-03          pair production    2612274    5.4224E-03    1.7954E-02
+ photonuclear          5158    1.0774E-05    1.9533E-05          photonuclear abs      3208    6.6935E-06    2.9327E-05
  electron x-rays          0    0.            0.                  loss to photofis         0    0.            0.        
  compton fluores          0    0.            0.                                                                        
  muon capt fluores        0    0.            0.                                                                        
- 1st fluorescence   1744179    1.7539E-01    1.0584E-02                                                                
- 2nd fluorescence    338408    3.4040E-02    4.7913E-04                                                                
+ 1st fluorescence  84706231    1.7526E-01    1.0577E-02                                                                
+ 2nd fluorescence  16428339    3.4000E-02    4.7859E-04                                                                
  (gamma,xgamma)           0    0.            0.                                                                        
  tabular sampling         0    0.            0.                                                                        
  prompt photofis          0    0.            0.                                                                        
-     total          7601730    7.6515E-01    4.7061E-01              total          7601730    7.6515E-01    4.7061E-01
+     total        369228482    7.6469E-01    4.7092E-01              total        369228482    7.6469E-01    4.7092E-01
 
-   number of photons banked                  5857498        average time of (shakes)              cutoffs
-   photon tracks per source particle      7.6017E-01          escape            5.4559E+02          tco   1.0000E+33
-   photon collisions per source particle  6.8495E-01          capture           1.2094E+04          eco   1.0000E-03
-   total photon collisions                   6849500          capture or escape 8.7532E+03          wc1   0.0000E+00
-                                                              any termination   8.6913E+03          wc2   0.0000E+00
+   number of photons banked                284520382        average time of (shakes)              cutoffs
+   photon tracks per source particle      7.5969E-01          escape            2.0979E+03          tco   1.0000E+33
+   photon collisions per source particle  6.8471E-01          capture           3.3703E+03          eco   1.0000E-03
+   total photon collisions                 332783996          capture or escape 3.0023E+03          wc1   0.0000E+00
+                                                              any termination   2.9943E+03          wc2   0.0000E+00
 
  proton creation     tracks      weight        energy            proton loss         tracks      weight        energy
                                  (per source particle)                                           (per source particle)
 
- source            10000000    1.0000E+00    1.2000E+02          escape             2958291    2.9583E-01    2.8192E+01
- nucl. interaction   684125    6.8413E-02    1.9283E+00          energy cutoff      6779867    6.7799E-01    6.7795E-01
+ source           486022000    1.0000E+00    1.2000E+02          escape           143759876    2.9579E-01    2.8197E+01
+ nucl. interaction 33204939    6.8320E-02    1.9272E+00          energy cutoff    329508102    6.7797E-01    6.7794E-01
  particle decay           0    0.            0.                  time cutoff              0    0.            0.        
  weight window            0    0.            0.                  weight window            0    0.            0.        
  cell importance          0    0.            0.                  cell importance          0    0.            0.        
  weight cutoff            0    0.            0.                  weight cutoff            0    0.            0.        
  e or t importance        0    0.            0.                  e or t importance        0    0.            0.        
- tabular sampling      5098    5.0980E-04    4.7764E-03          coll. energy loss        0    0.            8.5796E+01
- photonuclear             0    0.            0.                  nucl. interaction   971511    9.7151E-02    7.2583E+00
- elastic recoil       20446    2.0446E-03    7.1426E-02          elastic scatter          0    0.            7.9786E-02
+ tabular sampling    250992    5.1642E-04    4.7438E-03          coll. energy loss        0    0.            8.5793E+01
+ photonuclear            10    2.1346E-08    4.4754E-08          nucl. interaction 47208652    9.7133E-02    7.2557E+00
+ elastic recoil      998689    2.0548E-03    7.1550E-02          elastic scatter          0    0.            7.9950E-02
                                                                  particle decay           0    0.            0.        
                                                                  capture                  0    0.            0.        
  (gamma,xcharged)         0    0.            0.                  tabular sampling         0    0.            0.        
                                                                  cosy aperture hit        0    0.            0.        
                                                                  cosy faults              0    0.            0.        
-     total         10709669    1.0710E+00    1.2200E+02              total         10709669    1.0710E+00    1.2200E+02
+     total        520476630    1.0709E+00    1.2200E+02              total        520476630    1.0709E+00    1.2200E+02
 
-   number of protons   banked                 709669                                              cutoffs
-   proton   tracks per source particle    1.0710E+00                                                tco   1.0000E+33
-   collisons/substeps per source particle 2.9813E+02                                                eco   1.0000E+00
+   number of protons   banked               34454630                                              cutoffs
+   proton   tracks per source particle    1.0709E+00                                                tco   1.0000E+33
+   collisons/substeps per source particle 2.9811E+02                                                eco   1.0000E+00
                                                                                                     wc1   0.0000E+00
                                                                                                     wc2   0.0000E+00
 
  heavyion creation   tracks      weight        energy            heavyion loss       tracks      weight        energy
                                  (per source particle)                                           (per source particle)
 
- source                   0    0.            0.                  escape                  24    2.4000E-06    1.0311E-04
- nucl. interaction   629592    6.2959E-02    4.9232E+00          energy cutoff       629568    6.2957E-02    3.1478E-01
+ source                   0    0.            0.                  escape                1311    2.6974E-06    9.9546E-05
+ nucl. interaction 30608348    6.2977E-02    4.9252E+00          energy cutoff     30607031    6.2975E-02    3.1487E-01
  particle decay           0    0.            0.                  time cutoff              0    0.            0.        
  weight window            0    0.            0.                  weight window            0    0.            0.        
  cell importance          0    0.            0.                  cell importance          0    0.            0.        
  weight cutoff            0    0.            0.                  weight cutoff            0    0.            0.        
  e or t importance        0    0.            0.                  e or t importance        0    0.            0.        
- tabular sampling         0    0.            0.                  coll. energy loss        0    0.            4.6084E+00
- photonuclear             0    0.            0.                  nucl. interaction        0    0.            0.        
+ tabular sampling         0    0.            0.                  coll. energy loss        0    0.            4.6102E+00
+ photonuclear             0    0.            0.                  nucl. interaction        6    1.2345E-08    1.2178E-07
  elastic recoil           0    0.            0.                  elastic scatter          0    0.            0.        
                                                                  particle decay           0    0.            0.        
                                                                  capture                  0    0.            0.        
  (gamma,xcharged)         0    0.            0.                  tabular sampling         0    0.            0.        
                                                                  cosy aperture hit        0    0.            0.        
                                                                  cosy faults              0    0.            0.        
-     total           629592    6.2959E-02    4.9232E+00              total           629592    6.2959E-02    4.9232E+00
+     total         30608348    6.2977E-02    4.9252E+00              total         30608348    6.2977E-02    4.9252E+00
 
-   number of heavyions banked                 629592                                              cutoffs
-   heavyion tracks per source particle    6.2959E-02                                                tco   1.0000E+33
-   collisons/substeps per source particle 2.6234E+01                                                eco   5.0000E+00
+   number of heavyions banked               30608348                                              cutoffs
+   heavyion tracks per source particle    6.2977E-02                                                tco   1.0000E+33
+   collisons/substeps per source particle 2.6245E+01                                                eco   5.0000E+00
                                                                                                     wc1   0.0000E+00
                                                                                                     wc2   0.0000E+00
 
- computer time so far in this run   180.59 minutes            maximum number ever in bank        38
- computer time in mcrun             172.10 minutes            bank overflows to backup file       0
- source particles per minute            5.8105E+04
- random numbers generated              79173257906            most random numbers used was      135033 in history     7759106
+ computer time so far in this run 10294.55 minutes            maximum number ever in bank        47
+ computer time in mcrun            8323.77 minutes            bank overflows to backup file       0
+ source particles per minute            5.8390E+04
+ random numbers generated            3847633069793            most random numbers used was      431647 in history    43717087
+ 
+  warning.   random number stride   152917 exceeded       60 times.
+ 
+  warning.  random number period exceeded.  decrease stride.
 
  range of sampled source weights = 1.0000E+00 to 1.0000E+00
 
- estimated system efficiency for MPI usage =  2%
+ estimated system efficiency for MPI usage =  3%
 
  number of histories processed by each MPI task
-           0      200000      200000      200000      200000      200000      200000      200000      200000      200000
-      200000      200000      200000      200000      200000      200000      200000      200000      200000      200000
-      200000      200000      200000      200000      200000      200000      200000      200000      200000      200000
-      200000      200000      200000      200000      200000      200000      200000      200000      200000      200000
-      200000      200000      200000      200000      200000      200000      200000      200000      200000      200000
-      200000
+           0    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575
+    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575
+    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575
+    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575    12150575
+    12149575
 1neutron  activity in each cell                                                                         print table 126
 
                        tracks     population   collisions   collisions     number        flux        average      average
               cell    entering                               * weight     weighted     weighted   track weight   track mfp
                                                           (per history)    energy       energy     (relative)      (cm)
 
-        1        1      553616       577158         9047    9.0470E-04   1.1942E+00   2.8670E+00   1.0000E+00   5.5972E+00
-        2        2      914044       925838       150298    1.5030E-02   1.2632E+00   3.1139E+00   1.0000E+00   4.0689E+00
-        3        3      949968       934648         5570    5.5700E-04   1.4620E+00   3.2414E+00   1.0000E+00   3.6322E+00
-        4        4      127438      3717975       645878    6.4588E-02   1.8667E+00   4.8699E+00   1.0000E+00   4.4945E+00
-        5        5     1119619      1098345         5885    5.8850E-04   1.9852E+00   6.4435E+00   1.0000E+00   3.7300E+00
-        6        6     1118621      1114454       142249    1.4225E-02   1.8852E+00   7.1451E+00   1.0000E+00   5.5343E+00
-        7        7      793331       786017         3465    3.4650E-04   1.9357E+00   7.6451E+00   1.0000E+00   3.7408E+00
-        8        8      769933       995101        78899    7.8899E-03   2.1821E+00   8.3686E+00   1.0000E+00   9.4565E+00
-        9        9      422595       419336         1724    1.7240E-04   2.1036E+00   8.7624E+00   1.0000E+00   3.7841E+00
-       10       10      451512       448665        52236    5.2236E-03   1.8384E+00   8.4536E+00   1.0000E+00   5.9621E+00
-       11       11      362702       361343         1729    1.7290E-04   1.7479E+00   7.5193E+00   1.0000E+00   3.6869E+00
-       12       12      279248       517341        67381    6.7381E-03   1.9036E+00   7.5004E+00   1.0000E+00   5.3195E+00
-       13       13      220028       217230          833    8.3300E-05   1.8589E+00   9.0073E+00   1.0000E+00   3.8081E+00
-       14       14      215756       215133        21963    2.1963E-03   1.9167E+00   9.4428E+00   1.0000E+00   6.3640E+00
-       15       15      163497       163510         2042    2.0420E-04   2.0888E+00   1.0025E+01   1.0000E+00   6.0194E+00
-       16      100     4194878      4194878            0    0.0000E+00   1.5671E+00   4.2228E+00   1.0000E+00   0.0000E+00
-       17      101     4194878      4194878            0    0.0000E+00   1.6813E+00   4.8980E+00   1.0000E+00   0.0000E+00
+        1        1    26895118     28048489       440688    9.0672E-04   1.1767E+00   2.8658E+00   1.0000E+00   5.6000E+00
+        2        2    44341302     44915277      7257001    1.4931E-02   1.2349E+00   3.1103E+00   1.0000E+00   4.0679E+00
+        3        3    46081250     45339541       270255    5.5606E-04   1.4608E+00   3.2296E+00   1.0000E+00   3.6330E+00
+        4        4     6219576    180599496     31373974    6.4553E-02   1.8752E+00   4.8682E+00   1.0000E+00   4.4948E+00
+        5        5    54347003     53310356       286804    5.9010E-04   1.9873E+00   6.4308E+00   1.0000E+00   3.7303E+00
+        6        6    54284962     54088190      6911821    1.4221E-02   1.8752E+00   7.1422E+00   1.0000E+00   5.5334E+00
+        7        7    38506900     38164755       166320    3.4221E-04   1.9320E+00   7.6590E+00   1.0000E+00   3.7459E+00
+        8        8    37361374     48329341      3813147    7.8456E-03   2.1717E+00   8.3575E+00   1.0000E+00   9.4558E+00
+        9        9    20558317     20395547        82280    1.6929E-04   2.0640E+00   8.7191E+00   1.0000E+00   3.7867E+00
+       10       10    21962992     21812919      2546695    5.2399E-03   1.7942E+00   8.4207E+00   1.0000E+00   5.9501E+00
+       11       11    17658838     17591166        83378    1.7155E-04   1.7454E+00   7.4962E+00   1.0000E+00   3.6844E+00
+       12       12    13604071     25186258      3267111    6.7221E-03   1.9380E+00   7.4780E+00   1.0000E+00   5.3221E+00
+       13       13    10722440     10584120        40056    8.2416E-05   2.0499E+00   8.9918E+00   1.0000E+00   3.8058E+00
+       14       14    10518859     10486991      1078971    2.2200E-03   1.8819E+00   9.4457E+00   1.0000E+00   6.3666E+00
+       15       15     7958303      7958821       100168    2.0610E-04   2.0253E+00   1.0052E+01   1.0000E+00   6.0219E+00
+       16      100   203819115    203819115            0    0.0000E+00   1.5614E+00   4.2234E+00   1.0000E+00   0.0000E+00
+       17      101   203819115    203819115            0    0.0000E+00   1.6741E+00   4.8970E+00   1.0000E+00   0.0000E+00
 
-           total      16851664     20881850      1189199    1.1892E-01
+           total     818659535   1014449497     57718669    1.1876E-01
 1photon   activity in each cell                                                                         print table 126
 
                        tracks     population   collisions   collisions     number        flux        average      average
               cell    entering                               * weight     weighted     weighted   track weight   track mfp
                                                           (per history)    energy       energy     (relative)      (cm)
 
-        1        1      264383       297722         8936    8.9727E-04   1.4585E+00   1.4585E+00   1.0059E+00   4.0391E+00
-        2        2      404445       416752        14633    1.4713E-03   1.4259E+00   1.4259E+00   1.0061E+00   1.5938E+01
-        3        3      405723       414163         6600    6.6350E-04   1.4204E+00   1.4204E+00   1.0063E+00   2.2282E+00
-        4        4      144291      4904569      6308389    6.3440E-01   1.3377E+00   1.3377E+00   1.0073E+00   1.1072E+00
-        5        5      485107       490345         7983    8.0388E-04   1.4389E+00   1.4389E+00   1.0079E+00   2.2181E+00
-        6        6      524687       531753        16720    1.6867E-03   1.4642E+00   1.4642E+00   1.0080E+00   1.6036E+01
-        7        7      416444       422320         6167    6.2132E-04   1.5063E+00   1.5063E+00   1.0086E+00   2.2213E+00
-        8        8      400400       801249       183329    1.8490E-02   1.5594E+00   1.5594E+00   1.0086E+00   6.5752E+00
-        9        9      322122       330048         5001    5.0289E-04   1.5987E+00   1.5987E+00   1.0081E+00   2.2425E+00
-       10       10      376201       388264        12412    1.2520E-03   1.5739E+00   1.5739E+00   1.0084E+00   1.6362E+01
-       11       11      324787       330031         9256    9.3255E-04   1.5445E+00   1.5445E+00   1.0088E+00   1.9852E+00
-       12       12      160623       672695       259113    2.6163E-02   1.4586E+00   1.4586E+00   1.0109E+00   2.9680E+00
-       13       13      181746       181170         3180    3.2215E-04   1.4398E+00   1.4398E+00   1.0151E+00   1.9452E+00
-       14       14      178211       178017         4902    4.9699E-04   1.4565E+00   1.4565E+00   1.0138E+00   1.5815E+01
-       15       15      128484       129524         2879    2.9199E-04   1.4633E+00   1.4633E+00   1.0135E+00   3.9691E+00
-       16      100     2178450      2178450            0    0.0000E+00   1.5061E+00   1.5061E+00   1.0087E+00   0.0000E+00
-       17      101     2178450      2178450            0    0.0000E+00   1.5112E+00   1.5112E+00   1.0090E+00   0.0000E+00
+        1        1    12860328     14487290       433552    8.9636E-04   1.4592E+00   1.4592E+00   1.0060E+00   4.0429E+00
+        2        2    19664055     20270017       717236    1.4842E-03   1.4268E+00   1.4268E+00   1.0063E+00   1.5943E+01
+        3        3    19727315     20147355       328841    6.8042E-04   1.4174E+00   1.4174E+00   1.0064E+00   2.2284E+00
+        4        4     7042646    238201467    306517216    6.3426E-01   1.3387E+00   1.3387E+00   1.0074E+00   1.1073E+00
+        5        5    23533666     23777487       383506    7.9493E-04   1.4349E+00   1.4349E+00   1.0081E+00   2.2152E+00
+        6        6    25445112     25793206       820117    1.7007E-03   1.4639E+00   1.4639E+00   1.0081E+00   1.6033E+01
+        7        7    20214945     20494570       298444    6.1892E-04   1.5038E+00   1.5038E+00   1.0085E+00   2.2192E+00
+        8        8    19418222     38965739      8886311    1.8438E-02   1.5625E+00   1.5625E+00   1.0087E+00   6.5793E+00
+        9        9    15657751     16043229       242445    5.0247E-04   1.5978E+00   1.5978E+00   1.0083E+00   2.2419E+00
+       10       10    18275406     18855710       604410    1.2546E-03   1.5780E+00   1.5780E+00   1.0086E+00   1.6376E+01
+       11       11    15768538     16019377       445689    9.2402E-04   1.5442E+00   1.5442E+00   1.0090E+00   1.9828E+00
+       12       12     7789095     32649855     12578377    2.6136E-02   1.4605E+00   1.4605E+00   1.0108E+00   2.9687E+00
+       13       13     8791092      8762686       152413    3.1799E-04   1.4459E+00   1.4459E+00   1.0148E+00   1.9497E+00
+       14       14     8622347      8610783       234921    4.9001E-04   1.4625E+00   1.4625E+00   1.0134E+00   1.5849E+01
+       15       15     6200829      6250800       140518    2.9295E-04   1.4670E+00   1.4670E+00   1.0131E+00   3.9725E+00
+       16      100   105784172    105784172            0    0.0000E+00   1.5080E+00   1.5080E+00   1.0087E+00   0.0000E+00
+       17      101   105784172    105784172            0    0.0000E+00   1.5135E+00   1.5135E+00   1.0090E+00   0.0000E+00
 
-           total       9074554     14845522      6849500    6.8899E-01
+           total     440579691    720897915    332783996    6.8879E-01
 1proton   activity in each cell                                                                         print table 126
 
                        tracks     population    substeps     substeps      number        flux        average      average
               cell    entering                               * weight     weighted     weighted   track weight    substep 
                                                           (per history)    energy       energy     (relative)      (cm)
 
-        1        1     8097506      8120035      9393778    9.3938E-01   1.1951E+02   1.1984E+02   1.0000E+00   9.0397E-02
-        2        2     8096915      8143327     10145526    1.0146E+00   1.1813E+02   1.1861E+02   1.0000E+00   5.5482E-01
-        3        3     8087903      8096415      8795662    8.7957E-01   1.1542E+02   1.1615E+02   1.0000E+00   4.4863E-02
-        4        4     8086606      8360308    735026195    7.3503E+01   9.3665E+01   9.5047E+01   1.0000E+00   1.4240E-02
-        5        5     7474840      7482743      8429245    8.4292E-01   7.0448E+01   7.0909E+01   1.0000E+00   2.0391E-02
-        6        6     7469642      7508034     17774464    1.7774E+00   6.9361E+01   6.9800E+01   1.0000E+00   2.1241E-01
-        7        7     7368025      7375569      8453780    8.4538E-01   6.6946E+01   6.7426E+01   1.0000E+00   1.8248E-02
-        8        8     7360908      7540837    226796771    2.2680E+01   5.7866E+01   5.8446E+01   1.0000E+00   3.5687E-02
-        9        9     6835526      6842212     12121438    1.2121E+00   4.7968E+01   4.8244E+01   1.0000E+00   1.0218E-02
-       10       10     6824666      6862736     26611529    2.6612E+00   4.5953E+01   4.6225E+01   1.0000E+00   1.0161E-01
-       11       11     6632851      6636068     14551855    1.4552E+00   4.3136E+01   4.3380E+01   1.0000E+00   6.6696E-03
-       12       12     6619875      6696008   1889181056    1.8892E+02   2.4511E+01   2.7840E+01   1.0000E+00   5.3062E-03
-       13       13          35           44         1220    1.2200E-04   1.7277E+01   2.3085E+01   1.0000E+00   2.9029E-03
-       14       14          41          253         8491    8.4910E-04   1.6501E+01   2.1994E+01   1.0000E+00   3.6302E-02
-       15       15         106          153         8935    8.9350E-04   1.6208E+01   2.2462E+01   1.0000E+00   6.3129E-03
-       16      100    11054892     10054433     11054892    1.1055E+00   1.0765E+02   1.1236E+02   1.0000E+00   0.0000E+00
-       17      101     2958291      2958291      2958291    2.9583E-01   8.3837E+01   9.5524E+01   1.0000E+00   0.0000E+00
+        1        1   393517245    394615769    457306010    9.4092E-01   1.1950E+02   1.1984E+02   1.0000E+00   9.0394E-02
+        2        2   393483846    395744124    493681309    1.0158E+00   1.1812E+02   1.1861E+02   1.0000E+00   5.5480E-01
+        3        3   393040104    393457313    427116926    8.7880E-01   1.1543E+02   1.1615E+02   1.0000E+00   4.4865E-02
+        4        4   392973345    406229521  35701787908    7.3457E+01   9.3667E+01   9.5048E+01   1.0000E+00   1.4240E-02
+        5        5   363287146    363666197    409757043    8.4308E-01   7.0447E+01   7.0909E+01   1.0000E+00   2.0392E-02
+        6        6   363031544    364907894    863794508    1.7773E+00   6.9364E+01   6.9801E+01   1.0000E+00   2.1242E-01
+        7        7   358081186    358452236    410864630    8.4536E-01   6.6949E+01   6.7427E+01   1.0000E+00   1.8249E-02
+        8        8   357737964    366475875  11018951489    2.2672E+01   5.7866E+01   5.8445E+01   1.0000E+00   3.5686E-02
+        9        9   332230906    332552845    589416028    1.2127E+00   4.7965E+01   4.8242E+01   1.0000E+00   1.0217E-02
+       10       10   331700510    333537209   1291985558    2.6583E+00   4.5953E+01   4.6224E+01   1.0000E+00   1.0160E-01
+       11       11   322396763    322552747    707904250    1.4565E+00   4.3131E+01   4.3377E+01   1.0000E+00   6.6689E-03
+       12       12   321760887    325472134  91832660916    1.8895E+02   2.4510E+01   2.7838E+01   1.0000E+00   5.3058E-03
+       13       13        1932         2362        82893    1.7055E-04   1.6926E+01   2.3398E+01   1.0000E+00   3.0389E-03
+       14       14        1943        12907       441869    9.0915E-04   1.6189E+01   2.1682E+01   1.0000E+00   3.5556E-02
+       15       15        5281         7149       422805    8.6993E-04   1.6452E+01   2.2194E+01   1.0000E+00   6.0365E-03
+       16      100   537229863    488681968    537229863    1.1054E+00   1.0766E+02   1.1237E+02   1.0000E+00   0.0000E+00
+       17      101   143759876    143759876    143759876    2.9579E-01   8.3860E+01   9.5553E+01   1.0000E+00   0.0000E+00
 
-           total     102968628    102677466   2981313128    2.9813E+02
+           total    5004240341   4990128126 144887163881    2.9811E+02
 1heavyion activity in each cell                                                                         print table 126
 
                        tracks     population    substeps     substeps      number        flux        average      average
               cell    entering                               * weight     weighted     weighted   track weight    substep 
                                                           (per history)    energy       energy     (relative)      (cm)
 
-        1        1           1          508        11967    1.1967E-03   1.0390E+01   1.4241E+01   1.0000E+00   7.6826E-05
-        2        2           1         3772        62734    6.2734E-03   1.0316E+01   1.1756E+01   1.0000E+00   2.2608E-04
-        3        3          96          201        13213    1.3213E-03   1.5289E+01   1.7080E+01   1.0000E+00   1.3832E-05
-        4        4           2       615928    262110353    2.6211E+01   2.8271E+01   3.6963E+01   1.0000E+00   1.8650E-06
-        5        5          99          139        12298    1.2298E-03   1.7849E+01   2.1579E+01   1.0000E+00   5.4794E-06
-        6        6           0         2776        36796    3.6796E-03   8.0171E+00   8.6491E+00   1.0000E+00   8.9446E-05
-        7        7           4           30          524    5.2400E-05   9.7032E+00   1.1636E+01   1.0000E+00   2.9191E-05
-        8        8           0         2388        47064    4.7064E-03   6.8271E+00   7.6443E+00   1.0000E+00   2.0581E-05
-        9        9           0           11          130    1.3000E-05   6.0928E+00   6.2240E+00   1.0000E+00   8.7724E-06
-       10       10           0         4038        45082    4.5082E-03   7.0270E+00   7.2515E+00   1.0000E+00   3.3071E-05
-       11       11           3            3          117    1.1700E-05   6.8517E+00   6.9209E+00   1.0000E+00   4.4074E-06
-       12       12           0            2           12    1.2000E-06   5.2439E+00   5.2434E+00   1.0000E+00   1.4265E-06
+        1        1          25        25550       563430    1.1593E-03   8.2349E+00   9.8313E+00   1.0000E+00   3.2249E-05
+        2        2          30       183329      3074705    6.3263E-03   1.0089E+01   1.1486E+01   1.0000E+00   2.3291E-04
+        3        3        4742         9981       641302    1.3195E-03   1.6274E+01   1.8664E+01   1.0000E+00   1.4778E-05
+        4        4          61     29949578  12744484853    2.6222E+01   2.8271E+01   3.6961E+01   1.0000E+00   1.8591E-06
+        5        5        4957         6410       637953    1.3126E-03   1.9305E+01   2.4656E+01   1.0000E+00   3.5588E-06
+        6        6           7       134606      1787219    3.6772E-03   8.0275E+00   8.6776E+00   1.0000E+00   8.6948E-05
+        7        7         146         1350        22092    4.5455E-05   8.0726E+00   9.3953E+00   1.0000E+00   1.7328E-05
+        8        8           2       113328      2214515    4.5564E-03   6.7564E+00   7.4571E+00   1.0000E+00   1.8917E-05
+        9        9           5          332         4683    9.6354E-06   6.9746E+00   7.5052E+00   1.0000E+00   1.0137E-05
+       10       10           0       193723      2163102    4.4506E-03   7.0234E+00   7.2557E+00   1.0000E+00   3.4187E-05
+       11       11         135          135         3990    8.2095E-06   6.6217E+00   6.7868E+00   1.0000E+00   5.1026E-06
+       12       12           0           77          656    1.3497E-06   7.2437E+00   8.4247E+00   1.0000E+00   2.1469E-05
        13       13           0            0            0    0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
-       14       14           0            0            0    0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+       14       14           0            6           92    1.8929E-07   6.7122E+00   6.7681E+00   1.0000E+00   2.1542E-05
        15       15           0            0            0    0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
-       16      100          24           24           24    2.4000E-06   3.5535E+01   4.3582E+01   1.0000E+00   0.0000E+00
-       17      101          24           24           24    2.4000E-06   3.4809E+01   4.3033E+01   1.0000E+00   0.0000E+00
+       16      100        1311         1311         1311    2.6974E-06   2.8897E+01   3.6906E+01   1.0000E+00   0.0000E+00
+       17      101        1311         1311         1311    2.6974E-06   2.8888E+01   3.6900E+01   1.0000E+00   0.0000E+00
 
-           total           254       629844    262340338    2.6234E+01
+           total         12732     30621027  12755601214    2.6245E+01
 1summary of photons produced in neutron collisions
 
               cell      number of      weight per     energy per     avg photon      mev/gm per    weight/neut    energy/neut
                         photons       source neut    source neut      energy       source neut     collision      collision
 
-        1        1          2262       2.36547E-04    3.36892E-04    1.42421E+00    4.72406E-04    2.61465E-01    3.72380E-01
-        2        2           392       3.92000E-05    2.03453E-04    5.19012E+00    1.85032E-04    2.60815E-03    1.35366E-02
-        3        3          1773       1.88943E-04    2.64941E-04    1.40223E+00    1.05023E-03    3.39215E-01    4.75657E-01
-        4        4        430334       4.46954E-02    3.84085E-02    8.59339E-01    9.95181E-04    6.92010E-01    5.94671E-01
-        5        5          2131       2.32897E-04    3.64344E-04    1.56440E+00    1.44426E-03    3.95747E-01    6.19107E-01
-        6        6          1000       1.00000E-04    4.93485E-04    4.93485E+00    5.23604E-04    7.02993E-03    3.46916E-02
-        7        7          1179       1.30905E-04    2.02888E-04    1.54988E+00    8.04249E-04    3.77792E-01    5.85535E-01
-        8        8         25921       2.96908E-03    4.29547E-03    1.44674E+00    5.50439E-04    3.76314E-01    5.44427E-01
-        9        9           635       7.11857E-05    1.20051E-04    1.68645E+00    4.75884E-04    4.12910E-01    6.96353E-01
-       10       10           447       4.47000E-05    2.24426E-04    5.02073E+00    2.38124E-04    8.55732E-03    4.29639E-02
-       11       11           727       8.37571E-05    1.01266E-04    1.20904E+00    3.76126E-04    4.84425E-01    5.85691E-01
-       12       12         32168       3.79919E-03    4.50040E-03    1.18457E+00    3.46447E-04    5.63837E-01    6.67903E-01
-       13       13           391       4.53913E-05    5.99797E-05    1.32139E+00    2.22779E-04    5.44913E-01    7.20044E-01
-       14       14           254       2.54000E-05    1.30305E-04    5.13014E+00    1.38258E-04    1.15649E-02    5.93295E-02
-       15       15           584       6.41330E-05    1.15660E-04    1.80344E+00    1.62184E-04    3.14070E-01    5.66407E-01
+        1        1        110069       2.36754E-04    3.41513E-04    1.44248E+00    4.78885E-04    2.61109E-01    3.76645E-01
+        2        2         20667       4.25228E-05    2.17287E-04    5.10990E+00    1.97613E-04    2.84787E-03    1.45523E-02
+        3        3         86202       1.88694E-04    2.68100E-04    1.42082E+00    1.06275E-03    3.39344E-01    4.82147E-01
+        4        4      20899901       4.46675E-02    3.85209E-02    8.62394E-01    9.98095E-04    6.91955E-01    5.96737E-01
+        5        5        100009       2.25178E-04    3.46586E-04    1.53917E+00    1.37387E-03    3.81590E-01    5.87330E-01
+        6        6         49582       1.02016E-04    5.06694E-04    4.96681E+00    5.37619E-04    7.17351E-03    3.56294E-02
+        7        7         57890       1.30914E-04    2.05534E-04    1.57000E+00    8.14739E-04    3.82557E-01    6.00614E-01
+        8        8       1253654       2.95855E-03    4.28137E-03    1.44712E+00    5.48632E-04    3.77096E-01    5.45701E-01
+        9        9         29695       6.80314E-05    1.11559E-04    1.63981E+00    4.42219E-04    4.01856E-01    6.58968E-01
+       10       10         21484       4.42038E-05    2.18951E-04    4.95321E+00    2.32314E-04    8.43603E-03    4.17854E-02
+       11       11         34511       8.18737E-05    1.01785E-04    1.24320E+00    3.78055E-04    4.77253E-01    5.93321E-01
+       12       12       1549851       3.76544E-03    4.43950E-03    1.17901E+00    3.41759E-04    5.60155E-01    6.60429E-01
+       13       13         17705       4.23938E-05    5.42096E-05    1.27872E+00    2.01347E-04    5.14388E-01    6.57755E-01
+       14       14         11727       2.41285E-05    1.19536E-04    4.95413E+00    1.26831E-04    1.08687E-02    5.38449E-02
+       15       15         29605       6.70906E-05    1.13700E-04    1.69473E+00    1.59436E-04    3.25528E-01    5.51682E-01
        16      100             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
        17      101             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
        18      102             0       0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00    0.00000E+00
-             total        500198       5.27267E-02    4.98220E-02    9.44911E-01
+             total      24272552       5.26453E-02    4.98473E-02    9.46852E-01
 
 
 
   energy      number of        number       cum number      weight of       weight       cum weight
  interval      photons        frequency    distribution      photons       frequency    distribution
  
-   20.000             4      7.99599E-06    7.99599E-06    4.11289E-07    7.79960E-06    7.79960E-06
-   15.000             4      7.99599E-06    1.59920E-05    4.74451E-07    8.99740E-06    1.67970E-05
-   10.000           153      3.05846E-04    3.21838E-04    1.97932E-05    3.75354E-04    3.92151E-04
-    9.000            91      1.81909E-04    5.03747E-04    1.19634E-05    2.26871E-04    6.19023E-04
-    8.000           122      2.43878E-04    7.47625E-04    1.57257E-05    2.98219E-04    9.17242E-04
-    7.000           374      7.47625E-04    1.49525E-03    4.19042E-05    7.94664E-04    1.71191E-03
-    6.000          1172      2.34282E-03    3.83807E-03    1.25965E-04    2.38878E-03    4.10069E-03
-    5.000          1168      2.33483E-03    6.17290E-03    1.34689E-04    2.55422E-03    6.65491E-03
-    4.000          3639      7.27435E-03    1.34472E-02    4.12321E-04    7.81918E-03    1.44741E-02
-    3.000         12607      2.52013E-02    3.86486E-02    1.40193E-03    2.65860E-02    4.10601E-02
-    2.000         42436      8.48294E-02    1.23478E-01    4.62817E-03    8.77677E-02    1.28828E-01
-    1.000        124728      2.49331E-01    3.72809E-01    1.32682E-02    2.51616E-01    3.80444E-01
-    0.500        107841      2.15574E-01    5.88383E-01    1.13726E-02    2.15667E-01    5.96111E-01
-    0.100         85097      1.70109E-01    7.58491E-01    9.08598E-03    1.72305E-01    7.68416E-01
-    0.010        120484      2.40847E-01    9.99338E-01    1.21729E-02    2.30844E-01    9.99260E-01
-    0.000           278      5.55721E-04    9.99894E-01    3.37428E-05    6.39892E-04    9.99899E-01
+   20.000           156      6.42652E-06    6.42652E-06    3.57601E-07    6.79216E-06    6.79216E-06
+   15.000           319      1.31414E-05    1.95679E-05    8.14382E-07    1.54681E-05    2.22603E-05
+   10.000          7846      3.23221E-04    3.42789E-04    2.10088E-05    3.99035E-04    4.21295E-04
+    9.000          4124      1.69891E-04    5.12680E-04    1.09775E-05    2.08503E-04    6.29799E-04
+    8.000          5985      2.46556E-04    7.59235E-04    1.54938E-05    2.94284E-04    9.24083E-04
+    7.000         17347      7.14621E-04    1.47386E-03    4.03841E-05    7.67043E-04    1.69113E-03
+    6.000         57110      2.35268E-03    3.82654E-03    1.25895E-04    2.39120E-03    4.08233E-03
+    5.000         56395      2.32323E-03    6.14977E-03    1.34391E-04    2.55259E-03    6.63492E-03
+    4.000        172090      7.08936E-03    1.32391E-02    4.01588E-04    7.62764E-03    1.42626E-02
+    3.000        617791      2.54503E-02    3.86894E-02    1.41416E-03    2.68601E-02    4.11226E-02
+    2.000       2072339      8.53713E-02    1.24061E-01    4.65603E-03    8.84351E-02    1.29558E-01
+    1.000       6043935      2.48984E-01    3.73044E-01    1.32312E-02    2.51309E-01    3.80867E-01
+    0.500       5248855      2.16230E-01    5.89274E-01    1.13810E-02    2.16168E-01    5.97035E-01
+    0.100       4126082      1.69977E-01    7.59251E-01    9.06447E-03    1.72167E-01    7.69202E-01
+    0.010       5828807      2.40121E-01    9.99372E-01    1.21150E-02    2.30108E-01    9.99310E-01
+    0.000         13371      5.50827E-04    9.99923E-01    3.24507E-05    6.16358E-04    9.99927E-01
 
-   total         500251      1.00000E+00                   5.27320E-02    1.00000E+00
+   total       24274421      1.00000E+00                   5.26491E-02    1.00000E+00
 
-1tally        8        nps =    10000000
+1tally        8        nps =   486022000
            tally type 8    residual nuclei                              units   number         
            particle(s): heavyions
            this tally is modified by   ft  res
@@ -1276,42 +1289,42 @@ The following nuclides use physics models rather than data tables:
     2.0030E+03   0.00000E+00 0.0000
     2.0040E+03   0.00000E+00 0.0000
     2.0050E+03   0.00000E+00 0.0000
-    2.0060E+03   0.00000E+00 0.0000
+    2.0060E+03   4.32079E-08 0.2182
     2.0070E+03   0.00000E+00 0.0000
     2.0080E+03   0.00000E+00 0.0000
     3.0050E+03   0.00000E+00 0.0000
-    3.0060E+03   2.50000E-06 0.2078
-    3.0070E+03   4.00000E-07 0.5000
-    3.0080E+03   0.00000E+00 0.0000
+    3.0060E+03   1.15633E-06 0.0430
+    3.0070E+03   5.69933E-07 0.0601
+    3.0080E+03   3.08628E-08 0.2582
     3.0090E+03   0.00000E+00 0.0000
     3.0100E+03   0.00000E+00 0.0000
     3.0110E+03   0.00000E+00 0.0000
     4.0060E+03   0.00000E+00 0.0000
-    4.0070E+03   8.00000E-07 0.3536
+    4.0070E+03   4.97920E-07 0.0643
     4.0080E+03   0.00000E+00 0.0000
-    4.0090E+03   1.00000E-07 1.0000
-    4.0100E+03   0.00000E+00 0.0000
-    4.0110E+03   0.00000E+00 0.0000
+    4.0090E+03   2.05752E-07 0.1000
+    4.0100E+03   3.90929E-08 0.2294
+    4.0110E+03   2.05752E-09 1.0000
     4.0120E+03   0.00000E+00 0.0000
     4.0130E+03   0.00000E+00 0.0000
     4.0140E+03   0.00000E+00 0.0000
-    5.0080E+03   0.00000E+00 0.0000
+    5.0080E+03   8.02433E-08 0.1601
     5.0090E+03   0.00000E+00 0.0000
-    5.0100E+03   3.00000E-07 0.5774
-    5.0110E+03   3.00000E-07 0.5774
-    5.0120E+03   0.00000E+00 0.0000
+    5.0100E+03   3.74469E-07 0.0741
+    5.0110E+03   4.52654E-07 0.0674
+    5.0120E+03   1.44026E-08 0.3780
     5.0130E+03   0.00000E+00 0.0000
     5.0140E+03   0.00000E+00 0.0000
     5.0150E+03   0.00000E+00 0.0000
     5.0160E+03   0.00000E+00 0.0000
     5.0170E+03   0.00000E+00 0.0000
     6.0080E+03   0.00000E+00 0.0000
-    6.0090E+03   0.00000E+00 0.0000
-    6.0100E+03   1.00000E-07 1.0000
-    6.0110E+03   3.00000E-07 0.5774
-    6.0120E+03   4.50000E-06 0.1491
-    6.0130E+03   5.00000E-07 0.4472
-    6.0140E+03   1.00000E-07 1.0000
+    6.0090E+03   2.05752E-09 1.0000
+    6.0100E+03   2.26327E-08 0.3015
+    6.0110E+03   3.23031E-07 0.0798
+    6.0120E+03   3.43812E-06 0.0247
+    6.0130E+03   6.06968E-07 0.0582
+    6.0140E+03   8.43583E-08 0.1562
     6.0150E+03   0.00000E+00 0.0000
     6.0160E+03   0.00000E+00 0.0000
     6.0170E+03   0.00000E+00 0.0000
@@ -1319,11 +1332,11 @@ The following nuclides use physics models rather than data tables:
     6.0190E+03   0.00000E+00 0.0000
     6.0200E+03   0.00000E+00 0.0000
     7.0110E+03   0.00000E+00 0.0000
-    7.0120E+03   0.00000E+00 0.0000
-    7.0130E+03   5.00000E-07 0.4472
-    7.0140E+03   1.90000E-06 0.2294
-    7.0150E+03   1.10000E-06 0.3015
-    7.0160E+03   0.00000E+00 0.0000
+    7.0120E+03   6.17256E-09 0.5774
+    7.0130E+03   2.42787E-07 0.0921
+    7.0140E+03   2.95666E-06 0.0264
+    7.0150E+03   1.30858E-06 0.0397
+    7.0160E+03   2.05752E-08 0.3162
     7.0170E+03   0.00000E+00 0.0000
     7.0180E+03   0.00000E+00 0.0000
     7.0190E+03   0.00000E+00 0.0000
@@ -1331,50 +1344,50 @@ The following nuclides use physics models rather than data tables:
     7.0210E+03   0.00000E+00 0.0000
     7.0220E+03   0.00000E+00 0.0000
     7.0230E+03   0.00000E+00 0.0000
-    8.0130E+03   1.00000E-07 1.0000
-    8.0140E+03   1.00000E-07 1.0000
-    8.0150E+03   8.00000E-07 0.3536
-    8.0160E+03   1.01000E-05 0.0995
-    8.0170E+03   6.00000E-07 0.4082
-    8.0180E+03   1.00000E-07 1.0000
-    8.0190E+03   0.00000E+00 0.0000
+    8.0130E+03   6.17256E-09 0.5774
+    8.0140E+03   9.87610E-08 0.1443
+    8.0150E+03   8.47698E-07 0.0493
+    8.0160E+03   9.33085E-06 0.0148
+    8.0170E+03   5.47300E-07 0.0613
+    8.0180E+03   1.21394E-07 0.1302
+    8.0190E+03   2.05752E-09 1.0000
     8.0200E+03   0.00000E+00 0.0000
     8.0210E+03   0.00000E+00 0.0000
     8.0220E+03   0.00000E+00 0.0000
     8.0230E+03   0.00000E+00 0.0000
     8.0240E+03   0.00000E+00 0.0000
-    9.0150E+03   0.00000E+00 0.0000
-    9.0160E+03   0.00000E+00 0.0000
-    9.0170E+03   0.00000E+00 0.0000
-    9.0180E+03   1.40000E-06 0.2673
-    9.0190E+03   1.70000E-06 0.2425
-    9.0200E+03   3.00000E-07 0.5774
-    9.0210E+03   0.00000E+00 0.0000
-    9.0220E+03   0.00000E+00 0.0000
+    9.0150E+03   8.23008E-09 0.5000
+    9.0160E+03   5.14380E-08 0.2000
+    9.0170E+03   4.73230E-08 0.2085
+    9.0180E+03   1.53285E-06 0.0366
+    9.0190E+03   1.25714E-06 0.0405
+    9.0200E+03   3.10686E-07 0.0814
+    9.0210E+03   5.96681E-08 0.1857
+    9.0220E+03   2.05752E-09 1.0000
     9.0230E+03   0.00000E+00 0.0000
     9.0240E+03   0.00000E+00 0.0000
     9.0250E+03   0.00000E+00 0.0000
     9.0260E+03   0.00000E+00 0.0000
     9.0270E+03   0.00000E+00 0.0000
     1.0017E+04   0.00000E+00 0.0000
-    1.0018E+04   0.00000E+00 0.0000
-    1.0019E+04   2.00000E-07 0.7071
-    1.0020E+04   5.70000E-06 0.1325
-    1.0021E+04   4.80000E-06 0.1443
-    1.0022E+04   2.60000E-06 0.1961
-    1.0023E+04   2.00000E-07 0.7071
-    1.0024E+04   0.00000E+00 0.0000
+    1.0018E+04   1.02876E-08 0.4472
+    1.0019E+04   3.76526E-07 0.0739
+    1.0020E+04   6.17050E-06 0.0183
+    1.0021E+04   3.98336E-06 0.0227
+    1.0022E+04   3.42371E-06 0.0245
+    1.0023E+04   8.84734E-08 0.1525
+    1.0024E+04   1.64602E-08 0.3536
     1.0025E+04   0.00000E+00 0.0000
     1.0026E+04   0.00000E+00 0.0000
     1.0027E+04   0.00000E+00 0.0000
     1.0028E+04   0.00000E+00 0.0000
     1.1019E+04   0.00000E+00 0.0000
-    1.1020E+04   0.00000E+00 0.0000
-    1.1021E+04   6.00000E-07 0.4082
-    1.1022E+04   4.20000E-06 0.1543
-    1.1023E+04   6.40000E-06 0.1250
-    1.1024E+04   2.50000E-06 0.2000
-    1.1025E+04   3.00000E-07 0.5774
+    1.1020E+04   2.26327E-08 0.3015
+    1.1021E+04   2.38672E-07 0.0928
+    1.1022E+04   4.18911E-06 0.0222
+    1.1023E+04   6.79187E-06 0.0174
+    1.1024E+04   1.49170E-06 0.0371
+    1.1025E+04   4.03274E-07 0.0714
     1.1026E+04   0.00000E+00 0.0000
     1.1027E+04   0.00000E+00 0.0000
     1.1028E+04   0.00000E+00 0.0000
@@ -1386,13 +1399,13 @@ The following nuclides use physics models rather than data tables:
     1.1034E+04   0.00000E+00 0.0000
     1.1035E+04   0.00000E+00 0.0000
     1.2020E+04   0.00000E+00 0.0000
-    1.2021E+04   0.00000E+00 0.0000
-    1.2022E+04   1.00000E-07 1.0000
-    1.2023E+04   9.00000E-07 0.3333
-    1.2024E+04   1.52000E-05 0.0811
-    1.2025E+04   1.10000E-05 0.0953
-    1.2026E+04   1.36000E-05 0.0857
-    1.2027E+04   4.00000E-07 0.5000
+    1.2021E+04   2.05752E-09 1.0000
+    1.2022E+04   4.11504E-08 0.2236
+    1.2023E+04   8.08605E-07 0.0504
+    1.2024E+04   1.41105E-05 0.0121
+    1.2025E+04   1.15180E-05 0.0134
+    1.2026E+04   1.34891E-05 0.0124
+    1.2027E+04   1.85177E-07 0.1054
     1.2028E+04   0.00000E+00 0.0000
     1.2029E+04   0.00000E+00 0.0000
     1.2030E+04   0.00000E+00 0.0000
@@ -1401,29 +1414,29 @@ The following nuclides use physics models rather than data tables:
     1.2033E+04   0.00000E+00 0.0000
     1.2034E+04   0.00000E+00 0.0000
     1.3022E+04   0.00000E+00 0.0000
-    1.3023E+04   0.00000E+00 0.0000
-    1.3024E+04   0.00000E+00 0.0000
-    1.3025E+04   9.00000E-07 0.3333
-    1.3026E+04   1.25000E-05 0.0894
-    1.3027E+04   1.59700E-04 0.0250
-    1.3028E+04   1.00000E-07 1.0000
-    1.3029E+04   0.00000E+00 0.0000
-    1.3030E+04   0.00000E+00 0.0000
-    1.3031E+04   0.00000E+00 0.0000
+    1.3023E+04   2.05752E-09 1.0000
+    1.3024E+04   2.88053E-08 0.2673
+    1.3025E+04   1.21188E-06 0.0412
+    1.3026E+04   1.21270E-05 0.0130
+    1.3027E+04   1.58341E-04 0.0036
+    1.3028E+04   2.05752E-08 0.3162
+    1.3029E+04   2.05752E-09 1.0000
+    1.3030E+04   4.11504E-09 0.7071
+    1.3031E+04   2.05752E-09 1.0000
     1.3032E+04   0.00000E+00 0.0000
     1.3033E+04   0.00000E+00 0.0000
     1.3034E+04   0.00000E+00 0.0000
     1.3035E+04   0.00000E+00 0.0000
     1.4024E+04   0.00000E+00 0.0000
-    1.4025E+04   0.00000E+00 0.0000
-    1.4026E+04   2.00000E-07 0.7071
-    1.4027E+04   2.20000E-06 0.2132
-    1.4028E+04   1.00000E-07 1.0000
-    1.4029E+04   0.00000E+00 0.0000
-    1.4030E+04   3.00000E-07 0.5774
-    1.4031E+04   0.00000E+00 0.0000
-    1.4032E+04   0.00000E+00 0.0000
-    1.4033E+04   0.00000E+00 0.0000
+    1.4025E+04   1.23451E-08 0.4082
+    1.4026E+04   4.65000E-07 0.0665
+    1.4027E+04   2.97106E-06 0.0263
+    1.4028E+04   9.67034E-08 0.1459
+    1.4029E+04   4.52654E-08 0.2132
+    1.4030E+04   1.66659E-07 0.1111
+    1.4031E+04   3.90929E-08 0.2294
+    1.4032E+04   1.44026E-08 0.3780
+    1.4033E+04   4.11504E-09 0.7071
     1.4034E+04   0.00000E+00 0.0000
     1.4035E+04   0.00000E+00 0.0000
     1.4036E+04   0.00000E+00 0.0000
@@ -1433,13 +1446,13 @@ The following nuclides use physics models rather than data tables:
     1.5026E+04   0.00000E+00 0.0000
     1.5027E+04   0.00000E+00 0.0000
     1.5028E+04   0.00000E+00 0.0000
-    1.5029E+04   0.00000E+00 0.0000
-    1.5030E+04   0.00000E+00 0.0000
-    1.5031E+04   5.00000E-07 0.4472
-    1.5032E+04   2.00000E-07 0.7071
-    1.5033E+04   3.00000E-07 0.5774
-    1.5034E+04   1.00000E-07 1.0000
-    1.5035E+04   0.00000E+00 0.0000
+    1.5029E+04   4.11504E-09 0.7071
+    1.5030E+04   3.49778E-08 0.2425
+    1.5031E+04   3.25088E-07 0.0796
+    1.5032E+04   4.48539E-07 0.0677
+    1.5033E+04   4.05331E-07 0.0712
+    1.5034E+04   1.06991E-07 0.1387
+    1.5035E+04   1.23451E-08 0.4082
     1.5036E+04   0.00000E+00 0.0000
     1.5037E+04   0.00000E+00 0.0000
     1.5038E+04   0.00000E+00 0.0000
@@ -1449,15 +1462,15 @@ The following nuclides use physics models rather than data tables:
     1.5042E+04   0.00000E+00 0.0000
     1.6029E+04   0.00000E+00 0.0000
     1.6030E+04   0.00000E+00 0.0000
-    1.6031E+04   0.00000E+00 0.0000
-    1.6032E+04   3.00000E-07 0.5774
-    1.6033E+04   1.00000E-06 0.3162
-    1.6034E+04   2.80000E-06 0.1890
-    1.6035E+04   1.00000E-06 0.3162
-    1.6036E+04   4.00000E-07 0.5000
-    1.6037E+04   0.00000E+00 0.0000
+    1.6031E+04   2.05752E-09 1.0000
+    1.6032E+04   2.83938E-07 0.0851
+    1.6033E+04   8.10663E-07 0.0504
+    1.6034E+04   2.55132E-06 0.0284
+    1.6035E+04   1.19953E-06 0.0414
+    1.6036E+04   6.17256E-07 0.0577
+    1.6037E+04   2.67478E-08 0.2774
     1.6038E+04   0.00000E+00 0.0000
-    1.6039E+04   0.00000E+00 0.0000
+    1.6039E+04   2.05752E-09 1.0000
     1.6040E+04   0.00000E+00 0.0000
     1.6041E+04   0.00000E+00 0.0000
     1.6042E+04   0.00000E+00 0.0000
@@ -1465,15 +1478,15 @@ The following nuclides use physics models rather than data tables:
     1.6044E+04   0.00000E+00 0.0000
     1.7031E+04   0.00000E+00 0.0000
     1.7032E+04   0.00000E+00 0.0000
-    1.7033E+04   0.00000E+00 0.0000
-    1.7034E+04   0.00000E+00 0.0000
-    1.7035E+04   3.90000E-06 0.1601
-    1.7036E+04   5.10000E-06 0.1400
-    1.7037E+04   5.10000E-06 0.1400
-    1.7038E+04   1.50000E-06 0.2582
-    1.7039E+04   3.00000E-07 0.5774
-    1.7040E+04   0.00000E+00 0.0000
-    1.7041E+04   0.00000E+00 0.0000
+    1.7033E+04   8.23008E-09 0.5000
+    1.7034E+04   2.20155E-07 0.0967
+    1.7035E+04   3.35993E-06 0.0247
+    1.7036E+04   6.36597E-06 0.0180
+    1.7037E+04   5.39276E-06 0.0195
+    1.7038E+04   1.41763E-06 0.0381
+    1.7039E+04   2.81880E-07 0.0854
+    1.7040E+04   4.52654E-08 0.2132
+    1.7041E+04   6.17256E-09 0.5774
     1.7042E+04   0.00000E+00 0.0000
     1.7043E+04   0.00000E+00 0.0000
     1.7044E+04   0.00000E+00 0.0000
@@ -1481,30 +1494,30 @@ The following nuclides use physics models rather than data tables:
     1.8032E+04   0.00000E+00 0.0000
     1.8033E+04   0.00000E+00 0.0000
     1.8034E+04   0.00000E+00 0.0000
-    1.8035E+04   0.00000E+00 0.0000
-    1.8036E+04   1.50000E-06 0.2582
-    1.8037E+04   6.90000E-06 0.1204
-    1.8038E+04   2.60000E-05 0.0620
-    1.8039E+04   1.12000E-05 0.0945
-    1.8040E+04   3.70000E-06 0.1644
-    1.8041E+04   9.00000E-07 0.3333
-    1.8042E+04   5.00000E-07 0.4472
-    1.8043E+04   0.00000E+00 0.0000
-    1.8044E+04   0.00000E+00 0.0000
+    1.8035E+04   1.44026E-08 0.3780
+    1.8036E+04   1.96493E-06 0.0324
+    1.8037E+04   6.54291E-06 0.0177
+    1.8038E+04   2.41676E-05 0.0092
+    1.8039E+04   8.93992E-06 0.0152
+    1.8040E+04   5.04092E-06 0.0202
+    1.8041E+04   8.45641E-07 0.0493
+    1.8042E+04   1.91349E-07 0.1037
+    1.8043E+04   1.02876E-08 0.4472
+    1.8044E+04   2.05752E-09 1.0000
     1.8045E+04   0.00000E+00 0.0000
     1.8046E+04   0.00000E+00 0.0000
     1.9035E+04   0.00000E+00 0.0000
     1.9036E+04   0.00000E+00 0.0000
-    1.9037E+04   0.00000E+00 0.0000
-    1.9038E+04   2.30000E-06 0.2085
-    1.9039E+04   2.25000E-05 0.0667
-    1.9040E+04   3.02000E-05 0.0575
-    1.9041E+04   2.76000E-05 0.0602
-    1.9042E+04   1.31000E-05 0.0874
-    1.9043E+04   4.40000E-06 0.1508
-    1.9044E+04   9.00000E-07 0.3333
-    1.9045E+04   1.00000E-07 1.0000
-    1.9046E+04   0.00000E+00 0.0000
+    1.9037E+04   1.44026E-08 0.3780
+    1.9038E+04   1.95670E-06 0.0324
+    1.9039E+04   2.39825E-05 0.0093
+    1.9040E+04   2.95995E-05 0.0083
+    1.9041E+04   2.97517E-05 0.0083
+    1.9042E+04   1.35652E-05 0.0123
+    1.9043E+04   4.65823E-06 0.0210
+    1.9044E+04   8.08605E-07 0.0504
+    1.9045E+04   1.29624E-07 0.1260
+    1.9046E+04   6.17256E-09 0.5774
     1.9047E+04   0.00000E+00 0.0000
     1.9048E+04   0.00000E+00 0.0000
     1.9049E+04   0.00000E+00 0.0000
@@ -1512,82 +1525,82 @@ The following nuclides use physics models rather than data tables:
     1.9051E+04   0.00000E+00 0.0000
     2.0036E+04   0.00000E+00 0.0000
     2.0037E+04   0.00000E+00 0.0000
-    2.0038E+04   0.00000E+00 0.0000
-    2.0039E+04   0.00000E+00 0.0000
-    2.0040E+04   1.20000E-05 0.0913
-    2.0041E+04   2.83000E-05 0.0594
-    2.0042E+04   7.84000E-05 0.0357
-    2.0043E+04   6.57000E-05 0.0390
-    2.0044E+04   6.27000E-05 0.0399
-    2.0045E+04   1.08000E-05 0.0962
-    2.0046E+04   4.50000E-06 0.1491
-    2.0047E+04   4.00000E-07 0.5000
-    2.0048E+04   0.00000E+00 0.0000
+    2.0038E+04   4.11504E-09 0.7071
+    2.0039E+04   6.58406E-08 0.1768
+    2.0040E+04   1.20571E-05 0.0131
+    2.0041E+04   2.82765E-05 0.0085
+    2.0042E+04   8.08235E-05 0.0050
+    2.0043E+04   6.71019E-05 0.0055
+    2.0044E+04   6.51226E-05 0.0056
+    2.0045E+04   1.22381E-05 0.0130
+    2.0046E+04   4.46482E-06 0.0215
+    2.0047E+04   4.03274E-07 0.0714
+    2.0048E+04   9.46459E-08 0.1474
     2.0049E+04   0.00000E+00 0.0000
     2.0050E+04   0.00000E+00 0.0000
     2.0051E+04   0.00000E+00 0.0000
     2.1040E+04   0.00000E+00 0.0000
-    2.1041E+04   0.00000E+00 0.0000
-    2.1042E+04   3.30000E-06 0.1741
-    2.1043E+04   2.78000E-05 0.0600
-    2.1044E+04   8.02000E-05 0.0353
-    2.1045E+04   1.13000E-04 0.0297
-    2.1046E+04   6.84000E-05 0.0382
-    2.1047E+04   6.47000E-05 0.0393
-    2.1048E+04   7.00000E-06 0.1195
-    2.1049E+04   2.50000E-06 0.2000
+    2.1041E+04   4.52654E-08 0.2132
+    2.1042E+04   3.25705E-06 0.0251
+    2.1043E+04   2.57293E-05 0.0089
+    2.1044E+04   7.88318E-05 0.0051
+    2.1045E+04   1.13775E-04 0.0043
+    2.1046E+04   6.73221E-05 0.0055
+    2.1047E+04   6.31967E-05 0.0057
+    2.1048E+04   5.71373E-06 0.0190
+    2.1049E+04   3.14183E-06 0.0256
     2.1050E+04   0.00000E+00 0.0000
     2.1051E+04   0.00000E+00 0.0000
     2.2041E+04   0.00000E+00 0.0000
     2.2042E+04   0.00000E+00 0.0000
-    2.2043E+04   0.00000E+00 0.0000
-    2.2044E+04   1.55000E-05 0.0803
-    2.2045E+04   4.15000E-05 0.0491
-    2.2046E+04   3.14600E-04 0.0178
-    2.2047E+04   3.04200E-04 0.0181
-    2.2048E+04   1.61490E-03 0.0079
-    2.2049E+04   1.27500E-04 0.0280
-    2.2050E+04   1.22600E-04 0.0286
-    2.2051E+04   0.00000E+00 0.0000
+    2.2043E+04   1.52256E-07 0.1162
+    2.2044E+04   1.61536E-05 0.0113
+    2.2045E+04   4.44980E-05 0.0068
+    2.2046E+04   3.11895E-04 0.0026
+    2.2047E+04   2.96633E-04 0.0026
+    2.2048E+04   1.63270E-03 0.0011
+    2.2049E+04   1.28875E-04 0.0040
+    2.2050E+04   1.19332E-04 0.0042
+    2.2051E+04   2.05752E-08 0.3162
     2.2052E+04   0.00000E+00 0.0000
     2.2053E+04   0.00000E+00 0.0000
     2.2054E+04   0.00000E+00 0.0000
-    2.3044E+04   0.00000E+00 0.0000
-    2.3045E+04   3.00000E-07 0.5774
-    2.3046E+04   5.40000E-06 0.1361
-    2.3047E+04   1.45000E-05 0.0830
-    2.3048E+04   2.23000E-05 0.0670
-    2.3049E+04   8.30000E-06 0.1098
-    2.3050E+04   9.70000E-06 0.1015
-    2.3051E+04   9.93000E-05 0.0317
-    2.3052E+04   0.00000E+00 0.0000
-    2.3053E+04   0.00000E+00 0.0000
+    2.3044E+04   1.44026E-08 0.3780
+    2.3045E+04   2.51017E-07 0.0905
+    2.3046E+04   4.69938E-06 0.0209
+    2.3047E+04   1.30447E-05 0.0126
+    2.3048E+04   2.55565E-05 0.0090
+    2.3049E+04   8.43995E-06 0.0156
+    2.3050E+04   8.16835E-06 0.0159
+    2.3051E+04   9.54298E-05 0.0046
+    2.3052E+04   5.14380E-08 0.2000
+    2.3053E+04   2.05752E-09 1.0000
     2.3054E+04   0.00000E+00 0.0000
     2.3055E+04   0.00000E+00 0.0000
     2.3056E+04   0.00000E+00 0.0000
     2.4045E+04   0.00000E+00 0.0000
     2.4046E+04   0.00000E+00 0.0000
     2.4047E+04   0.00000E+00 0.0000
-    2.4048E+04   2.00000E-07 0.7071
-    2.4049E+04   8.00000E-07 0.3536
-    2.4050E+04   2.80000E-06 0.1890
-    2.4051E+04   1.30000E-06 0.2773
-    2.4052E+04   5.00000E-07 0.4472
-    2.4053E+04   1.00000E-07 1.0000
-    2.4054E+04   0.00000E+00 0.0000
+    2.4048E+04   1.17279E-07 0.1325
+    2.4049E+04   5.57588E-07 0.0607
+    2.4050E+04   1.91761E-06 0.0328
+    2.4051E+04   1.72214E-06 0.0346
+    2.4052E+04   4.17677E-07 0.0702
+    2.4053E+04   1.15221E-07 0.1336
+    2.4054E+04   2.26327E-08 0.3015
     2.4055E+04   0.00000E+00 0.0000
     2.4056E+04   0.00000E+00 0.0000
     2.4057E+04   0.00000E+00 0.0000
     2.4058E+04   0.00000E+00 0.0000
     2.4059E+04   0.00000E+00 0.0000
     2.5049E+04   0.00000E+00 0.0000
-    2.5050E+04   0.00000E+00 0.0000
-    2.5051E+04   0.00000E+00 0.0000
-    2.5052E+04   1.00000E-07 1.0000
-    2.5053E+04   9.00000E-07 0.3333
-    2.5054E+04   3.00000E-07 0.5774
-    2.5055E+04   2.00000E-07 0.7071
-    2.5056E+04   0.00000E+00 0.0000
+    2.5050E+04   4.11504E-09 0.7071
+    2.5051E+04   7.81858E-08 0.1622
+    2.5052E+04   2.67478E-07 0.0877
+    2.5053E+04   4.95862E-07 0.0644
+    2.5054E+04   3.72411E-07 0.0743
+    2.5055E+04   2.32500E-07 0.0941
+    2.5056E+04   2.05752E-09 1.0000
     2.5057E+04   0.00000E+00 0.0000
     2.5058E+04   0.00000E+00 0.0000
     2.5059E+04   0.00000E+00 0.0000
@@ -1597,13 +1610,13 @@ The following nuclides use physics models rather than data tables:
     2.6049E+04   0.00000E+00 0.0000
     2.6050E+04   0.00000E+00 0.0000
     2.6051E+04   0.00000E+00 0.0000
-    2.6052E+04   0.00000E+00 0.0000
-    2.6053E+04   1.00000E-07 1.0000
-    2.6054E+04   7.00000E-07 0.3780
-    2.6055E+04   6.00000E-07 0.4082
-    2.6056E+04   8.90000E-06 0.1060
-    2.6057E+04   2.00000E-07 0.7071
-    2.6058E+04   1.00000E-07 1.0000
+    2.6052E+04   1.02876E-08 0.4472
+    2.6053E+04   8.23008E-08 0.1581
+    2.6054E+04   9.71149E-07 0.0460
+    2.6055E+04   6.09026E-07 0.0581
+    2.6056E+04   8.79590E-06 0.0153
+    2.6057E+04   2.01637E-07 0.1010
+    2.6058E+04   4.73230E-08 0.2085
     2.6059E+04   0.00000E+00 0.0000
     2.6060E+04   0.00000E+00 0.0000
     2.6061E+04   0.00000E+00 0.0000
@@ -1611,11 +1624,11 @@ The following nuclides use physics models rather than data tables:
     2.6063E+04   0.00000E+00 0.0000
     2.6064E+04   0.00000E+00 0.0000
     2.7053E+04   0.00000E+00 0.0000
-    2.7054E+04   0.00000E+00 0.0000
-    2.7055E+04   0.00000E+00 0.0000
-    2.7056E+04   0.00000E+00 0.0000
-    2.7057E+04   0.00000E+00 0.0000
-    2.7058E+04   0.00000E+00 0.0000
+    2.7054E+04   8.23008E-09 0.5000
+    2.7055E+04   4.52654E-08 0.2132
+    2.7056E+04   9.87610E-08 0.1443
+    2.7057E+04   4.11504E-09 0.7071
+    2.7058E+04   2.05752E-09 1.0000
     2.7059E+04   0.00000E+00 0.0000
     2.7060E+04   0.00000E+00 0.0000
     2.7061E+04   0.00000E+00 0.0000
@@ -3475,7 +3488,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      3.79570E-03 0.0051
+      total      3.80052E-03 0.0007
  
  cell  3                                                                                                                               
     user bin   
@@ -3485,29 +3498,29 @@ The following nuclides use physics models rather than data tables:
     2.0030E+03   0.00000E+00 0.0000
     2.0040E+03   0.00000E+00 0.0000
     2.0050E+03   0.00000E+00 0.0000
-    2.0060E+03   0.00000E+00 0.0000
+    2.0060E+03   2.05752E-08 0.3162
     2.0070E+03   0.00000E+00 0.0000
     2.0080E+03   0.00000E+00 0.0000
     3.0050E+03   0.00000E+00 0.0000
-    3.0060E+03   4.00000E-07 0.5000
-    3.0070E+03   2.00000E-07 0.7071
-    3.0080E+03   0.00000E+00 0.0000
+    3.0060E+03   2.11925E-07 0.1014
+    3.0070E+03   1.17279E-07 0.1325
+    3.0080E+03   1.44026E-08 0.3780
     3.0090E+03   0.00000E+00 0.0000
     3.0100E+03   0.00000E+00 0.0000
     3.0110E+03   0.00000E+00 0.0000
     4.0060E+03   0.00000E+00 0.0000
-    4.0070E+03   0.00000E+00 0.0000
+    4.0070E+03   1.11106E-07 0.1361
     4.0080E+03   0.00000E+00 0.0000
-    4.0090E+03   0.00000E+00 0.0000
-    4.0100E+03   0.00000E+00 0.0000
+    4.0090E+03   4.11504E-08 0.2236
+    4.0100E+03   1.44026E-08 0.3780
     4.0110E+03   0.00000E+00 0.0000
     4.0120E+03   0.00000E+00 0.0000
     4.0130E+03   0.00000E+00 0.0000
     4.0140E+03   0.00000E+00 0.0000
-    5.0080E+03   0.00000E+00 0.0000
+    5.0080E+03   1.02876E-08 0.4472
     5.0090E+03   0.00000E+00 0.0000
-    5.0100E+03   0.00000E+00 0.0000
-    5.0110E+03   0.00000E+00 0.0000
+    5.0100E+03   7.61282E-08 0.1644
+    5.0110E+03   8.43583E-08 0.1562
     5.0120E+03   0.00000E+00 0.0000
     5.0130E+03   0.00000E+00 0.0000
     5.0140E+03   0.00000E+00 0.0000
@@ -3516,10 +3529,10 @@ The following nuclides use physics models rather than data tables:
     5.0170E+03   0.00000E+00 0.0000
     6.0080E+03   0.00000E+00 0.0000
     6.0090E+03   0.00000E+00 0.0000
-    6.0100E+03   0.00000E+00 0.0000
-    6.0110E+03   1.00000E-07 1.0000
-    6.0120E+03   2.00000E-07 0.7071
-    6.0130E+03   0.00000E+00 0.0000
+    6.0100E+03   6.17256E-09 0.5774
+    6.0110E+03   1.00818E-07 0.1429
+    6.0120E+03   7.65397E-07 0.0518
+    6.0130E+03   6.17256E-09 0.5774
     6.0140E+03   0.00000E+00 0.0000
     6.0150E+03   0.00000E+00 0.0000
     6.0160E+03   0.00000E+00 0.0000
@@ -3529,10 +3542,10 @@ The following nuclides use physics models rather than data tables:
     6.0200E+03   0.00000E+00 0.0000
     7.0110E+03   0.00000E+00 0.0000
     7.0120E+03   0.00000E+00 0.0000
-    7.0130E+03   0.00000E+00 0.0000
-    7.0140E+03   0.00000E+00 0.0000
-    7.0150E+03   0.00000E+00 0.0000
-    7.0160E+03   1.00000E-07 1.0000
+    7.0130E+03   4.11504E-09 0.7071
+    7.0140E+03   3.29203E-08 0.2500
+    7.0150E+03   1.64602E-08 0.3536
+    7.0160E+03   2.05752E-09 1.0000
     7.0170E+03   0.00000E+00 0.0000
     7.0180E+03   0.00000E+00 0.0000
     7.0190E+03   0.00000E+00 0.0000
@@ -3542,10 +3555,10 @@ The following nuclides use physics models rather than data tables:
     7.0230E+03   0.00000E+00 0.0000
     8.0130E+03   0.00000E+00 0.0000
     8.0140E+03   0.00000E+00 0.0000
-    8.0150E+03   0.00000E+00 0.0000
-    8.0160E+03   2.00000E-07 0.7071
-    8.0170E+03   0.00000E+00 0.0000
-    8.0180E+03   0.00000E+00 0.0000
+    8.0150E+03   1.44026E-08 0.3780
+    8.0160E+03   1.56372E-07 0.1147
+    8.0170E+03   1.02876E-08 0.4472
+    8.0180E+03   4.11504E-09 0.7071
     8.0190E+03   0.00000E+00 0.0000
     8.0200E+03   0.00000E+00 0.0000
     8.0210E+03   0.00000E+00 0.0000
@@ -3555,10 +3568,10 @@ The following nuclides use physics models rather than data tables:
     9.0150E+03   0.00000E+00 0.0000
     9.0160E+03   0.00000E+00 0.0000
     9.0170E+03   0.00000E+00 0.0000
-    9.0180E+03   0.00000E+00 0.0000
-    9.0190E+03   0.00000E+00 0.0000
-    9.0200E+03   0.00000E+00 0.0000
-    9.0210E+03   0.00000E+00 0.0000
+    9.0180E+03   4.52654E-08 0.2132
+    9.0190E+03   3.49778E-08 0.2425
+    9.0200E+03   4.11504E-09 0.7071
+    9.0210E+03   2.05752E-09 1.0000
     9.0220E+03   0.00000E+00 0.0000
     9.0230E+03   0.00000E+00 0.0000
     9.0240E+03   0.00000E+00 0.0000
@@ -3567,10 +3580,10 @@ The following nuclides use physics models rather than data tables:
     9.0270E+03   0.00000E+00 0.0000
     1.0017E+04   0.00000E+00 0.0000
     1.0018E+04   0.00000E+00 0.0000
-    1.0019E+04   1.00000E-07 1.0000
-    1.0020E+04   4.00000E-07 0.5000
-    1.0021E+04   0.00000E+00 0.0000
-    1.0022E+04   1.00000E-07 1.0000
+    1.0019E+04   3.29203E-08 0.2500
+    1.0020E+04   2.67478E-07 0.0877
+    1.0021E+04   1.15221E-07 0.1336
+    1.0022E+04   9.46459E-08 0.1474
     1.0023E+04   0.00000E+00 0.0000
     1.0024E+04   0.00000E+00 0.0000
     1.0025E+04   0.00000E+00 0.0000
@@ -3579,11 +3592,11 @@ The following nuclides use physics models rather than data tables:
     1.0028E+04   0.00000E+00 0.0000
     1.1019E+04   0.00000E+00 0.0000
     1.1020E+04   0.00000E+00 0.0000
-    1.1021E+04   0.00000E+00 0.0000
-    1.1022E+04   3.00000E-07 0.5774
-    1.1023E+04   0.00000E+00 0.0000
-    1.1024E+04   0.00000E+00 0.0000
-    1.1025E+04   0.00000E+00 0.0000
+    1.1021E+04   1.64602E-08 0.3536
+    1.1022E+04   1.81062E-07 0.1066
+    1.1023E+04   2.71593E-07 0.0870
+    1.1024E+04   2.46902E-08 0.2887
+    1.1025E+04   6.17256E-09 0.5774
     1.1026E+04   0.00000E+00 0.0000
     1.1027E+04   0.00000E+00 0.0000
     1.1028E+04   0.00000E+00 0.0000
@@ -3596,11 +3609,11 @@ The following nuclides use physics models rather than data tables:
     1.1035E+04   0.00000E+00 0.0000
     1.2020E+04   0.00000E+00 0.0000
     1.2021E+04   0.00000E+00 0.0000
-    1.2022E+04   0.00000E+00 0.0000
-    1.2023E+04   1.00000E-07 1.0000
-    1.2024E+04   8.00000E-07 0.3536
-    1.2025E+04   2.00000E-07 0.7071
-    1.2026E+04   5.00000E-07 0.4472
+    1.2022E+04   2.05752E-09 1.0000
+    1.2023E+04   7.40707E-08 0.1667
+    1.2024E+04   7.42765E-07 0.0526
+    1.2025E+04   4.79402E-07 0.0655
+    1.2026E+04   2.46902E-07 0.0913
     1.2027E+04   0.00000E+00 0.0000
     1.2028E+04   0.00000E+00 0.0000
     1.2029E+04   0.00000E+00 0.0000
@@ -3611,12 +3624,12 @@ The following nuclides use physics models rather than data tables:
     1.2034E+04   0.00000E+00 0.0000
     1.3022E+04   0.00000E+00 0.0000
     1.3023E+04   0.00000E+00 0.0000
-    1.3024E+04   0.00000E+00 0.0000
-    1.3025E+04   2.00000E-07 0.7071
-    1.3026E+04   3.00000E-07 0.5774
-    1.3027E+04   8.00000E-07 0.3536
-    1.3028E+04   1.00000E-07 1.0000
-    1.3029E+04   0.00000E+00 0.0000
+    1.3024E+04   4.11504E-09 0.7071
+    1.3025E+04   8.43583E-08 0.1562
+    1.3026E+04   5.30840E-07 0.0623
+    1.3027E+04   7.38650E-07 0.0528
+    1.3028E+04   1.15221E-07 0.1336
+    1.3029E+04   1.02876E-08 0.4472
     1.3030E+04   0.00000E+00 0.0000
     1.3031E+04   0.00000E+00 0.0000
     1.3032E+04   0.00000E+00 0.0000
@@ -3625,12 +3638,12 @@ The following nuclides use physics models rather than data tables:
     1.3035E+04   0.00000E+00 0.0000
     1.4024E+04   0.00000E+00 0.0000
     1.4025E+04   0.00000E+00 0.0000
-    1.4026E+04   1.00000E-07 1.0000
-    1.4027E+04   6.00000E-07 0.4082
-    1.4028E+04   9.20000E-06 0.1043
-    1.4029E+04   2.00000E-07 0.7071
-    1.4030E+04   7.00000E-07 0.3780
-    1.4031E+04   0.00000E+00 0.0000
+    1.4026E+04   4.11504E-08 0.2236
+    1.4027E+04   5.94623E-07 0.0588
+    1.4028E+04   9.28353E-06 0.0149
+    1.4029E+04   5.08207E-07 0.0636
+    1.4030E+04   3.82699E-07 0.0733
+    1.4031E+04   2.05752E-09 1.0000
     1.4032E+04   0.00000E+00 0.0000
     1.4033E+04   0.00000E+00 0.0000
     1.4034E+04   0.00000E+00 0.0000
@@ -3639,14 +3652,14 @@ The following nuclides use physics models rather than data tables:
     1.4037E+04   0.00000E+00 0.0000
     1.4038E+04   0.00000E+00 0.0000
     1.4039E+04   0.00000E+00 0.0000
-    1.5026E+04   0.00000E+00 0.0000
-    1.5027E+04   0.00000E+00 0.0000
-    1.5028E+04   2.00000E-07 0.7071
+    1.5026E+04   2.05752E-09 1.0000
+    1.5027E+04   2.05752E-09 1.0000
+    1.5028E+04   6.78982E-08 0.1741
     1.5029E+04   0.00000E+00 0.0000
-    1.5030E+04   0.00000E+00 0.0000
-    1.5031E+04   4.00000E-07 0.5000
-    1.5032E+04   0.00000E+00 0.0000
-    1.5033E+04   0.00000E+00 0.0000
+    1.5030E+04   4.32079E-08 0.2182
+    1.5031E+04   4.60884E-07 0.0668
+    1.5032E+04   2.05752E-09 1.0000
+    1.5033E+04   6.17256E-09 0.5774
     1.5034E+04   0.00000E+00 0.0000
     1.5035E+04   0.00000E+00 0.0000
     1.5036E+04   0.00000E+00 0.0000
@@ -3657,12 +3670,12 @@ The following nuclides use physics models rather than data tables:
     1.5041E+04   0.00000E+00 0.0000
     1.5042E+04   0.00000E+00 0.0000
     1.6029E+04   0.00000E+00 0.0000
-    1.6030E+04   0.00000E+00 0.0000
-    1.6031E+04   0.00000E+00 0.0000
-    1.6032E+04   2.00000E-07 0.7071
+    1.6030E+04   4.11504E-09 0.7071
+    1.6031E+04   1.64602E-08 0.3536
+    1.6032E+04   2.59248E-07 0.0891
     1.6033E+04   0.00000E+00 0.0000
-    1.6034E+04   0.00000E+00 0.0000
-    1.6035E+04   0.00000E+00 0.0000
+    1.6034E+04   1.02876E-08 0.4472
+    1.6035E+04   2.05752E-09 1.0000
     1.6036E+04   0.00000E+00 0.0000
     1.6037E+04   0.00000E+00 0.0000
     1.6038E+04   0.00000E+00 0.0000
@@ -3676,10 +3689,10 @@ The following nuclides use physics models rather than data tables:
     1.7032E+04   0.00000E+00 0.0000
     1.7033E+04   0.00000E+00 0.0000
     1.7034E+04   0.00000E+00 0.0000
-    1.7035E+04   0.00000E+00 0.0000
-    1.7036E+04   0.00000E+00 0.0000
-    1.7037E+04   0.00000E+00 0.0000
-    1.7038E+04   0.00000E+00 0.0000
+    1.7035E+04   8.23008E-09 0.5000
+    1.7036E+04   1.64602E-08 0.3536
+    1.7037E+04   2.46902E-08 0.2887
+    1.7038E+04   6.17256E-09 0.5774
     1.7039E+04   0.00000E+00 0.0000
     1.7040E+04   0.00000E+00 0.0000
     1.7041E+04   0.00000E+00 0.0000
@@ -3691,12 +3704,12 @@ The following nuclides use physics models rather than data tables:
     1.8033E+04   0.00000E+00 0.0000
     1.8034E+04   0.00000E+00 0.0000
     1.8035E+04   0.00000E+00 0.0000
-    1.8036E+04   0.00000E+00 0.0000
-    1.8037E+04   0.00000E+00 0.0000
-    1.8038E+04   1.00000E-07 1.0000
-    1.8039E+04   1.00000E-07 1.0000
-    1.8040E+04   0.00000E+00 0.0000
-    1.8041E+04   0.00000E+00 0.0000
+    1.8036E+04   6.17256E-09 0.5774
+    1.8037E+04   2.88053E-08 0.2673
+    1.8038E+04   1.25509E-07 0.1280
+    1.8039E+04   5.14380E-08 0.2000
+    1.8040E+04   3.08628E-08 0.2582
+    1.8041E+04   1.02876E-08 0.4472
     1.8042E+04   0.00000E+00 0.0000
     1.8043E+04   0.00000E+00 0.0000
     1.8044E+04   0.00000E+00 0.0000
@@ -3705,14 +3718,14 @@ The following nuclides use physics models rather than data tables:
     1.9035E+04   0.00000E+00 0.0000
     1.9036E+04   0.00000E+00 0.0000
     1.9037E+04   0.00000E+00 0.0000
-    1.9038E+04   0.00000E+00 0.0000
-    1.9039E+04   4.00000E-07 0.5000
-    1.9040E+04   1.00000E-07 1.0000
-    1.9041E+04   2.00000E-07 0.7071
-    1.9042E+04   2.00000E-07 0.7071
-    1.9043E+04   1.00000E-07 1.0000
-    1.9044E+04   0.00000E+00 0.0000
-    1.9045E+04   0.00000E+00 0.0000
+    1.9038E+04   8.23008E-09 0.5000
+    1.9039E+04   1.39911E-07 0.1213
+    1.9040E+04   2.71593E-07 0.0870
+    1.9041E+04   2.75708E-07 0.0864
+    1.9042E+04   1.39911E-07 0.1213
+    1.9043E+04   5.96681E-08 0.1857
+    1.9044E+04   4.11504E-09 0.7071
+    1.9045E+04   4.11504E-09 0.7071
     1.9046E+04   0.00000E+00 0.0000
     1.9047E+04   0.00000E+00 0.0000
     1.9048E+04   0.00000E+00 0.0000
@@ -3723,138 +3736,138 @@ The following nuclides use physics models rather than data tables:
     2.0037E+04   0.00000E+00 0.0000
     2.0038E+04   0.00000E+00 0.0000
     2.0039E+04   0.00000E+00 0.0000
-    2.0040E+04   2.00000E-07 0.7071
-    2.0041E+04   4.00000E-07 0.5000
-    2.0042E+04   1.30000E-06 0.2773
-    2.0043E+04   1.30000E-06 0.2773
-    2.0044E+04   1.20000E-06 0.2887
-    2.0045E+04   1.00000E-07 1.0000
-    2.0046E+04   1.00000E-07 1.0000
-    2.0047E+04   0.00000E+00 0.0000
+    2.0040E+04   1.02876E-07 0.1414
+    2.0041E+04   2.83938E-07 0.0851
+    2.0042E+04   1.10900E-06 0.0431
+    2.0043E+04   1.16867E-06 0.0420
+    2.0044E+04   1.38471E-06 0.0385
+    2.0045E+04   2.13982E-07 0.0981
+    2.0046E+04   6.37831E-08 0.1796
+    2.0047E+04   1.02876E-08 0.4472
     2.0048E+04   0.00000E+00 0.0000
     2.0049E+04   0.00000E+00 0.0000
     2.0050E+04   0.00000E+00 0.0000
     2.0051E+04   0.00000E+00 0.0000
     2.1040E+04   0.00000E+00 0.0000
     2.1041E+04   0.00000E+00 0.0000
-    2.1042E+04   0.00000E+00 0.0000
-    2.1043E+04   3.00000E-07 0.5774
-    2.1044E+04   1.70000E-06 0.2425
-    2.1045E+04   3.60000E-06 0.1667
-    2.1046E+04   1.30000E-06 0.2773
-    2.1047E+04   1.40000E-06 0.2673
-    2.1048E+04   3.00000E-07 0.5774
-    2.1049E+04   0.00000E+00 0.0000
+    2.1042E+04   2.46902E-08 0.2887
+    2.1043E+04   5.80221E-07 0.0595
+    2.1044E+04   2.16040E-06 0.0309
+    2.1045E+04   3.57803E-06 0.0240
+    2.1046E+04   1.89292E-06 0.0330
+    2.1047E+04   1.09666E-06 0.0433
+    2.1048E+04   3.47721E-07 0.0769
+    2.1049E+04   9.05309E-08 0.1508
     2.1050E+04   0.00000E+00 0.0000
     2.1051E+04   0.00000E+00 0.0000
     2.2041E+04   0.00000E+00 0.0000
     2.2042E+04   0.00000E+00 0.0000
     2.2043E+04   0.00000E+00 0.0000
-    2.2044E+04   4.00000E-07 0.5000
-    2.2045E+04   1.90000E-06 0.2294
-    2.2046E+04   8.90000E-06 0.1060
-    2.2047E+04   1.05000E-05 0.0976
-    2.2048E+04   1.28000E-05 0.0884
-    2.2049E+04   3.30000E-06 0.1741
-    2.2050E+04   9.00000E-07 0.3333
-    2.2051E+04   0.00000E+00 0.0000
+    2.2044E+04   5.02035E-07 0.0640
+    2.2045E+04   1.82296E-06 0.0336
+    2.2046E+04   9.73207E-06 0.0145
+    2.2047E+04   1.04522E-05 0.0140
+    2.2048E+04   1.05695E-05 0.0140
+    2.2049E+04   2.91345E-06 0.0266
+    2.2050E+04   1.31476E-06 0.0396
+    2.2051E+04   4.32079E-08 0.2182
     2.2052E+04   0.00000E+00 0.0000
     2.2053E+04   0.00000E+00 0.0000
     2.2054E+04   0.00000E+00 0.0000
     2.3044E+04   0.00000E+00 0.0000
-    2.3045E+04   0.00000E+00 0.0000
-    2.3046E+04   4.00000E-07 0.5000
-    2.3047E+04   3.30000E-06 0.1741
-    2.3048E+04   1.33000E-05 0.0867
-    2.3049E+04   2.11000E-05 0.0688
-    2.3050E+04   1.47000E-05 0.0825
-    2.3051E+04   9.10000E-06 0.1048
-    2.3052E+04   1.50000E-06 0.2582
-    2.3053E+04   3.00000E-07 0.5774
-    2.3054E+04   0.00000E+00 0.0000
+    2.3045E+04   6.17256E-09 0.5774
+    2.3046E+04   3.47721E-07 0.0769
+    2.3047E+04   3.54099E-06 0.0241
+    2.3048E+04   1.26064E-05 0.0128
+    2.3049E+04   1.94086E-05 0.0103
+    2.3050E+04   1.45261E-05 0.0119
+    2.3051E+04   1.01621E-05 0.0142
+    2.3052E+04   1.05757E-06 0.0441
+    2.3053E+04   1.44026E-07 0.1195
+    2.3054E+04   2.05752E-09 1.0000
     2.3055E+04   0.00000E+00 0.0000
     2.3056E+04   0.00000E+00 0.0000
     2.4045E+04   0.00000E+00 0.0000
     2.4046E+04   0.00000E+00 0.0000
-    2.4047E+04   0.00000E+00 0.0000
-    2.4048E+04   1.70000E-06 0.2425
-    2.4049E+04   7.00000E-06 0.1195
-    2.4050E+04   3.48000E-05 0.0536
-    2.4051E+04   3.42000E-05 0.0541
-    2.4052E+04   1.70200E-04 0.0242
-    2.4053E+04   2.39000E-05 0.0647
-    2.4054E+04   6.80000E-06 0.1213
-    2.4055E+04   0.00000E+00 0.0000
-    2.4056E+04   0.00000E+00 0.0000
+    2.4047E+04   1.02876E-08 0.4472
+    2.4048E+04   1.42175E-06 0.0380
+    2.4049E+04   7.87824E-06 0.0162
+    2.4050E+04   3.57885E-05 0.0076
+    2.4051E+04   3.59634E-05 0.0076
+    2.4052E+04   1.69317E-04 0.0035
+    2.4053E+04   2.29269E-05 0.0095
+    2.4054E+04   5.73225E-06 0.0189
+    2.4055E+04   1.23451E-08 0.4082
+    2.4056E+04   2.05752E-09 1.0000
     2.4057E+04   0.00000E+00 0.0000
     2.4058E+04   0.00000E+00 0.0000
     2.4059E+04   0.00000E+00 0.0000
-    2.5049E+04   0.00000E+00 0.0000
-    2.5050E+04   6.00000E-07 0.4082
-    2.5051E+04   6.00000E-06 0.1291
-    2.5052E+04   2.16000E-05 0.0680
-    2.5053E+04   3.56000E-05 0.0530
-    2.5054E+04   2.51000E-05 0.0631
-    2.5055E+04   3.23000E-05 0.0558
-    2.5056E+04   4.00000E-07 0.5000
-    2.5057E+04   1.00000E-07 1.0000
-    2.5058E+04   0.00000E+00 0.0000
+    2.5049E+04   2.46902E-08 0.2887
+    2.5050E+04   7.20132E-07 0.0535
+    2.5051E+04   5.97710E-06 0.0186
+    2.5052E+04   2.11801E-05 0.0099
+    2.5053E+04   3.74448E-05 0.0074
+    2.5054E+04   2.63095E-05 0.0088
+    2.5055E+04   3.47001E-05 0.0077
+    2.5056E+04   7.16017E-07 0.0536
+    2.5057E+04   5.34955E-08 0.1961
+    2.5058E+04   2.05752E-09 1.0000
     2.5059E+04   0.00000E+00 0.0000
     2.5060E+04   0.00000E+00 0.0000
     2.5061E+04   0.00000E+00 0.0000
     2.5062E+04   0.00000E+00 0.0000
     2.6049E+04   0.00000E+00 0.0000
     2.6050E+04   0.00000E+00 0.0000
-    2.6051E+04   1.00000E-07 1.0000
-    2.6052E+04   6.00000E-07 0.4082
-    2.6053E+04   8.30000E-06 0.1098
-    2.6054E+04   6.06000E-05 0.0406
-    2.6055E+04   4.79000E-05 0.0457
-    2.6056E+04   5.43400E-04 0.0136
-    2.6057E+04   1.25000E-05 0.0894
-    2.6058E+04   1.40000E-06 0.2673
-    2.6059E+04   0.00000E+00 0.0000
-    2.6060E+04   0.00000E+00 0.0000
+    2.6051E+04   2.88053E-08 0.2673
+    2.6052E+04   1.11312E-06 0.0430
+    2.6053E+04   7.92968E-06 0.0161
+    2.6054E+04   6.36597E-05 0.0057
+    2.6055E+04   4.33931E-05 0.0069
+    2.6056E+04   5.32355E-04 0.0020
+    2.6057E+04   1.27731E-05 0.0127
+    2.6058E+04   1.72626E-06 0.0345
+    2.6059E+04   8.23008E-09 0.5000
+    2.6060E+04   4.11504E-09 0.7071
     2.6061E+04   0.00000E+00 0.0000
     2.6062E+04   0.00000E+00 0.0000
     2.6063E+04   0.00000E+00 0.0000
     2.6064E+04   0.00000E+00 0.0000
-    2.7053E+04   2.00000E-07 0.7071
-    2.7054E+04   1.10000E-06 0.3015
-    2.7055E+04   4.10000E-06 0.1562
-    2.7056E+04   8.50000E-06 0.1085
-    2.7057E+04   4.60000E-06 0.1474
-    2.7058E+04   2.20000E-06 0.2132
-    2.7059E+04   1.00000E-06 0.3162
-    2.7060E+04   0.00000E+00 0.0000
-    2.7061E+04   0.00000E+00 0.0000
-    2.7062E+04   0.00000E+00 0.0000
-    2.7063E+04   0.00000E+00 0.0000
+    2.7053E+04   5.34955E-08 0.1961
+    2.7054E+04   9.48517E-07 0.0466
+    2.7055E+04   4.35577E-06 0.0217
+    2.7056E+04   9.35143E-06 0.0148
+    2.7057E+04   3.83727E-06 0.0232
+    2.7058E+04   2.38878E-06 0.0293
+    2.7059E+04   8.43583E-07 0.0494
+    2.7060E+04   1.19336E-07 0.1313
+    2.7061E+04   6.99557E-08 0.1715
+    2.7062E+04   2.26327E-08 0.3015
+    2.7063E+04   1.44026E-08 0.3780
     2.7064E+04   0.00000E+00 0.0000
     2.8053E+04   0.00000E+00 0.0000
     2.8054E+04   0.00000E+00 0.0000
-    2.8055E+04   0.00000E+00 0.0000
-    2.8056E+04   4.00000E-07 0.5000
-    2.8057E+04   3.60000E-06 0.1667
-    2.8058E+04   5.39000E-05 0.0431
-    2.8059E+04   2.50000E-06 0.2000
-    2.8060E+04   2.19000E-05 0.0676
-    2.8061E+04   5.00000E-07 0.4472
-    2.8062E+04   3.30000E-06 0.1741
-    2.8063E+04   0.00000E+00 0.0000
-    2.8064E+04   1.20000E-06 0.2887
+    2.8055E+04   2.88053E-08 0.2673
+    2.8056E+04   8.64158E-07 0.0488
+    2.8057E+04   3.47927E-06 0.0243
+    2.8058E+04   5.44132E-05 0.0061
+    2.8059E+04   1.71597E-06 0.0346
+    2.8060E+04   2.14044E-05 0.0098
+    2.8061E+04   1.07814E-06 0.0437
+    2.8062E+04   3.11920E-06 0.0257
+    2.8063E+04   4.52654E-08 0.2132
+    2.8064E+04   8.49756E-07 0.0492
     2.8065E+04   0.00000E+00 0.0000
     2.8066E+04   0.00000E+00 0.0000
     2.8067E+04   0.00000E+00 0.0000
     2.8068E+04   0.00000E+00 0.0000
-    2.9057E+04   0.00000E+00 0.0000
-    2.9058E+04   3.00000E-07 0.5774
-    2.9059E+04   0.00000E+00 0.0000
-    2.9060E+04   3.00000E-07 0.5774
-    2.9061E+04   0.00000E+00 0.0000
-    2.9062E+04   1.00000E-07 1.0000
-    2.9063E+04   0.00000E+00 0.0000
-    2.9064E+04   0.00000E+00 0.0000
+    2.9057E+04   6.37831E-08 0.1796
+    2.9058E+04   4.13562E-07 0.0705
+    2.9059E+04   6.99557E-08 0.1715
+    2.9060E+04   2.30442E-07 0.0945
+    2.9061E+04   5.96681E-08 0.1857
+    2.9062E+04   3.90929E-08 0.2294
+    2.9063E+04   1.23451E-08 0.4082
+    2.9064E+04   1.02876E-08 0.4472
     2.9065E+04   0.00000E+00 0.0000
     2.9066E+04   0.00000E+00 0.0000
     2.9067E+04   0.00000E+00 0.0000
@@ -5684,7 +5697,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      1.31830E-03 0.0087
+      total      1.31118E-03 0.0013
  
  cell  4                                                                                                                               
     user bin   
@@ -5694,12 +5707,12 @@ The following nuclides use physics models rather than data tables:
     2.0030E+03   0.00000E+00 0.0000
     2.0040E+03   0.00000E+00 0.0000
     2.0050E+03   0.00000E+00 0.0000
-    2.0060E+03   1.00000E-07 1.0000
+    2.0060E+03   1.33739E-07 0.1240
     2.0070E+03   0.00000E+00 0.0000
     2.0080E+03   0.00000E+00 0.0000
     3.0050E+03   0.00000E+00 0.0000
     3.0060E+03   0.00000E+00 0.0000
-    3.0070E+03   0.00000E+00 0.0000
+    3.0070E+03   2.67478E-08 0.2774
     3.0080E+03   0.00000E+00 0.0000
     3.0090E+03   0.00000E+00 0.0000
     3.0100E+03   0.00000E+00 0.0000
@@ -5707,7 +5720,7 @@ The following nuclides use physics models rather than data tables:
     4.0060E+03   0.00000E+00 0.0000
     4.0070E+03   0.00000E+00 0.0000
     4.0080E+03   0.00000E+00 0.0000
-    4.0090E+03   0.00000E+00 0.0000
+    4.0090E+03   6.17256E-09 0.5774
     4.0100E+03   0.00000E+00 0.0000
     4.0110E+03   0.00000E+00 0.0000
     4.0120E+03   0.00000E+00 0.0000
@@ -5893,7 +5906,7 @@ The following nuclides use physics models rather than data tables:
     1.7040E+04   0.00000E+00 0.0000
     1.7041E+04   0.00000E+00 0.0000
     1.7042E+04   0.00000E+00 0.0000
-    1.7043E+04   0.00000E+00 0.0000
+    1.7043E+04   2.05752E-09 1.0000
     1.7044E+04   0.00000E+00 0.0000
     1.7045E+04   0.00000E+00 0.0000
     1.8032E+04   0.00000E+00 0.0000
@@ -5906,13 +5919,13 @@ The following nuclides use physics models rather than data tables:
     1.8039E+04   0.00000E+00 0.0000
     1.8040E+04   0.00000E+00 0.0000
     1.8041E+04   0.00000E+00 0.0000
-    1.8042E+04   0.00000E+00 0.0000
+    1.8042E+04   2.05752E-09 1.0000
     1.8043E+04   0.00000E+00 0.0000
     1.8044E+04   0.00000E+00 0.0000
-    1.8045E+04   0.00000E+00 0.0000
-    1.8046E+04   0.00000E+00 0.0000
+    1.8045E+04   2.05752E-09 1.0000
+    1.8046E+04   2.05752E-09 1.0000
     1.9035E+04   0.00000E+00 0.0000
-    1.9036E+04   0.00000E+00 0.0000
+    1.9036E+04   2.05752E-09 1.0000
     1.9037E+04   0.00000E+00 0.0000
     1.9038E+04   0.00000E+00 0.0000
     1.9039E+04   0.00000E+00 0.0000
@@ -5921,12 +5934,12 @@ The following nuclides use physics models rather than data tables:
     1.9042E+04   0.00000E+00 0.0000
     1.9043E+04   0.00000E+00 0.0000
     1.9044E+04   0.00000E+00 0.0000
-    1.9045E+04   0.00000E+00 0.0000
+    1.9045E+04   2.05752E-09 1.0000
     1.9046E+04   0.00000E+00 0.0000
-    1.9047E+04   0.00000E+00 0.0000
+    1.9047E+04   2.05752E-09 1.0000
     1.9048E+04   0.00000E+00 0.0000
-    1.9049E+04   0.00000E+00 0.0000
-    1.9050E+04   0.00000E+00 0.0000
+    1.9049E+04   8.23008E-09 0.5000
+    1.9050E+04   2.05752E-09 1.0000
     1.9051E+04   0.00000E+00 0.0000
     2.0036E+04   0.00000E+00 0.0000
     2.0037E+04   0.00000E+00 0.0000
@@ -5938,627 +5951,627 @@ The following nuclides use physics models rather than data tables:
     2.0043E+04   0.00000E+00 0.0000
     2.0044E+04   0.00000E+00 0.0000
     2.0045E+04   0.00000E+00 0.0000
-    2.0046E+04   0.00000E+00 0.0000
-    2.0047E+04   1.00000E-07 1.0000
-    2.0048E+04   0.00000E+00 0.0000
-    2.0049E+04   0.00000E+00 0.0000
-    2.0050E+04   0.00000E+00 0.0000
-    2.0051E+04   1.00000E-07 1.0000
-    2.1040E+04   0.00000E+00 0.0000
-    2.1041E+04   0.00000E+00 0.0000
+    2.0046E+04   4.11504E-09 0.7071
+    2.0047E+04   2.05752E-09 1.0000
+    2.0048E+04   6.17256E-09 0.5774
+    2.0049E+04   8.23008E-09 0.5000
+    2.0050E+04   1.23451E-08 0.4082
+    2.0051E+04   6.17256E-09 0.5774
+    2.1040E+04   2.05752E-09 1.0000
+    2.1041E+04   6.17256E-09 0.5774
     2.1042E+04   0.00000E+00 0.0000
     2.1043E+04   0.00000E+00 0.0000
     2.1044E+04   0.00000E+00 0.0000
     2.1045E+04   0.00000E+00 0.0000
     2.1046E+04   0.00000E+00 0.0000
     2.1047E+04   0.00000E+00 0.0000
-    2.1048E+04   0.00000E+00 0.0000
-    2.1049E+04   0.00000E+00 0.0000
-    2.1050E+04   0.00000E+00 0.0000
-    2.1051E+04   1.00000E-07 1.0000
-    2.2041E+04   0.00000E+00 0.0000
-    2.2042E+04   0.00000E+00 0.0000
-    2.2043E+04   0.00000E+00 0.0000
-    2.2044E+04   0.00000E+00 0.0000
-    2.2045E+04   0.00000E+00 0.0000
+    2.1048E+04   4.11504E-09 0.7071
+    2.1049E+04   1.02876E-08 0.4472
+    2.1050E+04   2.05752E-08 0.3162
+    2.1051E+04   2.88053E-08 0.2673
+    2.2041E+04   1.85177E-08 0.3333
+    2.2042E+04   6.17256E-09 0.5774
+    2.2043E+04   1.23451E-08 0.4082
+    2.2044E+04   6.17256E-09 0.5774
+    2.2045E+04   8.23008E-09 0.5000
     2.2046E+04   0.00000E+00 0.0000
     2.2047E+04   0.00000E+00 0.0000
     2.2048E+04   0.00000E+00 0.0000
     2.2049E+04   0.00000E+00 0.0000
-    2.2050E+04   0.00000E+00 0.0000
-    2.2051E+04   0.00000E+00 0.0000
-    2.2052E+04   0.00000E+00 0.0000
-    2.2053E+04   1.00000E-07 1.0000
-    2.2054E+04   0.00000E+00 0.0000
-    2.3044E+04   1.00000E-07 1.0000
-    2.3045E+04   0.00000E+00 0.0000
-    2.3046E+04   1.00000E-07 1.0000
-    2.3047E+04   0.00000E+00 0.0000
-    2.3048E+04   0.00000E+00 0.0000
-    2.3049E+04   0.00000E+00 0.0000
+    2.2050E+04   2.05752E-09 1.0000
+    2.2051E+04   1.23451E-08 0.4082
+    2.2052E+04   3.90929E-08 0.2294
+    2.2053E+04   4.52654E-08 0.2132
+    2.2054E+04   5.14380E-08 0.2000
+    2.3044E+04   3.49778E-08 0.2425
+    2.3045E+04   2.88053E-08 0.2673
+    2.3046E+04   1.64602E-08 0.3536
+    2.3047E+04   1.23451E-08 0.4082
+    2.3048E+04   2.05752E-09 1.0000
+    2.3049E+04   2.05752E-09 1.0000
     2.3050E+04   0.00000E+00 0.0000
     2.3051E+04   0.00000E+00 0.0000
-    2.3052E+04   0.00000E+00 0.0000
-    2.3053E+04   1.00000E-07 1.0000
-    2.3054E+04   0.00000E+00 0.0000
-    2.3055E+04   0.00000E+00 0.0000
-    2.3056E+04   0.00000E+00 0.0000
-    2.4045E+04   2.00000E-07 0.7071
-    2.4046E+04   0.00000E+00 0.0000
-    2.4047E+04   0.00000E+00 0.0000
-    2.4048E+04   0.00000E+00 0.0000
-    2.4049E+04   0.00000E+00 0.0000
-    2.4050E+04   0.00000E+00 0.0000
-    2.4051E+04   0.00000E+00 0.0000
-    2.4052E+04   0.00000E+00 0.0000
+    2.3052E+04   2.05752E-09 1.0000
+    2.3053E+04   1.64602E-08 0.3536
+    2.3054E+04   3.29203E-08 0.2500
+    2.3055E+04   6.17256E-08 0.1826
+    2.3056E+04   7.61282E-08 0.1644
+    2.4045E+04   1.09049E-07 0.1374
+    2.4046E+04   8.64158E-08 0.1543
+    2.4047E+04   5.34955E-08 0.1961
+    2.4048E+04   2.05752E-08 0.3162
+    2.4049E+04   1.85177E-08 0.3333
+    2.4050E+04   8.23008E-09 0.5000
+    2.4051E+04   2.05752E-09 1.0000
+    2.4052E+04   4.11504E-09 0.7071
     2.4053E+04   0.00000E+00 0.0000
-    2.4054E+04   0.00000E+00 0.0000
-    2.4055E+04   0.00000E+00 0.0000
-    2.4056E+04   0.00000E+00 0.0000
-    2.4057E+04   0.00000E+00 0.0000
-    2.4058E+04   2.00000E-07 0.7071
-    2.4059E+04   0.00000E+00 0.0000
-    2.5049E+04   4.00000E-07 0.5000
-    2.5050E+04   2.00000E-07 0.7071
-    2.5051E+04   1.00000E-07 1.0000
-    2.5052E+04   0.00000E+00 0.0000
-    2.5053E+04   1.00000E-07 1.0000
-    2.5054E+04   0.00000E+00 0.0000
-    2.5055E+04   0.00000E+00 0.0000
-    2.5056E+04   0.00000E+00 0.0000
-    2.5057E+04   0.00000E+00 0.0000
-    2.5058E+04   0.00000E+00 0.0000
-    2.5059E+04   3.00000E-07 0.5774
-    2.5060E+04   2.00000E-07 0.7071
-    2.5061E+04   9.00000E-07 0.3333
-    2.5062E+04   4.00000E-07 0.5000
-    2.6049E+04   3.00000E-07 0.5774
-    2.6050E+04   3.00000E-07 0.5774
-    2.6051E+04   0.00000E+00 0.0000
-    2.6052E+04   2.00000E-07 0.7071
-    2.6053E+04   0.00000E+00 0.0000
-    2.6054E+04   0.00000E+00 0.0000
-    2.6055E+04   0.00000E+00 0.0000
-    2.6056E+04   0.00000E+00 0.0000
+    2.4054E+04   8.23008E-09 0.5000
+    2.4055E+04   2.26327E-08 0.3015
+    2.4056E+04   7.81858E-08 0.1622
+    2.4057E+04   9.05309E-08 0.1508
+    2.4058E+04   2.38672E-07 0.0928
+    2.4059E+04   1.39911E-07 0.1213
+    2.5049E+04   2.22212E-07 0.0962
+    2.5050E+04   1.19336E-07 0.1313
+    2.5051E+04   1.23451E-07 0.1291
+    2.5052E+04   3.90929E-08 0.2294
+    2.5053E+04   5.96681E-08 0.1857
+    2.5054E+04   4.11504E-09 0.7071
+    2.5055E+04   2.05752E-09 1.0000
+    2.5056E+04   6.17256E-09 0.5774
+    2.5057E+04   3.90929E-08 0.2294
+    2.5058E+04   7.81858E-08 0.1622
+    2.5059E+04   1.83119E-07 0.1060
+    2.5060E+04   2.96283E-07 0.0833
+    2.5061E+04   5.14380E-07 0.0632
+    2.5062E+04   4.01216E-07 0.0716
+    2.6049E+04   4.93805E-07 0.0645
+    2.6050E+04   2.73650E-07 0.0867
+    2.6051E+04   2.11925E-07 0.0985
+    2.6052E+04   1.37854E-07 0.1222
+    2.6053E+04   4.93805E-08 0.2041
+    2.6054E+04   6.17256E-09 0.5774
+    2.6055E+04   2.05752E-09 1.0000
+    2.6056E+04   2.05752E-09 1.0000
     2.6057E+04   0.00000E+00 0.0000
-    2.6058E+04   0.00000E+00 0.0000
-    2.6059E+04   0.00000E+00 0.0000
-    2.6060E+04   1.00000E-07 1.0000
-    2.6061E+04   6.00000E-07 0.4082
-    2.6062E+04   7.00000E-07 0.3780
-    2.6063E+04   7.00000E-07 0.3780
-    2.6064E+04   2.10000E-06 0.2182
-    2.7053E+04   1.40000E-06 0.2673
-    2.7054E+04   9.00000E-07 0.3333
-    2.7055E+04   3.00000E-07 0.5774
-    2.7056E+04   8.00000E-07 0.3536
-    2.7057E+04   5.00000E-07 0.4472
-    2.7058E+04   0.00000E+00 0.0000
-    2.7059E+04   0.00000E+00 0.0000
-    2.7060E+04   0.00000E+00 0.0000
-    2.7061E+04   0.00000E+00 0.0000
-    2.7062E+04   2.00000E-07 0.7071
-    2.7063E+04   9.00000E-07 0.3333
-    2.7064E+04   1.20000E-06 0.2887
-    2.8053E+04   1.90000E-06 0.2294
-    2.8054E+04   2.70000E-06 0.1924
-    2.8055E+04   2.10000E-06 0.2182
-    2.8056E+04   2.40000E-06 0.2041
-    2.8057E+04   2.80000E-06 0.1890
-    2.8058E+04   1.50000E-06 0.2582
-    2.8059E+04   8.00000E-07 0.3536
-    2.8060E+04   5.00000E-07 0.4472
-    2.8061E+04   3.00000E-07 0.5774
-    2.8062E+04   1.00000E-07 1.0000
-    2.8063E+04   2.00000E-07 0.7071
-    2.8064E+04   3.00000E-07 0.5774
-    2.8065E+04   7.00000E-07 0.3780
-    2.8066E+04   3.00000E-06 0.1826
-    2.8067E+04   4.60000E-06 0.1474
-    2.8068E+04   7.70000E-06 0.1140
-    2.9057E+04   7.00000E-06 0.1195
-    2.9058E+04   1.06000E-05 0.0971
-    2.9059E+04   5.80000E-06 0.1313
-    2.9060E+04   6.80000E-06 0.1213
-    2.9061E+04   2.40000E-06 0.2041
-    2.9062E+04   2.70000E-06 0.1924
-    2.9063E+04   9.00000E-07 0.3333
-    2.9064E+04   2.00000E-07 0.7071
-    2.9065E+04   1.00000E-07 1.0000
-    2.9066E+04   7.00000E-07 0.3780
-    2.9067E+04   7.00000E-07 0.3780
-    2.9068E+04   1.70000E-06 0.2425
-    2.9069E+04   7.40000E-06 0.1162
-    2.9070E+04   8.60000E-06 0.1078
-    2.9071E+04   2.00000E-05 0.0707
-    2.9072E+04   1.51000E-05 0.0814
-    2.9073E+04   2.48000E-05 0.0635
-    3.0057E+04   1.54000E-05 0.0806
-    3.0058E+04   1.12000E-05 0.0945
-    3.0059E+04   4.80000E-06 0.1443
-    3.0060E+04   3.00000E-06 0.1826
-    3.0061E+04   1.20000E-06 0.2887
-    3.0062E+04   1.00000E-07 1.0000
-    3.0063E+04   0.00000E+00 0.0000
-    3.0064E+04   0.00000E+00 0.0000
+    2.6058E+04   1.23451E-08 0.4082
+    2.6059E+04   3.70354E-08 0.2357
+    2.6060E+04   1.21394E-07 0.1302
+    2.6061E+04   2.98340E-07 0.0830
+    2.6062E+04   7.48937E-07 0.0524
+    2.6063E+04   8.29181E-07 0.0498
+    2.6064E+04   1.33739E-06 0.0392
+    2.7053E+04   1.05139E-06 0.0442
+    2.7054E+04   1.26949E-06 0.0403
+    2.7055E+04   6.56349E-07 0.0560
+    2.7056E+04   6.72809E-07 0.0553
+    2.7057E+04   2.01637E-07 0.1010
+    2.7058E+04   1.21394E-07 0.1302
+    2.7059E+04   3.29203E-08 0.2500
+    2.7060E+04   8.23008E-09 0.5000
+    2.7061E+04   4.52654E-08 0.2132
+    2.7062E+04   1.33739E-07 0.1240
+    2.7063E+04   5.24668E-07 0.0626
+    2.7064E+04   1.01230E-06 0.0451
+    2.8053E+04   2.16040E-06 0.0309
+    2.8054E+04   2.20155E-06 0.0306
+    2.8055E+04   3.54716E-06 0.0241
+    2.8056E+04   2.71387E-06 0.0275
+    2.8057E+04   2.97723E-06 0.0263
+    2.8058E+04   1.93201E-06 0.0326
+    2.8059E+04   1.20776E-06 0.0413
+    2.8060E+04   4.21792E-07 0.0698
+    2.8061E+04   1.81062E-07 0.1066
+    2.8062E+04   4.73230E-08 0.2085
+    2.8063E+04   8.23008E-08 0.1581
+    2.8064E+04   2.57190E-07 0.0894
+    2.8065E+04   6.35774E-07 0.0569
+    2.8066E+04   2.17686E-06 0.0307
+    2.8067E+04   3.27763E-06 0.0251
+    2.8068E+04   6.91738E-06 0.0172
+    2.9057E+04   6.44827E-06 0.0179
+    2.9058E+04   9.98926E-06 0.0144
+    2.9059E+04   6.33305E-06 0.0180
+    2.9060E+04   7.04083E-06 0.0171
+    2.9061E+04   3.01427E-06 0.0261
+    2.9062E+04   2.23858E-06 0.0303
+    2.9063E+04   5.88451E-07 0.0591
+    2.9064E+04   2.98340E-07 0.0830
+    2.9065E+04   1.29624E-07 0.1260
+    2.9066E+04   2.57190E-07 0.0894
+    2.9067E+04   1.16250E-06 0.0421
+    2.9068E+04   2.53898E-06 0.0285
+    2.9069E+04   7.47909E-06 0.0166
+    2.9070E+04   9.07984E-06 0.0151
+    2.9071E+04   1.96719E-05 0.0102
+    2.9072E+04   1.67832E-05 0.0111
+    2.9073E+04   2.33426E-05 0.0094
+    3.0057E+04   1.57935E-05 0.0114
+    3.0058E+04   1.26661E-05 0.0127
+    3.0059E+04   5.11911E-06 0.0200
+    3.0060E+04   3.18504E-06 0.0254
+    3.0061E+04   8.88849E-07 0.0481
+    3.0062E+04   3.29203E-07 0.0791
+    3.0063E+04   7.40707E-08 0.1667
+    3.0064E+04   8.23008E-09 0.5000
     3.0065E+04   0.00000E+00 0.0000
-    3.0066E+04   1.00000E-07 1.0000
-    3.0067E+04   1.00000E-07 1.0000
-    3.0068E+04   7.00000E-07 0.3780
-    3.0069E+04   7.00000E-07 0.3780
-    3.0070E+04   4.30000E-06 0.1525
-    3.0071E+04   7.40000E-06 0.1162
-    3.0072E+04   2.42000E-05 0.0643
-    3.0073E+04   2.43000E-05 0.0641
-    3.0074E+04   4.54000E-05 0.0469
-    3.0075E+04   3.32000E-05 0.0549
-    3.0076E+04   4.76000E-05 0.0458
-    3.0077E+04   2.30000E-05 0.0659
-    3.0078E+04   2.17000E-05 0.0679
-    3.1062E+04   8.20000E-06 0.1104
-    3.1063E+04   3.60000E-06 0.1667
-    3.1064E+04   3.00000E-07 0.5774
-    3.1065E+04   3.00000E-07 0.5774
-    3.1066E+04   0.00000E+00 0.0000
-    3.1067E+04   0.00000E+00 0.0000
-    3.1068E+04   0.00000E+00 0.0000
-    3.1069E+04   0.00000E+00 0.0000
-    3.1070E+04   4.00000E-07 0.5000
-    3.1071E+04   2.00000E-06 0.2236
-    3.1072E+04   3.20000E-06 0.1768
-    3.1073E+04   1.53000E-05 0.0808
-    3.1074E+04   2.59000E-05 0.0621
-    3.1075E+04   6.23000E-05 0.0401
-    3.1076E+04   6.61000E-05 0.0389
-    3.1077E+04   9.90000E-05 0.0318
-    3.1078E+04   7.43000E-05 0.0367
-    3.1079E+04   7.76000E-05 0.0359
-    3.1080E+04   3.21000E-05 0.0558
-    3.1081E+04   2.87000E-05 0.0590
-    3.1082E+04   5.60000E-06 0.1336
-    3.1083E+04   4.20000E-06 0.1543
-    3.2061E+04   1.00000E-06 0.3162
-    3.2062E+04   3.00000E-07 0.5774
-    3.2063E+04   0.00000E+00 0.0000
-    3.2064E+04   0.00000E+00 0.0000
-    3.2065E+04   0.00000E+00 0.0000
+    3.0066E+04   2.05752E-08 0.3162
+    3.0067E+04   4.32079E-08 0.2182
+    3.0068E+04   4.03274E-07 0.0714
+    3.0069E+04   9.77322E-07 0.0459
+    3.0070E+04   5.06150E-06 0.0202
+    3.0071E+04   7.69307E-06 0.0164
+    3.0072E+04   2.44001E-05 0.0092
+    3.0073E+04   2.46964E-05 0.0091
+    3.0074E+04   5.23227E-05 0.0063
+    3.0075E+04   3.41898E-05 0.0078
+    3.0076E+04   4.79875E-05 0.0065
+    3.0077E+04   2.33487E-05 0.0094
+    3.0078E+04   1.99353E-05 0.0102
+    3.1062E+04   7.83298E-06 0.0162
+    3.1063E+04   4.35783E-06 0.0217
+    3.1064E+04   1.81062E-07 0.1066
+    3.1065E+04   3.97101E-07 0.0720
+    3.1066E+04   3.29203E-08 0.2500
+    3.1067E+04   1.44026E-08 0.3780
+    3.1068E+04   6.17256E-09 0.5774
+    3.1069E+04   4.52654E-08 0.2132
+    3.1070E+04   2.36615E-07 0.0933
+    3.1071E+04   1.60281E-06 0.0358
+    3.1072E+04   3.84756E-06 0.0231
+    3.1073E+04   1.55034E-05 0.0115
+    3.1074E+04   2.51059E-05 0.0091
+    3.1075E+04   6.09211E-05 0.0058
+    3.1076E+04   6.25321E-05 0.0057
+    3.1077E+04   9.85820E-05 0.0046
+    3.1078E+04   7.58711E-05 0.0052
+    3.1079E+04   7.37312E-05 0.0053
+    3.1080E+04   3.34779E-05 0.0078
+    3.1081E+04   2.81366E-05 0.0086
+    3.1082E+04   6.26515E-06 0.0181
+    3.1083E+04   2.87230E-06 0.0268
+    3.2061E+04   7.53052E-07 0.0523
+    3.2062E+04   2.67478E-07 0.0877
+    3.2063E+04   3.70354E-08 0.2357
+    3.2064E+04   8.23008E-09 0.5000
+    3.2065E+04   2.05752E-09 1.0000
     3.2066E+04   0.00000E+00 0.0000
     3.2067E+04   0.00000E+00 0.0000
     3.2068E+04   0.00000E+00 0.0000
     3.2069E+04   0.00000E+00 0.0000
-    3.2070E+04   0.00000E+00 0.0000
-    3.2071E+04   0.00000E+00 0.0000
-    3.2072E+04   4.00000E-07 0.5000
-    3.2073E+04   1.20000E-06 0.2887
-    3.2074E+04   5.80000E-06 0.1313
-    3.2075E+04   1.41000E-05 0.0842
-    3.2076E+04   4.97000E-05 0.0449
-    3.2077E+04   6.42000E-05 0.0395
-    3.2078E+04   1.47700E-04 0.0260
-    3.2079E+04   1.17800E-04 0.0291
-    3.2080E+04   1.81600E-04 0.0235
-    3.2081E+04   1.00600E-04 0.0315
-    3.2082E+04   1.05900E-04 0.0308
-    3.2083E+04   3.05000E-05 0.0573
-    3.2084E+04   2.10000E-05 0.0690
-    3.3066E+04   4.20000E-06 0.1543
-    3.3067E+04   2.60000E-06 0.1961
-    3.3068E+04   7.00000E-07 0.3780
-    3.3069E+04   1.00000E-07 1.0000
-    3.3070E+04   0.00000E+00 0.0000
+    3.2070E+04   2.05752E-09 1.0000
+    3.2071E+04   3.08628E-08 0.2582
+    3.2072E+04   3.33318E-07 0.0786
+    3.2073E+04   9.46459E-07 0.0466
+    3.2074E+04   6.65402E-06 0.0176
+    3.2075E+04   1.32031E-05 0.0125
+    3.2076E+04   4.92694E-05 0.0065
+    3.2077E+04   6.18861E-05 0.0058
+    3.2078E+04   1.44728E-04 0.0038
+    3.2079E+04   1.22355E-04 0.0041
+    3.2080E+04   1.82179E-04 0.0034
+    3.2081E+04   9.92404E-05 0.0046
+    3.2082E+04   1.05516E-04 0.0044
+    3.2083E+04   2.98526E-05 0.0083
+    3.2084E+04   2.15854E-05 0.0098
+    3.3066E+04   5.27137E-06 0.0198
+    3.3067E+04   2.73239E-06 0.0274
+    3.3068E+04   3.51836E-07 0.0765
+    3.3069E+04   1.39911E-07 0.1213
+    3.3070E+04   1.02876E-08 0.4472
     3.3071E+04   0.00000E+00 0.0000
-    3.3072E+04   0.00000E+00 0.0000
-    3.3073E+04   0.00000E+00 0.0000
-    3.3074E+04   2.00000E-07 0.7071
-    3.3075E+04   1.50000E-06 0.2582
-    3.3076E+04   4.40000E-06 0.1508
-    3.3077E+04   1.92000E-05 0.0722
-    3.3078E+04   3.54000E-05 0.0531
-    3.3079E+04   1.08000E-04 0.0304
-    3.3080E+04   1.41500E-04 0.0266
-    3.3081E+04   2.61100E-04 0.0196
-    3.3082E+04   2.00700E-04 0.0223
-    3.3083E+04   2.56400E-04 0.0197
-    3.3084E+04   1.12700E-04 0.0298
-    3.3085E+04   9.28000E-05 0.0328
-    3.3086E+04   2.76000E-05 0.0602
-    3.3087E+04   2.19000E-05 0.0676
-    3.4068E+04   3.90000E-06 0.1601
-    3.4069E+04   1.30000E-06 0.2773
-    3.4070E+04   1.00000E-07 1.0000
-    3.4071E+04   0.00000E+00 0.0000
-    3.4072E+04   0.00000E+00 0.0000
+    3.3072E+04   4.11504E-09 0.7071
+    3.3073E+04   1.85177E-08 0.3333
+    3.3074E+04   1.85177E-07 0.1054
+    3.3075E+04   1.32093E-06 0.0395
+    3.3076E+04   4.08212E-06 0.0225
+    3.3077E+04   1.96719E-05 0.0102
+    3.3078E+04   3.90188E-05 0.0073
+    3.3079E+04   1.09777E-04 0.0043
+    3.3080E+04   1.41998E-04 0.0038
+    3.3081E+04   2.59869E-04 0.0028
+    3.3082E+04   2.11906E-04 0.0031
+    3.3083E+04   2.60309E-04 0.0028
+    3.3084E+04   1.07900E-04 0.0044
+    3.3085E+04   9.01420E-05 0.0048
+    3.3086E+04   2.90501E-05 0.0084
+    3.3087E+04   2.03530E-05 0.0101
+    3.4068E+04   3.76938E-06 0.0234
+    3.4069E+04   1.56166E-06 0.0363
+    3.4070E+04   2.01637E-07 0.1010
+    3.4071E+04   7.40707E-08 0.1667
+    3.4072E+04   2.05752E-09 1.0000
     3.4073E+04   0.00000E+00 0.0000
     3.4074E+04   0.00000E+00 0.0000
-    3.4075E+04   0.00000E+00 0.0000
-    3.4076E+04   0.00000E+00 0.0000
-    3.4077E+04   7.00000E-07 0.3780
-    3.4078E+04   4.60000E-06 0.1474
-    3.4079E+04   1.40000E-05 0.0845
-    3.4080E+04   6.07000E-05 0.0406
-    3.4081E+04   9.25000E-05 0.0329
-    3.4082E+04   2.46300E-04 0.0202
-    3.4083E+04   2.42900E-04 0.0203
-    3.4084E+04   4.17900E-04 0.0155
-    3.4085E+04   2.42800E-04 0.0203
-    3.4086E+04   2.35100E-04 0.0206
-    3.4087E+04   1.15700E-04 0.0294
-    3.4088E+04   6.79000E-05 0.0384
-    3.4089E+04   2.53000E-05 0.0629
-    3.4090E+04   1.19000E-05 0.0917
-    3.4091E+04   1.80000E-06 0.2357
-    3.5070E+04   4.00000E-07 0.5000
-    3.5071E+04   0.00000E+00 0.0000
-    3.5072E+04   0.00000E+00 0.0000
-    3.5073E+04   0.00000E+00 0.0000
+    3.4075E+04   8.23008E-09 0.5000
+    3.4076E+04   1.68717E-07 0.1104
+    3.4077E+04   7.22190E-07 0.0534
+    3.4078E+04   5.43185E-06 0.0195
+    3.4079E+04   1.34665E-05 0.0124
+    3.4080E+04   5.98203E-05 0.0059
+    3.4081E+04   9.70697E-05 0.0046
+    3.4082E+04   2.48993E-04 0.0029
+    3.4083E+04   2.48409E-04 0.0029
+    3.4084E+04   4.23543E-04 0.0022
+    3.4085E+04   2.47024E-04 0.0029
+    3.4086E+04   2.34891E-04 0.0030
+    3.4087E+04   1.11894E-04 0.0043
+    3.4088E+04   6.68756E-05 0.0055
+    3.4089E+04   2.42067E-05 0.0092
+    3.4090E+04   9.58187E-06 0.0147
+    3.4091E+04   1.46084E-06 0.0375
+    3.5070E+04   5.69933E-07 0.0601
+    3.5071E+04   6.99557E-08 0.1715
+    3.5072E+04   3.08628E-08 0.2582
+    3.5073E+04   4.11504E-09 0.7071
     3.5074E+04   0.00000E+00 0.0000
     3.5075E+04   0.00000E+00 0.0000
-    3.5076E+04   0.00000E+00 0.0000
-    3.5077E+04   0.00000E+00 0.0000
-    3.5078E+04   0.00000E+00 0.0000
-    3.5079E+04   1.00000E-06 0.3162
-    3.5080E+04   2.40000E-06 0.2041
-    3.5081E+04   1.56000E-05 0.0801
-    3.5082E+04   4.10000E-05 0.0494
-    3.5083E+04   1.31000E-04 0.0276
-    3.5084E+04   2.03100E-04 0.0222
-    3.5085E+04   4.29200E-04 0.0153
-    3.5086E+04   3.42300E-04 0.0171
-    3.5087E+04   3.76300E-04 0.0163
-    3.5088E+04   2.56500E-04 0.0198
-    3.5089E+04   1.87700E-04 0.0231
-    3.5090E+04   7.83000E-05 0.0357
-    3.5091E+04   3.77000E-05 0.0515
-    3.5092E+04   1.08000E-05 0.0962
-    3.6071E+04   9.70000E-06 0.1015
-    3.6072E+04   8.00000E-06 0.1118
-    3.6073E+04   4.00000E-07 0.5000
-    3.6074E+04   1.00000E-07 1.0000
-    3.6075E+04   0.00000E+00 0.0000
+    3.5076E+04   2.05752E-09 1.0000
+    3.5077E+04   8.23008E-09 0.5000
+    3.5078E+04   8.64158E-08 0.1543
+    3.5079E+04   6.72809E-07 0.0553
+    3.5080E+04   2.60276E-06 0.0281
+    3.5081E+04   1.54355E-05 0.0115
+    3.5082E+04   3.93439E-05 0.0072
+    3.5083E+04   1.32794E-04 0.0039
+    3.5084E+04   2.05020E-04 0.0032
+    3.5085E+04   4.35307E-04 0.0022
+    3.5086E+04   3.37717E-04 0.0025
+    3.5087E+04   3.77481E-04 0.0023
+    3.5088E+04   2.54968E-04 0.0028
+    3.5089E+04   1.89487E-04 0.0033
+    3.5090E+04   8.15745E-05 0.0050
+    3.5091E+04   3.90003E-05 0.0073
+    3.5092E+04   1.05427E-05 0.0140
+    3.6071E+04   9.95428E-06 0.0144
+    3.6072E+04   7.55933E-06 0.0165
+    3.6073E+04   6.00796E-07 0.0585
+    3.6074E+04   5.34955E-08 0.1961
+    3.6075E+04   4.11504E-09 0.7071
     3.6076E+04   0.00000E+00 0.0000
     3.6077E+04   0.00000E+00 0.0000
     3.6078E+04   0.00000E+00 0.0000
-    3.6079E+04   0.00000E+00 0.0000
-    3.6080E+04   0.00000E+00 0.0000
-    3.6081E+04   7.00000E-07 0.3780
-    3.6082E+04   1.30000E-06 0.2773
-    3.6083E+04   8.00000E-06 0.1118
-    3.6084E+04   4.93000E-05 0.0450
-    3.6085E+04   1.04000E-04 0.0310
-    3.6086E+04   3.17300E-04 0.0177
-    3.6087E+04   3.18000E-04 0.0177
-    3.6088E+04   4.65400E-04 0.0147
-    3.6089E+04   3.59500E-04 0.0167
-    3.6090E+04   3.44500E-04 0.0170
-    3.6091E+04   1.80100E-04 0.0236
-    3.6092E+04   1.16900E-04 0.0292
-    3.6093E+04   3.75000E-05 0.0516
-    3.6094E+04   1.86000E-05 0.0733
-    3.6095E+04   5.00000E-06 0.1414
-    3.6096E+04   2.40000E-06 0.2041
-    3.6097E+04   3.00000E-07 0.5774
-    3.7074E+04   3.00000E-07 0.5774
-    3.7075E+04   0.00000E+00 0.0000
-    3.7076E+04   0.00000E+00 0.0000
+    3.6079E+04   2.05752E-09 1.0000
+    3.6080E+04   7.61282E-08 0.1644
+    3.6081E+04   2.88053E-07 0.0845
+    3.6082E+04   2.76119E-06 0.0273
+    3.6083E+04   8.57780E-06 0.0155
+    3.6084E+04   4.81357E-05 0.0065
+    3.6085E+04   1.01767E-04 0.0045
+    3.6086E+04   3.16656E-04 0.0025
+    3.6087E+04   3.20578E-04 0.0025
+    3.6088E+04   4.62720E-04 0.0021
+    3.6089E+04   3.56214E-04 0.0024
+    3.6090E+04   3.39742E-04 0.0025
+    3.6091E+04   1.82706E-04 0.0034
+    3.6092E+04   1.15964E-04 0.0042
+    3.6093E+04   3.82431E-05 0.0073
+    3.6094E+04   1.90074E-05 0.0104
+    3.6095E+04   5.61703E-06 0.0191
+    3.6096E+04   3.66444E-06 0.0237
+    3.6097E+04   2.69535E-07 0.0874
+    3.7074E+04   1.13164E-07 0.1348
+    3.7075E+04   6.17256E-09 0.5774
+    3.7076E+04   2.05752E-09 1.0000
     3.7077E+04   0.00000E+00 0.0000
     3.7078E+04   0.00000E+00 0.0000
     3.7079E+04   0.00000E+00 0.0000
     3.7080E+04   0.00000E+00 0.0000
-    3.7081E+04   0.00000E+00 0.0000
-    3.7082E+04   0.00000E+00 0.0000
-    3.7083E+04   2.00000E-07 0.7071
-    3.7084E+04   1.20000E-06 0.2887
-    3.7085E+04   9.00000E-06 0.1054
-    3.7086E+04   3.27000E-05 0.0553
-    3.7087E+04   1.36200E-04 0.0271
-    3.7088E+04   1.96000E-04 0.0226
-    3.7089E+04   3.67800E-04 0.0165
-    3.7090E+04   3.94400E-04 0.0159
-    3.7091E+04   4.21100E-04 0.0154
-    3.7092E+04   2.93000E-04 0.0185
-    3.7093E+04   2.25600E-04 0.0211
-    3.7094E+04   1.11500E-04 0.0300
-    3.7095E+04   6.76000E-05 0.0385
-    3.7096E+04   2.08000E-05 0.0693
-    3.7097E+04   1.02000E-05 0.0990
-    3.7098E+04   3.40000E-06 0.1715
-    3.7099E+04   1.00000E-06 0.3162
-    3.7100E+04   4.00000E-07 0.5000
-    3.8077E+04   1.00000E-07 1.0000
-    3.8078E+04   1.00000E-07 1.0000
-    3.8079E+04   0.00000E+00 0.0000
-    3.8080E+04   0.00000E+00 0.0000
+    3.7081E+04   2.05752E-09 1.0000
+    3.7082E+04   1.02876E-08 0.4472
+    3.7083E+04   2.30442E-07 0.0945
+    3.7084E+04   1.13781E-06 0.0425
+    3.7085E+04   7.96054E-06 0.0161
+    3.7086E+04   3.26611E-05 0.0079
+    3.7087E+04   1.35434E-04 0.0039
+    3.7088E+04   2.02003E-04 0.0032
+    3.7089E+04   3.65177E-04 0.0024
+    3.7090E+04   3.86234E-04 0.0023
+    3.7091E+04   4.23526E-04 0.0022
+    3.7092E+04   2.98297E-04 0.0026
+    3.7093E+04   2.30360E-04 0.0030
+    3.7094E+04   1.08442E-04 0.0044
+    3.7095E+04   6.90401E-05 0.0055
+    3.7096E+04   2.23488E-05 0.0096
+    3.7097E+04   1.09563E-05 0.0137
+    3.7098E+04   3.03278E-06 0.0260
+    3.7099E+04   1.21188E-06 0.0412
+    3.7100E+04   4.48539E-07 0.0677
+    3.8077E+04   5.76106E-08 0.1890
+    3.8078E+04   8.23008E-09 0.5000
+    3.8079E+04   2.05752E-09 1.0000
+    3.8080E+04   2.05752E-09 1.0000
     3.8081E+04   0.00000E+00 0.0000
     3.8082E+04   0.00000E+00 0.0000
-    3.8083E+04   0.00000E+00 0.0000
-    3.8084E+04   0.00000E+00 0.0000
-    3.8085E+04   2.00000E-07 0.7071
-    3.8086E+04   9.00000E-07 0.3333
-    3.8087E+04   5.60000E-06 0.1336
-    3.8088E+04   4.36000E-05 0.0479
-    3.8089E+04   8.64000E-05 0.0340
-    3.8090E+04   2.24000E-04 0.0211
-    3.8091E+04   2.77800E-04 0.0190
-    3.8092E+04   4.33800E-04 0.0152
-    3.8093E+04   3.52200E-04 0.0168
-    3.8094E+04   3.66800E-04 0.0165
-    3.8095E+04   2.04400E-04 0.0221
-    3.8096E+04   1.58600E-04 0.0251
-    3.8097E+04   6.63000E-05 0.0389
-    3.8098E+04   4.18000E-05 0.0489
-    3.8099E+04   9.80000E-06 0.1010
-    3.8100E+04   6.50000E-06 0.1240
-    3.9080E+04   1.60000E-06 0.2500
-    3.9081E+04   2.00000E-07 0.7071
-    3.9082E+04   0.00000E+00 0.0000
-    3.9083E+04   0.00000E+00 0.0000
-    3.9084E+04   0.00000E+00 0.0000
+    3.8083E+04   2.05752E-09 1.0000
+    3.8084E+04   1.02876E-08 0.4472
+    3.8085E+04   6.99557E-08 0.1715
+    3.8086E+04   9.25884E-07 0.0471
+    3.8087E+04   5.26931E-06 0.0198
+    3.8088E+04   4.20722E-05 0.0070
+    3.8089E+04   8.57471E-05 0.0049
+    3.8090E+04   2.19930E-04 0.0031
+    3.8091E+04   2.80168E-04 0.0027
+    3.8092E+04   4.32902E-04 0.0022
+    3.8093E+04   3.46102E-04 0.0024
+    3.8094E+04   3.61272E-04 0.0024
+    3.8095E+04   1.95946E-04 0.0032
+    3.8096E+04   1.55170E-04 0.0036
+    3.8097E+04   6.83323E-05 0.0055
+    3.8098E+04   4.02492E-05 0.0072
+    3.8099E+04   1.15057E-05 0.0134
+    3.8100E+04   6.11083E-06 0.0183
+    3.9080E+04   1.86823E-06 0.0332
+    3.9081E+04   2.38672E-07 0.0928
+    3.9082E+04   5.96681E-08 0.1857
+    3.9083E+04   1.23451E-08 0.4082
+    3.9084E+04   4.11504E-09 0.7071
     3.9085E+04   0.00000E+00 0.0000
-    3.9086E+04   0.00000E+00 0.0000
-    3.9087E+04   0.00000E+00 0.0000
-    3.9088E+04   5.00000E-07 0.4472
-    3.9089E+04   6.00000E-06 0.1291
-    3.9090E+04   2.15000E-05 0.0682
-    3.9091E+04   7.63000E-05 0.0362
-    3.9092E+04   1.47600E-04 0.0260
-    3.9093E+04   2.83600E-04 0.0188
-    3.9094E+04   3.41200E-04 0.0171
-    3.9095E+04   4.13600E-04 0.0155
-    3.9096E+04   3.04600E-04 0.0181
-    3.9097E+04   2.64800E-04 0.0194
-    3.9098E+04   1.46800E-04 0.0261
-    3.9099E+04   1.11100E-04 0.0300
-    3.9100E+04   5.17000E-05 0.0440
-    3.9101E+04   2.50000E-05 0.0632
-    3.9102E+04   8.50000E-06 0.1085
-    4.0081E+04   4.10000E-06 0.1562
-    4.0082E+04   7.00000E-07 0.3780
-    4.0083E+04   2.00000E-07 0.7071
-    4.0084E+04   0.00000E+00 0.0000
-    4.0085E+04   0.00000E+00 0.0000
+    3.9086E+04   2.05752E-09 1.0000
+    3.9087E+04   4.93805E-08 0.2041
+    3.9088E+04   4.19734E-07 0.0700
+    3.9089E+04   6.24663E-06 0.0181
+    3.9090E+04   2.04250E-05 0.0100
+    3.9091E+04   7.26881E-05 0.0053
+    3.9092E+04   1.46154E-04 0.0038
+    3.9093E+04   2.86606E-04 0.0027
+    3.9094E+04   3.43283E-04 0.0024
+    3.9095E+04   4.16380E-04 0.0022
+    3.9096E+04   3.05247E-04 0.0026
+    3.9097E+04   2.63517E-04 0.0028
+    3.9098E+04   1.41251E-04 0.0038
+    3.9099E+04   1.06347E-04 0.0044
+    3.9100E+04   4.82242E-05 0.0065
+    3.9101E+04   2.33940E-05 0.0094
+    3.9102E+04   8.67450E-06 0.0154
+    4.0081E+04   4.15825E-06 0.0222
+    4.0082E+04   4.30022E-07 0.0692
+    4.0083E+04   1.39911E-07 0.1213
+    4.0084E+04   2.46902E-08 0.2887
+    4.0085E+04   1.02876E-08 0.4472
     4.0086E+04   0.00000E+00 0.0000
     4.0087E+04   0.00000E+00 0.0000
-    4.0088E+04   0.00000E+00 0.0000
-    4.0089E+04   1.00000E-07 1.0000
-    4.0090E+04   5.00000E-07 0.4472
-    4.0091E+04   2.90000E-06 0.1857
-    4.0092E+04   1.63000E-05 0.0783
-    4.0093E+04   5.01000E-05 0.0447
-    4.0094E+04   1.42600E-04 0.0265
-    4.0095E+04   2.12700E-04 0.0217
-    4.0096E+04   3.91900E-04 0.0160
-    4.0097E+04   3.48600E-04 0.0169
-    4.0098E+04   3.73100E-04 0.0164
-    4.0099E+04   2.49800E-04 0.0200
-    4.0100E+04   2.45200E-04 0.0202
-    4.0101E+04   1.21000E-04 0.0287
-    4.0102E+04   6.88000E-05 0.0381
-    4.1084E+04   2.70000E-05 0.0609
-    4.1085E+04   1.58000E-05 0.0796
-    4.1086E+04   5.30000E-06 0.1374
-    4.1087E+04   1.60000E-06 0.2500
-    4.1088E+04   2.00000E-07 0.7071
-    4.1089E+04   1.00000E-07 1.0000
-    4.1090E+04   0.00000E+00 0.0000
-    4.1091E+04   0.00000E+00 0.0000
-    4.1092E+04   1.00000E-07 1.0000
-    4.1093E+04   1.70000E-06 0.2425
-    4.1094E+04   7.20000E-06 0.1179
-    4.1095E+04   3.58000E-05 0.0529
-    4.1096E+04   8.40000E-05 0.0345
-    4.1097E+04   2.02000E-04 0.0222
-    4.1098E+04   2.64700E-04 0.0194
-    4.1099E+04   3.84100E-04 0.0161
-    4.1100E+04   3.56100E-04 0.0168
-    4.1101E+04   4.07500E-04 0.0157
-    4.1102E+04   2.76700E-04 0.0190
-    4.1103E+04   2.16200E-04 0.0215
-    4.1104E+04   8.82000E-05 0.0337
-    4.1105E+04   6.23000E-05 0.0401
-    4.1106E+04   2.02000E-05 0.0704
-    4.2087E+04   1.06000E-05 0.0971
-    4.2088E+04   4.60000E-06 0.1474
-    4.2089E+04   5.00000E-07 0.4472
-    4.2090E+04   0.00000E+00 0.0000
-    4.2091E+04   2.00000E-07 0.7071
-    4.2092E+04   0.00000E+00 0.0000
-    4.2093E+04   0.00000E+00 0.0000
-    4.2094E+04   0.00000E+00 0.0000
-    4.2095E+04   3.00000E-07 0.5774
-    4.2096E+04   4.40000E-06 0.1508
-    4.2097E+04   1.52000E-05 0.0811
-    4.2098E+04   6.80000E-05 0.0383
-    4.2099E+04   1.10500E-04 0.0301
-    4.2100E+04   2.92100E-04 0.0185
-    4.2101E+04   3.00800E-04 0.0182
-    4.2102E+04   5.32900E-04 0.0137
-    4.2103E+04   3.74600E-04 0.0163
-    4.2104E+04   4.42300E-04 0.0150
-    4.2105E+04   2.20100E-04 0.0213
-    4.2106E+04   1.84200E-04 0.0233
-    4.2107E+04   6.92000E-05 0.0380
-    4.2108E+04   4.26000E-05 0.0484
-    4.3090E+04   1.31000E-05 0.0874
-    4.3091E+04   5.80000E-06 0.1313
-    4.3092E+04   2.90000E-06 0.1857
-    4.3093E+04   2.00000E-07 0.7071
-    4.3094E+04   1.00000E-07 1.0000
-    4.3095E+04   0.00000E+00 0.0000
-    4.3096E+04   0.00000E+00 0.0000
-    4.3097E+04   2.00000E-07 0.7071
-    4.3098E+04   1.90000E-06 0.2294
-    4.3099E+04   8.20000E-06 0.1104
-    4.3100E+04   2.77000E-05 0.0601
-    4.3101E+04   9.50000E-05 0.0324
-    4.3102E+04   1.63300E-04 0.0247
-    4.3103E+04   3.60900E-04 0.0166
-    4.3104E+04   3.88300E-04 0.0160
-    4.3105E+04   5.86000E-04 0.0131
-    4.3106E+04   4.07700E-04 0.0157
-    4.3107E+04   4.00900E-04 0.0158
-    4.3108E+04   1.88300E-04 0.0230
-    4.3109E+04   1.37000E-04 0.0270
-    4.3110E+04   6.32000E-05 0.0398
-    4.4092E+04   3.70000E-05 0.0520
-    4.4093E+04   1.24000E-05 0.0898
-    4.4094E+04   9.00000E-06 0.1054
-    4.4095E+04   6.00000E-07 0.4082
-    4.4096E+04   5.00000E-07 0.4472
-    4.4097E+04   0.00000E+00 0.0000
-    4.4098E+04   0.00000E+00 0.0000
-    4.4099E+04   0.00000E+00 0.0000
-    4.4100E+04   8.00000E-07 0.3536
-    4.4101E+04   2.70000E-06 0.1924
-    4.4102E+04   2.17000E-05 0.0679
-    4.4103E+04   4.21000E-05 0.0487
-    4.4104E+04   1.67900E-04 0.0244
-    4.4105E+04   2.33300E-04 0.0207
-    4.4106E+04   4.87600E-04 0.0143
-    4.4107E+04   4.51900E-04 0.0149
-    4.4108E+04   6.24500E-04 0.0127
-    4.4109E+04   3.74200E-04 0.0163
-    4.4110E+04   3.50900E-04 0.0169
-    4.4111E+04   1.43700E-04 0.0264
-    4.4112E+04   1.28000E-04 0.0279
-    4.4113E+04   4.19000E-05 0.0489
-    4.5094E+04   2.53000E-05 0.0629
-    4.5095E+04   7.60000E-06 0.1147
-    4.5096E+04   1.90000E-06 0.2294
-    4.5097E+04   5.00000E-07 0.4472
-    4.5098E+04   3.00000E-07 0.5774
-    4.5099E+04   0.00000E+00 0.0000
-    4.5100E+04   0.00000E+00 0.0000
-    4.5101E+04   0.00000E+00 0.0000
-    4.5102E+04   0.00000E+00 0.0000
-    4.5103E+04   2.20000E-06 0.2132
-    4.5104E+04   6.40000E-06 0.1250
-    4.5105E+04   3.69000E-05 0.0521
-    4.5106E+04   8.04000E-05 0.0353
-    4.5107E+04   2.39200E-04 0.0204
-    4.5108E+04   3.05000E-04 0.0181
-    4.5109E+04   5.49900E-04 0.0135
-    4.5110E+04   4.93900E-04 0.0145
-    4.5111E+04   5.34200E-04 0.0142
-    4.5112E+04   3.66500E-04 0.0171
-    4.5113E+04   2.90700E-04 0.0189
-    4.5114E+04   1.32400E-04 0.0280
-    4.6096E+04   8.89000E-05 0.0337
-    4.6097E+04   3.15000E-05 0.0563
-    4.6098E+04   1.68000E-05 0.0772
-    4.6099E+04   6.10000E-06 0.1280
-    4.6100E+04   1.10000E-06 0.3015
-    4.6101E+04   1.00000E-07 1.0000
-    4.6102E+04   1.00000E-07 1.0000
-    4.6103E+04   0.00000E+00 0.0000
-    4.6104E+04   1.00000E-07 1.0000
-    4.6105E+04   4.00000E-07 0.5000
-    4.6106E+04   6.50000E-06 0.1240
-    4.6107E+04   1.45000E-05 0.0830
-    4.6108E+04   6.63000E-05 0.0388
-    4.6109E+04   1.18900E-04 0.0290
-    4.6110E+04   3.21300E-04 0.0176
-    4.6111E+04   3.62700E-04 0.0166
-    4.6112E+04   6.23000E-04 0.0127
-    4.6113E+04   4.46200E-04 0.0150
-    4.6114E+04   5.37900E-04 0.0136
-    4.6115E+04   2.64900E-04 0.0194
-    4.6116E+04   2.44600E-04 0.0202
-    4.6117E+04   7.72000E-05 0.0360
-    4.6118E+04   5.59000E-05 0.0423
-    4.7096E+04   1.71000E-05 0.0765
-    4.7097E+04   7.40000E-06 0.1162
-    4.7098E+04   2.40000E-06 0.2041
-    4.7099E+04   7.00000E-07 0.3780
-    4.7100E+04   1.00000E-07 1.0000
-    4.7101E+04   0.00000E+00 0.0000
-    4.7102E+04   0.00000E+00 0.0000
-    4.7103E+04   0.00000E+00 0.0000
+    4.0088E+04   4.11504E-09 0.7071
+    4.0089E+04   8.23008E-09 0.5000
+    4.0090E+04   5.20553E-07 0.0629
+    4.0091E+04   2.77559E-06 0.0272
+    4.0092E+04   1.70692E-05 0.0110
+    4.0093E+04   4.73950E-05 0.0066
+    4.0094E+04   1.42228E-04 0.0038
+    4.0095E+04   2.21229E-04 0.0030
+    4.0096E+04   3.88760E-04 0.0023
+    4.0097E+04   3.49280E-04 0.0024
+    4.0098E+04   3.78584E-04 0.0023
+    4.0099E+04   2.44073E-04 0.0029
+    4.0100E+04   2.44135E-04 0.0029
+    4.0101E+04   1.11516E-04 0.0043
+    4.0102E+04   7.43526E-05 0.0053
+    4.1084E+04   2.91386E-05 0.0084
+    4.1085E+04   1.63079E-05 0.0112
+    4.1086E+04   5.29194E-06 0.0197
+    4.1087E+04   1.02670E-06 0.0448
+    4.1088E+04   1.70774E-07 0.1098
+    4.1089E+04   6.58406E-08 0.1768
+    4.1090E+04   8.23008E-09 0.5000
+    4.1091E+04   2.46902E-08 0.2887
+    4.1092E+04   1.58429E-07 0.1140
+    4.1093E+04   1.52256E-06 0.0368
+    4.1094E+04   7.54081E-06 0.0165
+    4.1095E+04   3.49408E-05 0.0077
+    4.1096E+04   8.18934E-05 0.0050
+    4.1097E+04   2.01610E-04 0.0032
+    4.1098E+04   2.61007E-04 0.0028
+    4.1099E+04   3.88400E-04 0.0023
+    4.1100E+04   3.67403E-04 0.0024
+    4.1101E+04   4.10058E-04 0.0022
+    4.1102E+04   2.63982E-04 0.0028
+    4.1103E+04   2.17482E-04 0.0031
+    4.1104E+04   9.22345E-05 0.0047
+    4.1105E+04   6.00302E-05 0.0059
+    4.1106E+04   1.89580E-05 0.0104
+    4.2087E+04   1.12505E-05 0.0135
+    4.2088E+04   4.30845E-06 0.0219
+    4.2089E+04   7.61282E-07 0.0520
+    4.2090E+04   1.46084E-07 0.1187
+    4.2091E+04   4.11504E-08 0.2236
+    4.2092E+04   8.23008E-09 0.5000
+    4.2093E+04   1.23451E-08 0.4082
+    4.2094E+04   7.81858E-08 0.1622
+    4.2095E+04   5.78163E-07 0.0597
+    4.2096E+04   4.81048E-06 0.0207
+    4.2097E+04   1.65095E-05 0.0112
+    4.2098E+04   6.59929E-05 0.0056
+    4.2099E+04   1.13063E-04 0.0043
+    4.2100E+04   2.87878E-04 0.0027
+    4.2101E+04   3.01423E-04 0.0026
+    4.2102E+04   5.29412E-04 0.0020
+    4.2103E+04   3.82363E-04 0.0023
+    4.2104E+04   4.37221E-04 0.0022
+    4.2105E+04   2.25313E-04 0.0030
+    4.2106E+04   1.80693E-04 0.0034
+    4.2107E+04   6.73138E-05 0.0055
+    4.2108E+04   4.15969E-05 0.0070
+    4.3090E+04   1.35837E-05 0.0123
+    4.3091E+04   7.89059E-06 0.0161
+    4.3092E+04   2.47314E-06 0.0288
+    4.3093E+04   3.97101E-07 0.0720
+    4.3094E+04   5.76106E-08 0.1890
+    4.3095E+04   2.05752E-08 0.3162
+    4.3096E+04   2.26327E-08 0.3015
+    4.3097E+04   2.11925E-07 0.0985
+    4.3098E+04   1.34768E-06 0.0391
+    4.3099E+04   8.86585E-06 0.0152
+    4.3100E+04   2.66120E-05 0.0088
+    4.3101E+04   9.49875E-05 0.0047
+    4.3102E+04   1.64314E-04 0.0035
+    4.3103E+04   3.61167E-04 0.0024
+    4.3104E+04   3.97605E-04 0.0023
+    4.3105E+04   5.81797E-04 0.0019
+    4.3106E+04   4.11780E-04 0.0022
+    4.3107E+04   4.09605E-04 0.0022
+    4.3108E+04   1.89854E-04 0.0033
+    4.3109E+04   1.33340E-04 0.0039
+    4.3110E+04   6.22976E-05 0.0057
+    4.4092E+04   3.95929E-05 0.0072
+    4.4093E+04   1.30961E-05 0.0125
+    4.4094E+04   7.72187E-06 0.0163
+    4.4095E+04   7.69512E-07 0.0517
+    4.4096E+04   3.02455E-07 0.0825
+    4.4097E+04   5.55530E-08 0.1925
+    4.4098E+04   1.23451E-08 0.4082
+    4.4099E+04   4.73230E-08 0.2085
+    4.4100E+04   5.90508E-07 0.0590
+    4.4101E+04   3.04513E-06 0.0260
+    4.4102E+04   1.96493E-05 0.0102
+    4.4103E+04   4.60638E-05 0.0067
+    4.4104E+04   1.68007E-04 0.0035
+    4.4105E+04   2.32716E-04 0.0030
+    4.4106E+04   5.05255E-04 0.0020
+    4.4107E+04   4.52148E-04 0.0021
+    4.4108E+04   6.17071E-04 0.0018
+    4.4109E+04   3.68753E-04 0.0024
+    4.4110E+04   3.48628E-04 0.0024
+    4.4111E+04   1.40810E-04 0.0038
+    4.4112E+04   1.21077E-04 0.0041
+    4.4113E+04   4.21874E-05 0.0070
+    4.5094E+04   2.57622E-05 0.0089
+    4.5095E+04   8.87820E-06 0.0152
+    4.5096E+04   1.91555E-06 0.0328
+    4.5097E+04   4.09446E-07 0.0709
+    4.5098E+04   1.60487E-07 0.1132
+    4.5099E+04   3.70354E-08 0.2357
+    4.5100E+04   1.02876E-08 0.4472
+    4.5101E+04   3.08628E-08 0.2582
+    4.5102E+04   1.95464E-07 0.1026
+    4.5103E+04   1.59664E-06 0.0359
+    4.5104E+04   6.65608E-06 0.0176
+    4.5105E+04   3.51136E-05 0.0077
+    4.5106E+04   7.92824E-05 0.0051
+    4.5107E+04   2.29776E-04 0.0030
+    4.5108E+04   3.11529E-04 0.0026
+    4.5109E+04   5.56572E-04 0.0019
+    4.5110E+04   4.94994E-04 0.0021
+    4.5111E+04   5.28803E-04 0.0020
+    4.5112E+04   3.64630E-04 0.0025
+    4.5113E+04   3.05013E-04 0.0027
+    4.5114E+04   1.35829E-04 0.0039
+    4.6096E+04   8.81092E-05 0.0049
+    4.6097E+04   3.05439E-05 0.0082
+    4.6098E+04   1.68470E-05 0.0111
+    4.6099E+04   5.74048E-06 0.0189
+    4.6100E+04   1.29624E-06 0.0398
+    4.6101E+04   2.48960E-07 0.0909
+    4.6102E+04   9.87610E-08 0.1443
+    4.6103E+04   6.17256E-09 0.5774
+    4.6104E+04   8.23008E-08 0.1581
+    4.6105E+04   4.75287E-07 0.0658
+    4.6106E+04   4.42367E-06 0.0216
+    4.6107E+04   1.43389E-05 0.0120
+    4.6108E+04   6.66184E-05 0.0056
+    4.6109E+04   1.19001E-04 0.0042
+    4.6110E+04   3.28899E-04 0.0025
+    4.6111E+04   3.54902E-04 0.0024
+    4.6112E+04   6.24116E-04 0.0018
+    4.6113E+04   4.47700E-04 0.0021
+    4.6114E+04   5.36467E-04 0.0020
+    4.6115E+04   2.65630E-04 0.0028
+    4.6116E+04   2.39028E-04 0.0029
+    4.6117E+04   8.07186E-05 0.0050
+    4.6118E+04   5.72752E-05 0.0060
+    4.7096E+04   1.61145E-05 0.0113
+    4.7097E+04   8.63747E-06 0.0154
+    4.7098E+04   2.00402E-06 0.0320
+    4.7099E+04   7.61282E-07 0.0520
+    4.7100E+04   1.56372E-07 0.1147
+    4.7101E+04   5.55530E-08 0.1925
+    4.7102E+04   6.17256E-09 0.5774
+    4.7103E+04   4.11504E-09 0.7071
     4.7104E+04   0.00000E+00 0.0000
     4.7105E+04   0.00000E+00 0.0000
-    4.7106E+04   1.00000E-07 1.0000
-    4.7107E+04   2.00000E-07 0.7071
-    4.7108E+04   1.00000E-06 0.3162
-    4.7109E+04   9.30000E-06 0.1037
-    4.7110E+04   2.43000E-05 0.0641
-    4.7111E+04   9.83000E-05 0.0319
-    4.7112E+04   1.61300E-04 0.0249
-    4.7113E+04   3.62300E-04 0.0166
-    4.7114E+04   3.82700E-04 0.0162
-    4.7115E+04   5.87600E-04 0.0130
-    4.7116E+04   4.28100E-04 0.0153
-    4.7117E+04   4.47800E-04 0.0149
-    4.7118E+04   2.27700E-04 0.0210
-    4.7119E+04   1.69700E-04 0.0243
-    4.7120E+04   7.08000E-05 0.0376
-    4.7121E+04   4.02000E-05 0.0499
-    4.7122E+04   9.80000E-06 0.1010
-    4.7123E+04   4.70000E-06 0.1459
-    4.8097E+04   1.30000E-06 0.2773
-    4.8098E+04   2.00000E-07 0.7071
-    4.8099E+04   1.00000E-07 1.0000
-    4.8100E+04   1.00000E-07 1.0000
-    4.8101E+04   0.00000E+00 0.0000
-    4.8102E+04   0.00000E+00 0.0000
+    4.7106E+04   1.23451E-08 0.4082
+    4.7107E+04   1.95464E-07 0.1026
+    4.7108E+04   1.27772E-06 0.0401
+    4.7109E+04   8.92141E-06 0.0152
+    4.7110E+04   2.53569E-05 0.0090
+    4.7111E+04   9.53208E-05 0.0046
+    4.7112E+04   1.60559E-04 0.0036
+    4.7113E+04   3.63922E-04 0.0024
+    4.7114E+04   3.87353E-04 0.0023
+    4.7115E+04   5.92743E-04 0.0019
+    4.7116E+04   4.24538E-04 0.0022
+    4.7117E+04   4.53669E-04 0.0021
+    4.7118E+04   2.27346E-04 0.0030
+    4.7119E+04   1.71344E-04 0.0035
+    4.7120E+04   6.63303E-05 0.0056
+    4.7121E+04   3.89715E-05 0.0073
+    4.7122E+04   1.00674E-05 0.0143
+    4.7123E+04   4.94422E-06 0.0204
+    4.8097E+04   1.41557E-06 0.0381
+    4.8098E+04   6.54291E-07 0.0561
+    4.8099E+04   1.60487E-07 0.1132
+    4.8100E+04   5.55530E-08 0.1925
+    4.8101E+04   6.17256E-09 0.5774
+    4.8102E+04   2.05752E-09 1.0000
     4.8103E+04   0.00000E+00 0.0000
     4.8104E+04   0.00000E+00 0.0000
     4.8105E+04   0.00000E+00 0.0000
     4.8106E+04   0.00000E+00 0.0000
     4.8107E+04   0.00000E+00 0.0000
-    4.8108E+04   0.00000E+00 0.0000
-    4.8109E+04   1.00000E-07 1.0000
-    4.8110E+04   1.00000E-06 0.3162
-    4.8111E+04   2.80000E-06 0.1890
-    4.8112E+04   1.67000E-05 0.0774
-    4.8113E+04   3.93000E-05 0.0504
-    4.8114E+04   1.45100E-04 0.0263
-    4.8115E+04   1.99900E-04 0.0224
-    4.8116E+04   4.27600E-04 0.0153
-    4.8117E+04   3.88100E-04 0.0160
-    4.8118E+04   5.74500E-04 0.0132
-    4.8119E+04   3.30800E-04 0.0174
-    4.8120E+04   3.57300E-04 0.0167
-    4.8121E+04   1.53400E-04 0.0255
-    4.8122E+04   1.18500E-04 0.0290
-    4.8123E+04   3.86000E-05 0.0509
-    4.8124E+04   2.40000E-05 0.0645
-    4.8125E+04   6.70000E-06 0.1222
-    4.8126E+04   3.00000E-06 0.1826
-    4.9100E+04   1.10000E-06 0.3015
-    4.9101E+04   5.00000E-07 0.4472
-    4.9102E+04   1.00000E-07 1.0000
-    4.9103E+04   0.00000E+00 0.0000
-    4.9104E+04   0.00000E+00 0.0000
+    4.8108E+04   4.11504E-09 0.7071
+    4.8109E+04   4.32079E-08 0.2182
+    4.8110E+04   7.18074E-07 0.0535
+    4.8111E+04   2.89493E-06 0.0267
+    4.8112E+04   1.85897E-05 0.0105
+    4.8113E+04   4.12450E-05 0.0071
+    4.8114E+04   1.40224E-04 0.0038
+    4.8115E+04   1.99135E-04 0.0032
+    4.8116E+04   4.35141E-04 0.0022
+    4.8117E+04   3.93620E-04 0.0023
+    4.8118E+04   5.70408E-04 0.0019
+    4.8119E+04   3.36384E-04 0.0025
+    4.8120E+04   3.60241E-04 0.0024
+    4.8121E+04   1.53510E-04 0.0037
+    4.8122E+04   1.18312E-04 0.0042
+    4.8123E+04   3.75683E-05 0.0074
+    4.8124E+04   2.49968E-05 0.0091
+    4.8125E+04   6.84948E-06 0.0173
+    4.8126E+04   3.66856E-06 0.0237
+    4.9100E+04   1.07197E-06 0.0438
+    4.9101E+04   4.19734E-07 0.0700
+    4.9102E+04   5.55530E-08 0.1925
+    4.9103E+04   1.64602E-08 0.3536
+    4.9104E+04   4.11504E-09 0.7071
     4.9105E+04   0.00000E+00 0.0000
     4.9106E+04   0.00000E+00 0.0000
     4.9107E+04   0.00000E+00 0.0000
     4.9108E+04   0.00000E+00 0.0000
     4.9109E+04   0.00000E+00 0.0000
     4.9110E+04   0.00000E+00 0.0000
-    4.9111E+04   0.00000E+00 0.0000
-    4.9112E+04   2.00000E-07 0.7071
-    4.9113E+04   1.00000E-06 0.3162
-    4.9114E+04   6.50000E-06 0.1240
-    4.9115E+04   2.50000E-05 0.0632
-    4.9116E+04   6.12000E-05 0.0404
-    4.9117E+04   1.70000E-04 0.0243
-    4.9118E+04   2.30500E-04 0.0208
-    4.9119E+04   4.35500E-04 0.0151
-    4.9120E+04   3.65800E-04 0.0165
-    4.9121E+04   4.64300E-04 0.0147
-    4.9122E+04   2.95000E-04 0.0184
-    4.9123E+04   2.70200E-04 0.0192
-    4.9124E+04   1.17600E-04 0.0292
-    4.9125E+04   9.12000E-05 0.0331
-    4.9126E+04   3.44000E-05 0.0539
-    4.9127E+04   1.98000E-05 0.0711
-    4.9128E+04   6.20000E-06 0.1270
-    4.9129E+04   3.30000E-06 0.1741
-    4.9130E+04   2.30000E-06 0.2085
-    4.9131E+04   6.00000E-07 0.4082
-    4.9132E+04   5.00000E-07 0.4472
-    5.0103E+04   2.00000E-07 0.7071
-    5.0104E+04   0.00000E+00 0.0000
-    5.0105E+04   0.00000E+00 0.0000
+    4.9111E+04   1.02876E-08 0.4472
+    4.9112E+04   1.31681E-07 0.1250
+    4.9113E+04   1.32916E-06 0.0393
+    4.9114E+04   5.45449E-06 0.0194
+    4.9115E+04   2.57828E-05 0.0089
+    4.9116E+04   5.81476E-05 0.0059
+    4.9117E+04   1.66713E-04 0.0035
+    4.9118E+04   2.27329E-04 0.0030
+    4.9119E+04   4.21479E-04 0.0022
+    4.9120E+04   3.72240E-04 0.0024
+    4.9121E+04   4.70306E-04 0.0021
+    4.9122E+04   2.93359E-04 0.0026
+    4.9123E+04   2.72041E-04 0.0027
+    4.9124E+04   1.22702E-04 0.0041
+    4.9125E+04   9.08272E-05 0.0048
+    4.9126E+04   3.35870E-05 0.0078
+    4.9127E+04   1.99826E-05 0.0101
+    4.9128E+04   6.84125E-06 0.0173
+    4.9129E+04   3.11509E-06 0.0257
+    4.9130E+04   1.40734E-06 0.0382
+    4.9131E+04   7.32477E-07 0.0530
+    4.9132E+04   2.85995E-07 0.0848
+    5.0103E+04   1.11106E-07 0.1361
+    5.0104E+04   2.46902E-08 0.2887
+    5.0105E+04   8.23008E-09 0.5000
     5.0106E+04   0.00000E+00 0.0000
     5.0107E+04   0.00000E+00 0.0000
     5.0108E+04   0.00000E+00 0.0000
@@ -6566,60 +6579,60 @@ The following nuclides use physics models rather than data tables:
     5.0110E+04   0.00000E+00 0.0000
     5.0111E+04   0.00000E+00 0.0000
     5.0112E+04   0.00000E+00 0.0000
-    5.0113E+04   0.00000E+00 0.0000
-    5.0114E+04   1.00000E-07 1.0000
-    5.0115E+04   4.00000E-07 0.5000
-    5.0116E+04   2.70000E-06 0.1924
-    5.0117E+04   1.03000E-05 0.0985
-    5.0118E+04   4.09000E-05 0.0494
-    5.0119E+04   7.80000E-05 0.0358
-    5.0120E+04   2.10300E-04 0.0218
-    5.0121E+04   2.32500E-04 0.0207
-    5.0122E+04   4.25000E-04 0.0153
-    5.0123E+04   3.25400E-04 0.0175
-    5.0124E+04   3.99400E-04 0.0158
-    5.0125E+04   2.28400E-04 0.0209
-    5.0126E+04   2.13600E-04 0.0216
-    5.0127E+04   9.26000E-05 0.0329
-    5.0128E+04   7.20000E-05 0.0373
-    5.0129E+04   2.53000E-05 0.0629
-    5.0130E+04   2.16000E-05 0.0680
-    5.0131E+04   1.41000E-05 0.0842
-    5.0132E+04   1.10000E-05 0.0953
-    5.0133E+04   3.70000E-06 0.1644
-    5.0134E+04   1.00000E-06 0.3162
-    5.1108E+04   1.00000E-07 1.0000
-    5.1109E+04   0.00000E+00 0.0000
+    5.0113E+04   4.11504E-09 0.7071
+    5.0114E+04   6.78982E-08 0.1741
+    5.0115E+04   3.92986E-07 0.0724
+    5.0116E+04   3.01427E-06 0.0261
+    5.0117E+04   9.64565E-06 0.0146
+    5.0118E+04   4.26606E-05 0.0069
+    5.0119E+04   7.72290E-05 0.0052
+    5.0120E+04   2.10855E-04 0.0031
+    5.0121E+04   2.38024E-04 0.0029
+    5.0122E+04   4.24145E-04 0.0022
+    5.0123E+04   3.23691E-04 0.0025
+    5.0124E+04   4.04731E-04 0.0023
+    5.0125E+04   2.25986E-04 0.0030
+    5.0126E+04   2.13663E-04 0.0031
+    5.0127E+04   9.41933E-05 0.0047
+    5.0128E+04   7.12560E-05 0.0054
+    5.0129E+04   2.71798E-05 0.0087
+    5.0130E+04   2.15875E-05 0.0098
+    5.0131E+04   1.24850E-05 0.0128
+    5.0132E+04   9.61891E-06 0.0146
+    5.0133E+04   3.47104E-06 0.0243
+    5.0134E+04   8.06548E-07 0.0505
+    5.1108E+04   1.25509E-07 0.1280
+    5.1109E+04   1.64602E-08 0.3536
     5.1110E+04   0.00000E+00 0.0000
     5.1111E+04   0.00000E+00 0.0000
     5.1112E+04   0.00000E+00 0.0000
     5.1113E+04   0.00000E+00 0.0000
     5.1114E+04   0.00000E+00 0.0000
     5.1115E+04   0.00000E+00 0.0000
-    5.1116E+04   0.00000E+00 0.0000
-    5.1117E+04   3.00000E-07 0.5774
-    5.1118E+04   1.10000E-06 0.3015
-    5.1119E+04   5.40000E-06 0.1361
-    5.1120E+04   1.47000E-05 0.0825
-    5.1121E+04   5.07000E-05 0.0444
-    5.1122E+04   8.61000E-05 0.0341
-    5.1123E+04   2.08900E-04 0.0219
-    5.1124E+04   2.37500E-04 0.0205
-    5.1125E+04   3.75800E-04 0.0163
-    5.1126E+04   2.96500E-04 0.0184
-    5.1127E+04   3.62400E-04 0.0166
-    5.1128E+04   2.16400E-04 0.0215
-    5.1129E+04   2.06200E-04 0.0220
-    5.1130E+04   9.98000E-05 0.0317
-    5.1131E+04   7.87000E-05 0.0356
-    5.1132E+04   4.09000E-05 0.0494
-    5.1133E+04   2.95000E-05 0.0582
-    5.1134E+04   1.41000E-05 0.0842
-    5.1135E+04   7.70000E-06 0.1140
-    5.1136E+04   1.30000E-06 0.2773
-    5.2106E+04   2.00000E-07 0.7071
-    5.2107E+04   0.00000E+00 0.0000
-    5.2108E+04   0.00000E+00 0.0000
+    5.1116E+04   6.17256E-09 0.5774
+    5.1117E+04   1.37854E-07 0.1222
+    5.1118E+04   7.20132E-07 0.0535
+    5.1119E+04   4.86192E-06 0.0206
+    5.1120E+04   1.34397E-05 0.0124
+    5.1121E+04   5.17981E-05 0.0063
+    5.1122E+04   8.91544E-05 0.0048
+    5.1123E+04   2.08073E-04 0.0031
+    5.1124E+04   2.35426E-04 0.0030
+    5.1125E+04   3.78372E-04 0.0023
+    5.1126E+04   2.97215E-04 0.0026
+    5.1127E+04   3.54780E-04 0.0024
+    5.1128E+04   2.12661E-04 0.0031
+    5.1129E+04   2.00075E-04 0.0032
+    5.1130E+04   9.90408E-05 0.0046
+    5.1131E+04   7.52353E-05 0.0052
+    5.1132E+04   3.78913E-05 0.0074
+    5.1133E+04   2.76819E-05 0.0086
+    5.1134E+04   1.42915E-05 0.0120
+    5.1135E+04   6.20342E-06 0.0182
+    5.1136E+04   1.58635E-06 0.0360
+    5.2106E+04   1.62544E-07 0.1125
+    5.2107E+04   5.34955E-08 0.1961
+    5.2108E+04   2.46902E-08 0.2887
     5.2109E+04   0.00000E+00 0.0000
     5.2110E+04   0.00000E+00 0.0000
     5.2111E+04   0.00000E+00 0.0000
@@ -6630,30 +6643,30 @@ The following nuclides use physics models rather than data tables:
     5.2116E+04   0.00000E+00 0.0000
     5.2117E+04   0.00000E+00 0.0000
     5.2118E+04   0.00000E+00 0.0000
-    5.2119E+04   1.00000E-07 1.0000
-    5.2120E+04   5.00000E-07 0.4472
-    5.2121E+04   7.00000E-07 0.3780
-    5.2122E+04   7.70000E-06 0.1140
-    5.2123E+04   1.88000E-05 0.0729
-    5.2124E+04   6.79000E-05 0.0384
-    5.2125E+04   9.91000E-05 0.0318
-    5.2126E+04   2.26300E-04 0.0210
-    5.2127E+04   2.30500E-04 0.0208
-    5.2128E+04   3.72300E-04 0.0164
-    5.2129E+04   2.85500E-04 0.0187
-    5.2130E+04   3.53200E-04 0.0168
-    5.2131E+04   2.16300E-04 0.0215
-    5.2132E+04   1.95300E-04 0.0226
-    5.2133E+04   9.83000E-05 0.0319
-    5.2134E+04   7.86000E-05 0.0357
-    5.2135E+04   4.51000E-05 0.0471
-    5.2136E+04   3.10000E-05 0.0568
-    5.2137E+04   9.30000E-06 0.1037
-    5.2138E+04   5.70000E-06 0.1325
-    5.3110E+04   9.00000E-07 0.3333
-    5.3111E+04   0.00000E+00 0.0000
-    5.3112E+04   0.00000E+00 0.0000
-    5.3113E+04   0.00000E+00 0.0000
+    5.2119E+04   3.08628E-08 0.2582
+    5.2120E+04   2.69535E-07 0.0874
+    5.2121E+04   1.13575E-06 0.0426
+    5.2122E+04   7.80212E-06 0.0162
+    5.2123E+04   1.81000E-05 0.0107
+    5.2124E+04   6.51143E-05 0.0056
+    5.2125E+04   9.82116E-05 0.0046
+    5.2126E+04   2.26414E-04 0.0030
+    5.2127E+04   2.30592E-04 0.0030
+    5.2128E+04   3.74271E-04 0.0023
+    5.2129E+04   2.86913E-04 0.0027
+    5.2130E+04   3.50276E-04 0.0024
+    5.2131E+04   2.13297E-04 0.0031
+    5.2132E+04   2.02174E-04 0.0032
+    5.2133E+04   1.00958E-04 0.0045
+    5.2134E+04   7.79059E-05 0.0051
+    5.2135E+04   4.04796E-05 0.0071
+    5.2136E+04   3.06385E-05 0.0082
+    5.2137E+04   1.01600E-05 0.0142
+    5.2138E+04   5.45654E-06 0.0194
+    5.3110E+04   9.15596E-07 0.0474
+    5.3111E+04   2.46902E-07 0.0913
+    5.3112E+04   2.26327E-08 0.3015
+    5.3113E+04   6.17256E-09 0.5774
     5.3114E+04   0.00000E+00 0.0000
     5.3115E+04   0.00000E+00 0.0000
     5.3116E+04   0.00000E+00 0.0000
@@ -6661,31 +6674,31 @@ The following nuclides use physics models rather than data tables:
     5.3118E+04   0.00000E+00 0.0000
     5.3119E+04   0.00000E+00 0.0000
     5.3120E+04   0.00000E+00 0.0000
-    5.3121E+04   0.00000E+00 0.0000
-    5.3122E+04   1.00000E-07 1.0000
-    5.3123E+04   1.00000E-06 0.3162
-    5.3124E+04   2.30000E-06 0.2085
-    5.3125E+04   9.90000E-06 0.1005
-    5.3126E+04   2.46000E-05 0.0638
-    5.3127E+04   7.18000E-05 0.0373
-    5.3128E+04   1.06400E-04 0.0307
-    5.3129E+04   2.28600E-04 0.0209
-    5.3130E+04   2.40300E-04 0.0204
-    5.3131E+04   3.72900E-04 0.0164
-    5.3132E+04   3.12800E-04 0.0179
-    5.3133E+04   3.81200E-04 0.0162
-    5.3134E+04   2.40900E-04 0.0204
-    5.3135E+04   2.01900E-04 0.0223
-    5.3136E+04   7.49000E-05 0.0365
-    5.3137E+04   5.65000E-05 0.0421
-    5.3138E+04   4.12000E-05 0.0494
-    5.3139E+04   2.08000E-05 0.0693
-    5.3140E+04   7.00000E-06 0.1195
-    5.3141E+04   2.30000E-06 0.2085
-    5.3142E+04   1.00000E-06 0.3162
-    5.4110E+04   0.00000E+00 0.0000
-    5.4111E+04   0.00000E+00 0.0000
-    5.4112E+04   0.00000E+00 0.0000
+    5.3121E+04   8.23008E-09 0.5000
+    5.3122E+04   2.05752E-08 0.3162
+    5.3123E+04   5.20553E-07 0.0629
+    5.3124E+04   1.98756E-06 0.0322
+    5.3125E+04   9.79997E-06 0.0145
+    5.3126E+04   2.23385E-05 0.0096
+    5.3127E+04   7.11820E-05 0.0054
+    5.3128E+04   1.08330E-04 0.0044
+    5.3129E+04   2.24021E-04 0.0030
+    5.3130E+04   2.39329E-04 0.0029
+    5.3131E+04   3.73691E-04 0.0023
+    5.3132E+04   3.15025E-04 0.0026
+    5.3133E+04   3.77185E-04 0.0023
+    5.3134E+04   2.39337E-04 0.0029
+    5.3135E+04   1.98419E-04 0.0032
+    5.3136E+04   7.63463E-05 0.0052
+    5.3137E+04   5.62423E-05 0.0060
+    5.3138E+04   4.04591E-05 0.0071
+    5.3139E+04   2.30689E-05 0.0094
+    5.3140E+04   8.68891E-06 0.0154
+    5.3141E+04   2.46079E-06 0.0289
+    5.3142E+04   4.65000E-07 0.0665
+    5.4110E+04   1.02876E-07 0.1414
+    5.4111E+04   1.02876E-08 0.4472
+    5.4112E+04   4.11504E-09 0.7071
     5.4113E+04   0.00000E+00 0.0000
     5.4114E+04   0.00000E+00 0.0000
     5.4115E+04   0.00000E+00 0.0000
@@ -6697,30 +6710,30 @@ The following nuclides use physics models rather than data tables:
     5.4121E+04   0.00000E+00 0.0000
     5.4122E+04   0.00000E+00 0.0000
     5.4123E+04   0.00000E+00 0.0000
-    5.4124E+04   0.00000E+00 0.0000
-    5.4125E+04   3.00000E-07 0.5774
-    5.4126E+04   7.00000E-07 0.3780
-    5.4127E+04   2.70000E-06 0.1924
-    5.4128E+04   1.32000E-05 0.0870
-    5.4129E+04   2.61000E-05 0.0619
-    5.4130E+04   8.58000E-05 0.0341
-    5.4131E+04   1.16300E-04 0.0293
-    5.4132E+04   2.39000E-04 0.0205
-    5.4133E+04   2.66100E-04 0.0194
-    5.4134E+04   4.21800E-04 0.0154
-    5.4135E+04   3.47300E-04 0.0170
-    5.4136E+04   3.75500E-04 0.0163
-    5.4137E+04   1.66500E-04 0.0245
-    5.4138E+04   1.33800E-04 0.0273
-    5.4139E+04   8.32000E-05 0.0347
-    5.4140E+04   7.25000E-05 0.0371
-    5.4141E+04   4.23000E-05 0.0486
-    5.4142E+04   1.64000E-05 0.0781
-    5.4143E+04   5.60000E-06 0.1336
-    5.4144E+04   2.40000E-06 0.2041
-    5.4145E+04   2.00000E-07 0.7071
-    5.5114E+04   0.00000E+00 0.0000
-    5.5115E+04   0.00000E+00 0.0000
+    5.4124E+04   1.02876E-08 0.4472
+    5.4125E+04   6.99557E-08 0.1715
+    5.4126E+04   5.90508E-07 0.0590
+    5.4127E+04   2.10279E-06 0.0313
+    5.4128E+04   1.15591E-05 0.0133
+    5.4129E+04   2.58342E-05 0.0089
+    5.4130E+04   8.04490E-05 0.0051
+    5.4131E+04   1.15359E-04 0.0042
+    5.4132E+04   2.47941E-04 0.0029
+    5.4133E+04   2.65233E-04 0.0028
+    5.4134E+04   4.25084E-04 0.0022
+    5.4135E+04   3.53013E-04 0.0024
+    5.4136E+04   3.70732E-04 0.0024
+    5.4137E+04   1.54765E-04 0.0036
+    5.4138E+04   1.42500E-04 0.0038
+    5.4139E+04   8.37123E-05 0.0050
+    5.4140E+04   7.42826E-05 0.0053
+    5.4141E+04   4.02266E-05 0.0072
+    5.4142E+04   1.97378E-05 0.0102
+    5.4143E+04   5.41128E-06 0.0195
+    5.4144E+04   2.04312E-06 0.0317
+    5.4145E+04   2.09867E-07 0.0990
+    5.5114E+04   3.08628E-08 0.2582
+    5.5115E+04   4.11504E-09 0.7071
     5.5116E+04   0.00000E+00 0.0000
     5.5117E+04   0.00000E+00 0.0000
     5.5118E+04   0.00000E+00 0.0000
@@ -6731,30 +6744,30 @@ The following nuclides use physics models rather than data tables:
     5.5123E+04   0.00000E+00 0.0000
     5.5124E+04   0.00000E+00 0.0000
     5.5125E+04   0.00000E+00 0.0000
-    5.5126E+04   0.00000E+00 0.0000
-    5.5127E+04   2.00000E-07 0.7071
-    5.5128E+04   0.00000E+00 0.0000
-    5.5129E+04   1.70000E-06 0.2425
-    5.5130E+04   3.50000E-06 0.1690
-    5.5131E+04   1.36000E-05 0.0857
-    5.5132E+04   3.54000E-05 0.0531
-    5.5133E+04   9.37000E-05 0.0327
-    5.5134E+04   1.36100E-04 0.0271
-    5.5135E+04   2.70600E-04 0.0192
-    5.5136E+04   3.18300E-04 0.0177
-    5.5137E+04   4.59100E-04 0.0148
-    5.5138E+04   2.48200E-04 0.0201
-    5.5139E+04   2.59200E-04 0.0196
-    5.5140E+04   1.53600E-04 0.0255
-    5.5141E+04   1.29000E-04 0.0278
-    5.5142E+04   7.47000E-05 0.0366
-    5.5143E+04   5.31000E-05 0.0434
-    5.5144E+04   2.91000E-05 0.0586
-    5.5145E+04   1.18000E-05 0.0921
-    5.5146E+04   2.30000E-06 0.2085
-    5.5147E+04   8.00000E-07 0.3536
-    5.5148E+04   0.00000E+00 0.0000
-    5.6117E+04   0.00000E+00 0.0000
+    5.5126E+04   2.05752E-09 1.0000
+    5.5127E+04   3.70354E-08 0.2357
+    5.5128E+04   1.06991E-07 0.1387
+    5.5129E+04   1.02259E-06 0.0449
+    5.5130E+04   3.42783E-06 0.0245
+    5.5131E+04   1.46928E-05 0.0118
+    5.5132E+04   3.28524E-05 0.0079
+    5.5133E+04   9.16872E-05 0.0047
+    5.5134E+04   1.34741E-04 0.0039
+    5.5135E+04   2.74387E-04 0.0027
+    5.5136E+04   3.16823E-04 0.0025
+    5.5137E+04   4.59354E-04 0.0021
+    5.5138E+04   2.53069E-04 0.0029
+    5.5139E+04   2.55314E-04 0.0028
+    5.5140E+04   1.53551E-04 0.0037
+    5.5141E+04   1.29747E-04 0.0040
+    5.5142E+04   7.43012E-05 0.0053
+    5.5143E+04   5.45860E-05 0.0061
+    5.5144E+04   2.67231E-05 0.0088
+    5.5145E+04   9.96868E-06 0.0144
+    5.5146E+04   2.26533E-06 0.0301
+    5.5147E+04   4.83517E-07 0.0652
+    5.5148E+04   5.34955E-08 0.1961
+    5.6117E+04   2.67478E-08 0.2774
     5.6118E+04   0.00000E+00 0.0000
     5.6119E+04   0.00000E+00 0.0000
     5.6120E+04   0.00000E+00 0.0000
@@ -6765,277 +6778,277 @@ The following nuclides use physics models rather than data tables:
     5.6125E+04   0.00000E+00 0.0000
     5.6126E+04   0.00000E+00 0.0000
     5.6127E+04   0.00000E+00 0.0000
-    5.6128E+04   0.00000E+00 0.0000
-    5.6129E+04   0.00000E+00 0.0000
-    5.6130E+04   1.00000E-07 1.0000
-    5.6131E+04   4.00000E-07 0.5000
-    5.6132E+04   1.60000E-06 0.2500
-    5.6133E+04   6.00000E-06 0.1291
-    5.6134E+04   2.27000E-05 0.0664
-    5.6135E+04   4.53000E-05 0.0470
-    5.6136E+04   1.23100E-04 0.0285
-    5.6137E+04   1.79300E-04 0.0236
-    5.6138E+04   3.26000E-04 0.0175
-    5.6139E+04   2.38400E-04 0.0205
-    5.6140E+04   3.07900E-04 0.0180
-    5.6141E+04   2.13300E-04 0.0217
-    5.6142E+04   2.01700E-04 0.0223
-    5.6143E+04   1.19200E-04 0.0290
-    5.6144E+04   1.04100E-04 0.0310
-    5.6145E+04   5.72000E-05 0.0418
-    5.6146E+04   3.24000E-05 0.0556
-    5.6147E+04   1.13000E-05 0.0941
-    5.6148E+04   3.20000E-06 0.1768
-    5.7123E+04   1.20000E-06 0.2887
-    5.7124E+04   0.00000E+00 0.0000
-    5.7125E+04   0.00000E+00 0.0000
-    5.7126E+04   0.00000E+00 0.0000
-    5.7127E+04   0.00000E+00 0.0000
+    5.6128E+04   2.05752E-09 1.0000
+    5.6129E+04   2.05752E-09 1.0000
+    5.6130E+04   3.90929E-08 0.2294
+    5.6131E+04   2.48960E-07 0.0909
+    5.6132E+04   1.73037E-06 0.0345
+    5.6133E+04   5.29811E-06 0.0197
+    5.6134E+04   2.32747E-05 0.0094
+    5.6135E+04   4.44116E-05 0.0068
+    5.6136E+04   1.20853E-04 0.0041
+    5.6137E+04   1.74996E-04 0.0034
+    5.6138E+04   3.31191E-04 0.0025
+    5.6139E+04   2.42779E-04 0.0029
+    5.6140E+04   3.14840E-04 0.0026
+    5.6141E+04   2.07838E-04 0.0031
+    5.6142E+04   2.05680E-04 0.0032
+    5.6143E+04   1.15238E-04 0.0042
+    5.6144E+04   1.05503E-04 0.0044
+    5.6145E+04   5.63514E-05 0.0060
+    5.6146E+04   3.19039E-05 0.0080
+    5.6147E+04   1.18575E-05 0.0132
+    5.6148E+04   3.61712E-06 0.0239
+    5.7123E+04   5.57588E-07 0.0607
+    5.7124E+04   1.25509E-07 0.1280
+    5.7125E+04   4.11504E-09 0.7071
+    5.7126E+04   2.05752E-09 1.0000
+    5.7127E+04   2.05752E-09 1.0000
     5.7128E+04   0.00000E+00 0.0000
     5.7129E+04   0.00000E+00 0.0000
     5.7130E+04   0.00000E+00 0.0000
-    5.7131E+04   0.00000E+00 0.0000
-    5.7132E+04   0.00000E+00 0.0000
-    5.7133E+04   1.00000E-07 1.0000
-    5.7134E+04   6.00000E-07 0.4082
-    5.7135E+04   2.80000E-06 0.1890
-    5.7136E+04   6.60000E-06 0.1231
-    5.7137E+04   2.62000E-05 0.0618
-    5.7138E+04   5.44000E-05 0.0429
-    5.7139E+04   1.31700E-04 0.0276
-    5.7140E+04   1.32000E-04 0.0275
-    5.7141E+04   2.19800E-04 0.0213
-    5.7142E+04   2.00600E-04 0.0223
-    5.7143E+04   2.25400E-04 0.0211
-    5.7144E+04   1.55700E-04 0.0253
-    5.7145E+04   1.46000E-04 0.0262
-    5.7146E+04   7.44000E-05 0.0367
-    5.7147E+04   6.32000E-05 0.0398
-    5.7148E+04   2.53000E-05 0.0629
-    5.7149E+04   1.36000E-05 0.0857
-    5.8124E+04   3.70000E-06 0.1644
-    5.8125E+04   7.00000E-07 0.3780
-    5.8126E+04   2.00000E-07 0.7071
-    5.8127E+04   0.00000E+00 0.0000
-    5.8128E+04   0.00000E+00 0.0000
-    5.8129E+04   0.00000E+00 0.0000
+    5.7131E+04   2.05752E-09 1.0000
+    5.7132E+04   2.05752E-09 1.0000
+    5.7133E+04   8.23008E-08 0.1581
+    5.7134E+04   4.42367E-07 0.0682
+    5.7135E+04   2.70564E-06 0.0276
+    5.7136E+04   7.97906E-06 0.0161
+    5.7137E+04   2.69967E-05 0.0087
+    5.7138E+04   5.47527E-05 0.0061
+    5.7139E+04   1.32397E-04 0.0039
+    5.7140E+04   1.35947E-04 0.0039
+    5.7141E+04   2.19247E-04 0.0031
+    5.7142E+04   2.05143E-04 0.0032
+    5.7143E+04   2.32212E-04 0.0030
+    5.7144E+04   1.59365E-04 0.0036
+    5.7145E+04   1.48462E-04 0.0037
+    5.7146E+04   7.87968E-05 0.0051
+    5.7147E+04   6.25424E-05 0.0057
+    5.7148E+04   2.42170E-05 0.0092
+    5.7149E+04   1.26229E-05 0.0128
+    5.8124E+04   3.22002E-06 0.0253
+    5.8125E+04   1.02876E-06 0.0447
+    5.8126E+04   1.62544E-07 0.1125
+    5.8127E+04   3.29203E-08 0.2500
+    5.8128E+04   6.17256E-09 0.5774
+    5.8129E+04   4.11504E-09 0.7071
     5.8130E+04   0.00000E+00 0.0000
     5.8131E+04   0.00000E+00 0.0000
     5.8132E+04   0.00000E+00 0.0000
     5.8133E+04   0.00000E+00 0.0000
     5.8134E+04   0.00000E+00 0.0000
-    5.8135E+04   0.00000E+00 0.0000
-    5.8136E+04   1.00000E-07 1.0000
-    5.8137E+04   7.00000E-07 0.3780
-    5.8138E+04   4.60000E-06 0.1474
-    5.8139E+04   9.00000E-06 0.1054
-    5.8140E+04   3.81000E-05 0.0512
-    5.8141E+04   4.74000E-05 0.0459
-    5.8142E+04   9.80000E-05 0.0319
-    5.8143E+04   1.03700E-04 0.0311
-    5.8144E+04   1.63500E-04 0.0247
-    5.8145E+04   1.24700E-04 0.0283
-    5.8146E+04   1.63500E-04 0.0247
-    5.8147E+04   8.56000E-05 0.0342
-    5.8148E+04   8.93000E-05 0.0335
-    5.8149E+04   4.08000E-05 0.0495
-    5.8150E+04   2.56000E-05 0.0625
-    5.8151E+04   1.10000E-05 0.0953
-    5.9129E+04   4.90000E-06 0.1429
-    5.9130E+04   1.20000E-06 0.2887
-    5.9131E+04   3.00000E-07 0.5774
-    5.9132E+04   0.00000E+00 0.0000
-    5.9133E+04   0.00000E+00 0.0000
+    5.8135E+04   1.02876E-08 0.4472
+    5.8136E+04   1.79004E-07 0.1072
+    5.8137E+04   6.72809E-07 0.0553
+    5.8138E+04   4.15825E-06 0.0222
+    5.8139E+04   1.07691E-05 0.0138
+    5.8140E+04   3.67617E-05 0.0075
+    5.8141E+04   4.79423E-05 0.0066
+    5.8142E+04   9.86951E-05 0.0046
+    5.8143E+04   1.06137E-04 0.0044
+    5.8144E+04   1.68453E-04 0.0035
+    5.8145E+04   1.30161E-04 0.0040
+    5.8146E+04   1.59690E-04 0.0036
+    5.8147E+04   9.12675E-05 0.0047
+    5.8148E+04   8.51566E-05 0.0049
+    5.8149E+04   3.94221E-05 0.0072
+    5.8150E+04   2.68506E-05 0.0088
+    5.8151E+04   1.01168E-05 0.0143
+    5.9129E+04   3.82904E-06 0.0232
+    5.9130E+04   8.62101E-07 0.0489
+    5.9131E+04   2.69535E-07 0.0874
+    5.9132E+04   2.88053E-08 0.2673
+    5.9133E+04   2.05752E-09 1.0000
     5.9134E+04   0.00000E+00 0.0000
     5.9135E+04   0.00000E+00 0.0000
     5.9136E+04   0.00000E+00 0.0000
-    5.9137E+04   0.00000E+00 0.0000
-    5.9138E+04   0.00000E+00 0.0000
-    5.9139E+04   2.00000E-07 0.7071
-    5.9140E+04   1.60000E-06 0.2500
-    5.9141E+04   4.40000E-06 0.1508
-    5.9142E+04   9.00000E-06 0.1054
-    5.9143E+04   2.35000E-05 0.0652
-    5.9144E+04   3.55000E-05 0.0531
-    5.9145E+04   6.74000E-05 0.0385
-    5.9146E+04   7.12000E-05 0.0375
-    5.9147E+04   1.02800E-04 0.0312
-    5.9148E+04   8.75000E-05 0.0338
-    5.9149E+04   8.87000E-05 0.0336
-    5.9150E+04   5.46000E-05 0.0428
-    5.9151E+04   4.73000E-05 0.0460
-    5.9152E+04   2.20000E-05 0.0674
-    6.0129E+04   1.13000E-05 0.0941
-    6.0130E+04   2.60000E-06 0.1961
-    6.0131E+04   1.00000E-06 0.3162
-    6.0132E+04   1.00000E-07 1.0000
-    6.0133E+04   0.00000E+00 0.0000
+    5.9137E+04   4.11504E-09 0.7071
+    5.9138E+04   1.85177E-08 0.3333
+    5.9139E+04   2.71593E-07 0.0870
+    5.9140E+04   1.15015E-06 0.0423
+    5.9141E+04   5.51004E-06 0.0193
+    5.9142E+04   9.44813E-06 0.0148
+    5.9143E+04   2.40339E-05 0.0093
+    5.9144E+04   3.49387E-05 0.0077
+    5.9145E+04   6.47172E-05 0.0056
+    5.9146E+04   6.91635E-05 0.0055
+    5.9147E+04   1.01872E-04 0.0045
+    5.9148E+04   8.16033E-05 0.0050
+    5.9149E+04   8.89980E-05 0.0048
+    5.9150E+04   5.32692E-05 0.0062
+    5.9151E+04   4.50185E-05 0.0068
+    5.9152E+04   2.10052E-05 0.0099
+    6.0129E+04   9.93782E-06 0.0144
+    6.0130E+04   2.81469E-06 0.0270
+    6.0131E+04   1.15221E-06 0.0423
+    6.0132E+04   1.83119E-07 0.1060
+    6.0133E+04   5.55530E-08 0.1925
     6.0134E+04   0.00000E+00 0.0000
     6.0135E+04   0.00000E+00 0.0000
     6.0136E+04   0.00000E+00 0.0000
     6.0137E+04   0.00000E+00 0.0000
     6.0138E+04   0.00000E+00 0.0000
     6.0139E+04   0.00000E+00 0.0000
-    6.0140E+04   1.00000E-07 1.0000
-    6.0141E+04   1.00000E-07 1.0000
-    6.0142E+04   6.00000E-07 0.4082
-    6.0143E+04   1.60000E-06 0.2500
-    6.0144E+04   5.20000E-06 0.1387
-    6.0145E+04   6.70000E-06 0.1222
-    6.0146E+04   1.77000E-05 0.0752
-    6.0147E+04   2.02000E-05 0.0704
-    6.0148E+04   4.62000E-05 0.0465
-    6.0149E+04   4.08000E-05 0.0495
-    6.0150E+04   5.89000E-05 0.0412
-    6.0151E+04   4.03000E-05 0.0498
-    6.0152E+04   4.43000E-05 0.0475
-    6.0153E+04   1.98000E-05 0.0711
-    6.0154E+04   1.52000E-05 0.0811
-    6.1132E+04   6.20000E-06 0.1270
-    6.1133E+04   3.70000E-06 0.1644
-    6.1134E+04   4.00000E-07 0.5000
-    6.1135E+04   3.00000E-07 0.5774
-    6.1136E+04   1.00000E-07 1.0000
-    6.1137E+04   0.00000E+00 0.0000
-    6.1138E+04   0.00000E+00 0.0000
-    6.1139E+04   1.00000E-07 1.0000
+    6.0140E+04   1.02876E-08 0.4472
+    6.0141E+04   3.90929E-08 0.2294
+    6.0142E+04   5.45243E-07 0.0614
+    6.0143E+04   1.22628E-06 0.0410
+    6.0144E+04   4.29404E-06 0.0219
+    6.0145E+04   7.31243E-06 0.0168
+    6.0146E+04   1.76741E-05 0.0108
+    6.0147E+04   2.17500E-05 0.0097
+    6.0148E+04   4.24508E-05 0.0070
+    6.0149E+04   3.92863E-05 0.0072
+    6.0150E+04   6.01434E-05 0.0058
+    6.0151E+04   4.31956E-05 0.0069
+    6.0152E+04   4.53498E-05 0.0067
+    6.0153E+04   2.36306E-05 0.0093
+    6.0154E+04   1.61186E-05 0.0113
+    6.1132E+04   6.47502E-06 0.0178
+    6.1133E+04   3.15418E-06 0.0255
+    6.1134E+04   7.42765E-07 0.0526
+    6.1135E+04   3.29203E-07 0.0791
+    6.1136E+04   4.93805E-08 0.2041
+    6.1137E+04   1.02876E-08 0.4472
+    6.1138E+04   4.11504E-09 0.7071
+    6.1139E+04   2.05752E-09 1.0000
     6.1140E+04   0.00000E+00 0.0000
     6.1141E+04   0.00000E+00 0.0000
     6.1142E+04   0.00000E+00 0.0000
-    6.1143E+04   0.00000E+00 0.0000
-    6.1144E+04   0.00000E+00 0.0000
-    6.1145E+04   1.00000E-07 1.0000
-    6.1146E+04   5.00000E-07 0.4472
-    6.1147E+04   1.60000E-06 0.2500
-    6.1148E+04   4.00000E-06 0.1581
-    6.1149E+04   1.02000E-05 0.0990
-    6.1150E+04   1.10000E-05 0.0953
-    6.1151E+04   2.30000E-05 0.0659
-    6.1152E+04   2.28000E-05 0.0662
-    6.1153E+04   3.08000E-05 0.0570
-    6.1154E+04   1.85000E-05 0.0735
-    6.1155E+04   1.87000E-05 0.0731
-    6.2133E+04   8.00000E-06 0.1118
-    6.2134E+04   5.30000E-06 0.1374
-    6.2135E+04   1.70000E-06 0.2425
-    6.2136E+04   4.00000E-07 0.5000
-    6.2137E+04   3.00000E-07 0.5774
-    6.2138E+04   0.00000E+00 0.0000
-    6.2139E+04   0.00000E+00 0.0000
+    6.1143E+04   6.17256E-09 0.5774
+    6.1144E+04   5.55530E-08 0.1925
+    6.1145E+04   3.55951E-07 0.0760
+    6.1146E+04   8.92964E-07 0.0480
+    6.1147E+04   2.63157E-06 0.0280
+    6.1148E+04   4.44424E-06 0.0215
+    6.1149E+04   9.73618E-06 0.0145
+    6.1150E+04   1.24418E-05 0.0129
+    6.1151E+04   2.30915E-05 0.0094
+    6.1152E+04   2.24352E-05 0.0096
+    6.1153E+04   2.89658E-05 0.0084
+    6.1154E+04   2.04723E-05 0.0100
+    6.1155E+04   1.73223E-05 0.0109
+    6.2133E+04   8.81647E-06 0.0153
+    6.2134E+04   5.69727E-06 0.0190
+    6.2135E+04   1.74889E-06 0.0343
+    6.2136E+04   7.48937E-07 0.0524
+    6.2137E+04   1.68717E-07 0.1104
+    6.2138E+04   4.52654E-08 0.2132
+    6.2139E+04   6.17256E-09 0.5774
     6.2140E+04   0.00000E+00 0.0000
     6.2141E+04   0.00000E+00 0.0000
     6.2142E+04   0.00000E+00 0.0000
     6.2143E+04   0.00000E+00 0.0000
     6.2144E+04   0.00000E+00 0.0000
-    6.2145E+04   0.00000E+00 0.0000
-    6.2146E+04   0.00000E+00 0.0000
-    6.2147E+04   0.00000E+00 0.0000
-    6.2148E+04   0.00000E+00 0.0000
-    6.2149E+04   7.00000E-07 0.3780
-    6.2150E+04   1.40000E-06 0.2673
-    6.2151E+04   2.50000E-06 0.2000
-    6.2152E+04   6.20000E-06 0.1270
-    6.2153E+04   5.60000E-06 0.1336
-    6.2154E+04   1.11000E-05 0.0949
-    6.2155E+04   1.11000E-05 0.0949
-    6.2156E+04   1.30000E-05 0.0877
-    6.2157E+04   7.80000E-06 0.1132
-    6.2158E+04   5.50000E-06 0.1348
-    6.3138E+04   3.00000E-06 0.1826
-    6.3139E+04   1.80000E-06 0.2357
-    6.3140E+04   2.00000E-07 0.7071
-    6.3141E+04   2.00000E-07 0.7071
-    6.3142E+04   1.00000E-07 1.0000
-    6.3143E+04   1.00000E-07 1.0000
+    6.2145E+04   2.05752E-09 1.0000
+    6.2146E+04   2.05752E-08 0.3162
+    6.2147E+04   3.70354E-08 0.2357
+    6.2148E+04   2.53075E-07 0.0902
+    6.2149E+04   6.46061E-07 0.0564
+    6.2150E+04   1.79004E-06 0.0339
+    6.2151E+04   2.60276E-06 0.0281
+    6.2152E+04   6.30836E-06 0.0181
+    6.2153E+04   7.21161E-06 0.0169
+    6.2154E+04   1.21764E-05 0.0130
+    6.2155E+04   1.04789E-05 0.0140
+    6.2156E+04   1.16414E-05 0.0133
+    6.2157E+04   7.15811E-06 0.0170
+    6.2158E+04   5.31046E-06 0.0197
+    6.3138E+04   2.67683E-06 0.0277
+    6.3139E+04   1.42380E-06 0.0380
+    6.3140E+04   3.78584E-07 0.0737
+    6.3141E+04   1.50199E-07 0.1170
+    6.3142E+04   3.70354E-08 0.2357
+    6.3143E+04   1.02876E-08 0.4472
     6.3144E+04   0.00000E+00 0.0000
     6.3145E+04   0.00000E+00 0.0000
     6.3146E+04   0.00000E+00 0.0000
-    6.3147E+04   0.00000E+00 0.0000
-    6.3148E+04   0.00000E+00 0.0000
-    6.3149E+04   0.00000E+00 0.0000
-    6.3150E+04   1.00000E-07 1.0000
-    6.3151E+04   0.00000E+00 0.0000
-    6.3152E+04   4.00000E-07 0.5000
-    6.3153E+04   6.00000E-07 0.4082
-    6.3154E+04   1.60000E-06 0.2500
-    6.3155E+04   4.10000E-06 0.1562
-    6.3156E+04   3.10000E-06 0.1796
-    6.3157E+04   4.70000E-06 0.1459
-    6.3158E+04   4.60000E-06 0.1474
-    6.3159E+04   4.00000E-06 0.1581
-    6.3160E+04   2.50000E-06 0.2000
-    6.4142E+04   1.80000E-06 0.2357
-    6.4143E+04   5.00000E-07 0.4472
-    6.4144E+04   4.00000E-07 0.5000
-    6.4145E+04   0.00000E+00 0.0000
-    6.4146E+04   0.00000E+00 0.0000
-    6.4147E+04   0.00000E+00 0.0000
+    6.3147E+04   2.05752E-09 1.0000
+    6.3148E+04   6.17256E-09 0.5774
+    6.3149E+04   8.23008E-09 0.5000
+    6.3150E+04   3.08628E-08 0.2582
+    6.3151E+04   1.87234E-07 0.1048
+    6.3152E+04   3.97101E-07 0.0720
+    6.3153E+04   1.09460E-06 0.0434
+    6.3154E+04   1.60487E-06 0.0358
+    6.3155E+04   3.41754E-06 0.0245
+    6.3156E+04   3.74469E-06 0.0234
+    6.3157E+04   5.11911E-06 0.0200
+    6.3158E+04   3.98130E-06 0.0227
+    6.3159E+04   3.84756E-06 0.0231
+    6.3160E+04   2.42582E-06 0.0291
+    6.4142E+04   1.55343E-06 0.0364
+    6.4143E+04   6.35774E-07 0.0569
+    6.4144E+04   2.81880E-07 0.0854
+    6.4145E+04   1.04934E-07 0.1400
+    6.4146E+04   3.08628E-08 0.2582
+    6.4147E+04   4.11504E-09 0.7071
     6.4148E+04   0.00000E+00 0.0000
     6.4149E+04   0.00000E+00 0.0000
     6.4150E+04   0.00000E+00 0.0000
     6.4151E+04   0.00000E+00 0.0000
-    6.4152E+04   0.00000E+00 0.0000
-    6.4153E+04   0.00000E+00 0.0000
-    6.4154E+04   2.00000E-07 0.7071
-    6.4155E+04   1.00000E-07 1.0000
-    6.4156E+04   1.10000E-06 0.3015
-    6.4157E+04   9.00000E-07 0.3333
-    6.4158E+04   1.70000E-06 0.2425
-    6.4159E+04   1.20000E-06 0.2887
-    6.4160E+04   2.30000E-06 0.2085
-    6.4161E+04   1.00000E-06 0.3162
-    6.4162E+04   1.20000E-06 0.2887
-    6.4163E+04   4.00000E-07 0.5000
-    6.5144E+04   5.00000E-07 0.4472
-    6.5145E+04   3.00000E-07 0.5774
-    6.5146E+04   1.00000E-07 1.0000
-    6.5147E+04   0.00000E+00 0.0000
-    6.5148E+04   1.00000E-07 1.0000
-    6.5149E+04   0.00000E+00 0.0000
+    6.4152E+04   4.11504E-09 0.7071
+    6.4153E+04   3.90929E-08 0.2294
+    6.4154E+04   1.29624E-07 0.1260
+    6.4155E+04   2.16040E-07 0.0976
+    6.4156E+04   7.50995E-07 0.0523
+    6.4157E+04   8.68273E-07 0.0487
+    6.4158E+04   1.62338E-06 0.0356
+    6.4159E+04   1.64190E-06 0.0354
+    6.4160E+04   2.07192E-06 0.0315
+    6.4161E+04   1.51022E-06 0.0369
+    6.4162E+04   1.30858E-06 0.0397
+    6.4163E+04   7.67455E-07 0.0518
+    6.5144E+04   4.38252E-07 0.0685
+    6.5145E+04   1.35796E-07 0.1231
+    6.5146E+04   6.78982E-08 0.1741
+    6.5147E+04   1.23451E-08 0.4082
+    6.5148E+04   2.05752E-09 1.0000
+    6.5149E+04   2.05752E-09 1.0000
     6.5150E+04   0.00000E+00 0.0000
     6.5151E+04   0.00000E+00 0.0000
     6.5152E+04   0.00000E+00 0.0000
-    6.5153E+04   0.00000E+00 0.0000
+    6.5153E+04   2.05752E-09 1.0000
     6.5154E+04   0.00000E+00 0.0000
-    6.5155E+04   0.00000E+00 0.0000
-    6.5156E+04   0.00000E+00 0.0000
-    6.5157E+04   1.00000E-07 1.0000
-    6.5158E+04   1.00000E-07 1.0000
-    6.5159E+04   5.00000E-07 0.4472
-    6.5160E+04   4.00000E-07 0.5000
-    6.5161E+04   1.30000E-06 0.2773
-    6.5162E+04   2.00000E-07 0.7071
-    6.5163E+04   8.00000E-07 0.3536
-    6.5164E+04   7.00000E-07 0.3780
-    6.5165E+04   6.00000E-07 0.4082
-    6.6145E+04   4.00000E-07 0.5000
-    6.6146E+04   0.00000E+00 0.0000
-    6.6147E+04   0.00000E+00 0.0000
-    6.6148E+04   0.00000E+00 0.0000
-    6.6149E+04   0.00000E+00 0.0000
-    6.6150E+04   0.00000E+00 0.0000
+    6.5155E+04   2.05752E-09 1.0000
+    6.5156E+04   1.85177E-08 0.3333
+    6.5157E+04   8.43583E-08 0.1562
+    6.5158E+04   1.46084E-07 0.1187
+    6.5159E+04   3.31261E-07 0.0788
+    6.5160E+04   4.89690E-07 0.0648
+    6.5161E+04   7.42765E-07 0.0526
+    6.5162E+04   6.62521E-07 0.0557
+    6.5163E+04   7.07787E-07 0.0539
+    6.5164E+04   5.57588E-07 0.0607
+    6.5165E+04   4.19734E-07 0.0700
+    6.6145E+04   1.83119E-07 0.1060
+    6.6146E+04   1.17279E-07 0.1325
+    6.6147E+04   4.52654E-08 0.2132
+    6.6148E+04   2.26327E-08 0.3015
+    6.6149E+04   2.05752E-09 1.0000
+    6.6150E+04   6.17256E-09 0.5774
     6.6151E+04   0.00000E+00 0.0000
     6.6152E+04   0.00000E+00 0.0000
     6.6153E+04   0.00000E+00 0.0000
     6.6154E+04   0.00000E+00 0.0000
     6.6155E+04   0.00000E+00 0.0000
     6.6156E+04   0.00000E+00 0.0000
-    6.6157E+04   0.00000E+00 0.0000
-    6.6158E+04   0.00000E+00 0.0000
-    6.6159E+04   0.00000E+00 0.0000
-    6.6160E+04   1.00000E-07 1.0000
-    6.6161E+04   0.00000E+00 0.0000
-    6.6162E+04   2.00000E-07 0.7071
-    6.6163E+04   2.00000E-07 0.7071
-    6.6164E+04   2.00000E-07 0.7071
-    6.6165E+04   5.00000E-07 0.4472
-    6.6166E+04   2.00000E-07 0.7071
-    6.6167E+04   2.00000E-07 0.7071
-    6.6168E+04   1.00000E-07 1.0000
-    6.7147E+04   0.00000E+00 0.0000
-    6.7148E+04   0.00000E+00 0.0000
-    6.7149E+04   0.00000E+00 0.0000
-    6.7150E+04   0.00000E+00 0.0000
+    6.6157E+04   2.05752E-09 1.0000
+    6.6158E+04   4.11504E-09 0.7071
+    6.6159E+04   1.44026E-08 0.3780
+    6.6160E+04   4.11504E-08 0.2236
+    6.6161E+04   9.46459E-08 0.1474
+    6.6162E+04   2.13982E-07 0.0981
+    6.6163E+04   2.28385E-07 0.0949
+    6.6164E+04   3.95044E-07 0.0722
+    6.6165E+04   2.83938E-07 0.0851
+    6.6166E+04   2.88053E-07 0.0845
+    6.6167E+04   1.83119E-07 0.1060
+    6.6168E+04   1.83119E-07 0.1060
+    6.7147E+04   6.58406E-08 0.1768
+    6.7148E+04   3.49778E-08 0.2425
+    6.7149E+04   8.23008E-09 0.5000
+    6.7150E+04   8.23008E-09 0.5000
     6.7151E+04   0.00000E+00 0.0000
     6.7152E+04   0.00000E+00 0.0000
     6.7153E+04   0.00000E+00 0.0000
@@ -7045,22 +7058,22 @@ The following nuclides use physics models rather than data tables:
     6.7157E+04   0.00000E+00 0.0000
     6.7158E+04   0.00000E+00 0.0000
     6.7159E+04   0.00000E+00 0.0000
-    6.7160E+04   0.00000E+00 0.0000
-    6.7161E+04   0.00000E+00 0.0000
-    6.7162E+04   1.00000E-07 1.0000
-    6.7163E+04   0.00000E+00 0.0000
-    6.7164E+04   0.00000E+00 0.0000
-    6.7165E+04   1.00000E-07 1.0000
-    6.7166E+04   3.00000E-07 0.5774
-    6.7167E+04   1.00000E-07 1.0000
-    6.7168E+04   0.00000E+00 0.0000
-    6.7169E+04   1.00000E-07 1.0000
-    6.7170E+04   1.00000E-07 1.0000
-    6.8147E+04   0.00000E+00 0.0000
-    6.8148E+04   0.00000E+00 0.0000
-    6.8149E+04   0.00000E+00 0.0000
-    6.8150E+04   0.00000E+00 0.0000
-    6.8151E+04   0.00000E+00 0.0000
+    6.7160E+04   4.11504E-09 0.7071
+    6.7161E+04   6.17256E-09 0.5774
+    6.7162E+04   1.64602E-08 0.3536
+    6.7163E+04   2.26327E-08 0.3015
+    6.7164E+04   5.96681E-08 0.1857
+    6.7165E+04   1.00818E-07 0.1429
+    6.7166E+04   1.46084E-07 0.1187
+    6.7167E+04   1.56372E-07 0.1147
+    6.7168E+04   1.31681E-07 0.1250
+    6.7169E+04   1.33739E-07 0.1240
+    6.7170E+04   8.02433E-08 0.1601
+    6.8147E+04   4.52654E-08 0.2132
+    6.8148E+04   3.29203E-08 0.2500
+    6.8149E+04   1.02876E-08 0.4472
+    6.8150E+04   2.05752E-09 1.0000
+    6.8151E+04   4.11504E-09 0.7071
     6.8152E+04   0.00000E+00 0.0000
     6.8153E+04   0.00000E+00 0.0000
     6.8154E+04   0.00000E+00 0.0000
@@ -7071,22 +7084,22 @@ The following nuclides use physics models rather than data tables:
     6.8159E+04   0.00000E+00 0.0000
     6.8160E+04   0.00000E+00 0.0000
     6.8161E+04   0.00000E+00 0.0000
-    6.8162E+04   0.00000E+00 0.0000
+    6.8162E+04   2.05752E-09 1.0000
     6.8163E+04   0.00000E+00 0.0000
-    6.8164E+04   0.00000E+00 0.0000
-    6.8165E+04   0.00000E+00 0.0000
-    6.8166E+04   0.00000E+00 0.0000
-    6.8167E+04   0.00000E+00 0.0000
-    6.8168E+04   1.00000E-07 1.0000
-    6.8169E+04   0.00000E+00 0.0000
-    6.8170E+04   0.00000E+00 0.0000
-    6.8171E+04   1.00000E-07 1.0000
-    6.8172E+04   1.00000E-07 1.0000
-    6.8173E+04   0.00000E+00 0.0000
-    6.9151E+04   0.00000E+00 0.0000
-    6.9152E+04   0.00000E+00 0.0000
-    6.9153E+04   0.00000E+00 0.0000
-    6.9154E+04   0.00000E+00 0.0000
+    6.8164E+04   2.05752E-09 1.0000
+    6.8165E+04   2.05752E-09 1.0000
+    6.8166E+04   2.46902E-08 0.2887
+    6.8167E+04   2.67478E-08 0.2774
+    6.8168E+04   5.34955E-08 0.1961
+    6.8169E+04   4.73230E-08 0.2085
+    6.8170E+04   8.43583E-08 0.1562
+    6.8171E+04   6.58406E-08 0.1768
+    6.8172E+04   6.37831E-08 0.1796
+    6.8173E+04   4.32079E-08 0.2182
+    6.9151E+04   1.23451E-08 0.4082
+    6.9152E+04   1.44026E-08 0.3780
+    6.9153E+04   4.11504E-09 0.7071
+    6.9154E+04   2.05752E-09 1.0000
     6.9155E+04   0.00000E+00 0.0000
     6.9156E+04   0.00000E+00 0.0000
     6.9157E+04   0.00000E+00 0.0000
@@ -7098,19 +7111,19 @@ The following nuclides use physics models rather than data tables:
     6.9163E+04   0.00000E+00 0.0000
     6.9164E+04   0.00000E+00 0.0000
     6.9165E+04   0.00000E+00 0.0000
-    6.9166E+04   0.00000E+00 0.0000
-    6.9167E+04   0.00000E+00 0.0000
-    6.9168E+04   0.00000E+00 0.0000
-    6.9169E+04   0.00000E+00 0.0000
-    6.9170E+04   0.00000E+00 0.0000
-    6.9171E+04   0.00000E+00 0.0000
-    6.9172E+04   0.00000E+00 0.0000
-    6.9173E+04   2.00000E-07 0.7071
-    6.9174E+04   1.00000E-07 1.0000
-    6.9175E+04   0.00000E+00 0.0000
-    6.9176E+04   0.00000E+00 0.0000
-    7.0153E+04   0.00000E+00 0.0000
-    7.0154E+04   0.00000E+00 0.0000
+    6.9166E+04   2.05752E-09 1.0000
+    6.9167E+04   4.11504E-09 0.7071
+    6.9168E+04   2.05752E-09 1.0000
+    6.9169E+04   1.64602E-08 0.3536
+    6.9170E+04   1.85177E-08 0.3333
+    6.9171E+04   2.88053E-08 0.2673
+    6.9172E+04   3.29203E-08 0.2500
+    6.9173E+04   4.93805E-08 0.2041
+    6.9174E+04   3.08628E-08 0.2582
+    6.9175E+04   2.26327E-08 0.3015
+    6.9176E+04   6.17256E-09 0.5774
+    7.0153E+04   4.11504E-09 0.7071
+    7.0154E+04   4.11504E-09 0.7071
     7.0155E+04   0.00000E+00 0.0000
     7.0156E+04   0.00000E+00 0.0000
     7.0157E+04   0.00000E+00 0.0000
@@ -7126,20 +7139,20 @@ The following nuclides use physics models rather than data tables:
     7.0167E+04   0.00000E+00 0.0000
     7.0168E+04   0.00000E+00 0.0000
     7.0169E+04   0.00000E+00 0.0000
-    7.0170E+04   0.00000E+00 0.0000
-    7.0171E+04   0.00000E+00 0.0000
-    7.0172E+04   0.00000E+00 0.0000
-    7.0173E+04   0.00000E+00 0.0000
-    7.0174E+04   1.00000E-07 1.0000
-    7.0175E+04   0.00000E+00 0.0000
-    7.0176E+04   0.00000E+00 0.0000
-    7.0177E+04   0.00000E+00 0.0000
-    7.0178E+04   0.00000E+00 0.0000
-    7.0179E+04   0.00000E+00 0.0000
-    7.1151E+04   0.00000E+00 0.0000
+    7.0170E+04   4.11504E-09 0.7071
+    7.0171E+04   2.05752E-09 1.0000
+    7.0172E+04   6.17256E-09 0.5774
+    7.0173E+04   8.23008E-09 0.5000
+    7.0174E+04   2.05752E-08 0.3162
+    7.0175E+04   4.11504E-09 0.7071
+    7.0176E+04   3.29203E-08 0.2500
+    7.0177E+04   1.85177E-08 0.3333
+    7.0178E+04   4.11504E-09 0.7071
+    7.0179E+04   4.11504E-09 0.7071
+    7.1151E+04   4.11504E-09 0.7071
     7.1152E+04   0.00000E+00 0.0000
     7.1153E+04   0.00000E+00 0.0000
-    7.1154E+04   0.00000E+00 0.0000
+    7.1154E+04   2.05752E-09 1.0000
     7.1155E+04   0.00000E+00 0.0000
     7.1156E+04   0.00000E+00 0.0000
     7.1157E+04   0.00000E+00 0.0000
@@ -7157,18 +7170,18 @@ The following nuclides use physics models rather than data tables:
     7.1169E+04   0.00000E+00 0.0000
     7.1170E+04   0.00000E+00 0.0000
     7.1171E+04   0.00000E+00 0.0000
-    7.1172E+04   0.00000E+00 0.0000
+    7.1172E+04   2.05752E-09 1.0000
     7.1173E+04   0.00000E+00 0.0000
-    7.1174E+04   0.00000E+00 0.0000
+    7.1174E+04   2.05752E-09 1.0000
     7.1175E+04   0.00000E+00 0.0000
-    7.1176E+04   0.00000E+00 0.0000
-    7.1177E+04   1.00000E-07 1.0000
-    7.1178E+04   0.00000E+00 0.0000
-    7.1179E+04   1.00000E-07 1.0000
-    7.1180E+04   0.00000E+00 0.0000
-    7.1181E+04   0.00000E+00 0.0000
+    7.1176E+04   4.11504E-09 0.7071
+    7.1177E+04   6.17256E-09 0.5774
+    7.1178E+04   1.23451E-08 0.4082
+    7.1179E+04   1.23451E-08 0.4082
+    7.1180E+04   6.17256E-09 0.5774
+    7.1181E+04   2.05752E-09 1.0000
     7.1182E+04   0.00000E+00 0.0000
-    7.1183E+04   0.00000E+00 0.0000
+    7.1183E+04   2.05752E-09 1.0000
     7.2154E+04   0.00000E+00 0.0000
     7.2155E+04   0.00000E+00 0.0000
     7.2156E+04   0.00000E+00 0.0000
@@ -7187,18 +7200,18 @@ The following nuclides use physics models rather than data tables:
     7.2169E+04   0.00000E+00 0.0000
     7.2170E+04   0.00000E+00 0.0000
     7.2171E+04   0.00000E+00 0.0000
-    7.2172E+04   0.00000E+00 0.0000
+    7.2172E+04   2.05752E-09 1.0000
     7.2173E+04   0.00000E+00 0.0000
     7.2174E+04   0.00000E+00 0.0000
     7.2175E+04   0.00000E+00 0.0000
     7.2176E+04   0.00000E+00 0.0000
-    7.2177E+04   0.00000E+00 0.0000
+    7.2177E+04   2.05752E-09 1.0000
     7.2178E+04   0.00000E+00 0.0000
     7.2179E+04   0.00000E+00 0.0000
-    7.2180E+04   0.00000E+00 0.0000
-    7.2181E+04   0.00000E+00 0.0000
-    7.2182E+04   0.00000E+00 0.0000
-    7.2183E+04   0.00000E+00 0.0000
+    7.2180E+04   2.05752E-09 1.0000
+    7.2181E+04   4.11504E-09 0.7071
+    7.2182E+04   2.05752E-09 1.0000
+    7.2183E+04   2.05752E-09 1.0000
     7.2184E+04   0.00000E+00 0.0000
     7.3157E+04   0.00000E+00 0.0000
     7.3158E+04   0.00000E+00 0.0000
@@ -7223,13 +7236,13 @@ The following nuclides use physics models rather than data tables:
     7.3177E+04   0.00000E+00 0.0000
     7.3178E+04   0.00000E+00 0.0000
     7.3179E+04   0.00000E+00 0.0000
-    7.3180E+04   0.00000E+00 0.0000
+    7.3180E+04   2.05752E-09 1.0000
     7.3181E+04   0.00000E+00 0.0000
     7.3182E+04   0.00000E+00 0.0000
     7.3183E+04   0.00000E+00 0.0000
     7.3184E+04   0.00000E+00 0.0000
     7.3185E+04   0.00000E+00 0.0000
-    7.3186E+04   0.00000E+00 0.0000
+    7.3186E+04   4.11504E-09 0.7071
     7.4158E+04   0.00000E+00 0.0000
     7.4159E+04   0.00000E+00 0.0000
     7.4160E+04   0.00000E+00 0.0000
@@ -7259,7 +7272,7 @@ The following nuclides use physics models rather than data tables:
     7.4184E+04   0.00000E+00 0.0000
     7.4185E+04   0.00000E+00 0.0000
     7.4186E+04   0.00000E+00 0.0000
-    7.4187E+04   0.00000E+00 0.0000
+    7.4187E+04   2.05752E-09 1.0000
     7.4188E+04   0.00000E+00 0.0000
     7.4189E+04   0.00000E+00 0.0000
     7.4190E+04   0.00000E+00 0.0000
@@ -7588,8 +7601,8 @@ The following nuclides use physics models rather than data tables:
     8.5211E+04   0.00000E+00 0.0000
     8.5212E+04   0.00000E+00 0.0000
     8.5213E+04   0.00000E+00 0.0000
-    8.5214E+04   0.00000E+00 0.0000
-    8.5215E+04   0.00000E+00 0.0000
+    8.5214E+04   2.05752E-09 1.0000
+    8.5215E+04   2.05752E-09 1.0000
     8.5216E+04   0.00000E+00 0.0000
     8.5217E+04   0.00000E+00 0.0000
     8.5218E+04   0.00000E+00 0.0000
@@ -7610,15 +7623,15 @@ The following nuclides use physics models rather than data tables:
     8.6212E+04   0.00000E+00 0.0000
     8.6213E+04   0.00000E+00 0.0000
     8.6214E+04   0.00000E+00 0.0000
-    8.6215E+04   0.00000E+00 0.0000
-    8.6216E+04   0.00000E+00 0.0000
-    8.6217E+04   0.00000E+00 0.0000
-    8.6218E+04   1.00000E-07 1.0000
-    8.6219E+04   0.00000E+00 0.0000
-    8.6220E+04   0.00000E+00 0.0000
-    8.6221E+04   0.00000E+00 0.0000
-    8.6222E+04   0.00000E+00 0.0000
-    8.6223E+04   0.00000E+00 0.0000
+    8.6215E+04   6.17256E-09 0.5774
+    8.6216E+04   1.64602E-08 0.3536
+    8.6217E+04   4.32079E-08 0.2182
+    8.6218E+04   7.61282E-08 0.1644
+    8.6219E+04   5.55530E-08 0.1925
+    8.6220E+04   4.93805E-08 0.2041
+    8.6221E+04   2.26327E-08 0.3015
+    8.6222E+04   1.02876E-08 0.4472
+    8.6223E+04   4.11504E-09 0.7071
     8.6224E+04   0.00000E+00 0.0000
     8.6225E+04   0.00000E+00 0.0000
     8.6226E+04   0.00000E+00 0.0000
@@ -7635,21 +7648,21 @@ The following nuclides use physics models rather than data tables:
     8.7211E+04   0.00000E+00 0.0000
     8.7212E+04   0.00000E+00 0.0000
     8.7213E+04   0.00000E+00 0.0000
-    8.7214E+04   1.00000E-07 1.0000
-    8.7215E+04   2.00000E-07 0.7071
-    8.7216E+04   1.00000E-07 1.0000
-    8.7217E+04   4.00000E-07 0.5000
-    8.7218E+04   1.20000E-06 0.2887
-    8.7219E+04   1.00000E-06 0.3162
-    8.7220E+04   1.60000E-06 0.2500
-    8.7221E+04   1.80000E-06 0.2357
-    8.7222E+04   1.50000E-06 0.2582
-    8.7223E+04   1.20000E-06 0.2887
-    8.7224E+04   6.00000E-07 0.4082
-    8.7225E+04   9.00000E-07 0.3333
-    8.7226E+04   2.00000E-07 0.7071
-    8.7227E+04   1.00000E-07 1.0000
-    8.7228E+04   0.00000E+00 0.0000
+    8.7214E+04   1.02876E-08 0.4472
+    8.7215E+04   1.74889E-07 0.1085
+    8.7216E+04   3.04513E-07 0.0822
+    8.7217E+04   7.13959E-07 0.0537
+    8.7218E+04   9.32057E-07 0.0470
+    8.7219E+04   1.44644E-06 0.0377
+    8.7220E+04   1.54108E-06 0.0365
+    8.7221E+04   1.90321E-06 0.0329
+    8.7222E+04   1.40529E-06 0.0383
+    8.7223E+04   1.31887E-06 0.0395
+    8.7224E+04   7.26305E-07 0.0532
+    8.7225E+04   4.38252E-07 0.0685
+    8.7226E+04   1.15221E-07 0.1336
+    8.7227E+04   6.58406E-08 0.1768
+    8.7228E+04   6.17256E-09 0.5774
     8.7229E+04   0.00000E+00 0.0000
     8.8206E+04   0.00000E+00 0.0000
     8.8207E+04   0.00000E+00 0.0000
@@ -7661,22 +7674,22 @@ The following nuclides use physics models rather than data tables:
     8.8213E+04   0.00000E+00 0.0000
     8.8214E+04   0.00000E+00 0.0000
     8.8215E+04   0.00000E+00 0.0000
-    8.8216E+04   0.00000E+00 0.0000
-    8.8217E+04   3.00000E-07 0.5774
-    8.8218E+04   2.80000E-06 0.1890
-    8.8219E+04   6.90000E-06 0.1204
-    8.8220E+04   2.58000E-05 0.0623
-    8.8221E+04   3.07000E-05 0.0571
-    8.8222E+04   4.52000E-05 0.0470
-    8.8223E+04   4.34000E-05 0.0480
-    8.8224E+04   4.75000E-05 0.0459
-    8.8225E+04   2.87000E-05 0.0590
-    8.8226E+04   2.54000E-05 0.0627
-    8.8227E+04   1.57000E-05 0.0798
-    8.8228E+04   1.23000E-05 0.0902
-    8.8229E+04   4.80000E-06 0.1443
-    8.8230E+04   1.70000E-06 0.2425
-    8.9209E+04   0.00000E+00 0.0000
+    8.8216E+04   2.88053E-08 0.2673
+    8.8217E+04   2.65420E-07 0.0880
+    8.8218E+04   2.33529E-06 0.0297
+    8.8219E+04   6.67254E-06 0.0176
+    8.8220E+04   2.18982E-05 0.0097
+    8.8221E+04   3.06282E-05 0.0082
+    8.8222E+04   5.12322E-05 0.0063
+    8.8223E+04   4.34672E-05 0.0069
+    8.8224E+04   4.63436E-05 0.0067
+    8.8225E+04   2.82312E-05 0.0085
+    8.8226E+04   2.46882E-05 0.0091
+    8.8227E+04   1.35981E-05 0.0123
+    8.8228E+04   1.20488E-05 0.0131
+    8.8229E+04   4.75287E-06 0.0208
+    8.8230E+04   1.63161E-06 0.0355
+    8.9209E+04   2.05752E-09 1.0000
     8.9210E+04   0.00000E+00 0.0000
     8.9211E+04   0.00000E+00 0.0000
     8.9212E+04   0.00000E+00 0.0000
@@ -7684,22 +7697,22 @@ The following nuclides use physics models rather than data tables:
     8.9214E+04   0.00000E+00 0.0000
     8.9215E+04   0.00000E+00 0.0000
     8.9216E+04   0.00000E+00 0.0000
-    8.9217E+04   2.00000E-07 0.7071
-    8.9218E+04   3.50000E-06 0.1690
-    8.9219E+04   2.24000E-05 0.0668
-    8.9220E+04   4.33000E-05 0.0481
-    8.9221E+04   1.11000E-04 0.0300
-    8.9222E+04   1.73800E-04 0.0240
-    8.9223E+04   3.06400E-04 0.0181
-    8.9224E+04   3.53800E-04 0.0168
-    8.9225E+04   5.06600E-04 0.0140
-    8.9226E+04   4.64000E-04 0.0147
-    8.9227E+04   5.53600E-04 0.0134
-    8.9228E+04   4.35300E-04 0.0152
-    8.9229E+04   6.34100E-04 0.0126
-    8.9230E+04   1.54000E-04 0.0255
-    8.9231E+04   1.26700E-04 0.0281
-    8.9232E+04   7.10000E-06 0.1187
+    8.9217E+04   3.25088E-07 0.0796
+    8.9218E+04   4.15002E-06 0.0223
+    8.9219E+04   2.09126E-05 0.0099
+    8.9220E+04   4.30680E-05 0.0069
+    8.9221E+04   1.11145E-04 0.0043
+    8.9222E+04   1.72583E-04 0.0035
+    8.9223E+04   3.02801E-04 0.0026
+    8.9224E+04   3.46268E-04 0.0024
+    8.9225E+04   4.94309E-04 0.0020
+    8.9226E+04   4.55800E-04 0.0021
+    8.9227E+04   5.44208E-04 0.0019
+    8.9228E+04   4.44110E-04 0.0022
+    8.9229E+04   6.33792E-04 0.0018
+    8.9230E+04   1.53670E-04 0.0037
+    8.9231E+04   1.23542E-04 0.0041
+    8.9232E+04   6.41535E-06 0.0179
     9.0212E+04   0.00000E+00 0.0000
     9.0213E+04   0.00000E+00 0.0000
     9.0214E+04   0.00000E+00 0.0000
@@ -7708,20 +7721,20 @@ The following nuclides use physics models rather than data tables:
     9.0217E+04   0.00000E+00 0.0000
     9.0218E+04   0.00000E+00 0.0000
     9.0219E+04   0.00000E+00 0.0000
-    9.0220E+04   0.00000E+00 0.0000
-    9.0221E+04   0.00000E+00 0.0000
-    9.0222E+04   3.50000E-06 0.1690
-    9.0223E+04   2.21000E-05 0.0673
-    9.0224E+04   1.80300E-04 0.0235
-    9.0225E+04   4.60600E-04 0.0147
-    9.0226E+04   1.28490E-03 0.0088
-    9.0227E+04   1.43550E-03 0.0083
-    9.0228E+04   2.24520E-03 0.0067
-    9.0229E+04   1.76700E-03 0.0075
-    9.0230E+04   2.48010E-03 0.0064
-    9.0231E+04   3.07240E-03 0.0057
-    9.0232E+04   5.74172E-02 0.0013
-    9.0233E+04   7.27500E-04 0.0118
+    9.0220E+04   2.05752E-09 1.0000
+    9.0221E+04   6.37831E-08 0.1796
+    9.0222E+04   2.76531E-06 0.0273
+    9.0223E+04   2.27665E-05 0.0095
+    9.0224E+04   1.76204E-04 0.0034
+    9.0225E+04   4.62179E-04 0.0021
+    9.0226E+04   1.26754E-03 0.0013
+    9.0227E+04   1.44174E-03 0.0012
+    9.0228E+04   2.24267E-03 0.0010
+    9.0229E+04   1.74598E-03 0.0011
+    9.0230E+04   2.49577E-03 0.0009
+    9.0231E+04   3.06210E-03 0.0008
+    9.0232E+04   5.74068E-02 0.0002
+    9.0233E+04   7.14095E-04 0.0017
     9.0234E+04   0.00000E+00 0.0000
     9.0235E+04   0.00000E+00 0.0000
     9.0236E+04   0.00000E+00 0.0000
@@ -7731,18 +7744,18 @@ The following nuclides use physics models rather than data tables:
     9.1218E+04   0.00000E+00 0.0000
     9.1219E+04   0.00000E+00 0.0000
     9.1220E+04   0.00000E+00 0.0000
-    9.1221E+04   2.00000E-07 0.7071
-    9.1222E+04   7.00000E-07 0.3780
-    9.1223E+04   3.40000E-06 0.1715
-    9.1224E+04   1.25000E-05 0.0894
-    9.1225E+04   5.39000E-05 0.0431
-    9.1226E+04   1.16800E-04 0.0293
-    9.1227E+04   2.70400E-04 0.0192
-    9.1228E+04   3.74200E-04 0.0163
-    9.1229E+04   5.95700E-04 0.0130
-    9.1230E+04   6.11600E-04 0.0128
-    9.1231E+04   8.29300E-04 0.0110
-    9.1232E+04   5.50300E-04 0.0135
+    9.1221E+04   1.64602E-08 0.3536
+    9.1222E+04   3.82699E-07 0.0733
+    9.1223E+04   2.91551E-06 0.0266
+    9.1224E+04   1.29151E-05 0.0126
+    9.1225E+04   5.23783E-05 0.0063
+    9.1226E+04   1.16628E-04 0.0042
+    9.1227E+04   2.68476E-04 0.0028
+    9.1228E+04   3.64430E-04 0.0024
+    9.1229E+04   5.93477E-04 0.0019
+    9.1230E+04   6.10668E-04 0.0018
+    9.1231E+04   8.23880E-04 0.0016
+    9.1232E+04   5.51271E-04 0.0019
     9.1233E+04   0.00000E+00 0.0000
     9.1234E+04   0.00000E+00 0.0000
     9.1235E+04   0.00000E+00 0.0000
@@ -7893,7 +7906,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      1.42911E-01 0.0010
+      total      1.42828E-01 0.0001
  
  cell  5                                                                                                                               
     user bin   
@@ -7903,29 +7916,29 @@ The following nuclides use physics models rather than data tables:
     2.0030E+03   0.00000E+00 0.0000
     2.0040E+03   0.00000E+00 0.0000
     2.0050E+03   0.00000E+00 0.0000
-    2.0060E+03   0.00000E+00 0.0000
+    2.0060E+03   2.05752E-09 1.0000
     2.0070E+03   0.00000E+00 0.0000
     2.0080E+03   0.00000E+00 0.0000
     3.0050E+03   0.00000E+00 0.0000
-    3.0060E+03   1.00000E-07 1.0000
-    3.0070E+03   3.00000E-07 0.5774
-    3.0080E+03   0.00000E+00 0.0000
+    3.0060E+03   1.00818E-07 0.1568
+    3.0070E+03   4.93805E-08 0.2041
+    3.0080E+03   4.11504E-09 0.7071
     3.0090E+03   0.00000E+00 0.0000
     3.0100E+03   0.00000E+00 0.0000
     3.0110E+03   0.00000E+00 0.0000
     4.0060E+03   0.00000E+00 0.0000
-    4.0070E+03   0.00000E+00 0.0000
+    4.0070E+03   7.20132E-08 0.1690
     4.0080E+03   0.00000E+00 0.0000
-    4.0090E+03   0.00000E+00 0.0000
-    4.0100E+03   0.00000E+00 0.0000
+    4.0090E+03   2.46902E-08 0.2887
+    4.0100E+03   6.17256E-09 0.5774
     4.0110E+03   0.00000E+00 0.0000
     4.0120E+03   0.00000E+00 0.0000
     4.0130E+03   0.00000E+00 0.0000
     4.0140E+03   0.00000E+00 0.0000
-    5.0080E+03   1.00000E-07 1.0000
+    5.0080E+03   6.17256E-09 0.5774
     5.0090E+03   0.00000E+00 0.0000
-    5.0100E+03   0.00000E+00 0.0000
-    5.0110E+03   1.00000E-07 1.0000
+    5.0100E+03   5.76106E-08 0.1890
+    5.0110E+03   1.29624E-07 0.1260
     5.0120E+03   0.00000E+00 0.0000
     5.0130E+03   0.00000E+00 0.0000
     5.0140E+03   0.00000E+00 0.0000
@@ -7934,10 +7947,10 @@ The following nuclides use physics models rather than data tables:
     5.0170E+03   0.00000E+00 0.0000
     6.0080E+03   0.00000E+00 0.0000
     6.0090E+03   0.00000E+00 0.0000
-    6.0100E+03   0.00000E+00 0.0000
-    6.0110E+03   0.00000E+00 0.0000
-    6.0120E+03   1.30000E-06 0.2979
-    6.0130E+03   0.00000E+00 0.0000
+    6.0100E+03   4.11504E-09 0.7071
+    6.0110E+03   7.40707E-08 0.1667
+    6.0120E+03   1.28595E-06 0.0401
+    6.0130E+03   2.05752E-09 1.0000
     6.0140E+03   0.00000E+00 0.0000
     6.0150E+03   0.00000E+00 0.0000
     6.0160E+03   0.00000E+00 0.0000
@@ -7948,7 +7961,7 @@ The following nuclides use physics models rather than data tables:
     7.0110E+03   0.00000E+00 0.0000
     7.0120E+03   0.00000E+00 0.0000
     7.0130E+03   0.00000E+00 0.0000
-    7.0140E+03   0.00000E+00 0.0000
+    7.0140E+03   4.11504E-09 0.7071
     7.0150E+03   0.00000E+00 0.0000
     7.0160E+03   0.00000E+00 0.0000
     7.0170E+03   0.00000E+00 0.0000
@@ -7961,7 +7974,7 @@ The following nuclides use physics models rather than data tables:
     8.0130E+03   0.00000E+00 0.0000
     8.0140E+03   0.00000E+00 0.0000
     8.0150E+03   0.00000E+00 0.0000
-    8.0160E+03   4.00000E-07 0.5000
+    8.0160E+03   7.20132E-08 0.1690
     8.0170E+03   0.00000E+00 0.0000
     8.0180E+03   0.00000E+00 0.0000
     8.0190E+03   0.00000E+00 0.0000
@@ -7973,8 +7986,8 @@ The following nuclides use physics models rather than data tables:
     9.0150E+03   0.00000E+00 0.0000
     9.0160E+03   0.00000E+00 0.0000
     9.0170E+03   0.00000E+00 0.0000
-    9.0180E+03   0.00000E+00 0.0000
-    9.0190E+03   1.00000E-07 1.0000
+    9.0180E+03   1.23451E-08 0.4082
+    9.0190E+03   2.05752E-08 0.3162
     9.0200E+03   0.00000E+00 0.0000
     9.0210E+03   0.00000E+00 0.0000
     9.0220E+03   0.00000E+00 0.0000
@@ -7985,10 +7998,10 @@ The following nuclides use physics models rather than data tables:
     9.0270E+03   0.00000E+00 0.0000
     1.0017E+04   0.00000E+00 0.0000
     1.0018E+04   0.00000E+00 0.0000
-    1.0019E+04   0.00000E+00 0.0000
-    1.0020E+04   1.00000E-07 1.0000
-    1.0021E+04   1.00000E-07 1.0000
-    1.0022E+04   1.00000E-07 1.0000
+    1.0019E+04   4.11504E-09 0.7071
+    1.0020E+04   1.72832E-07 0.1091
+    1.0021E+04   4.73230E-08 0.2085
+    1.0022E+04   9.67034E-08 0.1459
     1.0023E+04   0.00000E+00 0.0000
     1.0024E+04   0.00000E+00 0.0000
     1.0025E+04   0.00000E+00 0.0000
@@ -7996,12 +8009,12 @@ The following nuclides use physics models rather than data tables:
     1.0027E+04   0.00000E+00 0.0000
     1.0028E+04   0.00000E+00 0.0000
     1.1019E+04   0.00000E+00 0.0000
-    1.1020E+04   0.00000E+00 0.0000
-    1.1021E+04   0.00000E+00 0.0000
-    1.1022E+04   4.00000E-07 0.5000
-    1.1023E+04   0.00000E+00 0.0000
-    1.1024E+04   0.00000E+00 0.0000
-    1.1025E+04   0.00000E+00 0.0000
+    1.1020E+04   2.05752E-09 1.0000
+    1.1021E+04   8.23008E-09 0.5000
+    1.1022E+04   1.76947E-07 0.1078
+    1.1023E+04   2.51017E-07 0.0905
+    1.1024E+04   4.11504E-09 0.7071
+    1.1025E+04   2.05752E-09 1.0000
     1.1026E+04   0.00000E+00 0.0000
     1.1027E+04   0.00000E+00 0.0000
     1.1028E+04   0.00000E+00 0.0000
@@ -8014,12 +8027,12 @@ The following nuclides use physics models rather than data tables:
     1.1035E+04   0.00000E+00 0.0000
     1.2020E+04   0.00000E+00 0.0000
     1.2021E+04   0.00000E+00 0.0000
-    1.2022E+04   0.00000E+00 0.0000
-    1.2023E+04   0.00000E+00 0.0000
-    1.2024E+04   1.10000E-06 0.3015
-    1.2025E+04   5.00000E-07 0.4472
-    1.2026E+04   4.00000E-07 0.5000
-    1.2027E+04   0.00000E+00 0.0000
+    1.2022E+04   2.05752E-09 1.0000
+    1.2023E+04   8.43583E-08 0.1562
+    1.2024E+04   8.14778E-07 0.0503
+    1.2025E+04   6.27544E-07 0.0573
+    1.2026E+04   2.85995E-07 0.0848
+    1.2027E+04   2.05752E-09 1.0000
     1.2028E+04   0.00000E+00 0.0000
     1.2029E+04   0.00000E+00 0.0000
     1.2030E+04   0.00000E+00 0.0000
@@ -8029,12 +8042,12 @@ The following nuclides use physics models rather than data tables:
     1.2034E+04   0.00000E+00 0.0000
     1.3022E+04   0.00000E+00 0.0000
     1.3023E+04   0.00000E+00 0.0000
-    1.3024E+04   0.00000E+00 0.0000
-    1.3025E+04   1.00000E-07 1.0000
-    1.3026E+04   6.00000E-07 0.4082
-    1.3027E+04   1.20000E-06 0.2887
-    1.3028E+04   5.00000E-07 0.4472
-    1.3029E+04   0.00000E+00 0.0000
+    1.3024E+04   2.05752E-09 1.0000
+    1.3025E+04   8.84734E-08 0.1525
+    1.3026E+04   6.93384E-07 0.0545
+    1.3027E+04   1.01847E-06 0.0449
+    1.3028E+04   1.15221E-07 0.1336
+    1.3029E+04   1.23451E-08 0.4082
     1.3030E+04   0.00000E+00 0.0000
     1.3031E+04   0.00000E+00 0.0000
     1.3032E+04   0.00000E+00 0.0000
@@ -8043,12 +8056,12 @@ The following nuclides use physics models rather than data tables:
     1.3035E+04   0.00000E+00 0.0000
     1.4024E+04   0.00000E+00 0.0000
     1.4025E+04   0.00000E+00 0.0000
-    1.4026E+04   0.00000E+00 0.0000
-    1.4027E+04   1.20000E-06 0.2887
-    1.4028E+04   1.24000E-05 0.0898
-    1.4029E+04   1.10000E-06 0.3015
-    1.4030E+04   7.00000E-07 0.3780
-    1.4031E+04   0.00000E+00 0.0000
+    1.4026E+04   4.32079E-08 0.2182
+    1.4027E+04   8.33296E-07 0.0497
+    1.4028E+04   1.25097E-05 0.0128
+    1.4029E+04   7.96260E-07 0.0508
+    1.4030E+04   4.97920E-07 0.0643
+    1.4031E+04   1.44026E-08 0.3780
     1.4032E+04   0.00000E+00 0.0000
     1.4033E+04   0.00000E+00 0.0000
     1.4034E+04   0.00000E+00 0.0000
@@ -8058,12 +8071,12 @@ The following nuclides use physics models rather than data tables:
     1.4038E+04   0.00000E+00 0.0000
     1.4039E+04   0.00000E+00 0.0000
     1.5026E+04   0.00000E+00 0.0000
-    1.5027E+04   0.00000E+00 0.0000
-    1.5028E+04   1.00000E-07 1.0000
-    1.5029E+04   0.00000E+00 0.0000
-    1.5030E+04   0.00000E+00 0.0000
-    1.5031E+04   8.00000E-07 0.3536
-    1.5032E+04   0.00000E+00 0.0000
+    1.5027E+04   6.17256E-09 0.5774
+    1.5028E+04   6.99557E-08 0.1715
+    1.5029E+04   1.85177E-08 0.3333
+    1.5030E+04   6.78982E-08 0.1741
+    1.5031E+04   4.97920E-07 0.0643
+    1.5032E+04   8.23008E-09 0.5000
     1.5033E+04   0.00000E+00 0.0000
     1.5034E+04   0.00000E+00 0.0000
     1.5035E+04   0.00000E+00 0.0000
@@ -8075,11 +8088,11 @@ The following nuclides use physics models rather than data tables:
     1.5041E+04   0.00000E+00 0.0000
     1.5042E+04   0.00000E+00 0.0000
     1.6029E+04   0.00000E+00 0.0000
-    1.6030E+04   0.00000E+00 0.0000
-    1.6031E+04   0.00000E+00 0.0000
-    1.6032E+04   2.00000E-07 0.7071
-    1.6033E+04   0.00000E+00 0.0000
-    1.6034E+04   1.00000E-07 1.0000
+    1.6030E+04   4.11504E-09 0.7071
+    1.6031E+04   3.70354E-08 0.2357
+    1.6032E+04   3.84756E-07 0.0731
+    1.6033E+04   6.17256E-09 0.5774
+    1.6034E+04   3.08628E-08 0.2582
     1.6035E+04   0.00000E+00 0.0000
     1.6036E+04   0.00000E+00 0.0000
     1.6037E+04   0.00000E+00 0.0000
@@ -8091,11 +8104,11 @@ The following nuclides use physics models rather than data tables:
     1.6043E+04   0.00000E+00 0.0000
     1.6044E+04   0.00000E+00 0.0000
     1.7031E+04   0.00000E+00 0.0000
-    1.7032E+04   0.00000E+00 0.0000
+    1.7032E+04   2.05752E-09 1.0000
     1.7033E+04   0.00000E+00 0.0000
     1.7034E+04   0.00000E+00 0.0000
     1.7035E+04   0.00000E+00 0.0000
-    1.7036E+04   0.00000E+00 0.0000
+    1.7036E+04   2.05752E-09 1.0000
     1.7037E+04   0.00000E+00 0.0000
     1.7038E+04   0.00000E+00 0.0000
     1.7039E+04   0.00000E+00 0.0000
@@ -8111,7 +8124,7 @@ The following nuclides use physics models rather than data tables:
     1.8035E+04   0.00000E+00 0.0000
     1.8036E+04   0.00000E+00 0.0000
     1.8037E+04   0.00000E+00 0.0000
-    1.8038E+04   0.00000E+00 0.0000
+    1.8038E+04   8.23008E-09 0.5000
     1.8039E+04   0.00000E+00 0.0000
     1.8040E+04   0.00000E+00 0.0000
     1.8041E+04   0.00000E+00 0.0000
@@ -8124,11 +8137,11 @@ The following nuclides use physics models rather than data tables:
     1.9036E+04   0.00000E+00 0.0000
     1.9037E+04   0.00000E+00 0.0000
     1.9038E+04   0.00000E+00 0.0000
-    1.9039E+04   0.00000E+00 0.0000
-    1.9040E+04   0.00000E+00 0.0000
-    1.9041E+04   0.00000E+00 0.0000
-    1.9042E+04   0.00000E+00 0.0000
-    1.9043E+04   0.00000E+00 0.0000
+    1.9039E+04   2.05752E-09 1.0000
+    1.9040E+04   2.46902E-08 0.2887
+    1.9041E+04   2.26327E-08 0.3015
+    1.9042E+04   2.05752E-09 1.0000
+    1.9043E+04   2.05752E-09 1.0000
     1.9044E+04   0.00000E+00 0.0000
     1.9045E+04   0.00000E+00 0.0000
     1.9046E+04   0.00000E+00 0.0000
@@ -8141,81 +8154,81 @@ The following nuclides use physics models rather than data tables:
     2.0037E+04   0.00000E+00 0.0000
     2.0038E+04   0.00000E+00 0.0000
     2.0039E+04   0.00000E+00 0.0000
-    2.0040E+04   0.00000E+00 0.0000
-    2.0041E+04   1.00000E-07 1.0000
-    2.0042E+04   3.00000E-07 0.5774
-    2.0043E+04   4.00000E-07 0.5000
-    2.0044E+04   1.00000E-07 1.0000
-    2.0045E+04   1.00000E-07 1.0000
-    2.0046E+04   1.00000E-07 1.0000
+    2.0040E+04   4.11504E-09 0.7071
+    2.0041E+04   1.85177E-08 0.3333
+    2.0042E+04   1.09049E-07 0.1374
+    2.0043E+04   2.11925E-07 0.0985
+    2.0044E+04   1.62544E-07 0.1125
+    2.0045E+04   2.05752E-08 0.3162
+    2.0046E+04   1.02876E-08 0.4472
     2.0047E+04   0.00000E+00 0.0000
     2.0048E+04   0.00000E+00 0.0000
     2.0049E+04   0.00000E+00 0.0000
     2.0050E+04   0.00000E+00 0.0000
     2.0051E+04   0.00000E+00 0.0000
     2.1040E+04   0.00000E+00 0.0000
-    2.1041E+04   0.00000E+00 0.0000
-    2.1042E+04   0.00000E+00 0.0000
-    2.1043E+04   0.00000E+00 0.0000
-    2.1044E+04   4.00000E-07 0.5000
-    2.1045E+04   7.00000E-07 0.3780
-    2.1046E+04   8.00000E-07 0.3536
-    2.1047E+04   2.00000E-07 0.7071
-    2.1048E+04   0.00000E+00 0.0000
-    2.1049E+04   0.00000E+00 0.0000
+    2.1041E+04   2.05752E-09 1.0000
+    2.1042E+04   6.17256E-09 0.5774
+    2.1043E+04   9.25884E-08 0.1491
+    2.1044E+04   2.73650E-07 0.0867
+    2.1045E+04   9.15596E-07 0.0474
+    2.1046E+04   8.82676E-07 0.0483
+    2.1047E+04   2.90110E-07 0.0842
+    2.1048E+04   5.96681E-08 0.1857
+    2.1049E+04   1.23451E-08 0.4082
     2.1050E+04   0.00000E+00 0.0000
     2.1051E+04   0.00000E+00 0.0000
     2.2041E+04   0.00000E+00 0.0000
     2.2042E+04   0.00000E+00 0.0000
     2.2043E+04   0.00000E+00 0.0000
-    2.2044E+04   2.00000E-07 0.7071
-    2.2045E+04   3.00000E-07 0.5774
-    2.2046E+04   5.20000E-06 0.1387
-    2.2047E+04   2.80000E-06 0.1890
-    2.2048E+04   6.50000E-06 0.1240
-    2.2049E+04   2.10000E-06 0.2182
-    2.2050E+04   6.00000E-07 0.4082
-    2.2051E+04   0.00000E+00 0.0000
+    2.2044E+04   6.58406E-08 0.1768
+    2.2045E+04   4.15619E-07 0.0704
+    2.2046E+04   4.29816E-06 0.0219
+    2.2047E+04   3.67885E-06 0.0236
+    2.2048E+04   5.62732E-06 0.0191
+    2.2049E+04   1.87646E-06 0.0331
+    2.2050E+04   9.69092E-07 0.0461
+    2.2051E+04   1.02876E-08 0.4472
     2.2052E+04   0.00000E+00 0.0000
     2.2053E+04   0.00000E+00 0.0000
     2.2054E+04   0.00000E+00 0.0000
     2.3044E+04   0.00000E+00 0.0000
     2.3045E+04   0.00000E+00 0.0000
-    2.3046E+04   1.00000E-07 1.0000
-    2.3047E+04   1.60000E-06 0.2500
-    2.3048E+04   7.20000E-06 0.1179
-    2.3049E+04   1.70000E-05 0.0767
-    2.3050E+04   1.53000E-05 0.0808
-    2.3051E+04   8.60000E-06 0.1078
-    2.3052E+04   7.00000E-07 0.3780
-    2.3053E+04   2.00000E-07 0.7071
-    2.3054E+04   0.00000E+00 0.0000
+    2.3046E+04   1.31681E-07 0.1250
+    2.3047E+04   1.18513E-06 0.0417
+    2.3048E+04   6.50588E-06 0.0178
+    2.3049E+04   1.65754E-05 0.0111
+    2.3050E+04   1.48779E-05 0.0118
+    2.3051E+04   8.42143E-06 0.0156
+    2.3052E+04   7.48937E-07 0.0524
+    2.3053E+04   1.29624E-07 0.1260
+    2.3054E+04   2.05752E-09 1.0000
     2.3055E+04   0.00000E+00 0.0000
     2.3056E+04   0.00000E+00 0.0000
     2.4045E+04   0.00000E+00 0.0000
     2.4046E+04   0.00000E+00 0.0000
-    2.4047E+04   0.00000E+00 0.0000
-    2.4048E+04   7.00000E-07 0.3780
-    2.4049E+04   6.30000E-06 0.1260
-    2.4050E+04   3.82000E-05 0.0512
-    2.4051E+04   2.85000E-05 0.0592
-    2.4052E+04   1.86900E-04 0.0231
-    2.4053E+04   2.60000E-05 0.0620
-    2.4054E+04   6.70000E-06 0.1222
-    2.4055E+04   0.00000E+00 0.0000
+    2.4047E+04   4.11504E-09 0.7071
+    2.4048E+04   8.80619E-07 0.0483
+    2.4049E+04   6.60670E-06 0.0176
+    2.4050E+04   3.63893E-05 0.0075
+    2.4051E+04   3.07599E-05 0.0082
+    2.4052E+04   1.85136E-04 0.0033
+    2.4053E+04   2.56881E-05 0.0089
+    2.4054E+04   5.91126E-06 0.0187
+    2.4055E+04   1.44026E-08 0.3780
     2.4056E+04   0.00000E+00 0.0000
     2.4057E+04   0.00000E+00 0.0000
     2.4058E+04   0.00000E+00 0.0000
     2.4059E+04   0.00000E+00 0.0000
-    2.5049E+04   0.00000E+00 0.0000
-    2.5050E+04   6.00000E-07 0.4082
-    2.5051E+04   3.50000E-06 0.1690
-    2.5052E+04   1.95000E-05 0.0716
-    2.5053E+04   5.81000E-05 0.0416
-    2.5054E+04   3.62000E-05 0.0526
-    2.5055E+04   4.18000E-05 0.0489
-    2.5056E+04   1.10000E-06 0.3015
-    2.5057E+04   0.00000E+00 0.0000
+    2.5049E+04   8.23008E-09 0.5000
+    2.5050E+04   5.34955E-07 0.0620
+    2.5051E+04   3.86814E-06 0.0231
+    2.5052E+04   2.14476E-05 0.0098
+    2.5053E+04   5.48761E-05 0.0061
+    2.5054E+04   3.88419E-05 0.0073
+    2.5055E+04   4.00435E-05 0.0072
+    2.5056E+04   9.97897E-07 0.0454
+    2.5057E+04   4.32079E-08 0.2182
     2.5058E+04   0.00000E+00 0.0000
     2.5059E+04   0.00000E+00 0.0000
     2.5060E+04   0.00000E+00 0.0000
@@ -8223,56 +8236,56 @@ The following nuclides use physics models rather than data tables:
     2.5062E+04   0.00000E+00 0.0000
     2.6049E+04   0.00000E+00 0.0000
     2.6050E+04   0.00000E+00 0.0000
-    2.6051E+04   0.00000E+00 0.0000
-    2.6052E+04   1.20000E-06 0.2887
-    2.6053E+04   8.90000E-06 0.1060
-    2.6054E+04   8.27000E-05 0.0348
-    2.6055E+04   6.97000E-05 0.0379
-    2.6056E+04   5.80700E-04 0.0131
-    2.6057E+04   1.17000E-05 0.0924
-    2.6058E+04   1.60000E-06 0.2500
-    2.6059E+04   0.00000E+00 0.0000
+    2.6051E+04   4.11504E-09 0.7071
+    2.6052E+04   1.12341E-06 0.0428
+    2.6053E+04   1.05592E-05 0.0140
+    2.6054E+04   8.58150E-05 0.0049
+    2.6055E+04   6.83590E-05 0.0055
+    2.6056E+04   5.69526E-04 0.0019
+    2.6057E+04   1.34624E-05 0.0124
+    2.6058E+04   1.81268E-06 0.0337
+    2.6059E+04   1.23451E-08 0.4082
     2.6060E+04   0.00000E+00 0.0000
     2.6061E+04   0.00000E+00 0.0000
     2.6062E+04   0.00000E+00 0.0000
     2.6063E+04   0.00000E+00 0.0000
     2.6064E+04   0.00000E+00 0.0000
-    2.7053E+04   0.00000E+00 0.0000
-    2.7054E+04   1.60000E-06 0.2500
-    2.7055E+04   6.20000E-06 0.1270
-    2.7056E+04   1.57000E-05 0.0798
-    2.7057E+04   6.10000E-06 0.1280
-    2.7058E+04   1.50000E-06 0.2582
-    2.7059E+04   1.00000E-06 0.3162
-    2.7060E+04   2.00000E-07 0.7071
-    2.7061E+04   0.00000E+00 0.0000
-    2.7062E+04   0.00000E+00 0.0000
-    2.7063E+04   0.00000E+00 0.0000
-    2.7064E+04   0.00000E+00 0.0000
+    2.7053E+04   4.93805E-08 0.2041
+    2.7054E+04   1.14398E-06 0.0424
+    2.7055E+04   6.54086E-06 0.0177
+    2.7056E+04   1.55651E-05 0.0115
+    2.7057E+04   6.06763E-06 0.0184
+    2.7058E+04   3.22208E-06 0.0253
+    2.7059E+04   1.09460E-06 0.0434
+    2.7060E+04   1.76947E-07 0.1078
+    2.7061E+04   9.67034E-08 0.1459
+    2.7062E+04   1.23451E-08 0.4082
+    2.7063E+04   8.23008E-09 0.5000
+    2.7064E+04   2.05752E-09 1.0000
     2.8053E+04   0.00000E+00 0.0000
     2.8054E+04   0.00000E+00 0.0000
-    2.8055E+04   0.00000E+00 0.0000
-    2.8056E+04   1.30000E-06 0.2773
-    2.8057E+04   5.30000E-06 0.1374
-    2.8058E+04   5.73000E-05 0.0418
-    2.8059E+04   2.70000E-06 0.1924
-    2.8060E+04   2.18000E-05 0.0677
-    2.8061E+04   1.60000E-06 0.2500
-    2.8062E+04   2.50000E-06 0.2000
-    2.8063E+04   1.00000E-07 1.0000
-    2.8064E+04   6.00000E-07 0.4082
+    2.8055E+04   1.64602E-08 0.3536
+    2.8056E+04   1.23863E-06 0.0408
+    2.8057E+04   5.08207E-06 0.0201
+    2.8058E+04   5.74110E-05 0.0060
+    2.8059E+04   2.49577E-06 0.0287
+    2.8060E+04   2.22644E-05 0.0096
+    2.8061E+04   1.33122E-06 0.0393
+    2.8062E+04   3.09451E-06 0.0258
+    2.8063E+04   6.99557E-08 0.1715
+    2.8064E+04   7.22190E-07 0.0534
     2.8065E+04   0.00000E+00 0.0000
     2.8066E+04   0.00000E+00 0.0000
     2.8067E+04   0.00000E+00 0.0000
     2.8068E+04   0.00000E+00 0.0000
-    2.9057E+04   0.00000E+00 0.0000
-    2.9058E+04   7.00000E-07 0.3780
-    2.9059E+04   1.00000E-07 1.0000
-    2.9060E+04   1.00000E-07 1.0000
-    2.9061E+04   0.00000E+00 0.0000
-    2.9062E+04   0.00000E+00 0.0000
-    2.9063E+04   0.00000E+00 0.0000
-    2.9064E+04   0.00000E+00 0.0000
+    2.9057E+04   7.40707E-08 0.1667
+    2.9058E+04   6.76924E-07 0.0551
+    2.9059E+04   9.67034E-08 0.1459
+    2.9060E+04   3.74469E-07 0.0741
+    2.9061E+04   7.61282E-08 0.1644
+    2.9062E+04   4.93805E-08 0.2041
+    2.9063E+04   1.44026E-08 0.3780
+    2.9064E+04   1.64602E-08 0.3536
     2.9065E+04   0.00000E+00 0.0000
     2.9066E+04   0.00000E+00 0.0000
     2.9067E+04   0.00000E+00 0.0000
@@ -10102,7 +10115,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      1.43270E-03 0.0084
+      total      1.42273E-03 0.0012
  
  cell  7                                                                                                                               
     user bin   
@@ -10116,25 +10129,25 @@ The following nuclides use physics models rather than data tables:
     2.0070E+03   0.00000E+00 0.0000
     2.0080E+03   0.00000E+00 0.0000
     3.0050E+03   0.00000E+00 0.0000
-    3.0060E+03   0.00000E+00 0.0000
-    3.0070E+03   0.00000E+00 0.0000
+    3.0060E+03   8.02433E-08 0.1867
+    3.0070E+03   3.49778E-08 0.2425
     3.0080E+03   0.00000E+00 0.0000
     3.0090E+03   0.00000E+00 0.0000
     3.0100E+03   0.00000E+00 0.0000
     3.0110E+03   0.00000E+00 0.0000
     4.0060E+03   0.00000E+00 0.0000
-    4.0070E+03   0.00000E+00 0.0000
+    4.0070E+03   6.17256E-08 0.1826
     4.0080E+03   0.00000E+00 0.0000
-    4.0090E+03   0.00000E+00 0.0000
-    4.0100E+03   0.00000E+00 0.0000
+    4.0090E+03   1.44026E-08 0.3780
+    4.0100E+03   4.11504E-09 0.7071
     4.0110E+03   0.00000E+00 0.0000
     4.0120E+03   0.00000E+00 0.0000
     4.0130E+03   0.00000E+00 0.0000
     4.0140E+03   0.00000E+00 0.0000
-    5.0080E+03   0.00000E+00 0.0000
+    5.0080E+03   2.05752E-09 1.0000
     5.0090E+03   0.00000E+00 0.0000
-    5.0100E+03   0.00000E+00 0.0000
-    5.0110E+03   0.00000E+00 0.0000
+    5.0100E+03   6.78982E-08 0.1741
+    5.0110E+03   8.84734E-08 0.1525
     5.0120E+03   0.00000E+00 0.0000
     5.0130E+03   0.00000E+00 0.0000
     5.0140E+03   0.00000E+00 0.0000
@@ -10142,10 +10155,10 @@ The following nuclides use physics models rather than data tables:
     5.0160E+03   0.00000E+00 0.0000
     5.0170E+03   0.00000E+00 0.0000
     6.0080E+03   0.00000E+00 0.0000
-    6.0090E+03   0.00000E+00 0.0000
-    6.0100E+03   0.00000E+00 0.0000
-    6.0110E+03   1.00000E-07 1.0000
-    6.0120E+03   1.70000E-06 0.2425
+    6.0090E+03   4.11504E-09 0.7071
+    6.0100E+03   4.11504E-09 0.7071
+    6.0110E+03   6.37831E-08 0.1796
+    6.0120E+03   1.30653E-06 0.0399
     6.0130E+03   0.00000E+00 0.0000
     6.0140E+03   0.00000E+00 0.0000
     6.0150E+03   0.00000E+00 0.0000
@@ -10155,9 +10168,9 @@ The following nuclides use physics models rather than data tables:
     6.0190E+03   0.00000E+00 0.0000
     6.0200E+03   0.00000E+00 0.0000
     7.0110E+03   0.00000E+00 0.0000
-    7.0120E+03   0.00000E+00 0.0000
+    7.0120E+03   4.11504E-09 0.7071
     7.0130E+03   0.00000E+00 0.0000
-    7.0140E+03   0.00000E+00 0.0000
+    7.0140E+03   2.05752E-09 1.0000
     7.0150E+03   0.00000E+00 0.0000
     7.0160E+03   0.00000E+00 0.0000
     7.0170E+03   0.00000E+00 0.0000
@@ -10170,7 +10183,7 @@ The following nuclides use physics models rather than data tables:
     8.0130E+03   0.00000E+00 0.0000
     8.0140E+03   0.00000E+00 0.0000
     8.0150E+03   0.00000E+00 0.0000
-    8.0160E+03   0.00000E+00 0.0000
+    8.0160E+03   7.40707E-08 0.1667
     8.0170E+03   0.00000E+00 0.0000
     8.0180E+03   0.00000E+00 0.0000
     8.0190E+03   0.00000E+00 0.0000
@@ -10182,8 +10195,8 @@ The following nuclides use physics models rather than data tables:
     9.0150E+03   0.00000E+00 0.0000
     9.0160E+03   0.00000E+00 0.0000
     9.0170E+03   0.00000E+00 0.0000
-    9.0180E+03   0.00000E+00 0.0000
-    9.0190E+03   0.00000E+00 0.0000
+    9.0180E+03   6.17256E-09 0.5774
+    9.0190E+03   1.23451E-08 0.4082
     9.0200E+03   0.00000E+00 0.0000
     9.0210E+03   0.00000E+00 0.0000
     9.0220E+03   0.00000E+00 0.0000
@@ -10194,10 +10207,10 @@ The following nuclides use physics models rather than data tables:
     9.0270E+03   0.00000E+00 0.0000
     1.0017E+04   0.00000E+00 0.0000
     1.0018E+04   0.00000E+00 0.0000
-    1.0019E+04   0.00000E+00 0.0000
-    1.0020E+04   3.00000E-07 0.5774
-    1.0021E+04   0.00000E+00 0.0000
-    1.0022E+04   0.00000E+00 0.0000
+    1.0019E+04   4.11504E-09 0.7071
+    1.0020E+04   1.97522E-07 0.1021
+    1.0021E+04   2.05752E-08 0.3162
+    1.0022E+04   7.40707E-08 0.1667
     1.0023E+04   0.00000E+00 0.0000
     1.0024E+04   0.00000E+00 0.0000
     1.0025E+04   0.00000E+00 0.0000
@@ -10206,11 +10219,11 @@ The following nuclides use physics models rather than data tables:
     1.0028E+04   0.00000E+00 0.0000
     1.1019E+04   0.00000E+00 0.0000
     1.1020E+04   0.00000E+00 0.0000
-    1.1021E+04   0.00000E+00 0.0000
-    1.1022E+04   2.00000E-07 0.7071
-    1.1023E+04   0.00000E+00 0.0000
-    1.1024E+04   0.00000E+00 0.0000
-    1.1025E+04   0.00000E+00 0.0000
+    1.1021E+04   2.05752E-09 1.0000
+    1.1022E+04   1.54314E-07 0.1155
+    1.1023E+04   2.57190E-07 0.0894
+    1.1024E+04   2.05752E-09 1.0000
+    1.1025E+04   2.05752E-09 1.0000
     1.1026E+04   0.00000E+00 0.0000
     1.1027E+04   0.00000E+00 0.0000
     1.1028E+04   0.00000E+00 0.0000
@@ -10223,12 +10236,12 @@ The following nuclides use physics models rather than data tables:
     1.1035E+04   0.00000E+00 0.0000
     1.2020E+04   0.00000E+00 0.0000
     1.2021E+04   0.00000E+00 0.0000
-    1.2022E+04   0.00000E+00 0.0000
-    1.2023E+04   0.00000E+00 0.0000
-    1.2024E+04   1.00000E-06 0.3162
-    1.2025E+04   6.00000E-07 0.4082
-    1.2026E+04   3.00000E-07 0.5774
-    1.2027E+04   0.00000E+00 0.0000
+    1.2022E+04   2.05752E-09 1.0000
+    1.2023E+04   8.23008E-08 0.1581
+    1.2024E+04   8.25066E-07 0.0499
+    1.2025E+04   5.71991E-07 0.0600
+    1.2026E+04   3.31261E-07 0.0788
+    1.2027E+04   6.17256E-09 0.5774
     1.2028E+04   0.00000E+00 0.0000
     1.2029E+04   0.00000E+00 0.0000
     1.2030E+04   0.00000E+00 0.0000
@@ -10238,12 +10251,12 @@ The following nuclides use physics models rather than data tables:
     1.2034E+04   0.00000E+00 0.0000
     1.3022E+04   0.00000E+00 0.0000
     1.3023E+04   0.00000E+00 0.0000
-    1.3024E+04   1.00000E-07 1.0000
-    1.3025E+04   0.00000E+00 0.0000
-    1.3026E+04   3.00000E-07 0.5774
-    1.3027E+04   9.00000E-07 0.3333
-    1.3028E+04   2.00000E-07 0.7071
-    1.3029E+04   1.00000E-07 1.0000
+    1.3024E+04   2.05752E-09 1.0000
+    1.3025E+04   9.25884E-08 0.1491
+    1.3026E+04   7.11902E-07 0.0538
+    1.3027E+04   1.00407E-06 0.0453
+    1.3028E+04   9.87610E-08 0.1443
+    1.3029E+04   2.05752E-08 0.3162
     1.3030E+04   0.00000E+00 0.0000
     1.3031E+04   0.00000E+00 0.0000
     1.3032E+04   0.00000E+00 0.0000
@@ -10252,12 +10265,12 @@ The following nuclides use physics models rather than data tables:
     1.3035E+04   0.00000E+00 0.0000
     1.4024E+04   0.00000E+00 0.0000
     1.4025E+04   0.00000E+00 0.0000
-    1.4026E+04   0.00000E+00 0.0000
-    1.4027E+04   1.20000E-06 0.2887
-    1.4028E+04   1.19000E-05 0.0917
-    1.4029E+04   6.00000E-07 0.4082
-    1.4030E+04   3.00000E-07 0.5774
-    1.4031E+04   0.00000E+00 0.0000
+    1.4026E+04   4.73230E-08 0.2085
+    1.4027E+04   7.71570E-07 0.0516
+    1.4028E+04   1.25859E-05 0.0128
+    1.4029E+04   7.85973E-07 0.0512
+    1.4030E+04   4.85575E-07 0.0651
+    1.4031E+04   8.23008E-09 0.5000
     1.4032E+04   0.00000E+00 0.0000
     1.4033E+04   0.00000E+00 0.0000
     1.4034E+04   0.00000E+00 0.0000
@@ -10267,12 +10280,12 @@ The following nuclides use physics models rather than data tables:
     1.4038E+04   0.00000E+00 0.0000
     1.4039E+04   0.00000E+00 0.0000
     1.5026E+04   0.00000E+00 0.0000
-    1.5027E+04   0.00000E+00 0.0000
-    1.5028E+04   0.00000E+00 0.0000
-    1.5029E+04   0.00000E+00 0.0000
-    1.5030E+04   0.00000E+00 0.0000
-    1.5031E+04   8.00000E-07 0.3536
-    1.5032E+04   0.00000E+00 0.0000
+    1.5027E+04   1.02876E-08 0.4472
+    1.5028E+04   9.25884E-08 0.1491
+    1.5029E+04   1.23451E-08 0.4082
+    1.5030E+04   6.78982E-08 0.1741
+    1.5031E+04   5.94623E-07 0.0588
+    1.5032E+04   2.05752E-09 1.0000
     1.5033E+04   0.00000E+00 0.0000
     1.5034E+04   0.00000E+00 0.0000
     1.5035E+04   0.00000E+00 0.0000
@@ -10284,11 +10297,11 @@ The following nuclides use physics models rather than data tables:
     1.5041E+04   0.00000E+00 0.0000
     1.5042E+04   0.00000E+00 0.0000
     1.6029E+04   0.00000E+00 0.0000
-    1.6030E+04   0.00000E+00 0.0000
-    1.6031E+04   0.00000E+00 0.0000
-    1.6032E+04   6.00000E-07 0.4082
-    1.6033E+04   0.00000E+00 0.0000
-    1.6034E+04   0.00000E+00 0.0000
+    1.6030E+04   4.11504E-09 0.7071
+    1.6031E+04   3.70354E-08 0.2357
+    1.6032E+04   3.41548E-07 0.0776
+    1.6033E+04   6.17256E-09 0.5774
+    1.6034E+04   2.46902E-08 0.2887
     1.6035E+04   0.00000E+00 0.0000
     1.6036E+04   0.00000E+00 0.0000
     1.6037E+04   0.00000E+00 0.0000
@@ -10300,7 +10313,7 @@ The following nuclides use physics models rather than data tables:
     1.6043E+04   0.00000E+00 0.0000
     1.6044E+04   0.00000E+00 0.0000
     1.7031E+04   0.00000E+00 0.0000
-    1.7032E+04   0.00000E+00 0.0000
+    1.7032E+04   2.05752E-09 1.0000
     1.7033E+04   0.00000E+00 0.0000
     1.7034E+04   0.00000E+00 0.0000
     1.7035E+04   0.00000E+00 0.0000
@@ -10320,10 +10333,10 @@ The following nuclides use physics models rather than data tables:
     1.8035E+04   0.00000E+00 0.0000
     1.8036E+04   0.00000E+00 0.0000
     1.8037E+04   0.00000E+00 0.0000
-    1.8038E+04   0.00000E+00 0.0000
+    1.8038E+04   4.11504E-09 0.7071
     1.8039E+04   0.00000E+00 0.0000
-    1.8040E+04   0.00000E+00 0.0000
-    1.8041E+04   0.00000E+00 0.0000
+    1.8040E+04   4.11504E-09 0.7071
+    1.8041E+04   2.05752E-09 1.0000
     1.8042E+04   0.00000E+00 0.0000
     1.8043E+04   0.00000E+00 0.0000
     1.8044E+04   0.00000E+00 0.0000
@@ -10334,10 +10347,10 @@ The following nuclides use physics models rather than data tables:
     1.9037E+04   0.00000E+00 0.0000
     1.9038E+04   0.00000E+00 0.0000
     1.9039E+04   0.00000E+00 0.0000
-    1.9040E+04   0.00000E+00 0.0000
-    1.9041E+04   0.00000E+00 0.0000
+    1.9040E+04   1.44026E-08 0.3780
+    1.9041E+04   1.02876E-08 0.4472
     1.9042E+04   0.00000E+00 0.0000
-    1.9043E+04   0.00000E+00 0.0000
+    1.9043E+04   1.02876E-08 0.4472
     1.9044E+04   0.00000E+00 0.0000
     1.9045E+04   0.00000E+00 0.0000
     1.9046E+04   0.00000E+00 0.0000
@@ -10350,14 +10363,14 @@ The following nuclides use physics models rather than data tables:
     2.0037E+04   0.00000E+00 0.0000
     2.0038E+04   0.00000E+00 0.0000
     2.0039E+04   0.00000E+00 0.0000
-    2.0040E+04   1.00000E-07 1.0000
-    2.0041E+04   0.00000E+00 0.0000
-    2.0042E+04   1.00000E-07 1.0000
-    2.0043E+04   1.00000E-07 1.0000
-    2.0044E+04   0.00000E+00 0.0000
-    2.0045E+04   0.00000E+00 0.0000
-    2.0046E+04   0.00000E+00 0.0000
-    2.0047E+04   0.00000E+00 0.0000
+    2.0040E+04   4.11504E-09 0.7071
+    2.0041E+04   1.64602E-08 0.3536
+    2.0042E+04   2.67478E-08 0.2774
+    2.0043E+04   2.22212E-07 0.0962
+    2.0044E+04   1.31681E-07 0.1250
+    2.0045E+04   8.23008E-09 0.5000
+    2.0046E+04   1.44026E-08 0.3780
+    2.0047E+04   2.05752E-09 1.0000
     2.0048E+04   0.00000E+00 0.0000
     2.0049E+04   0.00000E+00 0.0000
     2.0050E+04   0.00000E+00 0.0000
@@ -10365,66 +10378,66 @@ The following nuclides use physics models rather than data tables:
     2.1040E+04   0.00000E+00 0.0000
     2.1041E+04   0.00000E+00 0.0000
     2.1042E+04   0.00000E+00 0.0000
-    2.1043E+04   1.00000E-07 1.0000
-    2.1044E+04   2.00000E-07 0.7071
-    2.1045E+04   4.00000E-07 0.5000
-    2.1046E+04   7.00000E-07 0.3780
-    2.1047E+04   1.00000E-07 1.0000
-    2.1048E+04   0.00000E+00 0.0000
-    2.1049E+04   0.00000E+00 0.0000
+    2.1043E+04   9.87610E-08 0.1443
+    2.1044E+04   2.69535E-07 0.0874
+    2.1045E+04   4.67057E-07 0.0664
+    2.1046E+04   7.69512E-07 0.0517
+    2.1047E+04   2.11925E-07 0.0985
+    2.1048E+04   3.29203E-08 0.2500
+    2.1049E+04   1.85177E-08 0.3333
     2.1050E+04   0.00000E+00 0.0000
     2.1051E+04   0.00000E+00 0.0000
     2.2041E+04   0.00000E+00 0.0000
     2.2042E+04   0.00000E+00 0.0000
     2.2043E+04   0.00000E+00 0.0000
-    2.2044E+04   0.00000E+00 0.0000
-    2.2045E+04   2.00000E-07 0.7071
-    2.2046E+04   5.20000E-06 0.1387
-    2.2047E+04   3.30000E-06 0.1741
-    2.2048E+04   5.00000E-06 0.1414
-    2.2049E+04   2.00000E-06 0.2236
-    2.2050E+04   1.10000E-06 0.3015
-    2.2051E+04   0.00000E+00 0.0000
+    2.2044E+04   5.14380E-08 0.2000
+    2.2045E+04   2.30442E-07 0.0945
+    2.2046E+04   4.09858E-06 0.0224
+    2.2047E+04   3.53688E-06 0.0241
+    2.2048E+04   4.59856E-06 0.0212
+    2.2049E+04   1.77152E-06 0.0341
+    2.2050E+04   9.93782E-07 0.0455
+    2.2051E+04   1.02876E-08 0.4472
     2.2052E+04   0.00000E+00 0.0000
     2.2053E+04   0.00000E+00 0.0000
     2.2054E+04   0.00000E+00 0.0000
     2.3044E+04   0.00000E+00 0.0000
     2.3045E+04   0.00000E+00 0.0000
-    2.3046E+04   1.00000E-07 1.0000
-    2.3047E+04   1.30000E-06 0.2773
-    2.3048E+04   5.20000E-06 0.1387
-    2.3049E+04   1.46000E-05 0.0828
-    2.3050E+04   1.71000E-05 0.0765
-    2.3051E+04   9.60000E-06 0.1021
-    2.3052E+04   3.00000E-07 0.5774
-    2.3053E+04   1.00000E-07 1.0000
-    2.3054E+04   0.00000E+00 0.0000
+    2.3046E+04   9.67034E-08 0.1459
+    2.3047E+04   1.09872E-06 0.0433
+    2.3048E+04   5.31457E-06 0.0197
+    2.3049E+04   1.51392E-05 0.0117
+    2.3050E+04   1.50569E-05 0.0117
+    2.3051E+04   8.36588E-06 0.0157
+    2.3052E+04   5.88451E-07 0.0591
+    2.3053E+04   1.11106E-07 0.1361
+    2.3054E+04   4.11504E-09 0.7071
     2.3055E+04   0.00000E+00 0.0000
     2.3056E+04   0.00000E+00 0.0000
     2.4045E+04   0.00000E+00 0.0000
     2.4046E+04   0.00000E+00 0.0000
-    2.4047E+04   0.00000E+00 0.0000
-    2.4048E+04   8.00000E-07 0.3536
-    2.4049E+04   6.50000E-06 0.1240
-    2.4050E+04   3.65000E-05 0.0523
-    2.4051E+04   2.98000E-05 0.0579
-    2.4052E+04   1.74200E-04 0.0240
-    2.4053E+04   2.58000E-05 0.0623
-    2.4054E+04   6.40000E-06 0.1250
-    2.4055E+04   0.00000E+00 0.0000
+    2.4047E+04   6.17256E-09 0.5774
+    2.4048E+04   7.57167E-07 0.0521
+    2.4049E+04   6.09849E-06 0.0184
+    2.4050E+04   3.69387E-05 0.0075
+    2.4051E+04   3.03690E-05 0.0082
+    2.4052E+04   1.77936E-04 0.0034
+    2.4053E+04   2.53733E-05 0.0090
+    2.4054E+04   6.08820E-06 0.0184
+    2.4055E+04   1.02876E-08 0.4472
     2.4056E+04   0.00000E+00 0.0000
     2.4057E+04   0.00000E+00 0.0000
     2.4058E+04   0.00000E+00 0.0000
     2.4059E+04   0.00000E+00 0.0000
-    2.5049E+04   0.00000E+00 0.0000
-    2.5050E+04   3.00000E-07 0.5774
-    2.5051E+04   4.40000E-06 0.1508
-    2.5052E+04   2.07000E-05 0.0695
-    2.5053E+04   5.17000E-05 0.0440
-    2.5054E+04   4.40000E-05 0.0477
-    2.5055E+04   3.58000E-05 0.0529
-    2.5056E+04   9.00000E-07 0.3333
-    2.5057E+04   0.00000E+00 0.0000
+    2.5049E+04   1.02876E-08 0.4472
+    2.5050E+04   5.94623E-07 0.0588
+    2.5051E+04   3.87431E-06 0.0230
+    2.5052E+04   1.85650E-05 0.0105
+    2.5053E+04   5.67443E-05 0.0060
+    2.5054E+04   3.98912E-05 0.0072
+    2.5055E+04   3.86443E-05 0.0073
+    2.5056E+04   6.72809E-07 0.0553
+    2.5057E+04   5.14380E-08 0.2000
     2.5058E+04   0.00000E+00 0.0000
     2.5059E+04   0.00000E+00 0.0000
     2.5060E+04   0.00000E+00 0.0000
@@ -10432,56 +10445,56 @@ The following nuclides use physics models rather than data tables:
     2.5062E+04   0.00000E+00 0.0000
     2.6049E+04   0.00000E+00 0.0000
     2.6050E+04   0.00000E+00 0.0000
-    2.6051E+04   0.00000E+00 0.0000
-    2.6052E+04   4.00000E-07 0.5000
-    2.6053E+04   9.70000E-06 0.1015
-    2.6054E+04   8.42000E-05 0.0345
-    2.6055E+04   6.64000E-05 0.0388
-    2.6056E+04   5.66300E-04 0.0133
-    2.6057E+04   1.38000E-05 0.0851
-    2.6058E+04   1.30000E-06 0.2773
-    2.6059E+04   1.00000E-07 1.0000
-    2.6060E+04   0.00000E+00 0.0000
+    2.6051E+04   8.23008E-09 0.5000
+    2.6052E+04   9.77322E-07 0.0459
+    2.6053E+04   1.09419E-05 0.0137
+    2.6054E+04   8.68973E-05 0.0049
+    2.6055E+04   6.95298E-05 0.0054
+    2.6056E+04   5.55133E-04 0.0019
+    2.6057E+04   1.29932E-05 0.0126
+    2.6058E+04   1.70774E-06 0.0347
+    2.6059E+04   8.23008E-09 0.5000
+    2.6060E+04   2.05752E-09 1.0000
     2.6061E+04   0.00000E+00 0.0000
     2.6062E+04   0.00000E+00 0.0000
     2.6063E+04   0.00000E+00 0.0000
     2.6064E+04   0.00000E+00 0.0000
-    2.7053E+04   0.00000E+00 0.0000
-    2.7054E+04   1.30000E-06 0.2773
-    2.7055E+04   7.00000E-06 0.1195
-    2.7056E+04   1.57000E-05 0.0798
-    2.7057E+04   5.50000E-06 0.1348
-    2.7058E+04   2.60000E-06 0.1961
-    2.7059E+04   9.00000E-07 0.3333
-    2.7060E+04   1.00000E-07 1.0000
-    2.7061E+04   0.00000E+00 0.0000
-    2.7062E+04   0.00000E+00 0.0000
-    2.7063E+04   0.00000E+00 0.0000
+    2.7053E+04   3.08628E-08 0.2582
+    2.7054E+04   1.25920E-06 0.0404
+    2.7055E+04   7.06964E-06 0.0171
+    2.7056E+04   1.64622E-05 0.0112
+    2.7057E+04   6.21165E-06 0.0182
+    2.7058E+04   2.53898E-06 0.0285
+    2.7059E+04   1.18307E-06 0.0417
+    2.7060E+04   1.06991E-07 0.1387
+    2.7061E+04   6.78982E-08 0.1741
+    2.7062E+04   8.23008E-09 0.5000
+    2.7063E+04   8.23008E-09 0.5000
     2.7064E+04   0.00000E+00 0.0000
     2.8053E+04   0.00000E+00 0.0000
     2.8054E+04   0.00000E+00 0.0000
-    2.8055E+04   0.00000E+00 0.0000
-    2.8056E+04   1.60000E-06 0.2500
-    2.8057E+04   5.00000E-06 0.1414
-    2.8058E+04   5.57000E-05 0.0424
-    2.8059E+04   3.30000E-06 0.1741
-    2.8060E+04   2.21000E-05 0.0673
-    2.8061E+04   1.90000E-06 0.2294
-    2.8062E+04   2.80000E-06 0.1890
-    2.8063E+04   0.00000E+00 0.0000
-    2.8064E+04   8.00000E-07 0.3536
+    2.8055E+04   1.64602E-08 0.3536
+    2.8056E+04   1.27978E-06 0.0401
+    2.8057E+04   5.08413E-06 0.0201
+    2.8058E+04   5.64398E-05 0.0060
+    2.8059E+04   2.69124E-06 0.0277
+    2.8060E+04   2.17171E-05 0.0097
+    2.8061E+04   1.24480E-06 0.0407
+    2.8062E+04   2.92374E-06 0.0265
+    2.8063E+04   7.61282E-08 0.1644
+    2.8064E+04   7.18074E-07 0.0535
     2.8065E+04   0.00000E+00 0.0000
     2.8066E+04   0.00000E+00 0.0000
     2.8067E+04   0.00000E+00 0.0000
     2.8068E+04   0.00000E+00 0.0000
-    2.9057E+04   1.00000E-07 1.0000
-    2.9058E+04   7.00000E-07 0.3780
-    2.9059E+04   1.00000E-07 1.0000
-    2.9060E+04   5.00000E-07 0.4472
-    2.9061E+04   0.00000E+00 0.0000
-    2.9062E+04   1.00000E-07 1.0000
-    2.9063E+04   0.00000E+00 0.0000
-    2.9064E+04   0.00000E+00 0.0000
+    2.9057E+04   7.20132E-08 0.1690
+    2.9058E+04   7.42765E-07 0.0526
+    2.9059E+04   7.20132E-08 0.1690
+    2.9060E+04   3.84756E-07 0.0731
+    2.9061E+04   8.23008E-08 0.1581
+    2.9062E+04   8.84734E-08 0.1525
+    2.9063E+04   2.67478E-08 0.2774
+    2.9064E+04   1.44026E-08 0.3780
     2.9065E+04   0.00000E+00 0.0000
     2.9066E+04   0.00000E+00 0.0000
     2.9067E+04   0.00000E+00 0.0000
@@ -12311,7 +12324,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      1.39590E-03 0.0085
+      total      1.39503E-03 0.0012
  
  cell  8                                                                                                                               
     user bin   
@@ -12321,29 +12334,29 @@ The following nuclides use physics models rather than data tables:
     2.0030E+03   0.00000E+00 0.0000
     2.0040E+03   0.00000E+00 0.0000
     2.0050E+03   0.00000E+00 0.0000
-    2.0060E+03   1.00000E-07 1.0000
+    2.0060E+03   3.29203E-08 0.2500
     2.0070E+03   0.00000E+00 0.0000
     2.0080E+03   0.00000E+00 0.0000
     3.0050E+03   0.00000E+00 0.0000
-    3.0060E+03   1.90000E-06 0.2294
-    3.0070E+03   7.00000E-07 0.3780
-    3.0080E+03   0.00000E+00 0.0000
+    3.0060E+03   2.28590E-06 0.0300
+    3.0070E+03   5.26725E-07 0.0625
+    3.0080E+03   6.17256E-09 0.5774
     3.0090E+03   0.00000E+00 0.0000
     3.0100E+03   0.00000E+00 0.0000
     3.0110E+03   0.00000E+00 0.0000
     4.0060E+03   0.00000E+00 0.0000
-    4.0070E+03   8.00000E-07 0.3536
+    4.0070E+03   7.09844E-07 0.0538
     4.0080E+03   0.00000E+00 0.0000
-    4.0090E+03   1.00000E-07 1.0000
-    4.0100E+03   0.00000E+00 0.0000
+    4.0090E+03   1.41969E-07 0.1204
+    4.0100E+03   4.11504E-09 0.7071
     4.0110E+03   0.00000E+00 0.0000
     4.0120E+03   0.00000E+00 0.0000
     4.0130E+03   0.00000E+00 0.0000
     4.0140E+03   0.00000E+00 0.0000
-    5.0080E+03   0.00000E+00 0.0000
+    5.0080E+03   2.05752E-09 1.0000
     5.0090E+03   0.00000E+00 0.0000
-    5.0100E+03   2.00000E-07 0.7071
-    5.0110E+03   0.00000E+00 0.0000
+    5.0100E+03   3.00398E-07 0.0828
+    5.0110E+03   9.05309E-08 0.1508
     5.0120E+03   0.00000E+00 0.0000
     5.0130E+03   0.00000E+00 0.0000
     5.0140E+03   0.00000E+00 0.0000
@@ -12352,11 +12365,11 @@ The following nuclides use physics models rather than data tables:
     5.0170E+03   0.00000E+00 0.0000
     6.0080E+03   0.00000E+00 0.0000
     6.0090E+03   0.00000E+00 0.0000
-    6.0100E+03   0.00000E+00 0.0000
-    6.0110E+03   1.00000E-07 1.0000
-    6.0120E+03   1.10000E-06 0.3015
-    6.0130E+03   0.00000E+00 0.0000
-    6.0140E+03   0.00000E+00 0.0000
+    6.0100E+03   6.17256E-09 0.5774
+    6.0110E+03   9.67034E-08 0.1459
+    6.0120E+03   1.18102E-06 0.0420
+    6.0130E+03   5.14380E-08 0.2000
+    6.0140E+03   1.85177E-08 0.3333
     6.0150E+03   0.00000E+00 0.0000
     6.0160E+03   0.00000E+00 0.0000
     6.0170E+03   0.00000E+00 0.0000
@@ -12364,10 +12377,10 @@ The following nuclides use physics models rather than data tables:
     6.0190E+03   0.00000E+00 0.0000
     6.0200E+03   0.00000E+00 0.0000
     7.0110E+03   0.00000E+00 0.0000
-    7.0120E+03   0.00000E+00 0.0000
-    7.0130E+03   0.00000E+00 0.0000
-    7.0140E+03   1.00000E-07 1.0000
-    7.0150E+03   1.00000E-07 1.0000
+    7.0120E+03   2.05752E-09 1.0000
+    7.0130E+03   4.11504E-08 0.2236
+    7.0140E+03   1.50199E-07 0.1186
+    7.0150E+03   7.40707E-08 0.1667
     7.0160E+03   0.00000E+00 0.0000
     7.0170E+03   0.00000E+00 0.0000
     7.0180E+03   0.00000E+00 0.0000
@@ -12377,12 +12390,12 @@ The following nuclides use physics models rather than data tables:
     7.0220E+03   0.00000E+00 0.0000
     7.0230E+03   0.00000E+00 0.0000
     8.0130E+03   0.00000E+00 0.0000
-    8.0140E+03   0.00000E+00 0.0000
-    8.0150E+03   0.00000E+00 0.0000
-    8.0160E+03   7.00000E-07 0.4738
-    8.0170E+03   0.00000E+00 0.0000
-    8.0180E+03   0.00000E+00 0.0000
-    8.0190E+03   0.00000E+00 0.0000
+    8.0140E+03   4.11504E-09 0.7071
+    8.0150E+03   4.11504E-08 0.2236
+    8.0160E+03   5.08207E-07 0.0739
+    8.0170E+03   4.73230E-08 0.2174
+    8.0180E+03   8.23008E-09 0.5000
+    8.0190E+03   2.05752E-09 1.0000
     8.0200E+03   0.00000E+00 0.0000
     8.0210E+03   0.00000E+00 0.0000
     8.0220E+03   0.00000E+00 0.0000
@@ -12390,10 +12403,10 @@ The following nuclides use physics models rather than data tables:
     8.0240E+03   0.00000E+00 0.0000
     9.0150E+03   0.00000E+00 0.0000
     9.0160E+03   0.00000E+00 0.0000
-    9.0170E+03   1.00000E-07 1.0000
-    9.0180E+03   0.00000E+00 0.0000
-    9.0190E+03   1.00000E-07 1.0000
-    9.0200E+03   0.00000E+00 0.0000
+    9.0170E+03   1.44026E-08 0.3780
+    9.0180E+03   1.44026E-07 0.1278
+    9.0190E+03   5.55530E-08 0.1925
+    9.0200E+03   2.05752E-09 1.0000
     9.0210E+03   0.00000E+00 0.0000
     9.0220E+03   0.00000E+00 0.0000
     9.0230E+03   0.00000E+00 0.0000
@@ -12403,10 +12416,10 @@ The following nuclides use physics models rather than data tables:
     9.0270E+03   0.00000E+00 0.0000
     1.0017E+04   0.00000E+00 0.0000
     1.0018E+04   0.00000E+00 0.0000
-    1.0019E+04   1.00000E-07 1.0000
-    1.0020E+04   2.00000E-07 0.7071
-    1.0021E+04   0.00000E+00 0.0000
-    1.0022E+04   1.00000E-07 1.0000
+    1.0019E+04   1.64602E-08 0.3536
+    1.0020E+04   8.78561E-07 0.0484
+    1.0021E+04   6.58406E-08 0.1768
+    1.0022E+04   1.68717E-07 0.1104
     1.0023E+04   0.00000E+00 0.0000
     1.0024E+04   0.00000E+00 0.0000
     1.0025E+04   0.00000E+00 0.0000
@@ -12415,11 +12428,11 @@ The following nuclides use physics models rather than data tables:
     1.0028E+04   0.00000E+00 0.0000
     1.1019E+04   0.00000E+00 0.0000
     1.1020E+04   0.00000E+00 0.0000
-    1.1021E+04   0.00000E+00 0.0000
-    1.1022E+04   2.00000E-07 0.7071
-    1.1023E+04   1.40000E-06 0.2673
-    1.1024E+04   0.00000E+00 0.0000
-    1.1025E+04   0.00000E+00 0.0000
+    1.1021E+04   6.17256E-09 0.5774
+    1.1022E+04   1.64602E-07 0.1118
+    1.1023E+04   1.48759E-06 0.0372
+    1.1024E+04   1.85177E-08 0.3333
+    1.1025E+04   8.23008E-09 0.5000
     1.1026E+04   0.00000E+00 0.0000
     1.1027E+04   0.00000E+00 0.0000
     1.1028E+04   0.00000E+00 0.0000
@@ -12433,12 +12446,12 @@ The following nuclides use physics models rather than data tables:
     1.2020E+04   0.00000E+00 0.0000
     1.2021E+04   0.00000E+00 0.0000
     1.2022E+04   0.00000E+00 0.0000
-    1.2023E+04   1.00000E-07 1.0000
-    1.2024E+04   1.53000E-05 0.0808
-    1.2025E+04   1.20000E-06 0.2887
-    1.2026E+04   1.05000E-05 0.0976
-    1.2027E+04   0.00000E+00 0.0000
-    1.2028E+04   0.00000E+00 0.0000
+    1.2023E+04   7.40707E-08 0.1667
+    1.2024E+04   1.37298E-05 0.0122
+    1.2025E+04   1.25509E-06 0.0405
+    1.2026E+04   1.13020E-05 0.0135
+    1.2027E+04   2.46902E-08 0.2887
+    1.2028E+04   2.05752E-08 0.3162
     1.2029E+04   0.00000E+00 0.0000
     1.2030E+04   0.00000E+00 0.0000
     1.2031E+04   0.00000E+00 0.0000
@@ -12448,12 +12461,12 @@ The following nuclides use physics models rather than data tables:
     1.3022E+04   0.00000E+00 0.0000
     1.3023E+04   0.00000E+00 0.0000
     1.3024E+04   0.00000E+00 0.0000
-    1.3025E+04   0.00000E+00 0.0000
-    1.3026E+04   6.80000E-06 0.1213
-    1.3027E+04   5.11000E-05 0.0442
-    1.3028E+04   7.50000E-06 0.1155
-    1.3029E+04   3.30000E-06 0.1741
-    1.3030E+04   0.00000E+00 0.0000
+    1.3025E+04   3.70354E-08 0.2357
+    1.3026E+04   7.57579E-06 0.0165
+    1.3027E+04   5.25059E-05 0.0063
+    1.3028E+04   6.69106E-06 0.0175
+    1.3029E+04   4.31668E-06 0.0218
+    1.3030E+04   3.49778E-08 0.2425
     1.3031E+04   0.00000E+00 0.0000
     1.3032E+04   0.00000E+00 0.0000
     1.3033E+04   0.00000E+00 0.0000
@@ -12461,15 +12474,15 @@ The following nuclides use physics models rather than data tables:
     1.3035E+04   0.00000E+00 0.0000
     1.4024E+04   0.00000E+00 0.0000
     1.4025E+04   0.00000E+00 0.0000
-    1.4026E+04   0.00000E+00 0.0000
-    1.4027E+04   3.10000E-06 0.1796
-    1.4028E+04   1.27400E-04 0.0280
-    1.4029E+04   3.66900E-04 0.0165
-    1.4030E+04   3.28100E-04 0.0175
-    1.4031E+04   1.56000E-05 0.0801
-    1.4032E+04   5.20000E-06 0.1387
-    1.4033E+04   0.00000E+00 0.0000
-    1.4034E+04   0.00000E+00 0.0000
+    1.4026E+04   4.11504E-09 0.7071
+    1.4027E+04   2.78794E-06 0.0272
+    1.4028E+04   1.27023E-04 0.0040
+    1.4029E+04   3.69444E-04 0.0024
+    1.4030E+04   3.29596E-04 0.0025
+    1.4031E+04   1.64046E-05 0.0112
+    1.4032E+04   4.88867E-06 0.0205
+    1.4033E+04   4.11504E-09 0.7071
+    1.4034E+04   2.05752E-09 1.0000
     1.4035E+04   0.00000E+00 0.0000
     1.4036E+04   0.00000E+00 0.0000
     1.4037E+04   0.00000E+00 0.0000
@@ -12477,14 +12490,14 @@ The following nuclides use physics models rather than data tables:
     1.4039E+04   0.00000E+00 0.0000
     1.5026E+04   0.00000E+00 0.0000
     1.5027E+04   0.00000E+00 0.0000
-    1.5028E+04   0.00000E+00 0.0000
-    1.5029E+04   1.23000E-05 0.0902
-    1.5030E+04   3.18100E-04 0.0177
-    1.5031E+04   6.06100E-04 0.0128
-    1.5032E+04   3.94400E-04 0.0159
-    1.5033E+04   1.45600E-04 0.0262
-    1.5034E+04   9.10000E-06 0.1048
-    1.5035E+04   1.40000E-06 0.2673
+    1.5028E+04   1.44026E-08 0.3780
+    1.5029E+04   1.16600E-05 0.0133
+    1.5030E+04   3.14564E-04 0.0026
+    1.5031E+04   6.06771E-04 0.0018
+    1.5032E+04   3.97867E-04 0.0023
+    1.5033E+04   1.48415E-04 0.0037
+    1.5034E+04   9.14979E-06 0.0150
+    1.5035E+04   1.49170E-06 0.0371
     1.5036E+04   0.00000E+00 0.0000
     1.5037E+04   0.00000E+00 0.0000
     1.5038E+04   0.00000E+00 0.0000
@@ -12493,14 +12506,14 @@ The following nuclides use physics models rather than data tables:
     1.5041E+04   0.00000E+00 0.0000
     1.5042E+04   0.00000E+00 0.0000
     1.6029E+04   0.00000E+00 0.0000
-    1.6030E+04   1.00000E-06 0.3162
-    1.6031E+04   3.37000E-05 0.0545
-    1.6032E+04   8.74800E-04 0.0107
-    1.6033E+04   1.39550E-03 0.0085
-    1.6034E+04   1.60860E-03 0.0079
-    1.6035E+04   2.70200E-04 0.0193
-    1.6036E+04   1.39900E-04 0.0267
-    1.6037E+04   6.00000E-07 0.4082
+    1.6030E+04   8.80619E-07 0.0483
+    1.6031E+04   3.53626E-05 0.0076
+    1.6032E+04   8.63642E-04 0.0015
+    1.6033E+04   1.39817E-03 0.0012
+    1.6034E+04   1.58279E-03 0.0011
+    1.6035E+04   2.78720E-04 0.0027
+    1.6036E+04   1.44273E-04 0.0038
+    1.6037E+04   6.85154E-07 0.0548
     1.6038E+04   0.00000E+00 0.0000
     1.6039E+04   0.00000E+00 0.0000
     1.6040E+04   0.00000E+00 0.0000
@@ -12509,13 +12522,13 @@ The following nuclides use physics models rather than data tables:
     1.6043E+04   0.00000E+00 0.0000
     1.6044E+04   0.00000E+00 0.0000
     1.7031E+04   0.00000E+00 0.0000
-    1.7032E+04   3.00000E-07 0.5774
-    1.7033E+04   6.44000E-05 0.0394
-    1.7034E+04   9.52600E-04 0.0102
-    1.7035E+04   1.34307E-02 0.0027
-    1.7036E+04   4.67000E-04 0.0146
-    1.7037E+04   4.35330E-03 0.0048
-    1.7038E+04   0.00000E+00 0.0000
+    1.7032E+04   7.38650E-07 0.0528
+    1.7033E+04   6.16762E-05 0.0058
+    1.7034E+04   9.44863E-04 0.0015
+    1.7035E+04   1.34662E-02 0.0004
+    1.7036E+04   4.78546E-04 0.0021
+    1.7037E+04   4.31800E-03 0.0007
+    1.7038E+04   3.70354E-08 0.2357
     1.7039E+04   0.00000E+00 0.0000
     1.7040E+04   0.00000E+00 0.0000
     1.7041E+04   0.00000E+00 0.0000
@@ -12524,12 +12537,12 @@ The following nuclides use physics models rather than data tables:
     1.7044E+04   0.00000E+00 0.0000
     1.7045E+04   0.00000E+00 0.0000
     1.8032E+04   0.00000E+00 0.0000
-    1.8033E+04   0.00000E+00 0.0000
-    1.8034E+04   1.94000E-05 0.0718
-    1.8035E+04   2.79400E-04 0.0189
-    1.8036E+04   7.79000E-05 0.0358
-    1.8037E+04   1.04200E-04 0.0310
-    1.8038E+04   9.00000E-07 0.3333
+    1.8033E+04   8.02433E-08 0.1601
+    1.8034E+04   1.88222E-05 0.0105
+    1.8035E+04   2.75827E-04 0.0027
+    1.8036E+04   7.91487E-05 0.0051
+    1.8037E+04   1.05329E-04 0.0044
+    1.8038E+04   1.00818E-06 0.0452
     1.8039E+04   0.00000E+00 0.0000
     1.8040E+04   0.00000E+00 0.0000
     1.8041E+04   0.00000E+00 0.0000
@@ -12731,7 +12744,7 @@ The following nuclides use physics models rather than data tables:
     3.1068E+04   0.00000E+00 0.0000
     3.1069E+04   0.00000E+00 0.0000
     3.1070E+04   0.00000E+00 0.0000
-    3.1071E+04   0.00000E+00 0.0000
+    3.1071E+04   2.05752E-09 1.0000
     3.1072E+04   0.00000E+00 0.0000
     3.1073E+04   0.00000E+00 0.0000
     3.1074E+04   0.00000E+00 0.0000
@@ -12754,10 +12767,10 @@ The following nuclides use physics models rather than data tables:
     3.2068E+04   0.00000E+00 0.0000
     3.2069E+04   0.00000E+00 0.0000
     3.2070E+04   0.00000E+00 0.0000
-    3.2071E+04   0.00000E+00 0.0000
+    3.2071E+04   2.05752E-09 1.0000
     3.2072E+04   0.00000E+00 0.0000
-    3.2073E+04   1.00000E-07 1.0000
-    3.2074E+04   0.00000E+00 0.0000
+    3.2073E+04   8.23008E-09 0.5000
+    3.2074E+04   4.11504E-09 0.7071
     3.2075E+04   0.00000E+00 0.0000
     3.2076E+04   0.00000E+00 0.0000
     3.2077E+04   0.00000E+00 0.0000
@@ -12777,10 +12790,10 @@ The following nuclides use physics models rather than data tables:
     3.3072E+04   0.00000E+00 0.0000
     3.3073E+04   0.00000E+00 0.0000
     3.3074E+04   0.00000E+00 0.0000
-    3.3075E+04   0.00000E+00 0.0000
-    3.3076E+04   0.00000E+00 0.0000
-    3.3077E+04   0.00000E+00 0.0000
-    3.3078E+04   0.00000E+00 0.0000
+    3.3075E+04   6.17256E-09 0.5774
+    3.3076E+04   8.23008E-08 0.1581
+    3.3077E+04   1.85177E-08 0.3333
+    3.3078E+04   2.05752E-09 1.0000
     3.3079E+04   0.00000E+00 0.0000
     3.3080E+04   0.00000E+00 0.0000
     3.3081E+04   0.00000E+00 0.0000
@@ -12797,14 +12810,14 @@ The following nuclides use physics models rather than data tables:
     3.4072E+04   0.00000E+00 0.0000
     3.4073E+04   0.00000E+00 0.0000
     3.4074E+04   0.00000E+00 0.0000
-    3.4075E+04   4.00000E-07 0.5000
-    3.4076E+04   2.60000E-06 0.1961
-    3.4077E+04   9.00000E-07 0.3333
-    3.4078E+04   7.00000E-07 0.3780
-    3.4079E+04   2.00000E-07 0.7071
-    3.4080E+04   0.00000E+00 0.0000
-    3.4081E+04   0.00000E+00 0.0000
-    3.4082E+04   0.00000E+00 0.0000
+    3.4075E+04   2.40730E-07 0.0925
+    3.4076E+04   2.07398E-06 0.0315
+    3.4077E+04   6.35774E-07 0.0569
+    3.4078E+04   7.96260E-07 0.0508
+    3.4079E+04   3.00398E-07 0.0828
+    3.4080E+04   6.78982E-08 0.1741
+    3.4081E+04   2.05752E-08 0.3162
+    3.4082E+04   8.23008E-09 0.5000
     3.4083E+04   0.00000E+00 0.0000
     3.4084E+04   0.00000E+00 0.0000
     3.4085E+04   0.00000E+00 0.0000
@@ -12821,15 +12834,15 @@ The following nuclides use physics models rather than data tables:
     3.5074E+04   0.00000E+00 0.0000
     3.5075E+04   0.00000E+00 0.0000
     3.5076E+04   0.00000E+00 0.0000
-    3.5077E+04   1.00000E-07 1.0000
-    3.5078E+04   6.60000E-06 0.1231
-    3.5079E+04   2.89000E-05 0.0588
-    3.5080E+04   1.01000E-05 0.0995
-    3.5081E+04   9.10000E-06 0.1048
-    3.5082E+04   3.40000E-06 0.1715
-    3.5083E+04   9.00000E-07 0.3333
-    3.5084E+04   2.00000E-07 0.7071
-    3.5085E+04   0.00000E+00 0.0000
+    3.5077E+04   2.22212E-07 0.0962
+    3.5078E+04   6.13964E-06 0.0183
+    3.5079E+04   2.70811E-05 0.0087
+    3.5080E+04   1.12258E-05 0.0135
+    3.5081E+04   8.31032E-06 0.0157
+    3.5082E+04   3.30232E-06 0.0250
+    3.5083E+04   9.01194E-07 0.0478
+    3.5084E+04   2.11925E-07 0.0985
+    3.5085E+04   7.20132E-08 0.1690
     3.5086E+04   0.00000E+00 0.0000
     3.5087E+04   0.00000E+00 0.0000
     3.5088E+04   0.00000E+00 0.0000
@@ -12843,17 +12856,17 @@ The following nuclides use physics models rather than data tables:
     3.6074E+04   0.00000E+00 0.0000
     3.6075E+04   0.00000E+00 0.0000
     3.6076E+04   0.00000E+00 0.0000
-    3.6077E+04   0.00000E+00 0.0000
-    3.6078E+04   3.04000E-05 0.0574
-    3.6079E+04   8.74000E-05 0.0338
-    3.6080E+04   9.85000E-05 0.0319
-    3.6081E+04   1.31300E-04 0.0276
-    3.6082E+04   3.09600E-04 0.0180
-    3.6083E+04   1.22700E-04 0.0285
-    3.6084E+04   1.58700E-04 0.0251
-    3.6085E+04   3.23000E-05 0.0556
-    3.6086E+04   3.82000E-05 0.0512
-    3.6087E+04   1.00000E-07 1.0000
+    3.6077E+04   6.17256E-09 0.5774
+    3.6078E+04   3.22969E-05 0.0080
+    3.6079E+04   8.98128E-05 0.0048
+    3.6080E+04   1.01962E-04 0.0045
+    3.6081E+04   1.25091E-04 0.0041
+    3.6082E+04   3.05698E-04 0.0026
+    3.6083E+04   1.27243E-04 0.0040
+    3.6084E+04   1.63030E-04 0.0036
+    3.6085E+04   3.07270E-05 0.0082
+    3.6086E+04   4.01669E-05 0.0072
+    3.6087E+04   2.61305E-07 0.0887
     3.6088E+04   0.00000E+00 0.0000
     3.6089E+04   0.00000E+00 0.0000
     3.6090E+04   0.00000E+00 0.0000
@@ -12869,16 +12882,16 @@ The following nuclides use physics models rather than data tables:
     3.7076E+04   0.00000E+00 0.0000
     3.7077E+04   0.00000E+00 0.0000
     3.7078E+04   0.00000E+00 0.0000
-    3.7079E+04   0.00000E+00 0.0000
-    3.7080E+04   5.10000E-06 0.1400
-    3.7081E+04   3.22100E-04 0.0176
-    3.7082E+04   7.25900E-04 0.0117
-    3.7083E+04   9.43700E-04 0.0103
-    3.7084E+04   9.99900E-04 0.0100
-    3.7085E+04   6.65770E-03 0.0039
-    3.7086E+04   2.89600E-04 0.0186
-    3.7087E+04   2.44760E-03 0.0064
-    3.7088E+04   7.00000E-07 0.3780
+    3.7079E+04   2.67478E-08 0.2774
+    3.7080E+04   5.47095E-06 0.0194
+    3.7081E+04   3.20737E-04 0.0025
+    3.7082E+04   7.17784E-04 0.0017
+    3.7083E+04   9.52465E-04 0.0015
+    3.7084E+04   1.01421E-03 0.0014
+    3.7085E+04   6.69598E-03 0.0006
+    3.7086E+04   2.90275E-04 0.0027
+    3.7087E+04   2.46058E-03 0.0009
+    3.7088E+04   5.12322E-07 0.0634
     3.7089E+04   0.00000E+00 0.0000
     3.7090E+04   0.00000E+00 0.0000
     3.7091E+04   0.00000E+00 0.0000
@@ -12894,14 +12907,14 @@ The following nuclides use physics models rather than data tables:
     3.8077E+04   0.00000E+00 0.0000
     3.8078E+04   0.00000E+00 0.0000
     3.8079E+04   0.00000E+00 0.0000
-    3.8080E+04   1.20000E-06 0.2887
-    3.8081E+04   8.72000E-05 0.0339
-    3.8082E+04   5.72000E-04 0.0132
-    3.8083E+04   4.18100E-04 0.0155
-    3.8084E+04   6.48000E-04 0.0124
-    3.8085E+04   3.15000E-04 0.0178
-    3.8086E+04   1.28500E-04 0.0279
-    3.8087E+04   7.46000E-05 0.0366
+    3.8080E+04   1.22628E-06 0.0410
+    3.8081E+04   8.39283E-05 0.0050
+    3.8082E+04   5.90377E-04 0.0019
+    3.8083E+04   4.20493E-04 0.0022
+    3.8084E+04   6.39321E-04 0.0018
+    3.8085E+04   3.17475E-04 0.0025
+    3.8086E+04   1.32447E-04 0.0039
+    3.8087E+04   7.10235E-05 0.0054
     3.8088E+04   0.00000E+00 0.0000
     3.8089E+04   0.00000E+00 0.0000
     3.8090E+04   0.00000E+00 0.0000
@@ -14520,7 +14533,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      4.22219E-02 0.0015
+      total      4.22942E-02 0.0002
  
  cell  9                                                                                                                               
     user bin   
@@ -14534,25 +14547,25 @@ The following nuclides use physics models rather than data tables:
     2.0070E+03   0.00000E+00 0.0000
     2.0080E+03   0.00000E+00 0.0000
     3.0050E+03   0.00000E+00 0.0000
-    3.0060E+03   0.00000E+00 0.0000
-    3.0070E+03   1.00000E-07 1.0000
+    3.0060E+03   4.93805E-08 0.2357
+    3.0070E+03   2.46902E-08 0.2887
     3.0080E+03   0.00000E+00 0.0000
     3.0090E+03   0.00000E+00 0.0000
     3.0100E+03   0.00000E+00 0.0000
     3.0110E+03   0.00000E+00 0.0000
     4.0060E+03   0.00000E+00 0.0000
-    4.0070E+03   1.00000E-07 1.0000
+    4.0070E+03   8.84734E-08 0.1525
     4.0080E+03   0.00000E+00 0.0000
-    4.0090E+03   0.00000E+00 0.0000
+    4.0090E+03   1.64602E-08 0.3536
     4.0100E+03   0.00000E+00 0.0000
     4.0110E+03   0.00000E+00 0.0000
     4.0120E+03   0.00000E+00 0.0000
     4.0130E+03   0.00000E+00 0.0000
     4.0140E+03   0.00000E+00 0.0000
-    5.0080E+03   1.00000E-07 1.0000
+    5.0080E+03   2.05752E-08 0.3162
     5.0090E+03   0.00000E+00 0.0000
-    5.0100E+03   0.00000E+00 0.0000
-    5.0110E+03   1.00000E-07 1.0000
+    5.0100E+03   8.64158E-08 0.1543
+    5.0110E+03   1.25509E-07 0.1280
     5.0120E+03   0.00000E+00 0.0000
     5.0130E+03   0.00000E+00 0.0000
     5.0140E+03   0.00000E+00 0.0000
@@ -14560,10 +14573,10 @@ The following nuclides use physics models rather than data tables:
     5.0160E+03   0.00000E+00 0.0000
     5.0170E+03   0.00000E+00 0.0000
     6.0080E+03   0.00000E+00 0.0000
-    6.0090E+03   0.00000E+00 0.0000
-    6.0100E+03   0.00000E+00 0.0000
-    6.0110E+03   3.00000E-07 0.5774
-    6.0120E+03   2.00000E-06 0.2236
+    6.0090E+03   2.05752E-09 1.0000
+    6.0100E+03   6.17256E-09 0.5774
+    6.0110E+03   1.00818E-07 0.1429
+    6.0120E+03   1.68099E-06 0.0350
     6.0130E+03   0.00000E+00 0.0000
     6.0140E+03   0.00000E+00 0.0000
     6.0150E+03   0.00000E+00 0.0000
@@ -14589,7 +14602,7 @@ The following nuclides use physics models rather than data tables:
     8.0140E+03   0.00000E+00 0.0000
     8.0150E+03   0.00000E+00 0.0000
     8.0160E+03   0.00000E+00 0.0000
-    8.0170E+03   0.00000E+00 0.0000
+    8.0170E+03   2.05752E-09 1.0000
     8.0180E+03   0.00000E+00 0.0000
     8.0190E+03   0.00000E+00 0.0000
     8.0200E+03   0.00000E+00 0.0000
@@ -14613,8 +14626,8 @@ The following nuclides use physics models rather than data tables:
     1.0017E+04   0.00000E+00 0.0000
     1.0018E+04   0.00000E+00 0.0000
     1.0019E+04   0.00000E+00 0.0000
-    1.0020E+04   4.00000E-07 0.5000
-    1.0021E+04   0.00000E+00 0.0000
+    1.0020E+04   2.73650E-07 0.0867
+    1.0021E+04   2.05752E-09 1.0000
     1.0022E+04   0.00000E+00 0.0000
     1.0023E+04   0.00000E+00 0.0000
     1.0024E+04   0.00000E+00 0.0000
@@ -14624,10 +14637,10 @@ The following nuclides use physics models rather than data tables:
     1.0028E+04   0.00000E+00 0.0000
     1.1019E+04   0.00000E+00 0.0000
     1.1020E+04   0.00000E+00 0.0000
-    1.1021E+04   0.00000E+00 0.0000
-    1.1022E+04   0.00000E+00 0.0000
-    1.1023E+04   3.00000E-07 0.5774
-    1.1024E+04   0.00000E+00 0.0000
+    1.1021E+04   6.17256E-09 0.5774
+    1.1022E+04   6.17256E-09 0.5774
+    1.1023E+04   2.48960E-07 0.0909
+    1.1024E+04   2.05752E-09 1.0000
     1.1025E+04   0.00000E+00 0.0000
     1.1026E+04   0.00000E+00 0.0000
     1.1027E+04   0.00000E+00 0.0000
@@ -14642,11 +14655,11 @@ The following nuclides use physics models rather than data tables:
     1.2020E+04   0.00000E+00 0.0000
     1.2021E+04   0.00000E+00 0.0000
     1.2022E+04   0.00000E+00 0.0000
-    1.2023E+04   0.00000E+00 0.0000
-    1.2024E+04   1.20000E-06 0.2887
-    1.2025E+04   1.00000E-07 1.0000
-    1.2026E+04   3.00000E-07 0.5774
-    1.2027E+04   0.00000E+00 0.0000
+    1.2023E+04   2.67478E-08 0.2774
+    1.2024E+04   1.16661E-06 0.0420
+    1.2025E+04   2.01637E-07 0.1010
+    1.2026E+04   4.58827E-07 0.0670
+    1.2027E+04   6.17256E-09 0.5774
     1.2028E+04   0.00000E+00 0.0000
     1.2029E+04   0.00000E+00 0.0000
     1.2030E+04   0.00000E+00 0.0000
@@ -14656,12 +14669,12 @@ The following nuclides use physics models rather than data tables:
     1.2034E+04   0.00000E+00 0.0000
     1.3022E+04   0.00000E+00 0.0000
     1.3023E+04   0.00000E+00 0.0000
-    1.3024E+04   0.00000E+00 0.0000
-    1.3025E+04   0.00000E+00 0.0000
-    1.3026E+04   5.00000E-07 0.4472
-    1.3027E+04   2.30000E-06 0.2085
-    1.3028E+04   2.00000E-07 0.7071
-    1.3029E+04   0.00000E+00 0.0000
+    1.3024E+04   2.05752E-09 1.0000
+    1.3025E+04   5.14380E-08 0.2000
+    1.3026E+04   9.32057E-07 0.0470
+    1.3027E+04   1.23245E-06 0.0409
+    1.3028E+04   4.73230E-08 0.2085
+    1.3029E+04   1.02876E-08 0.4472
     1.3030E+04   0.00000E+00 0.0000
     1.3031E+04   0.00000E+00 0.0000
     1.3032E+04   0.00000E+00 0.0000
@@ -14670,11 +14683,11 @@ The following nuclides use physics models rather than data tables:
     1.3035E+04   0.00000E+00 0.0000
     1.4024E+04   0.00000E+00 0.0000
     1.4025E+04   0.00000E+00 0.0000
-    1.4026E+04   0.00000E+00 0.0000
-    1.4027E+04   4.00000E-07 0.5000
-    1.4028E+04   1.44000E-05 0.0833
-    1.4029E+04   7.00000E-07 0.3780
-    1.4030E+04   3.00000E-07 0.5774
+    1.4026E+04   4.32079E-08 0.2182
+    1.4027E+04   9.75264E-07 0.0459
+    1.4028E+04   1.25159E-05 0.0128
+    1.4029E+04   7.46880E-07 0.0525
+    1.4030E+04   4.69115E-07 0.0662
     1.4031E+04   0.00000E+00 0.0000
     1.4032E+04   0.00000E+00 0.0000
     1.4033E+04   0.00000E+00 0.0000
@@ -14685,13 +14698,13 @@ The following nuclides use physics models rather than data tables:
     1.4038E+04   0.00000E+00 0.0000
     1.4039E+04   0.00000E+00 0.0000
     1.5026E+04   0.00000E+00 0.0000
-    1.5027E+04   0.00000E+00 0.0000
-    1.5028E+04   1.00000E-07 1.0000
-    1.5029E+04   0.00000E+00 0.0000
-    1.5030E+04   2.00000E-07 0.7071
-    1.5031E+04   1.00000E-07 1.0000
+    1.5027E+04   2.05752E-09 1.0000
+    1.5028E+04   6.99557E-08 0.1715
+    1.5029E+04   1.64602E-08 0.3536
+    1.5030E+04   8.64158E-08 0.1543
+    1.5031E+04   5.37013E-07 0.0619
     1.5032E+04   0.00000E+00 0.0000
-    1.5033E+04   0.00000E+00 0.0000
+    1.5033E+04   2.05752E-09 1.0000
     1.5034E+04   0.00000E+00 0.0000
     1.5035E+04   0.00000E+00 0.0000
     1.5036E+04   0.00000E+00 0.0000
@@ -14703,10 +14716,10 @@ The following nuclides use physics models rather than data tables:
     1.5042E+04   0.00000E+00 0.0000
     1.6029E+04   0.00000E+00 0.0000
     1.6030E+04   0.00000E+00 0.0000
-    1.6031E+04   0.00000E+00 0.0000
-    1.6032E+04   2.00000E-07 0.7071
-    1.6033E+04   0.00000E+00 0.0000
-    1.6034E+04   0.00000E+00 0.0000
+    1.6031E+04   2.88053E-08 0.2673
+    1.6032E+04   3.23031E-07 0.0798
+    1.6033E+04   6.17256E-09 0.5774
+    1.6034E+04   1.23451E-08 0.4082
     1.6035E+04   0.00000E+00 0.0000
     1.6036E+04   0.00000E+00 0.0000
     1.6037E+04   0.00000E+00 0.0000
@@ -14751,7 +14764,7 @@ The following nuclides use physics models rather than data tables:
     1.9036E+04   0.00000E+00 0.0000
     1.9037E+04   0.00000E+00 0.0000
     1.9038E+04   0.00000E+00 0.0000
-    1.9039E+04   0.00000E+00 0.0000
+    1.9039E+04   2.05752E-09 1.0000
     1.9040E+04   0.00000E+00 0.0000
     1.9041E+04   0.00000E+00 0.0000
     1.9042E+04   0.00000E+00 0.0000
@@ -14770,9 +14783,9 @@ The following nuclides use physics models rather than data tables:
     2.0039E+04   0.00000E+00 0.0000
     2.0040E+04   0.00000E+00 0.0000
     2.0041E+04   0.00000E+00 0.0000
-    2.0042E+04   0.00000E+00 0.0000
+    2.0042E+04   8.23008E-09 0.5000
     2.0043E+04   0.00000E+00 0.0000
-    2.0044E+04   1.00000E-07 1.0000
+    2.0044E+04   6.78982E-08 0.1741
     2.0045E+04   0.00000E+00 0.0000
     2.0046E+04   0.00000E+00 0.0000
     2.0047E+04   0.00000E+00 0.0000
@@ -14783,66 +14796,66 @@ The following nuclides use physics models rather than data tables:
     2.1040E+04   0.00000E+00 0.0000
     2.1041E+04   0.00000E+00 0.0000
     2.1042E+04   0.00000E+00 0.0000
-    2.1043E+04   0.00000E+00 0.0000
-    2.1044E+04   0.00000E+00 0.0000
-    2.1045E+04   3.00000E-07 0.5774
-    2.1046E+04   0.00000E+00 0.0000
-    2.1047E+04   1.00000E-07 1.0000
-    2.1048E+04   0.00000E+00 0.0000
+    2.1043E+04   6.17256E-09 0.5774
+    2.1044E+04   7.61282E-08 0.1644
+    2.1045E+04   1.99579E-07 0.1015
+    2.1046E+04   1.85177E-08 0.3333
+    2.1047E+04   9.46459E-08 0.1474
+    2.1048E+04   6.17256E-09 0.5774
     2.1049E+04   0.00000E+00 0.0000
     2.1050E+04   0.00000E+00 0.0000
     2.1051E+04   0.00000E+00 0.0000
     2.2041E+04   0.00000E+00 0.0000
     2.2042E+04   0.00000E+00 0.0000
     2.2043E+04   0.00000E+00 0.0000
-    2.2044E+04   0.00000E+00 0.0000
-    2.2045E+04   2.00000E-07 0.7071
-    2.2046E+04   5.00000E-07 0.4472
-    2.2047E+04   3.70000E-06 0.1644
-    2.2048E+04   2.90000E-06 0.1857
-    2.2049E+04   2.00000E-07 0.7071
-    2.2050E+04   1.10000E-06 0.3015
+    2.2044E+04   2.05752E-09 1.0000
+    2.2045E+04   1.87234E-07 0.1048
+    2.2046E+04   4.25907E-07 0.0695
+    2.2047E+04   4.12533E-06 0.0223
+    2.2048E+04   1.76947E-06 0.0341
+    2.2049E+04   3.35376E-07 0.0783
+    2.2050E+04   6.35774E-07 0.0569
     2.2051E+04   0.00000E+00 0.0000
     2.2052E+04   0.00000E+00 0.0000
     2.2053E+04   0.00000E+00 0.0000
     2.2054E+04   0.00000E+00 0.0000
     2.3044E+04   0.00000E+00 0.0000
     2.3045E+04   0.00000E+00 0.0000
-    2.3046E+04   0.00000E+00 0.0000
-    2.3047E+04   9.00000E-07 0.3333
-    2.3048E+04   2.90000E-06 0.1857
-    2.3049E+04   6.90000E-06 0.1204
-    2.3050E+04   1.22000E-05 0.0905
-    2.3051E+04   7.10000E-06 0.1187
-    2.3052E+04   4.00000E-07 0.5000
-    2.3053E+04   1.00000E-07 1.0000
+    2.3046E+04   2.88053E-08 0.2673
+    2.3047E+04   1.30653E-06 0.0397
+    2.3048E+04   3.12126E-06 0.0257
+    2.3049E+04   6.54703E-06 0.0177
+    2.3050E+04   1.26414E-05 0.0128
+    2.3051E+04   7.91734E-06 0.0161
+    2.3052E+04   3.27146E-07 0.0793
+    2.3053E+04   6.58406E-08 0.1768
     2.3054E+04   0.00000E+00 0.0000
     2.3055E+04   0.00000E+00 0.0000
     2.3056E+04   0.00000E+00 0.0000
     2.4045E+04   0.00000E+00 0.0000
     2.4046E+04   0.00000E+00 0.0000
     2.4047E+04   0.00000E+00 0.0000
-    2.4048E+04   2.00000E-07 0.7071
-    2.4049E+04   3.20000E-06 0.1768
-    2.4050E+04   3.51000E-05 0.0534
-    2.4051E+04   4.02000E-05 0.0499
-    2.4052E+04   1.44800E-04 0.0263
-    2.4053E+04   1.92000E-05 0.0722
-    2.4054E+04   6.10000E-06 0.1280
-    2.4055E+04   0.00000E+00 0.0000
-    2.4056E+04   0.00000E+00 0.0000
+    2.4048E+04   3.45663E-07 0.0772
+    2.4049E+04   3.02455E-06 0.0261
+    2.4050E+04   3.55149E-05 0.0076
+    2.4051E+04   4.17594E-05 0.0070
+    2.4052E+04   1.42378E-04 0.0038
+    2.4053E+04   1.73881E-05 0.0109
+    2.4054E+04   5.55736E-06 0.0192
+    2.4055E+04   1.02876E-08 0.4472
+    2.4056E+04   2.05752E-09 1.0000
     2.4057E+04   0.00000E+00 0.0000
     2.4058E+04   0.00000E+00 0.0000
     2.4059E+04   0.00000E+00 0.0000
-    2.5049E+04   0.00000E+00 0.0000
-    2.5050E+04   1.10000E-06 0.3015
-    2.5051E+04   5.70000E-06 0.1325
-    2.5052E+04   1.41000E-05 0.0842
-    2.5053E+04   3.98000E-05 0.0501
-    2.5054E+04   6.08000E-05 0.0406
-    2.5055E+04   3.66000E-05 0.0523
-    2.5056E+04   9.00000E-07 0.3333
-    2.5057E+04   2.00000E-07 0.7071
+    2.5049E+04   2.05752E-09 1.0000
+    2.5050E+04   6.09026E-07 0.0581
+    2.5051E+04   5.78780E-06 0.0189
+    2.5052E+04   1.48615E-05 0.0118
+    2.5053E+04   3.82267E-05 0.0073
+    2.5054E+04   5.96105E-05 0.0059
+    2.5055E+04   3.34614E-05 0.0078
+    2.5056E+04   4.65000E-07 0.0665
+    2.5057E+04   3.08628E-08 0.2582
     2.5058E+04   0.00000E+00 0.0000
     2.5059E+04   0.00000E+00 0.0000
     2.5060E+04   0.00000E+00 0.0000
@@ -14851,55 +14864,55 @@ The following nuclides use physics models rather than data tables:
     2.6049E+04   0.00000E+00 0.0000
     2.6050E+04   0.00000E+00 0.0000
     2.6051E+04   0.00000E+00 0.0000
-    2.6052E+04   8.00000E-07 0.3536
-    2.6053E+04   6.30000E-06 0.1260
-    2.6054E+04   1.13900E-04 0.0296
-    2.6055E+04   8.15000E-05 0.0350
-    2.6056E+04   4.73500E-04 0.0145
-    2.6057E+04   1.07000E-05 0.0967
-    2.6058E+04   1.50000E-06 0.2582
-    2.6059E+04   0.00000E+00 0.0000
+    2.6052E+04   7.38650E-07 0.0528
+    2.6053E+04   6.78364E-06 0.0174
+    2.6054E+04   1.14207E-04 0.0042
+    2.6055E+04   8.41238E-05 0.0049
+    2.6056E+04   4.72643E-04 0.0021
+    2.6057E+04   1.07793E-05 0.0138
+    2.6058E+04   1.61927E-06 0.0356
+    2.6059E+04   1.02876E-08 0.4472
     2.6060E+04   0.00000E+00 0.0000
     2.6061E+04   0.00000E+00 0.0000
     2.6062E+04   0.00000E+00 0.0000
     2.6063E+04   0.00000E+00 0.0000
     2.6064E+04   0.00000E+00 0.0000
-    2.7053E+04   1.00000E-07 1.0000
-    2.7054E+04   2.30000E-06 0.2085
-    2.7055E+04   7.20000E-06 0.1179
-    2.7056E+04   2.30000E-05 0.0659
-    2.7057E+04   6.40000E-06 0.1250
-    2.7058E+04   3.00000E-06 0.1826
-    2.7059E+04   8.00000E-07 0.3536
-    2.7060E+04   1.00000E-07 1.0000
-    2.7061E+04   1.00000E-07 1.0000
-    2.7062E+04   0.00000E+00 0.0000
-    2.7063E+04   0.00000E+00 0.0000
+    2.7053E+04   3.49778E-08 0.2425
+    2.7054E+04   1.74683E-06 0.0343
+    2.7055E+04   7.71570E-06 0.0163
+    2.7056E+04   2.18221E-05 0.0097
+    2.7057E+04   6.32276E-06 0.0180
+    2.7058E+04   2.88464E-06 0.0267
+    2.7059E+04   9.83495E-07 0.0457
+    2.7060E+04   1.50199E-07 0.1170
+    2.7061E+04   6.37831E-08 0.1796
+    2.7062E+04   6.17256E-09 0.5774
+    2.7063E+04   4.11504E-09 0.7071
     2.7064E+04   0.00000E+00 0.0000
     2.8053E+04   0.00000E+00 0.0000
     2.8054E+04   0.00000E+00 0.0000
-    2.8055E+04   0.00000E+00 0.0000
-    2.8056E+04   2.00000E-06 0.2236
-    2.8057E+04   5.10000E-06 0.1400
-    2.8058E+04   4.92000E-05 0.0451
-    2.8059E+04   3.10000E-06 0.1796
-    2.8060E+04   1.99000E-05 0.0709
-    2.8061E+04   8.00000E-07 0.3536
-    2.8062E+04   2.10000E-06 0.2182
-    2.8063E+04   0.00000E+00 0.0000
-    2.8064E+04   3.00000E-07 0.5774
+    2.8055E+04   2.05752E-09 1.0000
+    2.8056E+04   1.81268E-06 0.0337
+    2.8057E+04   5.60468E-06 0.0192
+    2.8058E+04   4.89772E-05 0.0065
+    2.8059E+04   3.36199E-06 0.0247
+    2.8060E+04   1.89456E-05 0.0104
+    2.8061E+04   1.24686E-06 0.0406
+    2.8062E+04   2.57190E-06 0.0283
+    2.8063E+04   8.43583E-08 0.1562
+    2.8064E+04   6.41946E-07 0.0566
     2.8065E+04   0.00000E+00 0.0000
     2.8066E+04   0.00000E+00 0.0000
     2.8067E+04   0.00000E+00 0.0000
     2.8068E+04   0.00000E+00 0.0000
-    2.9057E+04   0.00000E+00 0.0000
-    2.9058E+04   4.00000E-07 0.5000
-    2.9059E+04   0.00000E+00 0.0000
-    2.9060E+04   7.00000E-07 0.3780
-    2.9061E+04   0.00000E+00 0.0000
-    2.9062E+04   1.00000E-07 1.0000
-    2.9063E+04   1.00000E-07 1.0000
-    2.9064E+04   0.00000E+00 0.0000
+    2.9057E+04   3.90929E-08 0.2294
+    2.9058E+04   6.99557E-07 0.0542
+    2.9059E+04   9.46459E-08 0.1474
+    2.9060E+04   4.60884E-07 0.0668
+    2.9061E+04   9.87610E-08 0.1443
+    2.9062E+04   1.50199E-07 0.1170
+    2.9063E+04   2.46902E-08 0.2887
+    2.9064E+04   1.44026E-08 0.3780
     2.9065E+04   0.00000E+00 0.0000
     2.9066E+04   0.00000E+00 0.0000
     2.9067E+04   0.00000E+00 0.0000
@@ -16729,7 +16742,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      1.28700E-03 0.0088
+      total      1.27914E-03 0.0013
  
  cell  11                                                                                                                              
     user bin   
@@ -17317,10 +17330,10 @@ The following nuclides use physics models rather than data tables:
     3.8082E+04   0.00000E+00 0.0000
     3.8083E+04   0.00000E+00 0.0000
     3.8084E+04   0.00000E+00 0.0000
-    3.8085E+04   0.00000E+00 0.0000
-    3.8086E+04   0.00000E+00 0.0000
+    3.8085E+04   3.90929E-08 0.2294
+    3.8086E+04   4.11504E-08 0.2236
     3.8087E+04   0.00000E+00 0.0000
-    3.8088E+04   0.00000E+00 0.0000
+    3.8088E+04   5.96681E-08 0.1857
     3.8089E+04   0.00000E+00 0.0000
     3.8090E+04   0.00000E+00 0.0000
     3.8091E+04   0.00000E+00 0.0000
@@ -17340,11 +17353,11 @@ The following nuclides use physics models rather than data tables:
     3.9084E+04   0.00000E+00 0.0000
     3.9085E+04   0.00000E+00 0.0000
     3.9086E+04   0.00000E+00 0.0000
-    3.9087E+04   1.00000E-07 1.0000
-    3.9088E+04   3.20000E-06 0.1768
-    3.9089E+04   6.00000E-07 0.4082
-    3.9090E+04   0.00000E+00 0.0000
-    3.9091E+04   0.00000E+00 0.0000
+    3.9087E+04   4.11504E-08 0.2236
+    3.9088E+04   2.76119E-06 0.0273
+    3.9089E+04   1.01641E-06 0.0450
+    3.9090E+04   4.11504E-08 0.2236
+    3.9091E+04   8.23008E-09 0.5000
     3.9092E+04   0.00000E+00 0.0000
     3.9093E+04   0.00000E+00 0.0000
     3.9094E+04   0.00000E+00 0.0000
@@ -17362,13 +17375,13 @@ The following nuclides use physics models rather than data tables:
     4.0084E+04   0.00000E+00 0.0000
     4.0085E+04   0.00000E+00 0.0000
     4.0086E+04   0.00000E+00 0.0000
-    4.0087E+04   1.00000E-07 1.0000
-    4.0088E+04   1.76000E-05 0.0754
-    4.0089E+04   3.90000E-06 0.1601
-    4.0090E+04   4.16000E-05 0.0490
-    4.0091E+04   8.50000E-06 0.1085
-    4.0092E+04   7.30000E-06 0.1170
-    4.0093E+04   3.00000E-07 0.5774
+    4.0087E+04   1.27566E-07 0.1270
+    4.0088E+04   1.71906E-05 0.0109
+    4.0089E+04   4.52037E-06 0.0213
+    4.0090E+04   4.15125E-05 0.0070
+    4.0091E+04   9.27530E-06 0.0149
+    4.0092E+04   6.43181E-06 0.0179
+    4.0093E+04   1.31681E-07 0.1250
     4.0094E+04   0.00000E+00 0.0000
     4.0095E+04   0.00000E+00 0.0000
     4.0096E+04   0.00000E+00 0.0000
@@ -17383,12 +17396,12 @@ The following nuclides use physics models rather than data tables:
     4.1086E+04   0.00000E+00 0.0000
     4.1087E+04   0.00000E+00 0.0000
     4.1088E+04   0.00000E+00 0.0000
-    4.1089E+04   3.00000E-07 0.5774
-    4.1090E+04   1.68000E-05 0.0772
-    4.1091E+04   1.30100E-04 0.0277
-    4.1092E+04   6.87000E-05 0.0382
-    4.1093E+04   5.16100E-04 0.0139
-    4.1094E+04   9.00000E-07 0.3333
+    4.1089E+04   1.35796E-07 0.1231
+    4.1090E+04   1.69601E-05 0.0110
+    4.1091E+04   1.28570E-04 0.0040
+    4.1092E+04   6.85607E-05 0.0055
+    4.1093E+04   5.19026E-04 0.0020
+    4.1094E+04   9.15596E-07 0.0474
     4.1095E+04   0.00000E+00 0.0000
     4.1096E+04   0.00000E+00 0.0000
     4.1097E+04   0.00000E+00 0.0000
@@ -17404,10 +17417,10 @@ The following nuclides use physics models rather than data tables:
     4.2087E+04   0.00000E+00 0.0000
     4.2088E+04   0.00000E+00 0.0000
     4.2089E+04   0.00000E+00 0.0000
-    4.2090E+04   2.83000E-05 0.0594
-    4.2091E+04   7.08000E-05 0.0376
-    4.2092E+04   4.55000E-05 0.0469
-    4.2093E+04   1.86000E-05 0.0733
+    4.2090E+04   2.71593E-05 0.0087
+    4.2091E+04   7.49472E-05 0.0052
+    4.2092E+04   4.56687E-05 0.0067
+    4.2093E+04   1.81041E-05 0.0107
     4.2094E+04   0.00000E+00 0.0000
     4.2095E+04   0.00000E+00 0.0000
     4.2096E+04   0.00000E+00 0.0000
@@ -18938,7 +18951,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      9.79300E-04 0.0101
+      total      9.83246E-04 0.0014
  
  cell  12                                                                                                                              
     user bin   
@@ -18952,7 +18965,7 @@ The following nuclides use physics models rather than data tables:
     2.0070E+03   0.00000E+00 0.0000
     2.0080E+03   0.00000E+00 0.0000
     3.0050E+03   0.00000E+00 0.0000
-    3.0060E+03   0.00000E+00 0.0000
+    3.0060E+03   4.11504E-09 0.7071
     3.0070E+03   0.00000E+00 0.0000
     3.0080E+03   0.00000E+00 0.0000
     3.0090E+03   0.00000E+00 0.0000
@@ -19275,7 +19288,7 @@ The following nuclides use physics models rather than data tables:
     2.6055E+04   0.00000E+00 0.0000
     2.6056E+04   0.00000E+00 0.0000
     2.6057E+04   0.00000E+00 0.0000
-    2.6058E+04   0.00000E+00 0.0000
+    2.6058E+04   6.17256E-09 0.5774
     2.6059E+04   0.00000E+00 0.0000
     2.6060E+04   0.00000E+00 0.0000
     2.6061E+04   0.00000E+00 0.0000
@@ -19290,8 +19303,8 @@ The following nuclides use physics models rather than data tables:
     2.7058E+04   0.00000E+00 0.0000
     2.7059E+04   0.00000E+00 0.0000
     2.7060E+04   0.00000E+00 0.0000
-    2.7061E+04   1.00000E-07 1.0000
-    2.7062E+04   0.00000E+00 0.0000
+    2.7061E+04   2.67478E-08 0.2774
+    2.7062E+04   8.23008E-09 0.5000
     2.7063E+04   0.00000E+00 0.0000
     2.7064E+04   0.00000E+00 0.0000
     2.8053E+04   0.00000E+00 0.0000
@@ -19301,12 +19314,12 @@ The following nuclides use physics models rather than data tables:
     2.8057E+04   0.00000E+00 0.0000
     2.8058E+04   0.00000E+00 0.0000
     2.8059E+04   0.00000E+00 0.0000
-    2.8060E+04   0.00000E+00 0.0000
-    2.8061E+04   6.60000E-06 0.1231
-    2.8062E+04   1.12000E-05 0.0945
-    2.8063E+04   1.20000E-06 0.2887
-    2.8064E+04   1.20000E-06 0.2887
-    2.8065E+04   0.00000E+00 0.0000
+    2.8060E+04   5.55530E-08 0.1925
+    2.8061E+04   5.57794E-06 0.0192
+    2.8062E+04   1.04152E-05 0.0141
+    2.8063E+04   7.57167E-07 0.0521
+    2.8064E+04   9.36172E-07 0.0469
+    2.8065E+04   4.11504E-09 0.7071
     2.8066E+04   0.00000E+00 0.0000
     2.8067E+04   0.00000E+00 0.0000
     2.8068E+04   0.00000E+00 0.0000
@@ -19315,14 +19328,14 @@ The following nuclides use physics models rather than data tables:
     2.9059E+04   0.00000E+00 0.0000
     2.9060E+04   0.00000E+00 0.0000
     2.9061E+04   0.00000E+00 0.0000
-    2.9062E+04   0.00000E+00 0.0000
-    2.9063E+04   3.70000E-06 0.1644
-    2.9064E+04   6.07000E-05 0.0406
-    2.9065E+04   3.51000E-05 0.0534
-    2.9066E+04   1.09000E-05 0.0958
-    2.9067E+04   1.50000E-06 0.2582
-    2.9068E+04   0.00000E+00 0.0000
-    2.9069E+04   0.00000E+00 0.0000
+    2.9062E+04   2.05752E-09 1.0000
+    2.9063E+04   4.29404E-06 0.0219
+    2.9064E+04   5.26375E-05 0.0063
+    2.9065E+04   3.70189E-05 0.0075
+    2.9066E+04   1.10592E-05 0.0136
+    2.9067E+04   2.00608E-06 0.0320
+    2.9068E+04   2.73650E-07 0.0867
+    2.9069E+04   2.67478E-08 0.2774
     2.9070E+04   0.00000E+00 0.0000
     2.9071E+04   0.00000E+00 0.0000
     2.9072E+04   0.00000E+00 0.0000
@@ -19333,15 +19346,15 @@ The following nuclides use physics models rather than data tables:
     3.0060E+04   0.00000E+00 0.0000
     3.0061E+04   0.00000E+00 0.0000
     3.0062E+04   0.00000E+00 0.0000
-    3.0063E+04   6.00000E-07 0.4082
-    3.0064E+04   3.65600E-04 0.0165
-    3.0065E+04   4.71900E-04 0.0146
-    3.0066E+04   5.95800E-04 0.0130
-    3.0067E+04   3.30200E-04 0.0174
-    3.0068E+04   1.99600E-04 0.0224
-    3.0069E+04   7.16000E-05 0.0374
-    3.0070E+04   4.45000E-05 0.0474
-    3.0071E+04   1.30000E-06 0.2773
+    3.0063E+04   5.16438E-07 0.0631
+    3.0064E+04   3.59451E-04 0.0024
+    3.0065E+04   4.58969E-04 0.0021
+    3.0066E+04   5.88945E-04 0.0019
+    3.0067E+04   3.27148E-04 0.0025
+    3.0068E+04   2.02779E-04 0.0032
+    3.0069E+04   7.38115E-05 0.0053
+    3.0070E+04   4.23335E-05 0.0070
+    3.0071E+04   1.18102E-06 0.0417
     3.0072E+04   0.00000E+00 0.0000
     3.0073E+04   0.00000E+00 0.0000
     3.0074E+04   0.00000E+00 0.0000
@@ -19352,14 +19365,14 @@ The following nuclides use physics models rather than data tables:
     3.1062E+04   0.00000E+00 0.0000
     3.1063E+04   0.00000E+00 0.0000
     3.1064E+04   0.00000E+00 0.0000
-    3.1065E+04   2.00000E-07 0.7071
-    3.1066E+04   2.68000E-05 0.0611
-    3.1067E+04   1.52410E-03 0.0081
-    3.1068E+04   2.03490E-03 0.0070
-    3.1069E+04   1.16627E-02 0.0029
-    3.1070E+04   1.20090E-03 0.0091
-    3.1071E+04   6.92080E-03 0.0038
-    3.1072E+04   9.40000E-06 0.1031
+    3.1065E+04   1.11106E-07 0.1361
+    3.1066E+04   2.53795E-05 0.0090
+    3.1067E+04   1.53370E-03 0.0012
+    3.1068E+04   2.04644E-03 0.0010
+    3.1069E+04   1.16719E-02 0.0004
+    3.1070E+04   1.19013E-03 0.0013
+    3.1071E+04   6.95260E-03 0.0005
+    3.1072E+04   8.70742E-06 0.0154
     3.1073E+04   0.00000E+00 0.0000
     3.1074E+04   0.00000E+00 0.0000
     3.1075E+04   0.00000E+00 0.0000
@@ -19376,13 +19389,13 @@ The following nuclides use physics models rather than data tables:
     3.2063E+04   0.00000E+00 0.0000
     3.2064E+04   0.00000E+00 0.0000
     3.2065E+04   0.00000E+00 0.0000
-    3.2066E+04   8.80000E-06 0.1066
-    3.2067E+04   2.09800E-04 0.0218
-    3.2068E+04   2.32340E-03 0.0066
-    3.2069E+04   2.41440E-03 0.0064
-    3.2070E+04   2.01580E-03 0.0070
-    3.2071E+04   8.90800E-04 0.0106
-    3.2072E+04   7.00000E-07 0.3780
+    3.2066E+04   7.64986E-06 0.0164
+    3.2067E+04   2.10163E-04 0.0031
+    3.2068E+04   2.32859E-03 0.0009
+    3.2069E+04   2.40099E-03 0.0009
+    3.2070E+04   2.02641E-03 0.0010
+    3.2071E+04   8.99883E-04 0.0015
+    3.2072E+04   8.33296E-07 0.0497
     3.2073E+04   0.00000E+00 0.0000
     3.2074E+04   0.00000E+00 0.0000
     3.2075E+04   0.00000E+00 0.0000
@@ -21147,7 +21160,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      3.34568E-02 0.0017
+      total      3.34837E-02 0.0002
  
  cell  13                                                                                                                              
     user bin   
@@ -21759,9 +21772,9 @@ The following nuclides use physics models rather than data tables:
     3.9085E+04   0.00000E+00 0.0000
     3.9086E+04   0.00000E+00 0.0000
     3.9087E+04   0.00000E+00 0.0000
-    3.9088E+04   0.00000E+00 0.0000
-    3.9089E+04   0.00000E+00 0.0000
-    3.9090E+04   0.00000E+00 0.0000
+    3.9088E+04   2.05752E-09 1.0000
+    3.9089E+04   2.05752E-08 0.3162
+    3.9090E+04   1.44026E-08 0.3780
     3.9091E+04   0.00000E+00 0.0000
     3.9092E+04   0.00000E+00 0.0000
     3.9093E+04   0.00000E+00 0.0000
@@ -21784,9 +21797,9 @@ The following nuclides use physics models rather than data tables:
     4.0088E+04   0.00000E+00 0.0000
     4.0089E+04   0.00000E+00 0.0000
     4.0090E+04   0.00000E+00 0.0000
-    4.0091E+04   0.00000E+00 0.0000
-    4.0092E+04   0.00000E+00 0.0000
-    4.0093E+04   1.00000E-07 1.0000
+    4.0091E+04   4.11504E-08 0.2236
+    4.0092E+04   1.46084E-07 0.1187
+    4.0093E+04   1.06991E-07 0.1387
     4.0094E+04   0.00000E+00 0.0000
     4.0095E+04   0.00000E+00 0.0000
     4.0096E+04   0.00000E+00 0.0000
@@ -21803,10 +21816,10 @@ The following nuclides use physics models rather than data tables:
     4.1088E+04   0.00000E+00 0.0000
     4.1089E+04   0.00000E+00 0.0000
     4.1090E+04   0.00000E+00 0.0000
-    4.1091E+04   1.00000E-07 1.0000
-    4.1092E+04   2.00000E-06 0.2236
-    4.1093E+04   0.00000E+00 0.0000
-    4.1094E+04   6.00000E-07 0.4082
+    4.1091E+04   3.88871E-07 0.0727
+    4.1092E+04   1.46084E-06 0.0375
+    4.1093E+04   4.11504E-09 0.7071
+    4.1094E+04   4.54712E-07 0.0673
     4.1095E+04   0.00000E+00 0.0000
     4.1096E+04   0.00000E+00 0.0000
     4.1097E+04   0.00000E+00 0.0000
@@ -21824,7 +21837,7 @@ The following nuclides use physics models rather than data tables:
     4.2089E+04   0.00000E+00 0.0000
     4.2090E+04   0.00000E+00 0.0000
     4.2091E+04   0.00000E+00 0.0000
-    4.2092E+04   0.00000E+00 0.0000
+    4.2092E+04   2.05752E-09 1.0000
     4.2093E+04   0.00000E+00 0.0000
     4.2094E+04   0.00000E+00 0.0000
     4.2095E+04   0.00000E+00 0.0000
@@ -23356,7 +23369,7 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      2.80000E-06 0.1890
+      total      2.64186E-06 0.0279
  
  cell  15                                                                                                                              
     user bin   
@@ -23388,7 +23401,7 @@ The following nuclides use physics models rather than data tables:
     5.0080E+03   0.00000E+00 0.0000
     5.0090E+03   0.00000E+00 0.0000
     5.0100E+03   0.00000E+00 0.0000
-    5.0110E+03   0.00000E+00 0.0000
+    5.0110E+03   1.02876E-08 0.4472
     5.0120E+03   0.00000E+00 0.0000
     5.0130E+03   0.00000E+00 0.0000
     5.0140E+03   0.00000E+00 0.0000
@@ -23399,8 +23412,8 @@ The following nuclides use physics models rather than data tables:
     6.0090E+03   0.00000E+00 0.0000
     6.0100E+03   0.00000E+00 0.0000
     6.0110E+03   0.00000E+00 0.0000
-    6.0120E+03   0.00000E+00 0.0000
-    6.0130E+03   0.00000E+00 0.0000
+    6.0120E+03   2.05752E-09 1.0000
+    6.0130E+03   1.44026E-08 0.3780
     6.0140E+03   0.00000E+00 0.0000
     6.0150E+03   0.00000E+00 0.0000
     6.0160E+03   0.00000E+00 0.0000
@@ -23412,8 +23425,8 @@ The following nuclides use physics models rather than data tables:
     7.0120E+03   0.00000E+00 0.0000
     7.0130E+03   0.00000E+00 0.0000
     7.0140E+03   0.00000E+00 0.0000
-    7.0150E+03   0.00000E+00 0.0000
-    7.0160E+03   0.00000E+00 0.0000
+    7.0150E+03   2.05752E-09 1.0000
+    7.0160E+03   2.05752E-09 1.0000
     7.0170E+03   0.00000E+00 0.0000
     7.0180E+03   0.00000E+00 0.0000
     7.0190E+03   0.00000E+00 0.0000
@@ -23451,7 +23464,7 @@ The following nuclides use physics models rather than data tables:
     1.0019E+04   0.00000E+00 0.0000
     1.0020E+04   0.00000E+00 0.0000
     1.0021E+04   0.00000E+00 0.0000
-    1.0022E+04   0.00000E+00 0.0000
+    1.0022E+04   2.05752E-09 1.0000
     1.0023E+04   0.00000E+00 0.0000
     1.0024E+04   0.00000E+00 0.0000
     1.0025E+04   0.00000E+00 0.0000
@@ -23462,8 +23475,8 @@ The following nuclides use physics models rather than data tables:
     1.1020E+04   0.00000E+00 0.0000
     1.1021E+04   0.00000E+00 0.0000
     1.1022E+04   0.00000E+00 0.0000
-    1.1023E+04   1.00000E-07 1.0000
-    1.1024E+04   1.00000E-07 1.0000
+    1.1023E+04   5.76106E-08 0.1890
+    1.1024E+04   5.14380E-08 0.2000
     1.1025E+04   0.00000E+00 0.0000
     1.1026E+04   0.00000E+00 0.0000
     1.1027E+04   0.00000E+00 0.0000
@@ -23479,10 +23492,10 @@ The following nuclides use physics models rather than data tables:
     1.2021E+04   0.00000E+00 0.0000
     1.2022E+04   0.00000E+00 0.0000
     1.2023E+04   0.00000E+00 0.0000
-    1.2024E+04   0.00000E+00 0.0000
-    1.2025E+04   0.00000E+00 0.0000
-    1.2026E+04   2.00000E-07 0.7071
-    1.2027E+04   1.00000E-07 1.0000
+    1.2024E+04   2.05752E-09 1.0000
+    1.2025E+04   1.02876E-08 0.4472
+    1.2026E+04   1.99579E-07 0.1015
+    1.2027E+04   9.05309E-08 0.1508
     1.2028E+04   0.00000E+00 0.0000
     1.2029E+04   0.00000E+00 0.0000
     1.2030E+04   0.00000E+00 0.0000
@@ -23494,8 +23507,8 @@ The following nuclides use physics models rather than data tables:
     1.3023E+04   0.00000E+00 0.0000
     1.3024E+04   0.00000E+00 0.0000
     1.3025E+04   0.00000E+00 0.0000
-    1.3026E+04   0.00000E+00 0.0000
-    1.3027E+04   0.00000E+00 0.0000
+    1.3026E+04   4.11504E-08 0.2236
+    1.3027E+04   4.11504E-09 0.7071
     1.3028E+04   0.00000E+00 0.0000
     1.3029E+04   0.00000E+00 0.0000
     1.3030E+04   0.00000E+00 0.0000
@@ -23606,12 +23619,12 @@ The following nuclides use physics models rather than data tables:
     2.0039E+04   0.00000E+00 0.0000
     2.0040E+04   0.00000E+00 0.0000
     2.0041E+04   0.00000E+00 0.0000
-    2.0042E+04   1.00000E-07 1.0000
-    2.0043E+04   1.00000E-07 1.0000
-    2.0044E+04   1.00000E-07 1.0000
-    2.0045E+04   0.00000E+00 0.0000
-    2.0046E+04   0.00000E+00 0.0000
-    2.0047E+04   0.00000E+00 0.0000
+    2.0042E+04   1.02876E-08 0.4472
+    2.0043E+04   3.49778E-08 0.2425
+    2.0044E+04   1.72832E-07 0.1091
+    2.0045E+04   1.21394E-07 0.1302
+    2.0046E+04   1.02876E-08 0.4472
+    2.0047E+04   2.05752E-09 1.0000
     2.0048E+04   0.00000E+00 0.0000
     2.0049E+04   0.00000E+00 0.0000
     2.0050E+04   0.00000E+00 0.0000
@@ -23620,37 +23633,37 @@ The following nuclides use physics models rather than data tables:
     2.1041E+04   0.00000E+00 0.0000
     2.1042E+04   0.00000E+00 0.0000
     2.1043E+04   0.00000E+00 0.0000
-    2.1044E+04   0.00000E+00 0.0000
-    2.1045E+04   0.00000E+00 0.0000
-    2.1046E+04   2.00000E-07 0.7071
-    2.1047E+04   5.00000E-07 0.4472
-    2.1048E+04   3.00000E-07 0.5774
-    2.1049E+04   1.00000E-07 1.0000
-    2.1050E+04   0.00000E+00 0.0000
+    2.1044E+04   8.23008E-09 0.5000
+    2.1045E+04   1.58429E-07 0.1140
+    2.1046E+04   2.42787E-07 0.0921
+    2.1047E+04   6.64579E-07 0.0556
+    2.1048E+04   1.81062E-07 0.1066
+    2.1049E+04   1.44026E-08 0.3780
+    2.1050E+04   6.17256E-09 0.5774
     2.1051E+04   0.00000E+00 0.0000
     2.2041E+04   0.00000E+00 0.0000
     2.2042E+04   0.00000E+00 0.0000
     2.2043E+04   0.00000E+00 0.0000
     2.2044E+04   0.00000E+00 0.0000
-    2.2045E+04   1.00000E-07 1.0000
-    2.2046E+04   2.00000E-07 0.7071
-    2.2047E+04   2.30000E-06 0.2085
-    2.2048E+04   2.00000E-07 0.7071
-    2.2049E+04   1.00000E-07 1.0000
-    2.2050E+04   1.00000E-07 1.0000
-    2.2051E+04   0.00000E+00 0.0000
+    2.2045E+04   5.76106E-08 0.1890
+    2.2046E+04   2.63363E-07 0.0884
+    2.2047E+04   1.64807E-06 0.0353
+    2.2048E+04   3.18916E-07 0.0803
+    2.2049E+04   3.18916E-07 0.0808
+    2.2050E+04   4.52654E-08 0.2132
+    2.2051E+04   8.23008E-09 0.5000
     2.2052E+04   0.00000E+00 0.0000
     2.2053E+04   0.00000E+00 0.0000
     2.2054E+04   0.00000E+00 0.0000
     2.3044E+04   0.00000E+00 0.0000
     2.3045E+04   0.00000E+00 0.0000
     2.3046E+04   0.00000E+00 0.0000
-    2.3047E+04   0.00000E+00 0.0000
-    2.3048E+04   0.00000E+00 0.0000
-    2.3049E+04   0.00000E+00 0.0000
-    2.3050E+04   1.00000E-07 1.0000
+    2.3047E+04   6.17256E-09 0.5774
+    2.3048E+04   2.05752E-09 1.0000
+    2.3049E+04   6.17256E-09 0.5774
+    2.3050E+04   1.33739E-07 0.1240
     2.3051E+04   0.00000E+00 0.0000
-    2.3052E+04   0.00000E+00 0.0000
+    2.3052E+04   2.05752E-09 1.0000
     2.3053E+04   0.00000E+00 0.0000
     2.3054E+04   0.00000E+00 0.0000
     2.3055E+04   0.00000E+00 0.0000
@@ -23690,8 +23703,8 @@ The following nuclides use physics models rather than data tables:
     2.6052E+04   0.00000E+00 0.0000
     2.6053E+04   0.00000E+00 0.0000
     2.6054E+04   0.00000E+00 0.0000
-    2.6055E+04   1.00000E-07 1.0000
-    2.6056E+04   0.00000E+00 0.0000
+    2.6055E+04   1.44026E-08 0.3780
+    2.6056E+04   2.05752E-09 1.0000
     2.6057E+04   0.00000E+00 0.0000
     2.6058E+04   0.00000E+00 0.0000
     2.6059E+04   0.00000E+00 0.0000
@@ -25565,7 +25578,10 @@ The following nuclides use physics models rather than data tables:
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
     1.0026E+05   0.00000E+00 0.0000
-      total      5.10000E-06 0.1400
+      total      4.94422E-06 0.0204
+
+
+ ***** the nps-dependent tfc bin check results are suspect because there are only  3 nps tally values to analyze *****
 
 
  ===================================================================================================================================
@@ -25576,89 +25592,88 @@ The following nuclides use physics models rather than data tables:
  behavior    behavior      value   decrease   decrease rate      value   decrease   decrease rate       value     behavior     slope
 
  desired      random       <0.10      yes      1/sqrt(nps)       <0.10      yes        1/nps           constant    random      >3.00
- observed     random        0.01      yes          yes            0.00      yes         yes            constant    random      10.00
- passed?        yes          yes      yes          yes             yes      yes         yes               yes        yes         yes
+ observed     random        0.00      yes          yes            0.00      yes         yes            increase    random      10.00
+ passed?        yes          yes      yes          yes             yes      yes         yes                no        yes         yes
 
  ===================================================================================================================================
 
 
- this tally meets the statistical criteria used to form confidence intervals: check the tally fluctuation chart to verify.
- the results in other bins associated with this tally may not meet these statistical criteria.
+ warning.  the tally in the tally fluctuation chart bin did not pass  1 of the 10 statistical checks.
 
- ----- estimated confidence intervals:  -----
-
- estimated asymmetric confidence interval(1,2,3 sigma): 3.7762E-03 to 3.8153E-03; 3.7567E-03 to 3.8348E-03; 3.7372E-03 to 3.8543E-03
- estimated  symmetric confidence interval(1,2,3 sigma): 3.7762E-03 to 3.8152E-03; 3.7567E-03 to 3.8347E-03; 3.7371E-03 to 3.8543E-03
-
-1analysis of the results in the tally fluctuation chart bin (tfc) for tally        8 with nps =    10000000  print table 160
+1analysis of the results in the tally fluctuation chart bin (tfc) for tally        8 with nps =   486022000  print table 160
 
 
- normed average tally per history  = 3.79570E-03          unnormed average tally per history  = 3.79570E-03
- estimated tally relative error    = 0.0051               estimated variance of the variance  = 0.0000
- relative error from zero tallies  = 0.0051               relative error from nonzero scores  = 0.0003
+ normed average tally per history  = 3.80052E-03          unnormed average tally per history  = 3.80052E-03
+ estimated tally relative error    = 0.0007               estimated variance of the variance  = 0.0000
+ relative error from zero tallies  = 0.0007               relative error from nonzero scores  = 0.0000
 
- number of nonzero history tallies =       37805          efficiency for the nonzero tallies  = 0.0038
- history number of largest  tally  =      211011          largest  unnormalized history tally = 2.00000E+00
- (largest  tally)/(average tally)  = 5.26912E+02          (largest  tally)/(avg nonzero tally)= 1.99199E+00
+ number of nonzero history tallies =     1839708          efficiency for the nonzero tallies  = 0.0038
+ history number of largest  tally  =    13888660          largest  unnormalized history tally = 3.00000E+00
+ (largest  tally)/(average tally)  = 7.89366E+02          (largest  tally)/(avg nonzero tally)= 2.98794E+00
 
- (confidence interval shift)/mean  = 0.0000               shifted confidence interval center  = 3.79575E-03
+ (confidence interval shift)/mean  = 0.0000               shifted confidence interval center  = 3.80052E-03
 
 
  if the largest  history score sampled so far were to occur on the next history, the tfc bin quantities would change as follows:
 
       estimated quantities           value at nps           value at nps+1           value(nps+1)/value(nps)-1.
 
-      mean                            3.79570E-03             3.79590E-03                     0.000053
-      relative error                  5.14360E-03             5.14360E-03                     0.000000
-      variance of the variance        2.70857E-05             2.70910E-05                     0.000193
-      shifted center                  3.79575E-03             3.79575E-03                     0.000000
-      figure of merit                 2.19626E+02             2.19626E+02                     0.000001
+      mean                            3.80052E-03             3.80052E-03                     0.000002
+      relative error                  7.37358E-04             7.37358E-04                     0.000001
+      variance of the variance        5.57144E-07             5.57162E-07                     0.000032
+      shifted center                  3.80052E-03             3.80052E-03                     0.000000
+      figure of merit                 2.20965E+02             2.20965E+02                    -0.000002
 
- the 100 largest  history tallies appear to have a  maximum value of about 2.00000E+00
+ the estimated slope of the 201 largest  tallies starting at  1.78182E+00 appears to be decreasing at least exponentially.
  the history score probability density function appears to have an unsampled region at the largest  history scores:
  please examine. see print table 161.
 
- fom = (histories/minute)*(f(x) signal-to-noise ratio)**2 = (5.811E+04)*( 6.148E-02)**2 = (5.811E+04)*(3.780E-03) = 2.196E+02
+ fom = (histories/minute)*(f(x) signal-to-noise ratio)**2 = (5.839E+04)*( 6.152E-02)**2 = (5.839E+04)*(3.784E-03) = 2.210E+02
+
+1unnormed tally density for tally        8          nonzero tally mean(m) = 1.004E+00   nps =   486022000  print table 161
+
+ abscissa              ordinate   log plot of tally probability density function in tally fluctuation chart bin(d=decade,slope=10.0)
+  tally  number num den log den:d-----------------d-------------------d------------------d-------------------d------------------d---
+ 1.26+00 1.8+06 1.46-02  -1.837 mmmmmmmmmmmmmmmmmm|mmmmmmmmmmmmmmmmmmm|mmmmmmmmmmmmmmmmmm|mmmmmmmmmmmmmmmmmmm|mmmmmmmmmmmmmmmmmm|mmm
+ 1.58+00      0 0.00+00   0.000                   |                   |                  |                   |                  |   
+ 2.00+00      0 0.00+00   0.000                   |                   |                  |                   |                  |   
+ 2.51+00   7355 2.93-05  -4.533 ******************|*******************|*********         |                   |                  |   
+ 3.16+00     36 1.14-07  -6.944 *                 |                   |                  |                   |                  |   
+  total 1839708 3.79-03         d-----------------d-------------------d------------------d-------------------d------------------d---
 
 1status of the statistical checks used to form confidence intervals for the mean for each tally bin
 
 
  tally   result of statistical checks for the tfc bin (the first check not passed is listed) and error magnitude check for all bins
 
-        8   passed the 10 statistical checks for the tally fluctuation chart bin result               
-         missed all bin error check: 24266 tally bins had 22769 bins with zeros and   857 bins with relative errors exceeding 0.10
+        8   missed  1 of 10 tfc bin checks: the figure of merit does not appear to be a constant for the last half of the problem     
+         missed all bin error check: 24266 tally bins had 22089 bins with zeros and   912 bins with relative errors exceeding 0.10
 
 
  the 10 statistical checks are only for the tally fluctuation chart bin and do not apply to other tally bins.
 
  the tally bins with zeros may or may not be correct: compare the source, cutoffs, multipliers, et cetera with the tally bins.
 
+ warning.       1 of the     1 tally fluctuation chart bins did not pass all 10 statistical checks.
  warning.       1 of the     1 tallies had bins with relative errors greater than recommended.
 1tally fluctuation charts                              
 
                             tally        8
           nps      mean     error   vov  slope    fom
-      1000000   3.7940E-03 0.0163 0.0003  4.8     219
-      2000000   3.7775E-03 0.0115 0.0001 10.0     219
-      3000000   3.7770E-03 0.0094 0.0001 10.0     219
-      4000000   3.7907E-03 0.0081 0.0001 10.0     220
-      5000000   3.7924E-03 0.0073 0.0001 10.0     220
-      6000000   3.7965E-03 0.0066 0.0000 10.0     220
-      7000000   3.7996E-03 0.0061 0.0000 10.0     220
-      8000000   3.7936E-03 0.0058 0.0000 10.0     219
-      9000000   3.7977E-03 0.0054 0.0000 10.0     220
-     10000000   3.7957E-03 0.0051 0.0000 10.0     220
+         1000   3.0000E-03 0.5765 0.3303  0.0      56
+     18462000   3.7810E-03 0.0038 0.0000  7.2     220
+    486022000   3.8005E-03 0.0007 0.0000 10.0     221
 
  ***********************************************************************************************************************
 
- dump no.    2 on file E:\MyWork\MCNP\Accelerator\120MeV\RES\Cross\Cross-Res.ir     nps =    10000000     coll =    
- 3251692165     ctm =      172.10   nrn =       79173257906
+ dump no.    4 on file E:\MyWork\MCNP\Accelerator\120MeV\RES\Cross\Cross-Res.ir     nps =   486022000     coll =  
+ 158033267760     ctm =     8323.77   nrn =     3847633069793
 
-        15 warning messages so far.
+        19 warning messages so far.
 
 
- run terminated when    10000000  particle histories were done.
+ run terminated when it had used10000  minutes of computer time.
 
- computer time =  180.60 minutes
+ computer time =10294.55 minutes
 
- mcnp     version 6.mpi 05/08/13                     01/31/26 11:52:54                     probid =  01/31/26 11:49:15 
+ mcnp     version 6.mpi 05/08/13                     01/31/26 16:55:52                     probid =  01/31/26 12:12:51 

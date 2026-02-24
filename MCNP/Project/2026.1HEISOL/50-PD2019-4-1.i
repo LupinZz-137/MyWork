@@ -79,7 +79,7 @@ c ssr
 mode p n #  
 nps 1e6
 c ctme 1e4
-c prdmp -3e3 -3e3 1 1
+c prdmp 1e8 1e8 1 1
 phys:p  100 0 0 -1 0 j 1
 sdef  par = p
       dir = d3
